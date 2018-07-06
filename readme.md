@@ -5,7 +5,7 @@ Vue based on virtual dom to render canvas
 # example
 ```js
 new Vue({
-  data {
+  data: {
     dataJSON: [
       {
         title: '标题',
