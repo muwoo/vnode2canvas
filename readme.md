@@ -45,5 +45,6 @@ new Vue({
 }
 ```
 
-![image](https://user-images.githubusercontent.com/21073039/42373790-8f47f174-8148-11e8-90b3-89eb56a97bad.png)
+![image](https://user-images.githubusercontent.com/21073039/42374783-ddd944d4-814b-11e8-896d-d453321ebf5e.png)
+
 
