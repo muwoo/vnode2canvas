@@ -4,20 +4,27 @@ Vue based on virtual dom to render canvas
 
 # example
 ```js
-new Vue({
-  el: '#app',
-  data: {
-    msg: 'hello world'
-  },
-  renderCanvas(h) {
-    return h('div', {
-      "style": {
-        padding: '50px',
-        color: 'red'
-      }
-    }, [
-      h('span', this.msg)
+renderCanvas(h) {
+  return h('view', this.dataJSON.map((item, i) => {
+    return h('view', [
+      h('image', {
+        props: {
+          src: item.img
+        },
+        style: this.getStyle('img', i)
+      }),
+      h('text', {
+        style: this.getStyle('title', i)
+      }, item.title),
+      h('text', {
+        style: this.getStyle('desc', i)
+      }, item.desc),
+      h('text', {
+        style: this.getStyle('date', i)
+      }, new Date().toLocaleDateString())
     ])
-  }
-})
+
+  }))
+}
 ```
+
