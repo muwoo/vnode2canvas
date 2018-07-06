@@ -28,5 +28,5 @@ renderCanvas(h) {
 }
 ```
 
-![image](https://user-images.githubusercontent.com/21073039/42373737-6a8c442a-8148-11e8-8420-0b25c417947d.png)
+![image](https://user-images.githubusercontent.com/21073039/42373790-8f47f174-8148-11e8-90b3-89eb56a97bad.png)
 
