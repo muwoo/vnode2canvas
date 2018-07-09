@@ -1,0 +1,20 @@
+image {
+  left: 10px;
+  width: 100px;
+  height: 100px;
+}
+.title {
+  left: 120px;
+  width: 100px;
+  height: 100px;
+  fill: "#000";
+  font-size: 18px;
+}
+.desc {
+  left: 120px;
+  fill: '#999'
+}
+.date {
+  left: 120px;
+  fill: '#999'
+}

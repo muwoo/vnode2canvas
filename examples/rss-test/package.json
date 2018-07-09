@@ -1,0 +1,19 @@
+{
+  "name": "rss-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch  --output ./dev/main.js",
+    "build": "webpack --mode production --output ./lib/main.min.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0"
+  }
+}

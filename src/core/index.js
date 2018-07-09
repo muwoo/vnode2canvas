@@ -27,11 +27,33 @@ export class Render {
     document.body.appendChild(this.vm.$canvas)
   }
 
+  getImportStyle (vnode) {
+    let style = {}
+    Object.keys(vStyle).forEach(key => {
+      if (vnode.data && vnode.data.class) {
+        if ('.' + vnode.data.class === key) {
+          style = vStyle[key]
+        }
+      }
+      if (vnode.tag) {
+        if (vnode.tag === key) {
+          style = vStyle[key]
+        }
+      }
+    })
+    return style
+  }
+
   renderProxy(target, key) {
     target.data = target.data || {}
-    let drawStyle = target.data.style || {}
+
+    let importStyle = this.getImportStyle(target)
+
+    let drawStyle = {...importStyle, ...target.data.style} || {...importStyle}
+    console.log(drawStyle)
+    let font = 12 * this.rate
     this.vm.$ctx.fillStyle = drawStyle.fill || '#fff'
-    this.vm.$ctx.font='12px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif';
+    this.vm.$ctx.font=`${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
     return {
       view: () => {
         this.vm.$ctx.fillRect(
@@ -43,7 +65,7 @@ export class Render {
       },
       text: () => {
         this.vm.$ctx.textBaseline = 'top'
-        let font = drawStyle.fontSize || 12
+        let font = drawStyle['font-size'] * this.rate || 12 * this.rate
         this.vm.$ctx.font=`${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
         this.vm.$ctx.fillText(
           target.children[0].text,
