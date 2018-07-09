@@ -3,7 +3,34 @@
 Vue based on virtual dom to render canvas
 
 # example
+```css
+/* index.css */
+image {
+  left: 10px;
+  width: 100px;
+  height: 100px;
+}
+.title {
+  left: 120px;
+  width: 100px;
+  height: 100px;
+  fill: "#000";
+  font-size: 18px;
+}
+.desc {
+  left: 120px;
+  fill: '#999'
+}
+.date {
+  left: 120px;
+  fill: '#999'
+}
+```
+
+
 ```js
+import './index.css'
+
 new Vue({
   data: {
     dataJSON: [
@@ -27,16 +54,27 @@ new Vue({
           props: {
             src: item.img
           },
-          style: this.getStyle('img', i)
+          style: {
+            top: 10 + 110 * i
+          }
         }),
         h('text', {
-          style: this.getStyle('title', i)
+          class: 'title',
+          style: {
+            top: 10 + 120 * i
+          }
         }, item.title),
         h('text', {
-          style: this.getStyle('desc', i)
+          class: 'desc',
+          style: {
+            top: 50 + 120 * i
+          }
         }, item.desc),
         h('text', {
-          style: this.getStyle('date', i)
+          class: 'date',
+          style: {
+            top: 80 + 110 * i,
+          }
         }, new Date().toLocaleDateString())
       ])
 
