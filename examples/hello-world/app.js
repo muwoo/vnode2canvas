@@ -13,7 +13,7 @@ new Vue({
     left: 120,
     dataJSON: [
       {
-        title: '标题',
+        title: '标题这是一个标题呢？还是什么',
         desc: '描述',
         img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       },
@@ -44,7 +44,9 @@ new Vue({
           left: 120,
           top: 10 + 110 * i,
           fill: '#000',
-          fontSize: 18
+          fontSize: 18,
+          width: 150,
+          ellipse: true
         },
         desc: {
           left: 120,
@@ -69,7 +71,12 @@ new Vue({
           style: this.getStyle('img', i)
         }),
         h('text', {
-          style: this.getStyle('title', i)
+          style: this.getStyle('title', i),
+          on: {
+            click: (e, item) => {
+              console.log(e, item)
+            }
+          },
         }, item.title),
         h('text', {
           style: this.getStyle('desc', i)
