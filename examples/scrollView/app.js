@@ -91,7 +91,18 @@ new Vue({
     }
   },
   renderCanvas(h) {
-    return h('view', this.dataJSON.map((item, i) => {
+    return h('scrollView', {
+      style: {
+        scrollTop: this.scrollTop,
+        scrollHeight: this.dataJSON.length * 120,
+        width: 375
+      },
+      on: {
+        scroll: () => {
+
+        }
+      }
+    }, this.dataJSON.map((item, i) => {
       return h('view', [
         h('image', {
           props: {

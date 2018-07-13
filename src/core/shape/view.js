@@ -5,8 +5,8 @@
 import {Super} from './super'
 
 export class View extends Super {
-  constructor(ctx, drawStyle, rate) {
-    super(drawStyle, rate)
+  constructor(ctx, drawStyle) {
+    super(drawStyle)
     this.ctx = ctx
     this.render = false
   }

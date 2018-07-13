@@ -1,8 +1,10 @@
+console.log(vueCanvas)
 /**
  * @author muwoo
  * Date: 2018/7/2
  */
-Vue.use(window.RenderCanvas)
+Vue.use(window.vueCanvas)
+
 
 new Vue({
   el: '#app',
@@ -90,31 +92,9 @@ new Vue({
       }[type]
     }
   },
-  renderCanvas(h) {
-    return h('view', this.dataJSON.map((item, i) => {
-      return h('view', [
-        h('image', {
-          props: {
-            src: item.img
-          },
-          style: this.getStyle('img', i)
-        }),
-        h('text', {
-          style: this.getStyle('title', i),
-          on: {
-            click: (e, item) => {
-              console.log(e, item)
-            }
-          },
-        }, item.title),
-        h('text', {
-          style: this.getStyle('desc', i)
-        }, item.desc),
-        h('text', {
-          style: this.getStyle('date', i)
-        }, new Date().toLocaleDateString())
-      ])
-
-    }))
+  render(h) {
+    console.log( h('layer', [
+      h('VBlock')
+    ]))
   }
 })

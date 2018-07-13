@@ -7,29 +7,40 @@ import {View} from './shape/view'
 import {Img} from './shape/image'
 import {Text} from './shape/text'
 
-export function createCanvas(vm) {
-  vm.$canvas = document.createElement('canvas')
-  vm.$canvas.width = vm.renderWidth === 'full' ? window.innerWidth : vm.renderWidth
-  vm.$canvas.height = vm.renderHeight === 'full' ? window.innerHeight : vm.renderHeight
-  vm.$ctx = vm.$canvas.getContext('2d')
+class Canvas {
+  constructor (width, height, scale) {
+    if (!this._canvas) {
+      this._canvas = document.createElement('canvas')
+    }
+
+    this.width = width
+    this.height = height
+    this.scale = scale || window.devicePixelRatio
+
+    this._canvas.width = this.width * this.scale
+    this._canvas.height = this.height * this.scale
+    this._canvas.style.width = this.width + 'px'
+    this._canvas.style.height = this.height + 'px'
+    this._canvas.getContext('2d').scale(this.scale, this.scale)
+    this._ctx = this._canvas.getContext('2d')
+  }
 }
 
-export class Render {
-  constructor(vm, vnode) {
-    this.vm = vm
+export class Render extends Canvas{
+  constructor(width, height, vnode) {
+    super(width, height)
     this.statck = [vnode]
-    this.rate = vm.$canvas.width / 375
-    this.event = new Event(vm.$ctx)
-    this.event.init(vm.$canvas)
+    this.event = new Event(this._ctx)
+    this.event.init(this._canvas)
   }
 
   clearCanvas() {
-    this.vm.$ctx.clearRect(0, 0, this.vm.$canvas.width, this.vm.$canvas.height);
+    this._ctx.clearRect(0, 0, this._canvas.width, this._canvas.height);
   }
 
   vnode2canvas() {
     this.traverse(this.statck)
-    document.body.appendChild(this.vm.$canvas)
+    document.body.appendChild(this._canvas)
   }
 
   getImportStyle(vnode) {
@@ -60,23 +71,23 @@ export class Render {
 
     let drawStyle = {...importStyle, ...target.data.style} || {...importStyle}
     let font = 12 * this.rate
-    this.vm.$ctx.fillStyle = drawStyle.fill || '#fff'
-    this.vm.$ctx.font = `${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
+    this._ctx.fillStyle = drawStyle.fill || '#fff'
+    this._ctx.font = `${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
     return {
       view: () => {
-        let view = new View(this.vm.$ctx, drawStyle, this.rate)
+        let view = new View(this._ctx, drawStyle)
         view.draw()
         this.event.addEvent(view, clickEvent)
       },
       text: () => {
-        let text = new Text(this.vm.$ctx, drawStyle, this.rate)
+        let text = new Text(this._ctx, drawStyle)
         text.draw(target.children[0].text)
         this.event.addEvent(text, clickEvent)
       },
       image: () => {
         let src
         (src = target.data.props) && (src = src.src || '')
-        let image = new Img(this.vm.$ctx, drawStyle, this.rate)
+        let image = new Img(this._ctx, drawStyle)
         image.draw(src)
         this.event.addEvent(image, clickEvent)
       }

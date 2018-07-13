@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "css": "^2.2.3",
-    "css-layout": "^1.1.1"
+    "css-layout": "^1.1.1",
+    "scroller": "0.0.3"
   }
 }

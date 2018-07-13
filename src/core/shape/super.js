@@ -11,13 +11,12 @@ const defaultStyle = {
   height: 0
 }
 export class Super {
-  constructor(drawStyle, rate) {
+  constructor(drawStyle) {
     this.drawStyle = Object.assign({}, defaultStyle, drawStyle)
-    this.rate = rate
-    this.startX = this.drawStyle.left * this.rate
-    this.startY = this.drawStyle.top * this.rate
-    this.width = this.drawStyle.width * this.rate
-    this.height = this.drawStyle.height * this.rate
+    this.startX = this.drawStyle.left
+    this.startY = this.drawStyle.top
+    this.width = this.drawStyle.width
+    this.height = this.drawStyle.height
   }
 
   isInPath(point) {
