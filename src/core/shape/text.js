@@ -8,18 +8,25 @@ export class Text extends Super {
   constructor(ctx, drawStyle) {
     super(drawStyle)
     this.ctx = ctx
+    this.text = ''
     this.render = false
   }
 
   draw(text) {
+    let top = 0
+    if (typeof text === 'object') {
+      top = text.top;
+    } else {
+      this.text = text
+    }
     this.ctx.textBaseline = 'top'
     let font = this.drawStyle['font-size'] || 12
     this.ctx.font = `${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
-    let distText = this.filterText(text)
+    let distText = this.filterText(this.text)
     this.ctx.fillText(
       distText,
       this.startX,
-      this.startY
+      this.startY - top
     )
     this.render = true
     this.width = this.ctx.measureText(distText).width

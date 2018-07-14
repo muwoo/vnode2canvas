@@ -6,8 +6,9 @@ import {Event} from './event'
 import {View} from './shape/view'
 import {Img} from './shape/image'
 import {Text} from './shape/text'
+import {ScrollView} from "./shape/scrollView";
 
-class Canvas {
+export class Canvas {
   constructor (width, height, scale) {
     if (!this._canvas) {
       this._canvas = document.createElement('canvas')
@@ -74,6 +75,12 @@ export class Render extends Canvas{
     this._ctx.fillStyle = drawStyle.fill || '#fff'
     this._ctx.font = `${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
     return {
+      scrollView: () => {
+        let scroll = new ScrollView(this._ctx, drawStyle, this._canvas, this)
+        setTimeout(() => {
+          scroll.draw(this.event)
+        }, 0)
+      },
       view: () => {
         let view = new View(this._ctx, drawStyle)
         view.draw()

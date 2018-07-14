@@ -95,7 +95,8 @@ new Vue({
       style: {
         scrollTop: this.scrollTop,
         scrollHeight: this.dataJSON.length * 120,
-        width: 375
+        width: window.innerWidth,
+        height: window.innerHeight
       },
       on: {
         scroll: () => {

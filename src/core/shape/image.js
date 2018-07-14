@@ -9,20 +9,33 @@ export class Img extends Super {
     super(drawStyle)
     this.ctx = ctx
     this.render = false
+    this.img = null
   }
 
   draw(src) {
-    let img = new Image()
-    img.onload = () => {
+    let top = 0
+    if (typeof src === 'object') {
+      top = src.top;
       this.ctx.drawImage(
-        img,
+        this.img,
         this.startX,
-        this.startY,
+        this.startY - top,
         this.width,
         this.height
       )
-      this.render = true
+    } else {
+      this.img = new Image()
+      this.img.onload = () => {
+        this.ctx.drawImage(
+          this.img,
+          this.startX,
+          this.startY - top,
+          this.width,
+          this.height
+        )
+        this.render = true
+      }
+      this.img.src = src
     }
-    img.src = src
   }
 }
