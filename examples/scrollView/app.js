@@ -38,10 +38,6 @@ new Vue({
         img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       },
       {
-        title: '标题',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },{
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
         img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
@@ -50,6 +46,35 @@ new Vue({
         title: '标题',
         desc: '描述',
         img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+      },
+      {
+        title: '标题这是一个标题呢？还是什么',
+        desc: '描述',
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+      },
+      {
+        title: '标题',
+        desc: '描述',
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+      },
+      {
+        title: '标题这是一个标题呢？还是什么',
+        desc: '描述',
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+      },
+      {
+        title: '标题',
+        desc: '描述',
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+      },{
+        title: '标题这是一个标题呢？还是什么',
+        desc: '描述',
+        img: 'http://my.csdn.net/uploads/201203/29/1333002518_9012.png'
+      },
+      {
+        title: '标题',
+        desc: '描述',
+        img: 'http://my.csdn.net/uploads/201203/29/1333002518_9012.png'
       }
     ]
   },
@@ -94,7 +119,7 @@ new Vue({
     return h('scrollView', {
       style: {
         scrollTop: this.scrollTop,
-        scrollHeight: this.dataJSON.length * 120,
+        scrollHeight: this.dataJSON.length * 110,
         width: window.innerWidth,
         height: window.innerHeight
       },
@@ -104,7 +129,12 @@ new Vue({
         }
       }
     }, this.dataJSON.map((item, i) => {
-      return h('view', [
+      return h('scrollItem', {
+          style: {
+            height: 110
+          }
+        },
+        [
         h('image', {
           props: {
             src: item.img

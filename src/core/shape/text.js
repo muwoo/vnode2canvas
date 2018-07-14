@@ -5,38 +5,37 @@
 import {Super} from './super'
 
 export class Text extends Super {
-  constructor(ctx, drawStyle) {
+  constructor(drawStyle, text) {
     super(drawStyle)
-    this.ctx = ctx
-    this.text = ''
+    this.text = text
+    this.font = this.drawStyle['font-size'] || 12
+    this.height = this.font
     this.render = false
+    this.font_family = 'Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif'
   }
 
-  draw(text) {
-    let top = 0
-    if (typeof text === 'object') {
-      top = text.top;
-    } else {
-      this.text = text
+  draw(ctx, scrollTop, visibleHeight) {
+    if (this.isVisible(scrollTop, visibleHeight)) {
+      return
     }
-    this.ctx.textBaseline = 'top'
-    let font = this.drawStyle['font-size'] || 12
-    this.ctx.font = `${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
-    let distText = this.filterText(this.text)
-    this.ctx.fillText(
+    ctx.fillStyle = this.fillStyle
+    ctx.textBaseline = 'top'
+    ctx.font = `${this.font}px ${this.font_family}`;
+    let distText = this.filterText(ctx, this.text)
+    this.width = ctx.measureText(distText).width
+    let drawY = this.startY - scrollTop
+    ctx.fillText(
       distText,
       this.startX,
-      this.startY - top
+      drawY
     )
     this.render = true
-    this.width = this.ctx.measureText(distText).width
-    this.height = font
   }
-  filterText (text) {
+  filterText (ctx, text) {
     if (this.drawStyle.ellipse && this.drawStyle.width) {
       let filterText = ''
       for (let char of text.split('')) {
-        if (this.ctx.measureText(filterText + '...').width >= this.drawStyle.width) {
+        if (ctx.measureText(filterText + '...').width >= this.drawStyle.width) {
           filterText += '...'
           break
         }

@@ -5,37 +5,35 @@
 import {Super} from './super'
 
 export class Img extends Super {
-  constructor(ctx, drawStyle) {
+  constructor(drawStyle, src) {
     super(drawStyle)
-    this.ctx = ctx
     this.render = false
+    this.src = src
     this.img = null
   }
 
-  draw(src) {
-    let top = 0
-    if (typeof src === 'object') {
-      top = src.top;
-      this.ctx.drawImage(
-        this.img,
-        this.startX,
-        this.startY - top,
-        this.width,
-        this.height
-      )
-    } else {
-      this.img = new Image()
-      this.img.onload = () => {
-        this.ctx.drawImage(
-          this.img,
-          this.startX,
-          this.startY - top,
-          this.width,
-          this.height
-        )
-        this.render = true
-      }
-      this.img.src = src
+  drawImg (ctx, scrollTop) {
+    ctx.drawImage(
+      this.img,
+      this.startX,
+      this.startY - scrollTop,
+      this.width,
+      this.height
+    )
+  }
+
+  draw(ctx, scrollTop, visibleHeight) {
+    if (this.isVisible(scrollTop, visibleHeight)) {
+      return
     }
+    if (this.render) {
+      return this.drawImg(ctx, scrollTop)
+    }
+    this.img = new Image()
+    this.img.onload = () => {
+      this.render = true
+      this.drawImg(ctx, scrollTop)
+    }
+    this.img.src = this.src
   }
 }

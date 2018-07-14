@@ -17,6 +17,7 @@ export class Super {
     this.startY = this.drawStyle.top
     this.width = this.drawStyle.width
     this.height = this.drawStyle.height
+    this.fillStyle = this.drawStyle.fill || '#fff'
   }
 
   isInPath(point) {
@@ -29,5 +30,9 @@ export class Super {
       return true
     }
     return false
+  }
+
+  isVisible (scrollTop, visibleHeight) {
+    return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > window.innerHeight
   }
 }

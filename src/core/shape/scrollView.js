@@ -7,19 +7,16 @@ import {Canvas} from '../index'
  * Date: 2018/7/13
  */
 export class ScrollView  extends Super  {
-  constructor (ctx, drawStyle, canvas, instance) {
+  constructor (drawStyle) {
     super(drawStyle)
-    this.ctx = ctx
     this.render = false
-    this.canvas = canvas
     this.scroller = null
-    this.scrollHeight = drawStyle.scrollHeight
-    this.items = null
-    this.instance = instance
+    this.mainInstance = null
+    this.offCanvas = new Canvas(this.width, this.height)
   }
 
-  draw ({stack}) {
-    this.items = stack
+  draw (mainRender) {
+    this.mainInstance = mainRender
     this.createScroller()
     this.updateScrollingDimensions()
     this.render = true
@@ -28,27 +25,28 @@ export class ScrollView  extends Super  {
   }
 
   reRender (top) {
-    this.instance.clearCanvas()
-    let offCanvas = new Canvas(this.canvas.width, this.canvas.height)
-    this.items.forEach((item) => {
-      item.shape.draw({top, ctx: offCanvas._ctx, stack: this.items})
+    requestAnimationFrame(() => {
+      this.mainInstance.clearCanvas()
+      this.offCanvas._ctx.clearRect(0, 0, this.width, this.height)
+      let stack = this.mainInstance.event.stack || []
+      stack.forEach((item) => {
+        // console.log(item)
+        item.shape.draw(this.offCanvas._ctx, top, this.height)
+      })
+      this.mainInstance._ctx.drawImage(this.offCanvas._canvas, 0, 0, this.width, this.height)
     })
-
-    this.ctx.drawImage(offCanvas._canvas, 0, 0)
   }
 
   bindListener () {
     window.addEventListener('touchstart', this.handleTouchStart.bind(this))
     window.addEventListener('touchmove', this.handleTouchMove.bind(this))
     window.addEventListener('touchend', this.handleTouchEnd.bind(this))
-    window.addEventListener("touchcancel", this.handleTouchEnd.bind(this))
   }
 
   removeListener () {
     window.removeEventListener('touchstart', this.handleTouchStart)
     window.removeEventListener('touchmove', this.handleTouchMove)
     window.removeEventListener('touchend', this.handleTouchEnd)
-    window.removeEventListener("touchcancel", this.handleTouchEnd)
   }
 
   handleTouchStart (e) {
@@ -79,13 +77,10 @@ export class ScrollView  extends Super  {
   }
 
   handleScroll (left, top) {
-    if (this.render) {
-      this.reRender(Math.floor(top))
-    }
+    this.reRender(top)
   }
 
   updateScrollingDimensions () {
-    this.scroller.setDimensions(this.width, this.height, this.width, this.scrollHeight);
-    console.log(this.width, this.height, this.width, this.scrollHeight)
+    this.scroller.setDimensions(this.width, this.height, this.width, this.drawStyle.scrollHeight)
   }
 }

@@ -64,39 +64,38 @@ export class Render extends Canvas{
 
   renderProxy(target, key) {
     target.data = target.data || {}
-
     let clickEvent
     (clickEvent = target.data.on) && (clickEvent = clickEvent.click)
-
     let importStyle = this.getImportStyle(target)
-
     let drawStyle = {...importStyle, ...target.data.style} || {...importStyle}
-    let font = 12 * this.rate
-    this._ctx.fillStyle = drawStyle.fill || '#fff'
-    this._ctx.font = `${font}px Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif`;
+    let canvasItem = null
     return {
       scrollView: () => {
-        let scroll = new ScrollView(this._ctx, drawStyle, this._canvas, this)
-        setTimeout(() => {
-          scroll.draw(this.event)
-        }, 0)
+        canvasItem = new ScrollView(drawStyle)
+        canvasItem.draw(this)
+        return canvasItem
       },
-      view: () => {
-        let view = new View(this._ctx, drawStyle)
-        view.draw()
-        this.event.addEvent(view, clickEvent)
+      scrollItem: (ctx) => {
+        canvasItem = new View(drawStyle)
+        canvasItem.draw(ctx, 0)
+        return canvasItem
       },
-      text: () => {
-        let text = new Text(this._ctx, drawStyle)
-        text.draw(target.children[0].text)
-        this.event.addEvent(text, clickEvent)
+      view: (ctx) => {
+        canvasItem = new View(drawStyle)
+        canvasItem.draw(ctx, 0)
+        return canvasItem
       },
-      image: () => {
+      text: (ctx) => {
+        canvasItem = new Text(drawStyle, target.children[0].text)
+        canvasItem.draw(ctx, 0)
+        return canvasItem
+      },
+      image: (ctx) => {
         let src
         (src = target.data.props) && (src = src.src || '')
-        let image = new Img(this._ctx, drawStyle)
-        image.draw(src)
-        this.event.addEvent(image, clickEvent)
+        canvasItem = new Img(drawStyle, src)
+        canvasItem.draw(ctx, 0)
+        return canvasItem
       }
     }[key]
   }
@@ -104,7 +103,7 @@ export class Render extends Canvas{
   traverse(stack) {
     while (stack.length) {
       let vnode = stack.shift()
-      new Proxy(vnode, {get: this.renderProxy.bind(this)})[vnode.tag]()
+      this.renderItem(vnode)
       if (!vnode.children || vnode.tag === 'text') {
         continue
       }
@@ -114,6 +113,14 @@ export class Render extends Canvas{
       })
     }
   }
+
+  renderItem (item) {
+    let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](this._ctx)
+    if (item.tag !== 'scrollView') {
+      this.event.addEvent(canvasItem)
+    }
+  }
+
 }
 
 
