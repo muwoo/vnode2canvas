@@ -7,6 +7,7 @@ import {View} from './shape/view'
 import {Img} from './shape/image'
 import {Text} from './shape/text'
 import {ScrollView} from "./shape/scrollView";
+import {ScrollItem} from './shape/scrollItem'
 
 export class Canvas {
   constructor (width, height, scale) {
@@ -76,7 +77,8 @@ export class Render extends Canvas{
         return canvasItem
       },
       scrollItem: (ctx) => {
-        canvasItem = new View(drawStyle)
+        canvasItem = new ScrollItem(drawStyle, target)
+        canvasItem.createCacheCanvas(this)
         canvasItem.draw(ctx, 0)
         return canvasItem
       },
@@ -100,11 +102,11 @@ export class Render extends Canvas{
     }[key]
   }
 
-  traverse(stack) {
+  traverse(stack, ctx) {
     while (stack.length) {
       let vnode = stack.shift()
-      this.renderItem(vnode)
-      if (!vnode.children || vnode.tag === 'text') {
+      this.renderItem(vnode, ctx || this._ctx, !ctx)
+      if (!vnode.children || vnode.tag === 'text' || vnode.tag === 'scrollItem') {
         continue
       }
 
@@ -114,9 +116,9 @@ export class Render extends Canvas{
     }
   }
 
-  renderItem (item) {
-    let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](this._ctx)
-    if (item.tag !== 'scrollView') {
+  renderItem (item, ctx, collect) {
+    let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
+    if (item.tag !== 'scrollView' && collect) {
       this.event.addEvent(canvasItem)
     }
   }

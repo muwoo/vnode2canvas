@@ -5,15 +5,16 @@
 import {Super} from './super'
 
 export class View extends Super {
-  constructor(ctx, drawStyle) {
+  constructor(drawStyle) {
     super(drawStyle)
     this.render = false
   }
 
   draw(ctx, scrollTop, visibleHeight) {
-    if (this.isVisible(scrollTop)) {
+    if (this.isVisible(scrollTop, visibleHeight)) {
       return
     }
+    ctx.fillStyle = this.fillStyle
     ctx.fillRect(this.startX, this.startY - scrollTop, this.width, this.height)
     this.render = true
   }

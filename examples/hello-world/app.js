@@ -31,25 +31,6 @@ new Vue({
         title: '标题',
         desc: '描述',
         img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },
-      {
-        title: '标题这是一个标题呢？还是什么',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },
-      {
-        title: '标题',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },{
-        title: '标题这是一个标题呢？还是什么',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },
-      {
-        title: '标题',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       }
     ]
   },

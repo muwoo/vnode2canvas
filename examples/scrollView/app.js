@@ -86,9 +86,16 @@ new Vue({
   methods: {
     getStyle (type, i) {
       return {
+        scrollItem: {
+          left: 10,
+          top: 110 * i,
+          width: window.innerWidth,
+          height: 110,
+          fill: 'blue'
+        },
         img: {
           left: 10,
-          top: 10 + 110 * i,
+          top: 10,
           width: 100,
           height: 100,
           fill: '#000',
@@ -96,7 +103,7 @@ new Vue({
         },
         title: {
           left: 120,
-          top: 10 + 110 * i,
+          top: 10,
           fill: '#000',
           fontSize: 18,
           width: 150,
@@ -104,12 +111,12 @@ new Vue({
         },
         desc: {
           left: 120,
-          top: 50 + 110 * i,
+          top: 50,
           fill: '#999'
         },
         date: {
           left: 120,
-          top: 80 + 110 * i,
+          top: 80,
           fill: '#999'
         }
       }[type]
@@ -130,9 +137,7 @@ new Vue({
       }
     }, this.dataJSON.map((item, i) => {
       return h('scrollItem', {
-          style: {
-            height: 110
-          }
+          style: this.getStyle('scrollItem', i)
         },
         [
         h('image', {
