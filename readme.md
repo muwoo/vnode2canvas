@@ -12,7 +12,7 @@ example url: [demo](https://muwoo.github.io/vnode2canvas/)
 
 ### install
 ```shell
-npm i vnode2canvas
+npm i vnode2canvas --save
 ```
 
 ### use in Vue
