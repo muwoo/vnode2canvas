@@ -28,7 +28,6 @@ export class Img extends Super {
     if (this.isVisible(scrollTop)) {
       return
     }
-
     // check cache
     if (this.render || (this.img = imgCachePool.get(this.src))) {
       return this.drawImg(ctx, scrollTop)
@@ -37,12 +36,16 @@ export class Img extends Super {
     // load Img
     this.img = new Image()
     this.img.onload = () => {
+      if (this.isVisible(constants.scrollerTop)) {
+        return
+      }
       this.render = true
       this.drawImg(ctx, scrollTop)
-      // img loaded need to re-render canvas
-      !!imgCachePool.get(this.src) && mainView && mainView.reRender(constants.top)
-      imgCachePool.add(this.src, this.img)
+      if (!!imgCachePool.get(this.src) && mainView) {
+        mainView.reRender(constants.scrollerTop)
+      }
     }
     this.img.src = this.src
+    imgCachePool.add(this.src, this.img)
   }
 }
