@@ -1,6 +1,6 @@
 {
-  "name": "rendercanvas",
-  "version": "1.0.0",
+  "name": "vnode2canvas",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
