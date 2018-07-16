@@ -43,7 +43,7 @@ new Vue({
       return {
         img: {
           left: 10,
-          top: 50 * i,
+          top: 10 + 110 * i,
           width: 100,
           height: 100,
           fill: '#000',
@@ -79,10 +79,7 @@ new Vue({
           },
           on: {
             click: (e, item) => {
-              console.log(item)
-            },
-            mousedown: () => {
-              console.log('mousedown')
+              alert('click Image')
             }
           },
           style: this.getStyle('img', i)
@@ -91,7 +88,7 @@ new Vue({
           style: this.getStyle('title', i),
           on: {
             click: (e, item) => {
-              console.log('text')
+              alert('click Text')
             }
           },
         }, item.title),
