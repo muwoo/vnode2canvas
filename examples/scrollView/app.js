@@ -13,9 +13,9 @@ new Vue({
     left: 120,
     dataJSON: [
       {
-        title: '标题这是一个标题呢？还是什么',
+        title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/420'
       },
       {
         title: '标题',
@@ -25,7 +25,7 @@ new Vue({
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/361/421'
       },
       {
         title: '标题',
@@ -35,53 +35,53 @@ new Vue({
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/422'
       },
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/423'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/424'
       },
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/425'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/426'
       },
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/427'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/362/428'
       },{
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'http://my.csdn.net/uploads/201203/29/1333002518_9012.png'
+        img: 'https://placekitten.com/362/429'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'http://my.csdn.net/uploads/201203/29/1333002518_9012.png'
+        img: 'https://placekitten.com/362/429'
       }
     ]
   },
   mounted () {
     setTimeout(() => {
-      this.left=220
-    }, 1000)
+      this.dataJSON[0].title = 220
+    }, 3000)
   },
   methods: {
     getStyle (type, i) {
@@ -95,15 +95,14 @@ new Vue({
         },
         img: {
           left: 10,
-          top: 10,
+          top: 10 + 110 * i,
           width: 100,
           height: 100,
-          fill: '#000',
-          fontSize: 18
+          fill: '#000'
         },
         title: {
           left: 120,
-          top: 10,
+          top: 10 + 110 * i,
           fill: '#000',
           fontSize: 18,
           width: 150,
@@ -111,15 +110,21 @@ new Vue({
         },
         desc: {
           left: 120,
-          top: 50,
+          top: 50 + 110 * i,
           fill: '#999'
         },
         date: {
           left: 120,
-          top: 80,
+          top: 80 + 110 * i,
           fill: '#999'
         }
       }[type]
+    }
+  },
+  canvasOptions () {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight
     }
   },
   renderCanvas(h) {
@@ -136,9 +141,7 @@ new Vue({
         }
       }
     }, this.dataJSON.map((item, i) => {
-      return h('scrollItem', {
-          style: this.getStyle('scrollItem', i)
-        },
+      return h('view',
         [
         h('image', {
           props: {

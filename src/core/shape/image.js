@@ -3,6 +3,9 @@
  * Date: 2018/7/12
  */
 import {Super} from './super'
+import {imgCachePool} from '../utils/cachePool'
+import {constants} from '../utils/index'
+
 
 export class Img extends Super {
   constructor(drawStyle, src) {
@@ -22,17 +25,19 @@ export class Img extends Super {
     )
   }
 
-  draw(ctx, scrollTop, visibleHeight) {
-    if (this.isVisible(scrollTop, visibleHeight)) {
+  draw(ctx, scrollTop, heigth, mainView) {
+    if (this.isVisible(scrollTop)) {
       return
     }
-    if (this.render) {
+    if (this.render || (this.img = imgCachePool.get(this.src))) {
       return this.drawImg(ctx, scrollTop)
     }
     this.img = new Image()
     this.img.onload = () => {
       this.render = true
       this.drawImg(ctx, scrollTop)
+      !imgCachePool.get(this.src) && mainView.reRender(constants.top)
+      imgCachePool.add(this.src, this.img)
     }
     this.img.src = this.src
   }

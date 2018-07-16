@@ -3,37 +3,20 @@
  * Date: 2018/7/2
  */
 import {Event} from './event'
-import {View} from './shape/view'
-import {Img} from './shape/image'
-import {Text} from './shape/text'
-import {ScrollView} from "./shape/scrollView";
-import {ScrollItem} from './shape/scrollItem'
-
-export class Canvas {
-  constructor (width, height, scale) {
-    if (!this._canvas) {
-      this._canvas = document.createElement('canvas')
-    }
-
-    this.width = width
-    this.height = height
-    this.scale = scale || window.devicePixelRatio
-
-    this._canvas.width = this.width * this.scale
-    this._canvas.height = this.height * this.scale
-    this._canvas.style.width = this.width + 'px'
-    this._canvas.style.height = this.height + 'px'
-    this._canvas.getContext('2d').scale(this.scale, this.scale)
-    this._ctx = this._canvas.getContext('2d')
-  }
-}
+import {Img, View, ScrollItem, ScrollView, Text} from './shape'
+import {Canvas} from "./utils/createCanvas"
+import {canvasItemPool} from './utils/cachePool'
 
 export class Render extends Canvas{
-  constructor(width, height, vnode) {
+  constructor(renderInstance, vnode, width, height) {
     super(width, height)
+    this.mainView = null
+    this.renderInstance = renderInstance
     this.statck = [vnode]
     this.event = new Event(this._ctx)
     this.event.init(this._canvas)
+    canvasItemPool.clear()
+    this.id = 0
   }
 
   clearCanvas() {
@@ -42,7 +25,7 @@ export class Render extends Canvas{
 
   vnode2canvas() {
     this.traverse(this.statck)
-    document.body.appendChild(this._canvas)
+    return this._canvas
   }
 
   getImportStyle(vnode) {
@@ -96,7 +79,7 @@ export class Render extends Canvas{
         let src
         (src = target.data.props) && (src = src.src || '')
         canvasItem = new Img(drawStyle, src)
-        canvasItem.draw(ctx, 0)
+        canvasItem.draw(this.renderInstance._ctx, 0, 0, this.mainView)
         return canvasItem
       }
     }[key]
@@ -118,7 +101,12 @@ export class Render extends Canvas{
 
   renderItem (item, ctx, collect) {
     let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
+    if (item.tag === 'scrollView') {
+      this.mainView = canvasItem
+    }
     if (item.tag !== 'scrollView' && collect) {
+      this.id ++
+      canvasItemPool.add(this.id, canvasItem)
       this.event.addEvent(canvasItem)
     }
   }

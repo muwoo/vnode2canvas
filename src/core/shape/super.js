@@ -32,7 +32,7 @@ export class Super {
     return false
   }
 
-  isVisible (scrollTop, visibleHeight) {
+  isVisible (scrollTop) {
     return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > window.innerHeight
   }
 }

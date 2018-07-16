@@ -1,6 +1,7 @@
-import {Super} from "./super";
-import {Scroller} from "scroller";
-import {Canvas} from '../index'
+import {Super} from "./super"
+import {Scroller} from "scroller"
+import {canvasItemPool} from '../utils/cachePool'
+import {constants} from '../utils'
 
 /**
  * @author muwoo
@@ -12,7 +13,6 @@ export class ScrollView  extends Super  {
     this.render = false
     this.scroller = null
     this.mainInstance = null
-    this.offCanvas = new Canvas(this.width, this.height)
   }
 
   draw (mainRender) {
@@ -27,13 +27,10 @@ export class ScrollView  extends Super  {
   reRender (top) {
     requestAnimationFrame(() => {
       this.mainInstance.clearCanvas()
-      this.offCanvas._ctx.clearRect(0, 0, this.width, this.height)
-      let stack = this.mainInstance.event.stack || []
-      stack.forEach((item) => {
-        // console.log(item)
-        item.shape.draw(this.offCanvas._ctx, top, this.height)
-      })
-      this.mainInstance._ctx.drawImage(this.offCanvas._canvas, 0, 0, this.width, this.height)
+      for (let cacheItem of canvasItemPool) {
+        cacheItem.draw(this.mainInstance._ctx, top, this.height, this)
+      }
+      this.mainInstance.renderInstance.add(this.mainInstance._canvas)
     })
   }
 
@@ -77,10 +74,12 @@ export class ScrollView  extends Super  {
   }
 
   handleScroll (left, top) {
+    constants.top = constants.scrollTop + top
     this.reRender(top)
   }
 
   updateScrollingDimensions () {
     this.scroller.setDimensions(this.width, this.height, this.width, this.drawStyle.scrollHeight)
+    this.scroller.scrollTo(0, constants.scrollTop)
   }
 }
