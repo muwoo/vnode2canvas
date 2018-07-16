@@ -1,17 +1,15 @@
-import {Super} from "./super"
-import {Scroller} from "scroller"
-import {canvasItemPool} from '../utils/cachePool'
-import {constants} from '../utils'
+import {Super} from './super'
+import {Scroller} from 'scroller'
+import {constants, canvasItemPool} from '../utils'
 
-/**
- * @author muwoo
- * Date: 2018/7/13
- */
 export class ScrollView  extends Super  {
   constructor (drawStyle) {
     super(drawStyle)
-    this.render = false
     this.scroller = null
+    /**
+     * Avoid duplication of creation using the same off screen canvas
+     * @type {null}
+     */
     this.mainInstance = null
   }
 
@@ -74,6 +72,9 @@ export class ScrollView  extends Super  {
   }
 
   handleScroll (left, top) {
+    /**
+     * When rendering, it needs to scroll to the previous position.
+     */
     constants.top = constants.scrollTop + top
     this.reRender(top)
   }

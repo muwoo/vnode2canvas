@@ -1,10 +1,8 @@
-console.log(vueCanvas)
 /**
  * @author muwoo
  * Date: 2018/7/2
  */
-Vue.use(window.vueCanvas)
-
+Vue.use(window.RenderCanvas)
 
 new Vue({
   el: '#app',
@@ -22,50 +20,30 @@ new Vue({
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/420'
       },
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/421'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },
-      {
-        title: '标题这是一个标题呢？还是什么',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },
-      {
-        title: '标题',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },{
-        title: '标题这是一个标题呢？还是什么',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
-      },
-      {
-        title: '标题',
-        desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/422'
       }
     ]
   },
-  mounted () {
-    setTimeout(() => {
-      this.left=220
-    }, 1000)
+  canvasOptions: {
+    width: window.innerWidth,
+    height: window.innerHeight
   },
   methods: {
     getStyle (type, i) {
       return {
         img: {
           left: 10,
-          top: 10 + 110 * i,
+          top: 50 * i,
           width: 100,
           height: 100,
           fill: '#000',
@@ -92,9 +70,39 @@ new Vue({
       }[type]
     }
   },
-  render(h) {
-    console.log( h('layer', [
-      h('VBlock')
-    ]))
+  renderCanvas(h) {
+    return h('view', this.dataJSON.map((item, i) => {
+      return h('view', [
+        h('image', {
+          props: {
+            src: item.img
+          },
+          on: {
+            click: (e, item) => {
+              console.log(item)
+            },
+            mousedown: () => {
+              console.log('mousedown')
+            }
+          },
+          style: this.getStyle('img', i)
+        }),
+        h('text', {
+          style: this.getStyle('title', i),
+          on: {
+            click: (e, item) => {
+              console.log('text')
+            }
+          },
+        }, item.title),
+        h('text', {
+          style: this.getStyle('desc', i)
+        }, item.desc),
+        h('text', {
+          style: this.getStyle('date', i)
+        }, new Date().toLocaleDateString())
+      ])
+
+    }))
   }
 })

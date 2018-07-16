@@ -3,15 +3,14 @@
  * Date: 2018/7/12
  */
 import {Super} from './super'
+import {constants} from '../utils'
 
 export class Text extends Super {
   constructor(drawStyle, text) {
     super(drawStyle)
     this.text = text
-    this.font = this.drawStyle['font-size'] || 12
+    this.font = this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12
     this.height = this.font
-    this.render = false
-    this.font_family = 'Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif'
   }
 
   draw(ctx, scrollTop, visibleHeight) {
@@ -20,7 +19,7 @@ export class Text extends Super {
     }
     ctx.fillStyle = this.fillStyle
     ctx.textBaseline = 'top'
-    ctx.font = `${this.font}px ${this.font_family}`;
+    ctx.font = `${this.font}px ${constants.DEFAULT_FONT_FAMILY}`;
     let distText = this.filterText(ctx, this.text)
     this.width = ctx.measureText(distText).width
     let drawY = this.startY - scrollTop
@@ -31,6 +30,13 @@ export class Text extends Super {
     )
     this.render = true
   }
+
+  /**
+   * clip text
+   * @param ctx
+   * @param text
+   * @returns {*}
+   */
   filterText (ctx, text) {
     if (this.drawStyle.ellipse && this.drawStyle.width) {
       let filterText = ''

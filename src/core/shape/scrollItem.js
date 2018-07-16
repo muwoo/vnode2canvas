@@ -1,16 +1,17 @@
 /**
  * @author muwoo
  * Date: 2018/7/14
+ * desc: cache canvas group, to improve performance
+ * render one group replace render every item one by one
+ * but use this have to create a canvas dom every time.
+ * So it needs later optimization
  */
 import {Super} from './super'
 import {Canvas} from '../utils/createCanvas'
 
-let cacheCanvas = null
-
 export class ScrollItem extends Super {
   constructor(drawStyle, vnode) {
     super(drawStyle)
-    this.render = false
     this.stack = vnode.children
     this.cacheCanvas = new Canvas(this.width, this.height)
   }

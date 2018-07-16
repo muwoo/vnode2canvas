@@ -20,24 +20,23 @@ new Vue({
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/420'
       },
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/421'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/422'
       }
     ]
   },
-  mounted () {
-    setTimeout(() => {
-      this.left=220
-    }, 1000)
+  canvasOptions: {
+    width: window.innerWidth,
+    height: window.innerHeight
   },
   methods: {
     getStyle (type, i) {

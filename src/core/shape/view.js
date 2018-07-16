@@ -7,7 +7,6 @@ import {Super} from './super'
 export class View extends Super {
   constructor(drawStyle) {
     super(drawStyle)
-    this.render = false
   }
 
   draw(ctx, scrollTop, visibleHeight) {

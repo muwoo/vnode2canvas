@@ -10,12 +10,11 @@
 import './index.css'
 import Vue from 'vue/dist/vue.esm'
 Vue.use(window.RenderCanvas)
+console.log(window.innerWidth)
 new Vue({
   el: '#app',
   data: {
     msg: 'hello world',
-    renderWidth: 'full',
-    renderHeight: 'full',
     left: 120,
     dataJSON: [
       {
@@ -30,10 +29,9 @@ new Vue({
       }
     ]
   },
-  mounted () {
-    setTimeout(() => {
-      this.left=220
-    }, 1000)
+  canvasOptions: {
+    width: window.innerWidth,
+    height: window.innerHeight
   },
   renderCanvas(h) {
     return h('view', this.dataJSON.map((item, i) => {

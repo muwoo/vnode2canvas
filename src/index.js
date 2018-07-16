@@ -3,8 +3,7 @@
  * Date: 2018/7/2
  */
 import {Render} from './core/index'
-import {Canvas} from "./core/utils/createCanvas"
-import {constants} from './core/utils/index'
+import {constants, Canvas} from './core/utils'
 
 let RenderCanvas = () => {}
 
@@ -13,15 +12,24 @@ RenderCanvas.install = function (Vue) {
     data () {
       return {
         options: {
+          /**
+           * canvas width
+           */
           width: 0,
+          /**
+           * canvas height
+           */
           height: 0
         },
+        /**
+         * mainCanvas in dom
+         */
         renderInstance: null
       }
     },
     created() {
       if (this.$options.renderCanvas) {
-        this.options = Object.assign({}, this.options, this.$options.canvasOptions())
+        this.options = Object.assign({}, this.options, this.getOptions())
         this.renderInstance = new Canvas(this.options.width, this.options.height)
         this.$watch(this.updateCanvas, this.noop)
         document.body.appendChild(this.renderInstance._canvas)
@@ -29,13 +37,35 @@ RenderCanvas.install = function (Vue) {
     },
     methods: {
       updateCanvas() {
+        /**
+         * to record before re-render scrollTop
+         * @type {number}
+         */
         constants.scrollTop += constants.top
+        /**
+         * get render vnode
+         */
         let vnode = this.$options.renderCanvas.call(this._renderProxy, this.$createElement)
+
+        /**
+         * get off screen render canvas
+         * @type {Render}
+         */
         let render = new Render(this.renderInstance, vnode, this.options.width, this.options.height)
         let offScreenCanvas = render.vnode2canvas()
+
+        /**
+         * render off screen canvas to mainCanvas
+         */
         this.renderInstance.add(offScreenCanvas)
-        return vnode
       },
+
+      getOptions () {
+        return (typeof this.$options.canvasOptions === 'function') ?
+          this.$options.canvasOptions() :
+          this.$options.canvasOptions || {}
+      },
+
       noop() {
       }
     }

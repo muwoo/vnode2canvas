@@ -12,6 +12,7 @@ const defaultStyle = {
 }
 export class Super {
   constructor(drawStyle) {
+    this.render = false
     this.drawStyle = Object.assign({}, defaultStyle, drawStyle)
     this.startX = this.drawStyle.left
     this.startY = this.drawStyle.top
@@ -19,8 +20,7 @@ export class Super {
     this.height = this.drawStyle.height
     this.fillStyle = this.drawStyle.fill || '#fff'
   }
-
-  isInPath(point) {
+  isInPath (point) {
     if (
       this.render &&
       point.layerX >= this.startX &&

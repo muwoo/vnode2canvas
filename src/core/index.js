@@ -4,17 +4,27 @@
  */
 import {Event} from './event'
 import {Img, View, ScrollItem, ScrollView, Text} from './shape'
-import {Canvas} from "./utils/createCanvas"
-import {canvasItemPool} from './utils/cachePool'
+import {Canvas, canvasItemPool} from './utils'
 
 export class Render extends Canvas{
+  /**
+   * constructor
+   * @param renderInstance: mainCanvas instance
+   * @param vnode: virtual dom
+   * @param width: render width
+   * @param height: render height
+   */
   constructor(renderInstance, vnode, width, height) {
     super(width, height)
+    /**
+     * render canvas container
+     * @type {null}
+     */
     this.mainView = null
     this.renderInstance = renderInstance
     this.statck = [vnode]
     this.event = new Event(this._ctx)
-    this.event.init(this._canvas)
+    this.event.init(renderInstance._canvas)
     canvasItemPool.clear()
     this.id = 0
   }
@@ -28,9 +38,16 @@ export class Render extends Canvas{
     return this._canvas
   }
 
+
+  /**
+   * if style import with css file
+   * @param vnode
+   * @returns {{}}
+   */
   getImportStyle(vnode) {
     let style = {}
-    let vStyle = vStyle || {}
+    let vStyle = window.vStyle || {}
+    console.log(vStyle)
     Object.keys(vStyle).forEach(key => {
       if (vnode.data && vnode.data.class) {
         if ('.' + vnode.data.class === key) {
@@ -46,10 +63,14 @@ export class Render extends Canvas{
     return style
   }
 
+  /**
+   * Proxy
+   * @param target: virtual dom
+   * @param key: render type
+   * @returns {*}
+   */
   renderProxy(target, key) {
     target.data = target.data || {}
-    let clickEvent
-    (clickEvent = target.data.on) && (clickEvent = clickEvent.click)
     let importStyle = this.getImportStyle(target)
     let drawStyle = {...importStyle, ...target.data.style} || {...importStyle}
     let canvasItem = null
@@ -85,10 +106,18 @@ export class Render extends Canvas{
     }[key]
   }
 
+  /**
+   * traverse dom by BFS
+   * @param stack
+   * @param ctx
+   */
   traverse(stack, ctx) {
     while (stack.length) {
       let vnode = stack.shift()
       this.renderItem(vnode, ctx || this._ctx, !ctx)
+      /**
+       * check need traverse or not
+       */
       if (!vnode.children || vnode.tag === 'text' || vnode.tag === 'scrollItem') {
         continue
       }
@@ -99,15 +128,21 @@ export class Render extends Canvas{
     }
   }
 
+  /**
+   * render canvas item
+   * @param item: canvas item
+   * @param ctx: canvas context
+   * @param collect: need collect to canvasItemPool
+   */
   renderItem (item, ctx, collect) {
     let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
+    this.event.addEvent(canvasItem, item.data.on || {})
     if (item.tag === 'scrollView') {
       this.mainView = canvasItem
     }
     if (item.tag !== 'scrollView' && collect) {
       this.id ++
       canvasItemPool.add(this.id, canvasItem)
-      this.event.addEvent(canvasItem)
     }
   }
 
