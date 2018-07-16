@@ -5,7 +5,7 @@
 import {Render} from './core/index'
 import {constants, Canvas} from './core/utils'
 
-let RenderCanvas = () => {}
+let RenderCanvas = function () {}
 
 RenderCanvas.install = function (Vue) {
   Vue.mixin({

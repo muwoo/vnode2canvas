@@ -1,6 +1,6 @@
 {
   "name": "vnode2canvas",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "",
   "main": "dist/main.min.js",
   "scripts": {
