@@ -6,6 +6,8 @@ Rendering virtual DOM into canvas based on Vue plugin
 
 example url: [demo](https://muwoo.github.io/vnode2canvas/)
 
+![qq20180716-181201-hd](https://user-images.githubusercontent.com/21073039/42753528-d80f8d62-8923-11e8-8a36-2a3bef66c910.gif)
+
 # usage
 
 ### install
@@ -51,8 +53,6 @@ renderInstance = {
 ### 1. render scroll list
 
 A rolling list based on scroller to support lazy list loading.
-
-![qq20180716-181201-hd](https://user-images.githubusercontent.com/21073039/42753528-d80f8d62-8923-11e8-8a36-2a3bef66c910.gif)
 
 ##### usage:
 ```js
