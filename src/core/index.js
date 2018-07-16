@@ -30,7 +30,7 @@ export class Render extends Canvas{
   }
 
   clearCanvas() {
-    this._ctx.clearRect(0, 0, this._canvas.width, this._canvas.height);
+    this._ctx.clearRect(0, 0, this.width, this.height);
   }
 
   vnode2canvas() {
@@ -46,7 +46,7 @@ export class Render extends Canvas{
    */
   getImportStyle(vnode) {
     let style = {}
-    let vStyle = vStyle || {}
+    let vStyle = window.vStyle || {}
     Object.keys(vStyle).forEach(key => {
       if (vnode.data && vnode.data.class) {
         if ('.' + vnode.data.class === key) {
