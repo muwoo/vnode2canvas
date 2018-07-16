@@ -21,7 +21,7 @@ export class Canvas {
   }
 
   add (offScreenCanvas) {
-    this._ctx.clearRect(0, 0, this._canvas.width, this._canvas.height)
+    this._ctx.clearRect(0, 0, this.width, this.height)
     this._ctx.drawImage(offScreenCanvas, 0, 0, this.width, this.height)
   }
 }

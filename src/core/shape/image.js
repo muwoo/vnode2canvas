@@ -45,6 +45,7 @@ export class Img extends Super {
         mainView.reRender(constants.scrollerTop)
       }
     }
+    this.img.crossOrigin = true
     this.img.src = this.src
     imgCachePool.add(this.src, this.img)
   }

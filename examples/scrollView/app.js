@@ -77,9 +77,9 @@ new Vue({
     ]
   },
   mounted () {
-    setTimeout(() => {
-      this.dataJSON[0].title = 220
-    }, 3000)
+    // setTimeout(() => {
+    //   this.dataJSON[0].title = 220
+    // }, 3000)
   },
   methods: {
     getStyle (type, i) {
