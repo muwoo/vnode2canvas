@@ -1,5 +1,9 @@
 # vnode2canvas
-<img src='https://img.shields.io/badge/npm-0.0.6-brightgreen.svg'><img src='https://img.shields.io/badge/gzip-6.9KB-green.svg'>
+<p align="center">
+  <img src='https://img.shields.io/badge/npm-0.0.6-brightgreen.svg'>
+  <img src='https://img.shields.io/badge/gzip-6.9KB-green.svg'>
+  <img src='https://img.shields.io/badge/license-MIT-blue.svg'>
+</p>
 
 Rendering virtual DOM into canvas based on Vue plugin
 
