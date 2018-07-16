@@ -15,3 +15,5 @@ export let top = 0
  * @type {number}
  */
 export let scrollTop = 0
+
+export let scrollerTop = 0

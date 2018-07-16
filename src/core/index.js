@@ -46,8 +46,7 @@ export class Render extends Canvas{
    */
   getImportStyle(vnode) {
     let style = {}
-    let vStyle = window.vStyle || {}
-    console.log(vStyle)
+    let vStyle = vStyle || {}
     Object.keys(vStyle).forEach(key => {
       if (vnode.data && vnode.data.class) {
         if ('.' + vnode.data.class === key) {

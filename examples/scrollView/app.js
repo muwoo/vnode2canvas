@@ -8,8 +8,6 @@ new Vue({
   el: '#app',
   data: {
     msg: 'hello world',
-    renderWidth: 'full',
-    renderHeight: 'full',
     left: 120,
     dataJSON: [
       {
@@ -126,6 +124,12 @@ new Vue({
       width: window.innerWidth,
       height: window.innerHeight
     }
+  },
+  watch: {
+    renderInstance () {
+      console.log(this.renderInstance)
+    }
+
   },
   renderCanvas(h) {
     return h('scrollView', {

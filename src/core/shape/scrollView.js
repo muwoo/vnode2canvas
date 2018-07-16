@@ -76,6 +76,7 @@ export class ScrollView  extends Super  {
      * When rendering, it needs to scroll to the previous position.
      */
     constants.top = constants.scrollTop + top
+    constants.scrollerTop = top
     this.reRender(top)
   }
 
