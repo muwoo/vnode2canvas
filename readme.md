@@ -1,7 +1,5 @@
 # vnode2canvas
-<img src='https://img.shields.io/badge/npm-0.0.6-brightgreen.svg'>
-<img src='https://img.shields.io/badge/gzip-6.9KB-green.svg'>
-
+<img src='https://img.shields.io/badge/npm-0.0.6-brightgreen.svg'><img src='https://img.shields.io/badge/gzip-6.9KB-green.svg'>
 
 Rendering virtual DOM into canvas based on Vue plugin
 
@@ -163,7 +161,7 @@ Support the following events:
 ### 3. use css file for webpack loader
 If you think write CSS in JS is not comfortable, you can also load your external CSS file through a webpack loader.
 
-[canvas-style-loader]()
+[canvas-style-loader](https://github.com/muwoo/vnode2canvas/blob/master/examples/rss-test/canvas-style-loader.js)
 
 ```js
 // webpack
