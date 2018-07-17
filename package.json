@@ -1,6 +1,6 @@
 {
   "name": "vnode2canvas",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "dist/main.min.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "webpack --mode production --output ./dist/main.min.js"
   },
   "author": "muwoo",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",

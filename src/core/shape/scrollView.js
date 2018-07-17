@@ -5,11 +5,13 @@ import {constants, canvasItemPool} from '../utils'
 let startHandler = null
 let moveHandler = null
 let endHandler = null
+let timer = null
 
 export class ScrollView  extends Super  {
   constructor (drawStyle) {
     super(drawStyle)
     this.scroller = null
+    this.isScrolling = true
     /**
      * Avoid duplication of creation using the same off screen canvas
      * @type {null}
@@ -82,6 +84,11 @@ export class ScrollView  extends Super  {
     /**
      * When rendering, it needs to scroll to the previous position.
      */
+    this.isScrolling = true
+    timer && clearTimeout(timer)
+    timer = setTimeout(() => {
+      this.isScrolling = false
+    }, 100)
     constants.top = constants.scrollTop + top
     constants.scrollerTop = top
     this.reRender(top)
