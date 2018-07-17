@@ -2,6 +2,10 @@ import {Super} from './super'
 import {Scroller} from 'scroller'
 import {constants, canvasItemPool} from '../utils'
 
+let startHandler = null
+let moveHandler = null
+let endHandler = null
+
 export class ScrollView  extends Super  {
   constructor (drawStyle) {
     super(drawStyle)
@@ -11,6 +15,9 @@ export class ScrollView  extends Super  {
      * @type {null}
      */
     this.mainInstance = null
+    startHandler = startHandler || this.handleTouchStart.bind(this)
+    moveHandler = moveHandler || this.handleTouchMove.bind(this)
+    endHandler = endHandler || this.handleTouchEnd.bind(this)
   }
 
   draw (mainRender) {
@@ -33,15 +40,15 @@ export class ScrollView  extends Super  {
   }
 
   bindListener () {
-    window.addEventListener('touchstart', this.handleTouchStart.bind(this))
-    window.addEventListener('touchmove', this.handleTouchMove.bind(this))
-    window.addEventListener('touchend', this.handleTouchEnd.bind(this))
+    window.addEventListener('touchstart', startHandler)
+    window.addEventListener('touchmove', moveHandler)
+    window.addEventListener('touchend', endHandler)
   }
 
   removeListener () {
-    window.removeEventListener('touchstart', this.handleTouchStart)
-    window.removeEventListener('touchmove', this.handleTouchMove)
-    window.removeEventListener('touchend', this.handleTouchEnd)
+    window.removeEventListener('touchstart', startHandler)
+    window.removeEventListener('touchmove', moveHandler)
+    window.removeEventListener('touchend', endHandler)
   }
 
   handleTouchStart (e) {
