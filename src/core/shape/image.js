@@ -41,7 +41,10 @@ export class Img extends Super {
       }
       this.render = true
       this.drawImg(ctx, scrollTop)
-      if (!!imgCachePool.get(this.src) && mainView) {
+      /**
+       * checkout img if has be loaded Or the scroll view is scrolling
+       */
+      if (!!imgCachePool.get(this.src) && mainView && !mainView.isScrolling) {
         mainView.reRender(constants.scrollerTop)
       }
     }

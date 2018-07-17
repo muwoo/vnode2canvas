@@ -3,6 +3,9 @@
  * Date: 2018/7/2
  */
 module.exports = {
+  output: {
+    libraryTarget: "umd"
+  },
   module: {
     rules: [
       {
