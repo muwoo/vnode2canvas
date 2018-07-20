@@ -9,12 +9,18 @@ export class View extends Super {
     super(drawStyle)
   }
 
-  draw(ctx, scrollTop, visibleHeight) {
-    if (this.isVisible(scrollTop, visibleHeight)) {
+  draw(ctx, scrollTop) {
+    if (this.isVisible(scrollTop)) {
       return
     }
     ctx.fillStyle = this.fillStyle
-    ctx.fillRect(this.startX, this.startY - scrollTop, this.width, this.height)
+    ctx.strokeStyle = this.drawStyle.borderColor || '#000';
+    ctx.lineWidth = this.drawStyle.borderWidth || 1;
+
+    this.drawStyle.fill ?
+      ctx.fillRect(this.startX, this.startY - scrollTop, this.width, this.height) :
+      ctx.strokeRect(this.startX, this.startY - scrollTop, this.width, this.height)
+
     this.render = true
   }
 }

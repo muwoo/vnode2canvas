@@ -32,7 +32,11 @@ RenderCanvas.install = function (Vue) {
         this.options = Object.assign({}, this.options, this.getOptions())
         this.renderInstance = new Canvas(this.options.width, this.options.height)
         this.$watch(this.updateCanvas, this.noop)
-        document.body.appendChild(this.renderInstance._canvas)
+      }
+    },
+    mounted () {
+      if (this.$options.renderCanvas) {
+        document.querySelector(this.options.el || 'body').appendChild(this.renderInstance._canvas)
       }
     },
     methods: {

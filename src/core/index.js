@@ -38,6 +38,22 @@ export class Render extends Canvas{
     return this._canvas
   }
 
+  rePaint (top) {
+    let x = 100;
+    let y = 100;
+    let lastRender = new Date()
+    requestAnimationFrame(() => {
+      let delta = new Date() - lastRender;
+      x += delta;
+      y += delta;
+      this.clearCanvas()
+      for (let cacheItem of canvasItemPool) {
+        cacheItem.draw(this._ctx, top, this)
+      }
+      this.renderInstance.add(this._canvas)
+    })
+  }
+
 
   /**
    * if style import with css file
@@ -99,7 +115,7 @@ export class Render extends Canvas{
         let src
         (src = target.data.props) && (src = src.src || '')
         canvasItem = new Img(drawStyle, src)
-        canvasItem.draw(this.renderInstance._ctx, 0, 0, this.mainView)
+        canvasItem.draw(ctx, 0, this)
         return canvasItem
       }
     }[key]

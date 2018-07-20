@@ -11,7 +11,6 @@ export class ScrollView  extends Super  {
   constructor (drawStyle) {
     super(drawStyle)
     this.scroller = null
-    this.isScrolling = true
     /**
      * Avoid duplication of creation using the same off screen canvas
      * @type {null}
@@ -31,16 +30,6 @@ export class ScrollView  extends Super  {
     this.bindListener()
   }
 
-  reRender (top) {
-    requestAnimationFrame(() => {
-      this.mainInstance.clearCanvas()
-      for (let cacheItem of canvasItemPool) {
-        cacheItem.draw(this.mainInstance._ctx, top, this.height, this)
-      }
-      this.mainInstance.renderInstance.add(this.mainInstance._canvas)
-    })
-  }
-
   bindListener () {
     window.addEventListener('touchstart', startHandler)
     window.addEventListener('touchmove', moveHandler)
@@ -55,43 +44,41 @@ export class ScrollView  extends Super  {
 
   handleTouchStart (e) {
     if (this.scroller) {
-      this.scroller.doTouchStart(e.touches, e.timeStamp);
+      this.scroller.doTouchStart(e.touches, e.timeStamp)
     }
   }
 
   handleTouchMove (e) {
+    if (e.touches[0] && e.touches[0].target && e.touches[0].target.tagName.match(/input|textarea|select/i)) {
+      return;
+    }
     if (this.scroller) {
-      e.preventDefault();
-      this.scroller.doTouchMove(e.touches, e.timeStamp, e.scale);
+      e.preventDefault()
+      this.scroller.doTouchMove(e.touches, e.timeStamp, e.scale)
     }
   }
 
   handleTouchEnd (e) {
     if (this.scroller) {
-      this.scroller.doTouchEnd(e.timeStamp);
+      this.scroller.doTouchEnd(e.timeStamp)
     }
   }
 
   createScroller () {
     let options = {
-      scrollingX: false,
-      scrollingY: true
-    };
-    this.scroller = new Scroller(this.handleScroll.bind(this), options);
+      scrollingX: this.drawStyle.scrollingX === undefined ? false :this.drawStyle.scrollingX,
+      scrollingY: this.drawStyle.scrollingY === undefined ? true :this.drawStyle.scrollingY
+    }
+    this.scroller = new Scroller(this.handleScroll.bind(this), options)
   }
 
   handleScroll (left, top) {
     /**
      * When rendering, it needs to scroll to the previous position.
      */
-    this.isScrolling = true
-    timer && clearTimeout(timer)
-    timer = setTimeout(() => {
-      this.isScrolling = false
-    }, 100)
     constants.top = constants.scrollTop + top
     constants.scrollerTop = top
-    this.reRender(top)
+    this.mainInstance.rePaint(top)
   }
 
   updateScrollingDimensions () {
