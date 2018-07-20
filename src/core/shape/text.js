@@ -13,19 +13,27 @@ export class Text extends Super {
     this.height = this.font
   }
 
-  draw(ctx, scrollTop, visibleHeight) {
-    if (this.isVisible(scrollTop, visibleHeight)) {
+  draw(ctx, scrollTop) {
+    if (this.isVisible(scrollTop)) {
       return
     }
     ctx.fillStyle = this.fillStyle
     ctx.textBaseline = 'top'
     ctx.font = `${this.font}px ${constants.DEFAULT_FONT_FAMILY}`;
+    ctx.textAlign = this.drawStyle.textAlign || 'left'
     let distText = this.filterText(ctx, this.text)
-    this.width = ctx.measureText(distText).width
+    this.width = this.width || ctx.measureText(distText).width
     let drawY = this.startY - scrollTop
+    let drawX = this.startX
+    if (ctx.textAlign === 'right') {
+      drawX += this.width
+    }
+    if (ctx.textAlign === 'center') {
+      drawX += this.width / 2
+    }
     ctx.fillText(
       distText,
-      this.startX,
+      drawX,
       drawY
     )
     this.render = true
@@ -37,7 +45,7 @@ export class Text extends Super {
    * @param text
    * @returns {*}
    */
-  filterText (ctx, text) {
+  filterText(ctx, text) {
     if (this.drawStyle.ellipse && this.drawStyle.width) {
       let filterText = ''
       for (let char of text.split('')) {

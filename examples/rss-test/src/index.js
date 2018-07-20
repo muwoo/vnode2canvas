@@ -20,12 +20,12 @@ new Vue({
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/420'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
+        img: 'https://placekitten.com/360/420'
       }
     ]
   },

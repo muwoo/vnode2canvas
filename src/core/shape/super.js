@@ -23,10 +23,10 @@ export class Super {
   isInPath (point) {
     if (
       this.render &&
-      point.layerX >= this.startX &&
-      point.layerX <= this.width + this.startX &&
-      point.layerY >= this.startY &&
-      point.layerY <= this.height + this.startY) {
+      point.offsetX >= this.startX &&
+      point.offsetX <= this.width + this.startX &&
+      point.offsetY >= this.startY &&
+      point.offsetY <= this.height + this.startY) {
       return true
     }
     return false

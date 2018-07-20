@@ -23,7 +23,7 @@ export class Img extends Super {
     )
   }
 
-  draw(ctx, scrollTop, heigth, mainView) {
+  draw(ctx, scrollTop, mainInstance) {
     // check visible
     if (this.isVisible(scrollTop)) {
       return
@@ -40,13 +40,13 @@ export class Img extends Super {
         return
       }
       this.render = true
-      this.drawImg(ctx, scrollTop)
       /**
-       * checkout img if has be loaded Or the scroll view is scrolling
+       * checkout img if has be loaded
        */
-      if (!!imgCachePool.get(this.src) && mainView && !mainView.isScrolling) {
-        mainView.reRender(constants.scrollerTop)
+      if (!!imgCachePool.get(this.src)) {
+        return mainInstance.rePaint(constants.scrollerTop)
       }
+      this.drawImg(ctx, scrollTop)
     }
     this.img.crossOrigin = true
     this.img.src = this.src

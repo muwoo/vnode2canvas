@@ -146,6 +146,14 @@ new Vue({
       }
     }, this.dataJSON.map((item, i) => {
       return h('view',
+        {
+          style: {
+            fill: i % 2 ? 'green' : 'blue',
+            width: 375,
+            height: 110,
+            top: 110 * i
+          }
+        },
         [
         h('image', {
           props: {
