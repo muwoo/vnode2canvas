@@ -7,24 +7,42 @@
  * So it needs later optimization
  */
 import {Super} from './super'
-import {Canvas} from '../utils/createCanvas'
+import {Canvas, scrollItemPool} from '../utils'
 
 export class ScrollItem extends Super {
-  constructor(drawStyle, vnode) {
+  constructor(drawStyle, vnode, mainRender) {
     super(drawStyle)
     this.stack = vnode.children
     this.cacheCanvas = new Canvas(this.width, this.height)
+    this.mainRender = mainRender
+    this.children = []
   }
 
-  createCacheCanvas (mainRender) {
-    mainRender.traverse(this.stack, this.cacheCanvas._ctx)
+  init () {
+    if(this.children.length) {
+      for (let child of this.children) {
+        child.draw(this.cacheCanvas._ctx, 0)
+      }
+    } else {
+      this.mainRender.traverse({
+        stack: this.stack,
+        ctx: this.cacheCanvas._ctx,
+        scrollItem: this
+      })
+    }
   }
 
   draw(ctx, scrollTop) {
     if (this.isVisible(scrollTop)) {
       return
     }
+    !this.render && this.init()
     ctx.drawImage(this.cacheCanvas._canvas, this.startX, this.startY - scrollTop, this.width, this.height)
     this.render = true
+  }
+
+  rePaint () {
+    this.render = false;
+    // this.cacheCanvas._ctx.clearRect(0, 0, this.width, this.height)
   }
 }

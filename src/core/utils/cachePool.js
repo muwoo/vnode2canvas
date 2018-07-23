@@ -27,3 +27,4 @@ let pool = function () {
 
 export const canvasItemPool = pool()
 export const imgCachePool = pool()
+export const scrollItemPool = pool()

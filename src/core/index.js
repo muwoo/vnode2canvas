@@ -4,7 +4,7 @@
  */
 import {Event} from './event'
 import {Img, View, ScrollItem, ScrollView, Text} from './shape'
-import {Canvas, canvasItemPool} from './utils'
+import {Canvas, canvasItemPool, canvasState} from './utils'
 
 export class Render extends Canvas{
   /**
@@ -20,9 +20,8 @@ export class Render extends Canvas{
      * render canvas container
      * @type {null}
      */
-    this.mainView = null
     this.renderInstance = renderInstance
-    this.statck = [vnode]
+    this.stack = [vnode]
     this.event = new Event(this._ctx)
     this.event.init(renderInstance._canvas)
     canvasItemPool.clear()
@@ -34,7 +33,7 @@ export class Render extends Canvas{
   }
 
   vnode2canvas() {
-    this.traverse(this.statck)
+    this.traverse(this.stack)
     return this._canvas
   }
 
@@ -48,6 +47,7 @@ export class Render extends Canvas{
       y += delta;
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
+        canvasState.changeState(this._ctx, cacheItem)
         cacheItem.draw(this._ctx, top, this)
       }
       this.renderInstance.add(this._canvas)
@@ -96,8 +96,7 @@ export class Render extends Canvas{
         return canvasItem
       },
       scrollItem: (ctx) => {
-        canvasItem = new ScrollItem(drawStyle, target)
-        canvasItem.createCacheCanvas(this)
+        canvasItem = new ScrollItem(drawStyle, target, this)
         canvasItem.draw(ctx, 0)
         return canvasItem
       },
@@ -152,9 +151,6 @@ export class Render extends Canvas{
   renderItem (item, ctx, collect) {
     let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
     this.event.addEvent(canvasItem, item.data.on || {})
-    if (item.tag === 'scrollView') {
-      this.mainView = canvasItem
-    }
     if (item.tag !== 'scrollView' && collect) {
       this.id ++
       canvasItemPool.add(this.id, canvasItem)

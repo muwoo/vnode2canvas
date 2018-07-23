@@ -9,26 +9,25 @@ export class Text extends Super {
   constructor(drawStyle, text) {
     super(drawStyle)
     this.text = text
-    this.font = this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12
+    this.fontSize = this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12
+    this.font = `${this.fontSize}px ${constants.DEFAULT_FONT_FAMILY}`
     this.height = this.font
+    this.textAlign = this.drawStyle.textAlign || 'left'
+    this.textBaseline = 'top'
   }
 
   draw(ctx, scrollTop) {
     if (this.isVisible(scrollTop)) {
       return
     }
-    ctx.fillStyle = this.fillStyle
-    ctx.textBaseline = 'top'
-    ctx.font = `${this.font}px ${constants.DEFAULT_FONT_FAMILY}`;
-    ctx.textAlign = this.drawStyle.textAlign || 'left'
     let distText = this.filterText(ctx, this.text)
     this.width = this.width || ctx.measureText(distText).width
     let drawY = this.startY - scrollTop
     let drawX = this.startX
-    if (ctx.textAlign === 'right') {
+    if (this.textAlign === 'right') {
       drawX += this.width
     }
-    if (ctx.textAlign === 'center') {
+    if (this.textAlign === 'center') {
       drawX += this.width / 2
     }
     ctx.fillText(
