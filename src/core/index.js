@@ -24,6 +24,7 @@ export class Render extends Canvas{
     this.stack = [vnode]
     this.event = new Event(this._ctx)
     this.event.init(renderInstance._canvas)
+    this.isRendering = false
     canvasItemPool.clear()
     this.id = 0
   }
@@ -38,19 +39,18 @@ export class Render extends Canvas{
   }
 
   rePaint (top) {
-    let x = 100;
-    let y = 100;
-    let lastRender = new Date()
+    if (this.isRendering) {
+      return
+    }
+    this.isRendering = true
     requestAnimationFrame(() => {
-      let delta = new Date() - lastRender;
-      x += delta;
-      y += delta;
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
         canvasState.changeState(this._ctx, cacheItem)
         cacheItem.draw(this._ctx, top, this)
       }
       this.renderInstance.add(this._canvas)
+      this.isRendering = false
     })
   }
 
