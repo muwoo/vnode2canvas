@@ -155,7 +155,6 @@ export class Render extends Canvas{
       canvasItemPool.add(this.id, canvasItem)
     }
   }
-
 }
 
 let ProxyPolyfill = (target, handler) => {

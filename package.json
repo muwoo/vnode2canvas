@@ -1,7 +1,7 @@
 {
   "name": "vnode2canvas",
   "version": "0.1.0",
-  "description": "",
+  "description": "Rendering virtual DOM into canvas based on Vue plugin",
   "main": "dist/main.min.js",
   "scripts": {
     "dev": "webpack --mode development --watch  --output ./dev/main.js",
