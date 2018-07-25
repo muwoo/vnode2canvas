@@ -17,3 +17,5 @@ export let top = 0
 export let scrollTop = 0
 
 export let scrollerTop = 0
+
+export let rate = 1

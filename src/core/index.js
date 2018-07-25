@@ -4,7 +4,7 @@
  */
 import {Event} from './event'
 import {Img, View, ScrollItem, ScrollView, Text} from './shape'
-import {Canvas, canvasItemPool, canvasState} from './utils'
+import {Canvas, canvasItemPool} from './utils'
 
 export class Render extends Canvas{
   /**
@@ -46,7 +46,6 @@ export class Render extends Canvas{
     requestAnimationFrame(() => {
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
-        canvasState.changeState(this._ctx, cacheItem)
         cacheItem.draw(this._ctx, top, this)
       }
       this.renderInstance.add(this._canvas)

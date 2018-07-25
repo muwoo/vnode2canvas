@@ -32,6 +32,7 @@ RenderCanvas.install = function (Vue) {
         this.options = Object.assign({}, this.options, this.getOptions())
         this.renderInstance = new Canvas(this.options.width, this.options.height)
         this.$watch(this.updateCanvas, this.noop)
+        constants.rate = window.innerWidth / (this.options.remUnit * 10)
       }
     },
     mounted () {

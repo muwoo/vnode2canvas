@@ -1,11 +1,10 @@
 import {Super} from './super'
 import {Scroller} from 'scroller'
-import {constants, canvasItemPool} from '../utils'
+import {constants} from '../utils'
 
 let startHandler = null
 let moveHandler = null
 let endHandler = null
-let timer = null
 
 export class ScrollView  extends Super  {
   constructor (drawStyle) {
@@ -82,7 +81,12 @@ export class ScrollView  extends Super  {
   }
 
   updateScrollingDimensions () {
-    this.scroller.setDimensions(this.width, this.height, this.width, this.drawStyle.scrollHeight)
+    this.scroller.setDimensions(
+      this.width / constants.rate,
+      this.height / constants.rate,
+      this.width / constants.rate,
+      this.drawStyle.scrollHeight * constants.rate
+    )
     this.scroller.scrollTo(0, constants.scrollTop)
   }
 }
