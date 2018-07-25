@@ -122,8 +122,7 @@ new Vue({
   canvasOptions () {
     return {
       width: window.innerWidth,
-      height: window.innerHeight,
-      remUnit: 37.5
+      height: window.innerHeight
     }
   },
   renderCanvas(h) {
