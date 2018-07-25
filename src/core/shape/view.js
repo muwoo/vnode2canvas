@@ -16,7 +16,6 @@ export class View extends Super {
     ctx.fillStyle = this.fillStyle
     ctx.strokeStyle = this.drawStyle.borderColor || '#000';
     ctx.lineWidth = this.drawStyle.borderWidth || 1;
-
     this.drawStyle.fill ?
       ctx.fillRect(this.startX, this.startY - scrollTop, this.width, this.height) :
       ctx.strokeRect(this.startX, this.startY - scrollTop, this.width, this.height)

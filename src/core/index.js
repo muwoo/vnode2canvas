@@ -20,11 +20,11 @@ export class Render extends Canvas{
      * render canvas container
      * @type {null}
      */
-    this.mainView = null
     this.renderInstance = renderInstance
-    this.statck = [vnode]
+    this.stack = [vnode]
     this.event = new Event(this._ctx)
     this.event.init(renderInstance._canvas)
+    this.isRendering = false
     canvasItemPool.clear()
     this.id = 0
   }
@@ -34,23 +34,22 @@ export class Render extends Canvas{
   }
 
   vnode2canvas() {
-    this.traverse(this.statck)
+    this.traverse(this.stack)
     return this._canvas
   }
 
   rePaint (top) {
-    let x = 100;
-    let y = 100;
-    let lastRender = new Date()
+    if (this.isRendering) {
+      return
+    }
+    this.isRendering = true
     requestAnimationFrame(() => {
-      let delta = new Date() - lastRender;
-      x += delta;
-      y += delta;
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
         cacheItem.draw(this._ctx, top, this)
       }
       this.renderInstance.add(this._canvas)
+      this.isRendering = false
     })
   }
 
@@ -96,8 +95,7 @@ export class Render extends Canvas{
         return canvasItem
       },
       scrollItem: (ctx) => {
-        canvasItem = new ScrollItem(drawStyle, target)
-        canvasItem.createCacheCanvas(this)
+        canvasItem = new ScrollItem(drawStyle, target, this)
         canvasItem.draw(ctx, 0)
         return canvasItem
       },
@@ -150,17 +148,24 @@ export class Render extends Canvas{
    * @param collect: need collect to canvasItemPool
    */
   renderItem (item, ctx, collect) {
-    let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
+    let canvasItem = new ProxyPolyfill(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
     this.event.addEvent(canvasItem, item.data.on || {})
-    if (item.tag === 'scrollView') {
-      this.mainView = canvasItem
-    }
     if (item.tag !== 'scrollView' && collect) {
       this.id ++
       canvasItemPool.add(this.id, canvasItem)
     }
   }
 
+}
+
+let ProxyPolyfill = (target, handler) => {
+  let proxy = {}
+  Object.defineProperty(proxy, target.tag, {
+    get: () => {
+      return handler.get(target, target.tag)
+    }
+  })
+  return proxy
 }
 
 

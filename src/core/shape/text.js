@@ -9,7 +9,7 @@ export class Text extends Super {
   constructor(drawStyle, text) {
     super(drawStyle)
     this.text = text
-    this.font = this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12
+    this.font = (this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12) * constants.rate
     this.height = this.font
   }
 
@@ -25,10 +25,10 @@ export class Text extends Super {
     this.width = this.width || ctx.measureText(distText).width
     let drawY = this.startY - scrollTop
     let drawX = this.startX
-    if (ctx.textAlign === 'right') {
+    if (this.drawStyle.textAlign === 'right') {
       drawX += this.width
     }
-    if (ctx.textAlign === 'center') {
+    if (this.drawStyle.textAlign === 'center') {
       drawX += this.width / 2
     }
     ctx.fillText(

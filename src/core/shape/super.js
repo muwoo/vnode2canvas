@@ -2,6 +2,8 @@
  * @author muwoo
  * Date: 2018/7/11
  */
+import {constants} from '../utils'
+
 const defaultStyle = {
   left: 0,
   top: 0,
@@ -14,10 +16,10 @@ export class Super {
   constructor(drawStyle) {
     this.render = false
     this.drawStyle = Object.assign({}, defaultStyle, drawStyle)
-    this.startX = this.drawStyle.left
-    this.startY = this.drawStyle.top
-    this.width = this.drawStyle.width
-    this.height = this.drawStyle.height
+    this.startX = this.drawStyle.left * constants.rate
+    this.startY = this.drawStyle.top * constants.rate
+    this.width = this.drawStyle.width * constants.rate
+    this.height = this.drawStyle.height * constants.rate
     this.fillStyle = this.drawStyle.fill || '#fff'
   }
   isInPath (point) {
