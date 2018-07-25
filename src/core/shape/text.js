@@ -25,10 +25,10 @@ export class Text extends Super {
     this.width = this.width || ctx.measureText(distText).width
     let drawY = this.startY - scrollTop
     let drawX = this.startX
-    if (this.textAlign === 'right') {
+    if (this.drawStyle.textAlign === 'right') {
       drawX += this.width
     }
-    if (this.textAlign === 'center') {
+    if (this.drawStyle.textAlign === 'center') {
       drawX += this.width / 2
     }
     ctx.fillText(

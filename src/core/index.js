@@ -148,7 +148,7 @@ export class Render extends Canvas{
    * @param collect: need collect to canvasItemPool
    */
   renderItem (item, ctx, collect) {
-    let canvasItem = new Proxy(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
+    let canvasItem = new ProxyPolyfill(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
     this.event.addEvent(canvasItem, item.data.on || {})
     if (item.tag !== 'scrollView' && collect) {
       this.id ++
@@ -156,6 +156,16 @@ export class Render extends Canvas{
     }
   }
 
+}
+
+let ProxyPolyfill = (target, handler) => {
+  let proxy = {}
+  Object.defineProperty(proxy, target.tag, {
+    get: () => {
+      return handler.get(target, target.tag)
+    }
+  })
+  return proxy
 }
 
 

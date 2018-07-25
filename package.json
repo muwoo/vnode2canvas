@@ -1,6 +1,6 @@
 {
   "name": "vnode2canvas",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "",
   "main": "dist/main.min.js",
   "scripts": {
@@ -12,7 +12,9 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
     "vue": "^2.5.16",
     "webpack": "^4.14.0",
     "webpack-cli": "^3.0.8"
