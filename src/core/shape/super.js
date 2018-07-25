@@ -21,6 +21,7 @@ export class Super {
     this.width = this.drawStyle.width * constants.rate
     this.height = this.drawStyle.height * constants.rate
     this.fillStyle = this.drawStyle.fill || '#fff'
+    console.log(constants.rate)
   }
   isInPath (point) {
     if (
