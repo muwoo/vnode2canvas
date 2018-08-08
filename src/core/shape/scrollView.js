@@ -2,10 +2,6 @@ import {Super} from './super'
 import {Scroller} from 'scroller'
 import {constants} from '../utils'
 
-let startHandler = null
-let moveHandler = null
-let endHandler = null
-
 export class ScrollView  extends Super  {
   constructor (drawStyle) {
     super(drawStyle)
@@ -15,9 +11,9 @@ export class ScrollView  extends Super  {
      * @type {null}
      */
     this.mainInstance = null
-    startHandler = startHandler || this.handleTouchStart.bind(this)
-    moveHandler = moveHandler || this.handleTouchMove.bind(this)
-    endHandler = endHandler || this.handleTouchEnd.bind(this)
+    this.startHandler = this.startHandler || this.handleTouchStart.bind(this)
+    this.moveHandler = this.moveHandler || this.handleTouchMove.bind(this)
+    this.endHandler = this.endHandler || this.handleTouchEnd.bind(this)
   }
 
   draw (mainRender) {
@@ -25,20 +21,20 @@ export class ScrollView  extends Super  {
     this.createScroller()
     this.updateScrollingDimensions()
     this.render = true
-    this.removeListener()
-    this.bindListener()
+    constants.IN_BROWSER && this.removeListener()
+    constants.IN_BROWSER && this.bindListener()
   }
 
   bindListener () {
-    window.addEventListener('touchstart', startHandler)
-    window.addEventListener('touchmove', moveHandler)
-    window.addEventListener('touchend', endHandler)
+    window.addEventListener('touchstart', this.startHandler)
+    window.addEventListener('touchmove', this.moveHandler)
+    window.addEventListener('touchend', this.endHandler)
   }
 
   removeListener () {
-    window.removeEventListener('touchstart', startHandler)
-    window.removeEventListener('touchmove', moveHandler)
-    window.removeEventListener('touchend', endHandler)
+    window.removeEventListener('touchstart', this.startHandler)
+    window.removeEventListener('touchmove', this.moveHandler)
+    window.removeEventListener('touchend', this.endHandler)
   }
 
   handleTouchStart (e) {

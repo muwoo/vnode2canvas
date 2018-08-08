@@ -2,15 +2,22 @@
  * @author muwoo
  * Date: 2018/7/15
  */
+import {constants} from '../utils'
+
 export class Canvas {
-  constructor (width, height, scale) {
+  constructor (width, height, id) {
     if (!this._canvas) {
+      if (!constants.IN_BROWSER) {
+        this._canvas = null
+        this._ctx = id ? wx.createCanvasContext(id) : null
+        return
+      }
       this._canvas = document.createElement('canvas')
     }
 
     this.width = width
     this.height = height
-    this.scale = scale || window.devicePixelRatio
+    this.scale = window.devicePixelRatio
 
     this._canvas.width = this.width * this.scale
     this._canvas.height = this.height * this.scale

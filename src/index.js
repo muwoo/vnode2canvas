@@ -4,12 +4,20 @@
  */
 import {Render} from './core/index'
 import {constants, Canvas} from './core/utils'
+import renderAdapter from './core/renderAdapter'
 
-let RenderCanvas = function () {}
+let RenderCanvas = function () {
+}
 
-RenderCanvas.install = function (Vue) {
+/**
+ * mainCanvas in dom
+ */
+let renderInstance = null
+let render = null
+
+  RenderCanvas.install = function (Vue) {
   Vue.mixin({
-    data () {
+    data() {
       return {
         options: {
           /**
@@ -20,27 +28,43 @@ RenderCanvas.install = function (Vue) {
            * canvas height
            */
           height: 0
-        },
-        /**
-         * mainCanvas in dom
-         */
-        renderInstance: null
+        }
       }
     },
-    created() {
+    onLoad () {
       if (this.$options.renderCanvas) {
         this.options = Object.assign({}, this.options, this.getOptions())
-        constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1
-        this.renderInstance = new Canvas(this.options.width, this.options.height)
+        let mobile = wx.getSystemInfoSync()
+        constants.rate = mobile.windowWidth / 375
+        renderInstance = new Canvas(this.options.width, this.options.height, this.options.canvasId)
         this.$watch(this.updateCanvas, this.noop)
       }
     },
     mounted () {
-      if (this.$options.renderCanvas) {
-        document.querySelector(this.options.el || 'body').appendChild(this.renderInstance._canvas)
+  
+      if (this.$options.renderCanvas && constants.IN_BROWSER) {
+        this.options = Object.assign({}, this.options, this.getOptions())
+        constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1
+        renderInstance = new Canvas(this.options.width, this.options.height, this.options.canvasId)
+        this.$watch(this.updateCanvas, this.noop)
+        document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas)
+      }
+    },
+    onUnload () {
+      if (this._watcher) {
+        this._watcher.teardown()
+      }
+      for (let i = this._watchers.length - 1; i>=0; i--) {
+        this._watchers[i].teardown()
       }
     },
     methods: {
+      getRenderInstance () {
+        return renderInstance
+      },
+      getRender () {
+        return render
+      },
       updateCanvas() {
         /**
          * to record before re-render scrollTop
@@ -56,16 +80,17 @@ RenderCanvas.install = function (Vue) {
          * get off screen render canvas
          * @type {Render}
          */
-        let render = new Render(this.renderInstance, vnode, this.options.width, this.options.height)
+        render = new Render(renderInstance, vnode, this.options.width, this.options.height)
         let offScreenCanvas = render.vnode2canvas()
 
         /**
          * render off screen canvas to mainCanvas
          */
-        this.renderInstance.add(offScreenCanvas)
+        constants.IN_BROWSER && renderInstance.add(offScreenCanvas)
+        return vnode
       },
 
-      getOptions () {
+      getOptions() {
         return (typeof this.$options.canvasOptions === 'function') ?
           this.$options.canvasOptions() :
           this.$options.canvasOptions || {}
@@ -77,6 +102,6 @@ RenderCanvas.install = function (Vue) {
   })
 }
 
-window.RenderCanvas = RenderCanvas
+constants.IN_BROWSER && (window.RenderCanvas = RenderCanvas)
 
 export default RenderCanvas

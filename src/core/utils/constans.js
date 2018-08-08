@@ -19,3 +19,5 @@ export let scrollTop = 0
 export let scrollerTop = 0
 
 export let rate = 1
+
+export const IN_BROWSER = window

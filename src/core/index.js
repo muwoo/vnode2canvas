@@ -4,7 +4,7 @@
  */
 import {Event} from './event'
 import {Img, View, ScrollItem, ScrollView, Text} from './shape'
-import {Canvas, canvasItemPool} from './utils'
+import {Canvas, canvasItemPool, constants} from './utils'
 
 export class Render extends Canvas{
   /**
@@ -24,9 +24,11 @@ export class Render extends Canvas{
     this.stack = [vnode]
     this.event = new Event(this._ctx)
     this.event.init(renderInstance._canvas)
+    this.scrollContainer = null
     this.isRendering = false
     canvasItemPool.clear()
     this.id = 0
+    !constants.IN_BROWSER && (this._ctx = renderInstance._ctx)
   }
 
   clearCanvas() {
@@ -35,6 +37,7 @@ export class Render extends Canvas{
 
   vnode2canvas() {
     this.traverse(this.stack)
+    !constants.IN_BROWSER && this._ctx.draw(true)
     return this._canvas
   }
 
@@ -48,7 +51,7 @@ export class Render extends Canvas{
       for (let cacheItem of canvasItemPool) {
         cacheItem.draw(this._ctx, top, this)
       }
-      this.renderInstance.add(this._canvas)
+      constants.IN_BROWSER && this.renderInstance.add(this._canvas)
       this.isRendering = false
     })
   }
@@ -85,13 +88,14 @@ export class Render extends Canvas{
    */
   renderProxy(target, key) {
     target.data = target.data || {}
-    let importStyle = this.getImportStyle(target)
+    let importStyle = constants.IN_BROWSER ? this.getImportStyle(target) : {}
     let drawStyle = {...importStyle, ...target.data.style} || {...importStyle}
     let canvasItem = null
     return {
       scrollView: () => {
         canvasItem = new ScrollView(drawStyle)
         canvasItem.draw(this)
+        this.scrollContainer = canvasItem
         return canvasItem
       },
       scrollItem: (ctx) => {
