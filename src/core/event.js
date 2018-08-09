@@ -2,21 +2,23 @@
  * @author muwoo
  * Date: 2018/7/11
  */
-let eventHandler = null
+import {constants} from './utils'
 
 export class Event {
   constructor (ctx) {
     this.ctx = ctx || null
     this.stack = []
-    eventHandler = eventHandler || this.emit.bind(this)
+    this.eventHandler = this.eventHandler || this.emit.bind(this)
   }
   init (canvas) {
-    canvas.removeEventListener('click', eventHandler)
-    canvas.removeEventListener('mousedown', eventHandler)
-    canvas.removeEventListener('mouseup', eventHandler)
-    canvas.addEventListener('click', eventHandler)
-    canvas.addEventListener('mousedown', eventHandler)
-    canvas.addEventListener('mouseup', eventHandler)
+    if (constants.IN_BROWSER) {
+      canvas.removeEventListener('click', this.eventHandler)
+      canvas.removeEventListener('mousedown', this.eventHandler)
+      canvas.removeEventListener('mouseup', this.eventHandler)
+      canvas.addEventListener('click', this.eventHandler)
+      canvas.addEventListener('mousedown', this.eventHandler)
+      canvas.addEventListener('mouseup', this.eventHandler)
+    }
   }
 
   addEvent (shape, fns) {

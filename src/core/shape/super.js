@@ -22,19 +22,33 @@ export class Super {
     this.height = this.drawStyle.height * constants.rate
     this.fillStyle = this.drawStyle.fill || '#fff'
   }
+
+  /**
+   * if in weixin Mini Program
+   * offsetX = point.target.x - point.target.offsetLeft
+   * offsetY = point.target.y - point.target.offsetTop
+   * @param point
+   * @returns {boolean}
+   */
   isInPath (point) {
+    let x = constants.IN_BROWSER ? point.offsetX : point.target.x - point.target.offsetLeft
+    let y = constants.IN_BROWSER ? point.offsetY : point.target.y - point.target.offsetTop
     if (
       this.render &&
-      point.offsetX >= this.startX &&
-      point.offsetX <= this.width + this.startX &&
-      point.offsetY >= this.startY &&
-      point.offsetY <= this.height + this.startY) {
+      x >= this.startX &&
+      x <= this.width + this.startX &&
+      y >= this.startY &&
+      y <= this.height + this.startY) {
       return true
     }
     return false
   }
 
   isVisible (scrollTop) {
-    return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > window.innerHeight
+    if (constants.IN_BROWSER) {
+      return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > window.innerHeight
+    }
+    let mobile = wx.getSystemInfoSync()
+    return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > mobile.innerHeight
   }
 }
