@@ -1,6 +1,6 @@
 # vnode2canvas
 <p align="center">
-  <img src='https://img.shields.io/badge/npm-0.1.0-brightgreen.svg'>
+  <img src='https://img.shields.io/badge/npm-0.2.0-brightgreen.svg'>
   <img src='https://img.shields.io/badge/gzip-6.9KB-green.svg'>
   <img src='https://img.shields.io/badge/license-MIT-blue.svg'>
 </p>

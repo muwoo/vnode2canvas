@@ -1,5 +1,5 @@
 <template>
-  <canvas canvas-id="canvas" :style="{width: width + 'px', height: height+'px'}"></canvas>
+  <canvas canvas-id="demo-canvas" :style="{width: width + 'px', height: height+'px'}"></canvas>
 </template>
 
 <script>
@@ -12,7 +12,7 @@
       }
     },
     canvasOptions: {
-      canvasId: 'canvas'
+      canvasId: 'demo-canvas'
     },
     renderCanvas (h) {
       let device = wx.getSystemInfoSync()

@@ -14,6 +14,7 @@ let RenderCanvas = function () {
  */
 let renderInstance = null
 let render = null
+let a = 1
 
 RenderCanvas.install = function (Vue) {
   Vue.mixin({
@@ -42,6 +43,7 @@ RenderCanvas.install = function (Vue) {
     },
     mounted() {
       if (this.$options.renderCanvas) {
+        a ++
         this.options = Object.assign({}, this.options, this.getOptions())
         constants.IN_BROWSER && (constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1)
         renderInstance = new Canvas(this.options.width, this.options.height, this.options.canvasId)

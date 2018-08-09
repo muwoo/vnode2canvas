@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './index'
-import RenderCanvas from '../../../../../dist/main.min.js'
+import RenderCanvas from 'vnode2canvas'
 
 console.log(RenderCanvas)
 
