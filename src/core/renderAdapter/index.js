@@ -92,8 +92,7 @@ class RenderAdapter {
               instance.startY - scrollTop,
               instance.width,
               instance.height)
-              console.log(ctx)
-           // ctx.draw(true)
+            ctx.draw(true)
           }
         })
       }
@@ -121,22 +120,6 @@ class RenderAdapter {
       }
     }
     renderFn[this.platform]()
-  }
-
-  deviceInfo () {
-    return new Promise ((resolve, reject) => {
-      this.platform === 'browser' ? resolve({
-        width: window.innerWidth,
-        height: window.innerHeight
-      }) : wx.getSystemInfo({
-        success: function (res) {
-          resolve({
-            width: res.windowWidth,
-            height: res.windowHeight
-          })
-        }
-      })
-    })
   }
 }
 

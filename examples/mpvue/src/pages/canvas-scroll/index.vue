@@ -117,8 +117,13 @@
         }[type]
       }
     },
-    canvasOptions: {
-      canvasId: 'canvas'
+    canvasOptions () {
+      let device = wx.getSystemInfoSync()
+      return {
+        canvasId: 'canvas',
+        width: device.windowWidth,
+        height: device.windowHeight
+      }
     },
     renderCanvas(h) {
       let device = wx.getSystemInfoSync()

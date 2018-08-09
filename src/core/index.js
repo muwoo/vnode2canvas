@@ -46,11 +46,12 @@ export class Render extends Canvas{
       return
     }
     this.isRendering = true
-    requestAnimationFrame(() => {
+    doAnimationFrame(() => {
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
         cacheItem.draw(this._ctx, top, this)
       }
+      !constants.IN_BROWSER && this._ctx.draw()
       constants.IN_BROWSER && this.renderInstance.add(this._canvas)
       this.isRendering = false
     })
@@ -170,6 +171,21 @@ let ProxyPolyfill = (target, handler) => {
   })
   return proxy
 }
+
+
+let lastFrameTime = 0
+// 模拟 requestAnimationFrame
+let doAnimationFrame = function (callback) {
+    if (constants.IN_BROWSER) {
+      return requestAnimationFrame(callback)
+    }
+
+    let currTime = new Date().getTime()
+    let timeToCall = Math.max(0, 16 - (currTime - lastFrameTime))
+    let id = setTimeout(function () { callback(currTime + timeToCall); }, timeToCall)
+    lastFrameTime = currTime + timeToCall
+    return id
+};
 
 
 

@@ -11,6 +11,7 @@ app.$mount()
 
 export default {
   config: {
-    navigationBarTitleText: 'scroll view'
+    navigationBarTitleText: 'scroll view',
+    disableScroll:true
   }
 }

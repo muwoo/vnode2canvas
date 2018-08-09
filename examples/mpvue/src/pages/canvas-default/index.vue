@@ -1,6 +1,7 @@
 <template>
   <div>
     <canvas @click="bindClick" canvas-id="canvas" :style="{width: width + 'px', height: height+'px'}"></canvas>
+    <button @click="down">导出</button>
   </div>
 </template>
 
@@ -40,6 +41,28 @@ export default {
     bindClick (e) {
       this.getRender().event.eventHandler(e)
     },
+    down () {
+      wx.canvasToTempFilePath({
+        x: 0,
+        y: 0,
+        width: this.width,
+        height: this.height,
+        canvasId: 'canvas',
+        success: function(res) {
+          wx.saveImageToPhotosAlbum({
+            filePath: res.tempFilePath,
+            success (res) {
+              wx.showToast({
+                title: '保存图片成功',
+                icon: 'success',
+                duration: 2000
+              })
+            }
+
+          })
+        }
+      })
+    },
     getStyle (type, i) {
       return {
         img: {
@@ -75,6 +98,9 @@ export default {
     canvasId: 'canvas'
   },
   renderCanvas (h) {
+    let device = wx.getSystemInfoSync()
+    this.width = device.windowWidth
+    this.height = device.windowHeight
     return h('view', this.dataJSON.map((item, i) => {
       return h('view', [
         h('image', {
@@ -99,14 +125,6 @@ export default {
         }, new Date().toLocaleDateString())
       ])
     }))
-  },
-  mounted () {
-    wx.getSystemInfo({
-      success: (res) => {
-        this.width = res.windowWidth
-        this.height = res.windowHeight
-      }
-    })
   }
 }
 </script>

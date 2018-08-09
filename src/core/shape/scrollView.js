@@ -26,9 +26,9 @@ export class ScrollView  extends Super  {
   }
 
   bindListener () {
-    window.addEventListener('touchstart', this.startHandler)
-    window.addEventListener('touchmove', this.moveHandler)
-    window.addEventListener('touchend', this.endHandler)
+    window.addEventListener('touchstart', this.startHandler, {passive: false})
+    window.addEventListener('touchmove', this.moveHandler, {passive: false})
+    window.addEventListener('touchend', this.endHandler, {passive: false})
   }
 
   removeListener () {
@@ -38,18 +38,26 @@ export class ScrollView  extends Super  {
   }
 
   handleTouchStart (e) {
+    let touches = constants.IN_BROWSER ? e.touches : [{
+      pageX: e.x,
+      pageY: e.y
+    }]
     if (this.scroller) {
-      this.scroller.doTouchStart(e.touches, e.timeStamp)
+      this.scroller.doTouchStart(touches, e.timeStamp)
     }
   }
 
   handleTouchMove (e) {
-    if (e.touches[0] && e.touches[0].target && e.touches[0].target.tagName.match(/input|textarea|select/i)) {
+    if (constants.IN_BROWSER && e.touches[0] && e.touches[0].target && e.touches[0].target.tagName.match(/input|textarea|select/i)) {
       return;
     }
+    let touches = constants.IN_BROWSER ? e.touches : [{
+      pageX: e.x,
+      pageY: e.y
+    }]
     if (this.scroller) {
       e.preventDefault()
-      this.scroller.doTouchMove(e.touches, e.timeStamp, e.scale)
+      this.scroller.doTouchMove(touches, e.timeStamp, e.scale)
     }
   }
 
