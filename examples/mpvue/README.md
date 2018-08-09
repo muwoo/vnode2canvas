@@ -1,7 +1,5 @@
 # 在 mpvue 中使用 `vnode2canvas`
 
-## demo
-
 <img width="400" src="https://user-images.githubusercontent.com/21073039/43886794-7b215e6c-9bef-11e8-890e-4c7fdc2f892c.png">
 
 ## 快速开始：
