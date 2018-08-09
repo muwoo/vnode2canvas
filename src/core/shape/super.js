@@ -22,6 +22,14 @@ export class Super {
     this.height = this.drawStyle.height * constants.rate
     this.fillStyle = this.drawStyle.fill || '#fff'
   }
+
+  /**
+   * if in weixin Mini Program
+   * offsetX = point.target.x - point.target.offsetLeft
+   * offsetY = point.target.y - point.target.offsetTop
+   * @param point
+   * @returns {boolean}
+   */
   isInPath (point) {
     let x = constants.IN_BROWSER ? point.offsetX : point.target.x - point.target.offsetLeft
     let y = constants.IN_BROWSER ? point.offsetY : point.target.y - point.target.offsetTop

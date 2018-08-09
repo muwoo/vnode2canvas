@@ -6,7 +6,7 @@ import {Event} from './event'
 import {Img, View, ScrollItem, ScrollView, Text} from './shape'
 import {Canvas, canvasItemPool, constants} from './utils'
 
-export class Render extends Canvas{
+export class Render extends Canvas {
   /**
    * constructor
    * @param renderInstance: mainCanvas instance
@@ -28,6 +28,12 @@ export class Render extends Canvas{
     this.isRendering = false
     canvasItemPool.clear()
     this.id = 0
+
+    /**
+     * in weixin
+     * Instead of using off-screen canvas, draw directly on canvas context
+     *
+     */
     !constants.IN_BROWSER && (this._ctx = renderInstance._ctx)
   }
 
@@ -41,18 +47,18 @@ export class Render extends Canvas{
     return this._canvas
   }
 
-  rePaint (top) {
+  rePaint(top) {
     if (this.isRendering) {
       return
     }
     this.isRendering = true
+    // adapter Mini Program
     doAnimationFrame(() => {
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
         cacheItem.draw(this._ctx, top, this)
       }
-      !constants.IN_BROWSER && this._ctx.draw()
-      constants.IN_BROWSER && this.renderInstance.add(this._canvas)
+      constants.IN_BROWSER ? this.renderInstance.add(this._canvas) : this._ctx.draw()
       this.isRendering = false
     })
   }
@@ -96,6 +102,9 @@ export class Render extends Canvas{
       scrollView: () => {
         canvasItem = new ScrollView(drawStyle)
         canvasItem.draw(this)
+        /**
+         * export scrollInstance for setting touch event automatic
+         */
         this.scrollContainer = canvasItem
         return canvasItem
       },
@@ -152,11 +161,11 @@ export class Render extends Canvas{
    * @param ctx: canvas context
    * @param collect: need collect to canvasItemPool
    */
-  renderItem (item, ctx, collect) {
+  renderItem(item, ctx, collect) {
     let canvasItem = new ProxyPolyfill(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
     this.event.addEvent(canvasItem, item.data.on || {})
     if (item.tag !== 'scrollView' && collect) {
-      this.id ++
+      this.id++
       canvasItemPool.add(this.id, canvasItem)
     }
   }
@@ -174,18 +183,18 @@ let ProxyPolyfill = (target, handler) => {
 
 
 let lastFrameTime = 0
-// 模拟 requestAnimationFrame
 let doAnimationFrame = function (callback) {
-    if (constants.IN_BROWSER) {
-      return requestAnimationFrame(callback)
-    }
-
-    let currTime = new Date().getTime()
-    let timeToCall = Math.max(0, 16 - (currTime - lastFrameTime))
-    let id = setTimeout(function () { callback(currTime + timeToCall); }, timeToCall)
-    lastFrameTime = currTime + timeToCall
-    return id
-};
+  if (constants.IN_BROWSER) {
+    return requestAnimationFrame(callback)
+  }
+  let currTime = new Date().getTime()
+  let timeToCall = Math.max(0, 16 - (currTime - lastFrameTime))
+  let id = setTimeout(function () {
+    callback(currTime + timeToCall)
+  }, timeToCall)
+  lastFrameTime = currTime + timeToCall
+  return id
+}
 
 
 

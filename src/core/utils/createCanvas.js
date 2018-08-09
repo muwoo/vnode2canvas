@@ -6,14 +6,19 @@ import {constants} from '../utils'
 
 export class Canvas {
   constructor (width, height, id) {
+    /**
+     * in weixin Mini Program
+     * direct creation of canvas context
+     */
+    if (!constants.IN_BROWSER) {
+      this.width = width
+      this.height = height
+      this._canvas = null
+      this._ctx = id ? wx.createCanvasContext(id) : null
+      return
+    }
+
     if (!this._canvas) {
-      if (!constants.IN_BROWSER) {
-        this.width = width
-        this.height = height
-        this._canvas = null
-        this._ctx = id ? wx.createCanvasContext(id) : null
-        return
-      }
       this._canvas = document.createElement('canvas')
     }
 

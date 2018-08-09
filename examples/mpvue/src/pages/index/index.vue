@@ -4,6 +4,9 @@
       <a href="/pages/canvas-default/main" class="counter">普通canvas测试</a>
     </div>
     <div>
+      <a href="/pages/canvas-demo/main" class="counter">demo</a>
+    </div>
+    <div>
       <a href="/pages/canvas-scroll/main" class="counter">scroll canvas</a>
     </div>
   </div>

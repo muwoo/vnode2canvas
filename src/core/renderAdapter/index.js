@@ -3,11 +3,14 @@
  * Date: 2018/8/7
  */
 import {constants, imgCachePool} from '../utils'
+
+/**
+ * adapter for browser of weixin Mini Program
+ */
 class RenderAdapter {
   constructor () {
     this.platform = constants.IN_BROWSER ? 'browser' : 'wx'
   }
-
   renderText (instance, ctx, scrollTop) {
     let renderFn = {
       browser () {

@@ -15,7 +15,7 @@ let RenderCanvas = function () {
 let renderInstance = null
 let render = null
 
-  RenderCanvas.install = function (Vue) {
+RenderCanvas.install = function (Vue) {
   Vue.mixin({
     data() {
       return {
@@ -31,38 +31,40 @@ let render = null
         }
       }
     },
-    onLoad () {
+    /**
+     * for weixin Mini Program
+     */
+    onLoad() {
       if (this.$options.renderCanvas) {
-        this.options = Object.assign({}, this.options, this.getOptions())
         let mobile = wx.getSystemInfoSync()
         constants.rate = mobile.windowWidth / 375
-        renderInstance = new Canvas(this.options.width, this.options.height, this.options.canvasId)
-        this.$watch(this.updateCanvas, this.noop)
       }
     },
-    mounted () {
-  
-      if (this.$options.renderCanvas && constants.IN_BROWSER) {
+    mounted() {
+      if (this.$options.renderCanvas) {
         this.options = Object.assign({}, this.options, this.getOptions())
-        constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1
+        constants.IN_BROWSER && (constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1)
         renderInstance = new Canvas(this.options.width, this.options.height, this.options.canvasId)
         this.$watch(this.updateCanvas, this.noop)
-        document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas)
+        constants.IN_BROWSER && document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas)
       }
     },
-    onUnload () {
+    /**
+     * for weixin Mini Program, teardown watchers
+     */
+    onUnload() {
       if (this._watcher) {
         this._watcher.teardown()
       }
-      for (let i = this._watchers.length - 1; i>=0; i--) {
+      for (let i = this._watchers.length - 1; i >= 0; i--) {
         this._watchers[i].teardown()
       }
     },
     methods: {
-      getRenderInstance () {
+      getRenderInstance() {
         return renderInstance
       },
-      getRender () {
+      getRender() {
         return render
       },
       updateCanvas() {

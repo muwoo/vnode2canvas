@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import App from './index'
-import RenderCanvas from '../../../../../dist/main.min.js'
-
-console.log(RenderCanvas)
+import RenderCanvas from '../../../../../dev/main.js'
 
 Vue.use(RenderCanvas)
 
@@ -11,6 +9,6 @@ app.$mount()
 
 export default {
   config: {
-    navigationBarTitleText: 'canvas 测试'
+    navigationBarTitleText: 'mpvue canvas'
   }
 }

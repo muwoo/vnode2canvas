@@ -4694,6 +4694,12 @@ var Render = exports.Render = function (_Canvas) {
     _this.isRendering = false;
     _utils.canvasItemPool.clear();
     _this.id = 0;
+
+    /**
+     * in weixin
+     * Instead of using off-screen canvas, draw directly on canvas context
+     *
+     */
     !_utils.constants.IN_BROWSER && (_this._ctx = renderInstance._ctx);
     return _this;
   }
@@ -4719,6 +4725,7 @@ var Render = exports.Render = function (_Canvas) {
         return;
       }
       this.isRendering = true;
+      // adapter Mini Program
       doAnimationFrame(function () {
         _this2.clearCanvas();
         var _iteratorNormalCompletion = true;
@@ -4746,8 +4753,7 @@ var Render = exports.Render = function (_Canvas) {
           }
         }
 
-        !_utils.constants.IN_BROWSER && _this2._ctx.draw();
-        _utils.constants.IN_BROWSER && _this2.renderInstance.add(_this2._canvas);
+        _utils.constants.IN_BROWSER ? _this2.renderInstance.add(_this2._canvas) : _this2._ctx.draw();
         _this2.isRendering = false;
       });
     }
@@ -4798,6 +4804,9 @@ var Render = exports.Render = function (_Canvas) {
         scrollView: function scrollView() {
           canvasItem = new _shape.ScrollView(drawStyle);
           canvasItem.draw(_this3);
+          /**
+           * export scrollInstance for setting touch event automatic
+           */
           _this3.scrollContainer = canvasItem;
           return canvasItem;
         },
@@ -4887,12 +4896,10 @@ var ProxyPolyfill = function ProxyPolyfill(target, handler) {
 };
 
 var lastFrameTime = 0;
-// 模拟 requestAnimationFrame
 var doAnimationFrame = function doAnimationFrame(callback) {
   if (_utils.constants.IN_BROWSER) {
     return requestAnimationFrame(callback);
   }
-
   var currTime = new Date().getTime();
   var timeToCall = Math.max(0, 16 - (currTime - lastFrameTime));
   var id = setTimeout(function () {
@@ -4930,6 +4937,9 @@ var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+/**
+ * adapter for browser of weixin Mini Program
+ */
 var RenderAdapter = function () {
   function RenderAdapter() {
     (0, _classCallCheck3.default)(this, RenderAdapter);
@@ -5371,6 +5381,10 @@ var ScrollView = exports.ScrollView = function (_Super) {
       this.createScroller();
       this.updateScrollingDimensions();
       this.render = true;
+      /**
+       * in weixin Mini Program
+       * Manual binding events need to be manually
+       */
       _utils.constants.IN_BROWSER && this.removeListener();
       _utils.constants.IN_BROWSER && this.bindListener();
     }
@@ -5507,6 +5521,15 @@ var Super = exports.Super = function () {
     this.height = this.drawStyle.height * _utils.constants.rate;
     this.fillStyle = this.drawStyle.fill || '#fff';
   }
+
+  /**
+   * if in weixin Mini Program
+   * offsetX = point.target.x - point.target.offsetLeft
+   * offsetY = point.target.y - point.target.offsetTop
+   * @param point
+   * @returns {boolean}
+   */
+
 
   (0, _createClass3.default)(Super, [{
     key: 'isInPath',
@@ -5835,6 +5858,10 @@ var scrollerTop = exports.scrollerTop = 0;
 
 var rate = exports.rate = 1;
 
+/**
+ * Detection of the current environment
+ * @type {Window}
+ */
 var IN_BROWSER = exports.IN_BROWSER = window;
 
 /***/ }),
@@ -5870,14 +5897,19 @@ var Canvas = exports.Canvas = function () {
   function Canvas(width, height, id) {
     (0, _classCallCheck3.default)(this, Canvas);
 
+    /**
+     * in weixin Mini Program
+     * direct creation of canvas context
+     */
+    if (!_utils.constants.IN_BROWSER) {
+      this.width = width;
+      this.height = height;
+      this._canvas = null;
+      this._ctx = id ? wx.createCanvasContext(id) : null;
+      return;
+    }
+
     if (!this._canvas) {
-      if (!_utils.constants.IN_BROWSER) {
-        this.width = width;
-        this.height = height;
-        this._canvas = null;
-        this._ctx = id ? wx.createCanvasContext(id) : null;
-        return;
-      }
       this._canvas = document.createElement('canvas');
     }
 
@@ -6000,25 +6032,30 @@ RenderCanvas.install = function (Vue) {
         }
       };
     },
+
+    /**
+     * for weixin Mini Program
+     */
     onLoad: function onLoad() {
       if (this.$options.renderCanvas) {
-        this.options = (0, _assign2.default)({}, this.options, this.getOptions());
         var mobile = wx.getSystemInfoSync();
         _utils.constants.rate = mobile.windowWidth / 375;
-        renderInstance = new _utils.Canvas(this.options.width, this.options.height, this.options.canvasId);
-        this.$watch(this.updateCanvas, this.noop);
+        console.log(2222);
       }
     },
     mounted: function mounted() {
-
-      if (this.$options.renderCanvas && _utils.constants.IN_BROWSER) {
+      if (this.$options.renderCanvas) {
         this.options = (0, _assign2.default)({}, this.options, this.getOptions());
-        _utils.constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1;
+        _utils.constants.IN_BROWSER && (_utils.constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1);
         renderInstance = new _utils.Canvas(this.options.width, this.options.height, this.options.canvasId);
         this.$watch(this.updateCanvas, this.noop);
-        document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas);
+        _utils.constants.IN_BROWSER && document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas);
       }
     },
+
+    /**
+     * for weixin Mini Program, teardown watchers
+     */
     onUnload: function onUnload() {
       if (this._watcher) {
         this._watcher.teardown();
@@ -6050,6 +6087,8 @@ RenderCanvas.install = function (Vue) {
          * get off screen render canvas
          * @type {Render}
          */
+        console.log(111);
+        console.log(renderInstance);
         render = new _index.Render(renderInstance, vnode, this.options.width, this.options.height);
         var offScreenCanvas = render.vnode2canvas();
 

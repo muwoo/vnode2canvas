@@ -21,6 +21,10 @@ export class ScrollView  extends Super  {
     this.createScroller()
     this.updateScrollingDimensions()
     this.render = true
+    /**
+     * in weixin Mini Program
+     * Manual binding events need to be manually
+     */
     constants.IN_BROWSER && this.removeListener()
     constants.IN_BROWSER && this.bindListener()
   }
