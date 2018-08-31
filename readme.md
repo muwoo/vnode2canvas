@@ -1,11 +1,13 @@
 # vnode2canvas
 <p align="center">
-  <img src='https://img.shields.io/badge/npm-0.1.0-brightgreen.svg'>
+  <img src='https://img.shields.io/badge/npm-0.2.0-brightgreen.svg'>
   <img src='https://img.shields.io/badge/gzip-6.9KB-green.svg'>
   <img src='https://img.shields.io/badge/license-MIT-blue.svg'>
 </p>
 
 Rendering virtual DOM into canvas based on Vue plugin
+
+`mpvue vnode2canvas` 使用文档请移步到这里[文档](https://github.com/muwoo/vnode2canvas/blob/master/examples/mpvue/README.md)
 
 # example
 

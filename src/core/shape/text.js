@@ -4,38 +4,24 @@
  */
 import {Super} from './super'
 import {constants} from '../utils'
+import renderAdapter from '../renderAdapter'
 
 export class Text extends Super {
   constructor(drawStyle, text) {
     super(drawStyle)
     this.text = text
-    this.font = (this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12) * constants.rate
-    this.height = this.font
+    this.fontSize = parseInt((this.drawStyle['font-size'] || this.drawStyle['fontSize'] || 12) * constants.rate)
+    this.height = this.fontSize
+    this.textBaseline = 'top'
+    this.font = `${this.fontSize}px ${constants.DEFAULT_FONT_FAMILY}`
+    this.textAlign = this.drawStyle.textAlign || 'left'
   }
 
   draw(ctx, scrollTop) {
     if (this.isVisible(scrollTop)) {
       return
     }
-    ctx.fillStyle = this.fillStyle
-    ctx.textBaseline = 'top'
-    ctx.font = `${this.font}px ${constants.DEFAULT_FONT_FAMILY}`;
-    ctx.textAlign = this.drawStyle.textAlign || 'left'
-    let distText = this.filterText(ctx, this.text)
-    this.width = this.width || ctx.measureText(distText).width
-    let drawY = this.startY - scrollTop
-    let drawX = this.startX
-    if (this.drawStyle.textAlign === 'right') {
-      drawX += this.width
-    }
-    if (this.drawStyle.textAlign === 'center') {
-      drawX += this.width / 2
-    }
-    ctx.fillText(
-      distText,
-      drawX,
-      drawY
-    )
+    renderAdapter.renderText(this, ctx, scrollTop)
     this.render = true
   }
 
@@ -49,7 +35,7 @@ export class Text extends Super {
     if (this.drawStyle.ellipse && this.drawStyle.width) {
       let filterText = ''
       for (let char of text.split('')) {
-        if (ctx.measureText(filterText + '...').width >= this.drawStyle.width) {
+        if (ctx.measureText(filterText + '...').width / constants.rate >= this.drawStyle.width) {
           filterText += '...'
           break
         }

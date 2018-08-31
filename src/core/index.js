@@ -4,9 +4,9 @@
  */
 import {Event} from './event'
 import {Img, View, ScrollItem, ScrollView, Text} from './shape'
-import {Canvas, canvasItemPool} from './utils'
+import {Canvas, canvasItemPool, constants} from './utils'
 
-export class Render extends Canvas{
+export class Render extends Canvas {
   /**
    * constructor
    * @param renderInstance: mainCanvas instance
@@ -24,9 +24,17 @@ export class Render extends Canvas{
     this.stack = [vnode]
     this.event = new Event(this._ctx)
     this.event.init(renderInstance._canvas)
+    this.scrollContainer = null
     this.isRendering = false
     canvasItemPool.clear()
     this.id = 0
+
+    /**
+     * in weixin
+     * Instead of using off-screen canvas, draw directly on canvas context
+     *
+     */
+    !constants.IN_BROWSER && (this._ctx = renderInstance._ctx)
   }
 
   clearCanvas() {
@@ -35,20 +43,22 @@ export class Render extends Canvas{
 
   vnode2canvas() {
     this.traverse(this.stack)
+    !constants.IN_BROWSER && this._ctx.draw(true)
     return this._canvas
   }
 
-  rePaint (top) {
+  rePaint(top) {
     if (this.isRendering) {
       return
     }
     this.isRendering = true
-    requestAnimationFrame(() => {
+    // adapter Mini Program
+    doAnimationFrame(() => {
       this.clearCanvas()
       for (let cacheItem of canvasItemPool) {
         cacheItem.draw(this._ctx, top, this)
       }
-      this.renderInstance.add(this._canvas)
+      constants.IN_BROWSER ? this.renderInstance.add(this._canvas) : this._ctx.draw()
       this.isRendering = false
     })
   }
@@ -85,13 +95,17 @@ export class Render extends Canvas{
    */
   renderProxy(target, key) {
     target.data = target.data || {}
-    let importStyle = this.getImportStyle(target)
+    let importStyle = constants.IN_BROWSER ? this.getImportStyle(target) : {}
     let drawStyle = {...importStyle, ...target.data.style} || {...importStyle}
     let canvasItem = null
     return {
       scrollView: () => {
         canvasItem = new ScrollView(drawStyle)
         canvasItem.draw(this)
+        /**
+         * export scrollInstance for setting touch event automatic
+         */
+        this.scrollContainer = canvasItem
         return canvasItem
       },
       scrollItem: (ctx) => {
@@ -147,15 +161,14 @@ export class Render extends Canvas{
    * @param ctx: canvas context
    * @param collect: need collect to canvasItemPool
    */
-  renderItem (item, ctx, collect) {
+  renderItem(item, ctx, collect) {
     let canvasItem = new ProxyPolyfill(item, {get: this.renderProxy.bind(this)})[item.tag](ctx)
     this.event.addEvent(canvasItem, item.data.on || {})
     if (item.tag !== 'scrollView' && collect) {
-      this.id ++
+      this.id++
       canvasItemPool.add(this.id, canvasItem)
     }
   }
-
 }
 
 let ProxyPolyfill = (target, handler) => {
@@ -166,6 +179,21 @@ let ProxyPolyfill = (target, handler) => {
     }
   })
   return proxy
+}
+
+
+let lastFrameTime = 0
+let doAnimationFrame = function (callback) {
+  if (constants.IN_BROWSER) {
+    return requestAnimationFrame(callback)
+  }
+  let currTime = new Date().getTime()
+  let timeToCall = Math.max(0, 16 - (currTime - lastFrameTime))
+  let id = setTimeout(function () {
+    callback(currTime + timeToCall)
+  }, timeToCall)
+  lastFrameTime = currTime + timeToCall
+  return id
 }
 
 

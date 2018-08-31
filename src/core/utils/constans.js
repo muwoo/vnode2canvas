@@ -19,3 +19,9 @@ export let scrollTop = 0
 export let scrollerTop = 0
 
 export let rate = 1
+
+/**
+ * Detection of the current environment
+ * @type {Window}
+ */
+export const IN_BROWSER = window
