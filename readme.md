@@ -7,7 +7,7 @@
 
 Rendering virtual DOM into canvas based on Vue plugin
 
-`mpvue vnode2canvas` 使用文档请移步到这里[文档](https://github.com/muwoo/vnode2canvas/tree/master/examples/mpvue)
+`mpvue vnode2canvas` 使用文档请移步到这里[文档](https://github.com/muwoo/vnode2canvas/blob/master/examples/mpvue/README.md)
 
 # example
 
