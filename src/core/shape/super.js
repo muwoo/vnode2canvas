@@ -21,6 +21,7 @@ export class Super {
     this.width = this.drawStyle.width * constants.rate
     this.height = this.drawStyle.height * constants.rate
     this.fillStyle = this.drawStyle.fill || '#fff'
+    this.radius = this.drawStyle.radius * constants.rate || 0
   }
 
   /**
@@ -50,5 +51,22 @@ export class Super {
     }
     let mobile = wx.getSystemInfoSync()
     return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > mobile.innerHeight
+  }
+
+  arcByRadius (ctx, scrollTop) {
+    let min = Math.min(this.width / 2, this.height / 2)
+    let x = this.startX
+    let y = this.startY - scrollTop
+    let w = this.width
+    let h = this.height
+    let r = this.radius > min ? min : this.radius
+    ctx.beginPath()
+    ctx.moveTo(x + r, y)
+    ctx.arcTo(x + w, y, x + w, y + h, r)
+    ctx.arcTo(x + w, y + h, x, y + h, r)
+    ctx.arcTo(x, y + h, x, y, r)
+    ctx.arcTo(x, y, x + w, y, r)
+    ctx.closePath()
+    ctx.clip()
   }
 }

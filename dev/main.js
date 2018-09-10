@@ -103,7 +103,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/get-iterator */ "./node_modules/core-js/library/fn/get-iterator.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/get-iterator */ \"./node_modules/core-js/library/fn/get-iterator.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/get-iterator.js?");
 
 /***/ }),
 
@@ -114,7 +114,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/get-ite
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/map */ "./node_modules/core-js/library/fn/map.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/map */ \"./node_modules/core-js/library/fn/map.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/map.js?");
 
 /***/ }),
 
@@ -125,7 +125,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/map */ 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/assign */ "./node_modules/core-js/library/fn/object/assign.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/assign */ \"./node_modules/core-js/library/fn/object/assign.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/object/assign.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/create */ "./node_modules/core-js/library/fn/object/create.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/create */ \"./node_modules/core-js/library/fn/object/create.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/object/create.js?");
 
 /***/ }),
 
@@ -147,7 +147,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/define-property */ "./node_modules/core-js/library/fn/object/define-property.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/define-property */ \"./node_modules/core-js/library/fn/object/define-property.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/object/define-property.js?");
 
 /***/ }),
 
@@ -158,7 +158,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "./node_modules/core-js/library/fn/object/get-prototype-of.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ \"./node_modules/core-js/library/fn/object/get-prototype-of.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/object/get-prototype-of.js?");
 
 /***/ }),
 
@@ -169,7 +169,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/keys */ "./node_modules/core-js/library/fn/object/keys.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/keys */ \"./node_modules/core-js/library/fn/object/keys.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/object/keys.js?");
 
 /***/ }),
 
@@ -180,7 +180,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/core-js/library/fn/object/set-prototype-of.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ \"./node_modules/core-js/library/fn/object/set-prototype-of.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/object/set-prototype-of.js?");
 
 /***/ }),
 
@@ -191,7 +191,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/object/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol */ "./node_modules/core-js/library/fn/symbol/index.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/symbol */ \"./node_modules/core-js/library/fn/symbol/index.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/symbol.js?");
 
 /***/ }),
 
@@ -202,7 +202,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/iterator */ "./node_modules/core-js/library/fn/symbol/iterator.js"), __esModule: true };
+eval("module.exports = { \"default\": __webpack_require__(/*! core-js/library/fn/symbol/iterator */ \"./node_modules/core-js/library/fn/symbol/iterator.js\"), __esModule: true };\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/core-js/symbol/iterator.js?");
 
 /***/ }),
 
@@ -214,15 +214,7 @@ module.exports = { "default": __webpack_require__(/*! core-js/library/fn/symbol/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-exports.default = function (instance, Constructor) {
-  if (!(instance instanceof Constructor)) {
-    throw new TypeError("Cannot call a class as a function");
-  }
-};
+eval("\n\nexports.__esModule = true;\n\nexports.default = function (instance, Constructor) {\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n};\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/classCallCheck.js?");
 
 /***/ }),
 
@@ -234,33 +226,7 @@ exports.default = function (instance, Constructor) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/babel-runtime/core-js/object/define-property.js");
-
-var _defineProperty2 = _interopRequireDefault(_defineProperty);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function () {
-  function defineProperties(target, props) {
-    for (var i = 0; i < props.length; i++) {
-      var descriptor = props[i];
-      descriptor.enumerable = descriptor.enumerable || false;
-      descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
-      (0, _defineProperty2.default)(target, descriptor.key, descriptor);
-    }
-  }
-
-  return function (Constructor, protoProps, staticProps) {
-    if (protoProps) defineProperties(Constructor.prototype, protoProps);
-    if (staticProps) defineProperties(Constructor, staticProps);
-    return Constructor;
-  };
-}();
+eval("\n\nexports.__esModule = true;\n\nvar _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ \"./node_modules/babel-runtime/core-js/object/define-property.js\");\n\nvar _defineProperty2 = _interopRequireDefault(_defineProperty);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function () {\n  function defineProperties(target, props) {\n    for (var i = 0; i < props.length; i++) {\n      var descriptor = props[i];\n      descriptor.enumerable = descriptor.enumerable || false;\n      descriptor.configurable = true;\n      if (\"value\" in descriptor) descriptor.writable = true;\n      (0, _defineProperty2.default)(target, descriptor.key, descriptor);\n    }\n  }\n\n  return function (Constructor, protoProps, staticProps) {\n    if (protoProps) defineProperties(Constructor.prototype, protoProps);\n    if (staticProps) defineProperties(Constructor, staticProps);\n    return Constructor;\n  };\n}();\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/createClass.js?");
 
 /***/ }),
 
@@ -272,30 +238,7 @@ exports.default = function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ "./node_modules/babel-runtime/core-js/object/define-property.js");
-
-var _defineProperty2 = _interopRequireDefault(_defineProperty);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (obj, key, value) {
-  if (key in obj) {
-    (0, _defineProperty2.default)(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-};
+eval("\n\nexports.__esModule = true;\n\nvar _defineProperty = __webpack_require__(/*! ../core-js/object/define-property */ \"./node_modules/babel-runtime/core-js/object/define-property.js\");\n\nvar _defineProperty2 = _interopRequireDefault(_defineProperty);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (obj, key, value) {\n  if (key in obj) {\n    (0, _defineProperty2.default)(obj, key, {\n      value: value,\n      enumerable: true,\n      configurable: true,\n      writable: true\n    });\n  } else {\n    obj[key] = value;\n  }\n\n  return obj;\n};\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/defineProperty.js?");
 
 /***/ }),
 
@@ -307,29 +250,7 @@ exports.default = function (obj, key, value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _assign = __webpack_require__(/*! ../core-js/object/assign */ "./node_modules/babel-runtime/core-js/object/assign.js");
-
-var _assign2 = _interopRequireDefault(_assign);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = _assign2.default || function (target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i];
-
-    for (var key in source) {
-      if (Object.prototype.hasOwnProperty.call(source, key)) {
-        target[key] = source[key];
-      }
-    }
-  }
-
-  return target;
-};
+eval("\n\nexports.__esModule = true;\n\nvar _assign = __webpack_require__(/*! ../core-js/object/assign */ \"./node_modules/babel-runtime/core-js/object/assign.js\");\n\nvar _assign2 = _interopRequireDefault(_assign);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = _assign2.default || function (target) {\n  for (var i = 1; i < arguments.length; i++) {\n    var source = arguments[i];\n\n    for (var key in source) {\n      if (Object.prototype.hasOwnProperty.call(source, key)) {\n        target[key] = source[key];\n      }\n    }\n  }\n\n  return target;\n};\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/extends.js?");
 
 /***/ }),
 
@@ -341,39 +262,7 @@ exports.default = _assign2.default || function (target) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ "./node_modules/babel-runtime/core-js/object/set-prototype-of.js");
-
-var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
-
-var _create = __webpack_require__(/*! ../core-js/object/create */ "./node_modules/babel-runtime/core-js/object/create.js");
-
-var _create2 = _interopRequireDefault(_create);
-
-var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/babel-runtime/helpers/typeof.js");
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function, not " + (typeof superClass === "undefined" ? "undefined" : (0, _typeof3.default)(superClass)));
-  }
-
-  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      enumerable: false,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;
-};
+eval("\n\nexports.__esModule = true;\n\nvar _setPrototypeOf = __webpack_require__(/*! ../core-js/object/set-prototype-of */ \"./node_modules/babel-runtime/core-js/object/set-prototype-of.js\");\n\nvar _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);\n\nvar _create = __webpack_require__(/*! ../core-js/object/create */ \"./node_modules/babel-runtime/core-js/object/create.js\");\n\nvar _create2 = _interopRequireDefault(_create);\n\nvar _typeof2 = __webpack_require__(/*! ../helpers/typeof */ \"./node_modules/babel-runtime/helpers/typeof.js\");\n\nvar _typeof3 = _interopRequireDefault(_typeof2);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (subClass, superClass) {\n  if (typeof superClass !== \"function\" && superClass !== null) {\n    throw new TypeError(\"Super expression must either be null or a function, not \" + (typeof superClass === \"undefined\" ? \"undefined\" : (0, _typeof3.default)(superClass)));\n  }\n\n  subClass.prototype = (0, _create2.default)(superClass && superClass.prototype, {\n    constructor: {\n      value: subClass,\n      enumerable: false,\n      writable: true,\n      configurable: true\n    }\n  });\n  if (superClass) _setPrototypeOf2.default ? (0, _setPrototypeOf2.default)(subClass, superClass) : subClass.__proto__ = superClass;\n};\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/inherits.js?");
 
 /***/ }),
 
@@ -385,23 +274,7 @@ exports.default = function (subClass, superClass) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _typeof2 = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/babel-runtime/helpers/typeof.js");
-
-var _typeof3 = _interopRequireDefault(_typeof2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = function (self, call) {
-  if (!self) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return call && ((typeof call === "undefined" ? "undefined" : (0, _typeof3.default)(call)) === "object" || typeof call === "function") ? call : self;
-};
+eval("\n\nexports.__esModule = true;\n\nvar _typeof2 = __webpack_require__(/*! ../helpers/typeof */ \"./node_modules/babel-runtime/helpers/typeof.js\");\n\nvar _typeof3 = _interopRequireDefault(_typeof2);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (self, call) {\n  if (!self) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return call && ((typeof call === \"undefined\" ? \"undefined\" : (0, _typeof3.default)(call)) === \"object\" || typeof call === \"function\") ? call : self;\n};\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/possibleConstructorReturn.js?");
 
 /***/ }),
 
@@ -413,27 +286,7 @@ exports.default = function (self, call) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-exports.__esModule = true;
-
-var _iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ "./node_modules/babel-runtime/core-js/symbol/iterator.js");
-
-var _iterator2 = _interopRequireDefault(_iterator);
-
-var _symbol = __webpack_require__(/*! ../core-js/symbol */ "./node_modules/babel-runtime/core-js/symbol.js");
-
-var _symbol2 = _interopRequireDefault(_symbol);
-
-var _typeof = typeof _symbol2.default === "function" && typeof _iterator2.default === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj; };
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.default) === "symbol" ? function (obj) {
-  return typeof obj === "undefined" ? "undefined" : _typeof(obj);
-} : function (obj) {
-  return obj && typeof _symbol2.default === "function" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? "symbol" : typeof obj === "undefined" ? "undefined" : _typeof(obj);
-};
+eval("\n\nexports.__esModule = true;\n\nvar _iterator = __webpack_require__(/*! ../core-js/symbol/iterator */ \"./node_modules/babel-runtime/core-js/symbol/iterator.js\");\n\nvar _iterator2 = _interopRequireDefault(_iterator);\n\nvar _symbol = __webpack_require__(/*! ../core-js/symbol */ \"./node_modules/babel-runtime/core-js/symbol.js\");\n\nvar _symbol2 = _interopRequireDefault(_symbol);\n\nvar _typeof = typeof _symbol2.default === \"function\" && typeof _iterator2.default === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof _symbol2.default === \"function\" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? \"symbol\" : typeof obj; };\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = typeof _symbol2.default === \"function\" && _typeof(_iterator2.default) === \"symbol\" ? function (obj) {\n  return typeof obj === \"undefined\" ? \"undefined\" : _typeof(obj);\n} : function (obj) {\n  return obj && typeof _symbol2.default === \"function\" && obj.constructor === _symbol2.default && obj !== _symbol2.default.prototype ? \"symbol\" : typeof obj === \"undefined\" ? \"undefined\" : _typeof(obj);\n};\n\n//# sourceURL=webpack:///./node_modules/babel-runtime/helpers/typeof.js?");
 
 /***/ }),
 
@@ -444,10 +297,7 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
-__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
-module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node_modules/core-js/library/modules/core.get-iterator.js");
-
+eval("__webpack_require__(/*! ../modules/web.dom.iterable */ \"./node_modules/core-js/library/modules/web.dom.iterable.js\");\n__webpack_require__(/*! ../modules/es6.string.iterator */ \"./node_modules/core-js/library/modules/es6.string.iterator.js\");\nmodule.exports = __webpack_require__(/*! ../modules/core.get-iterator */ \"./node_modules/core-js/library/modules/core.get-iterator.js\");\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/get-iterator.js?");
 
 /***/ }),
 
@@ -458,15 +308,7 @@ module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
-__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
-__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
-__webpack_require__(/*! ../modules/es6.map */ "./node_modules/core-js/library/modules/es6.map.js");
-__webpack_require__(/*! ../modules/es7.map.to-json */ "./node_modules/core-js/library/modules/es7.map.to-json.js");
-__webpack_require__(/*! ../modules/es7.map.of */ "./node_modules/core-js/library/modules/es7.map.of.js");
-__webpack_require__(/*! ../modules/es7.map.from */ "./node_modules/core-js/library/modules/es7.map.from.js");
-module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Map;
-
+eval("__webpack_require__(/*! ../modules/es6.object.to-string */ \"./node_modules/core-js/library/modules/es6.object.to-string.js\");\n__webpack_require__(/*! ../modules/es6.string.iterator */ \"./node_modules/core-js/library/modules/es6.string.iterator.js\");\n__webpack_require__(/*! ../modules/web.dom.iterable */ \"./node_modules/core-js/library/modules/web.dom.iterable.js\");\n__webpack_require__(/*! ../modules/es6.map */ \"./node_modules/core-js/library/modules/es6.map.js\");\n__webpack_require__(/*! ../modules/es7.map.to-json */ \"./node_modules/core-js/library/modules/es7.map.to-json.js\");\n__webpack_require__(/*! ../modules/es7.map.of */ \"./node_modules/core-js/library/modules/es7.map.of.js\");\n__webpack_require__(/*! ../modules/es7.map.from */ \"./node_modules/core-js/library/modules/es7.map.from.js\");\nmodule.exports = __webpack_require__(/*! ../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Map;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/map.js?");
 
 /***/ }),
 
@@ -477,9 +319,7 @@ module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/cor
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.assign */ "./node_modules/core-js/library/modules/es6.object.assign.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.assign;
-
+eval("__webpack_require__(/*! ../../modules/es6.object.assign */ \"./node_modules/core-js/library/modules/es6.object.assign.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.assign;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/object/assign.js?");
 
 /***/ }),
 
@@ -490,12 +330,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.create */ "./node_modules/core-js/library/modules/es6.object.create.js");
-var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
-module.exports = function create(P, D) {
-  return $Object.create(P, D);
-};
-
+eval("__webpack_require__(/*! ../../modules/es6.object.create */ \"./node_modules/core-js/library/modules/es6.object.create.js\");\nvar $Object = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object;\nmodule.exports = function create(P, D) {\n  return $Object.create(P, D);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/object/create.js?");
 
 /***/ }),
 
@@ -506,12 +341,7 @@ module.exports = function create(P, D) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.define-property */ "./node_modules/core-js/library/modules/es6.object.define-property.js");
-var $Object = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object;
-module.exports = function defineProperty(it, key, desc) {
-  return $Object.defineProperty(it, key, desc);
-};
-
+eval("__webpack_require__(/*! ../../modules/es6.object.define-property */ \"./node_modules/core-js/library/modules/es6.object.define-property.js\");\nvar $Object = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object;\nmodule.exports = function defineProperty(it, key, desc) {\n  return $Object.defineProperty(it, key, desc);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/object/define-property.js?");
 
 /***/ }),
 
@@ -522,9 +352,7 @@ module.exports = function defineProperty(it, key, desc) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.getPrototypeOf;
-
+eval("__webpack_require__(/*! ../../modules/es6.object.get-prototype-of */ \"./node_modules/core-js/library/modules/es6.object.get-prototype-of.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.getPrototypeOf;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/object/get-prototype-of.js?");
 
 /***/ }),
 
@@ -535,9 +363,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.keys */ "./node_modules/core-js/library/modules/es6.object.keys.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.keys;
-
+eval("__webpack_require__(/*! ../../modules/es6.object.keys */ \"./node_modules/core-js/library/modules/es6.object.keys.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.keys;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/object/keys.js?");
 
 /***/ }),
 
@@ -548,9 +374,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
-
+eval("__webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ \"./node_modules/core-js/library/modules/es6.object.set-prototype-of.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Object.setPrototypeOf;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/object/set-prototype-of.js?");
 
 /***/ }),
 
@@ -561,12 +385,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.symbol */ "./node_modules/core-js/library/modules/es6.symbol.js");
-__webpack_require__(/*! ../../modules/es6.object.to-string */ "./node_modules/core-js/library/modules/es6.object.to-string.js");
-__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js");
-__webpack_require__(/*! ../../modules/es7.symbol.observable */ "./node_modules/core-js/library/modules/es7.symbol.observable.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Symbol;
-
+eval("__webpack_require__(/*! ../../modules/es6.symbol */ \"./node_modules/core-js/library/modules/es6.symbol.js\");\n__webpack_require__(/*! ../../modules/es6.object.to-string */ \"./node_modules/core-js/library/modules/es6.object.to-string.js\");\n__webpack_require__(/*! ../../modules/es7.symbol.async-iterator */ \"./node_modules/core-js/library/modules/es7.symbol.async-iterator.js\");\n__webpack_require__(/*! ../../modules/es7.symbol.observable */ \"./node_modules/core-js/library/modules/es7.symbol.observable.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_core */ \"./node_modules/core-js/library/modules/_core.js\").Symbol;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/symbol/index.js?");
 
 /***/ }),
 
@@ -577,10 +396,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
-__webpack_require__(/*! ../../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
-module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ "./node_modules/core-js/library/modules/_wks-ext.js").f('iterator');
-
+eval("__webpack_require__(/*! ../../modules/es6.string.iterator */ \"./node_modules/core-js/library/modules/es6.string.iterator.js\");\n__webpack_require__(/*! ../../modules/web.dom.iterable */ \"./node_modules/core-js/library/modules/web.dom.iterable.js\");\nmodule.exports = __webpack_require__(/*! ../../modules/_wks-ext */ \"./node_modules/core-js/library/modules/_wks-ext.js\").f('iterator');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/fn/symbol/iterator.js?");
 
 /***/ }),
 
@@ -591,11 +407,7 @@ module.exports = __webpack_require__(/*! ../../modules/_wks-ext */ "./node_modul
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (it) {
-  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
-  return it;
-};
-
+eval("module.exports = function (it) {\n  if (typeof it != 'function') throw TypeError(it + ' is not a function!');\n  return it;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_a-function.js?");
 
 /***/ }),
 
@@ -606,8 +418,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function () { /* empty */ };
-
+eval("module.exports = function () { /* empty */ };\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_add-to-unscopables.js?");
 
 /***/ }),
 
@@ -618,12 +429,7 @@ module.exports = function () { /* empty */ };
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (it, Constructor, name, forbiddenField) {
-  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {
-    throw TypeError(name + ': incorrect invocation!');
-  } return it;
-};
-
+eval("module.exports = function (it, Constructor, name, forbiddenField) {\n  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {\n    throw TypeError(name + ': incorrect invocation!');\n  } return it;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_an-instance.js?");
 
 /***/ }),
 
@@ -634,12 +440,7 @@ module.exports = function (it, Constructor, name, forbiddenField) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-module.exports = function (it) {
-  if (!isObject(it)) throw TypeError(it + ' is not an object!');
-  return it;
-};
-
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nmodule.exports = function (it) {\n  if (!isObject(it)) throw TypeError(it + ' is not an object!');\n  return it;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_an-object.js?");
 
 /***/ }),
 
@@ -650,14 +451,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
-
-module.exports = function (iter, ITERATOR) {
-  var result = [];
-  forOf(iter, false, result.push, result, ITERATOR);
-  return result;
-};
-
+eval("var forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\n\nmodule.exports = function (iter, ITERATOR) {\n  var result = [];\n  forOf(iter, false, result.push, result, ITERATOR);\n  return result;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_array-from-iterable.js?");
 
 /***/ }),
 
@@ -668,30 +462,7 @@ module.exports = function (iter, ITERATOR) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// false -> Array#indexOf
-// true  -> Array#includes
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
-var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
-var toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ "./node_modules/core-js/library/modules/_to-absolute-index.js");
-module.exports = function (IS_INCLUDES) {
-  return function ($this, el, fromIndex) {
-    var O = toIObject($this);
-    var length = toLength(O.length);
-    var index = toAbsoluteIndex(fromIndex, length);
-    var value;
-    // Array#includes uses SameValueZero equality algorithm
-    // eslint-disable-next-line no-self-compare
-    if (IS_INCLUDES && el != el) while (length > index) {
-      value = O[index++];
-      // eslint-disable-next-line no-self-compare
-      if (value != value) return true;
-    // Array#indexOf ignores holes, Array#includes - not
-    } else for (;length > index; index++) if (IS_INCLUDES || index in O) {
-      if (O[index] === el) return IS_INCLUDES || index || 0;
-    } return !IS_INCLUDES && -1;
-  };
-};
-
+eval("// false -> Array#indexOf\n// true  -> Array#includes\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar toLength = __webpack_require__(/*! ./_to-length */ \"./node_modules/core-js/library/modules/_to-length.js\");\nvar toAbsoluteIndex = __webpack_require__(/*! ./_to-absolute-index */ \"./node_modules/core-js/library/modules/_to-absolute-index.js\");\nmodule.exports = function (IS_INCLUDES) {\n  return function ($this, el, fromIndex) {\n    var O = toIObject($this);\n    var length = toLength(O.length);\n    var index = toAbsoluteIndex(fromIndex, length);\n    var value;\n    // Array#includes uses SameValueZero equality algorithm\n    // eslint-disable-next-line no-self-compare\n    if (IS_INCLUDES && el != el) while (length > index) {\n      value = O[index++];\n      // eslint-disable-next-line no-self-compare\n      if (value != value) return true;\n    // Array#indexOf ignores holes, Array#includes - not\n    } else for (;length > index; index++) if (IS_INCLUDES || index in O) {\n      if (O[index] === el) return IS_INCLUDES || index || 0;\n    } return !IS_INCLUDES && -1;\n  };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_array-includes.js?");
 
 /***/ }),
 
@@ -702,51 +473,7 @@ module.exports = function (IS_INCLUDES) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 0 -> Array#forEach
-// 1 -> Array#map
-// 2 -> Array#filter
-// 3 -> Array#some
-// 4 -> Array#every
-// 5 -> Array#find
-// 6 -> Array#findIndex
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
-var asc = __webpack_require__(/*! ./_array-species-create */ "./node_modules/core-js/library/modules/_array-species-create.js");
-module.exports = function (TYPE, $create) {
-  var IS_MAP = TYPE == 1;
-  var IS_FILTER = TYPE == 2;
-  var IS_SOME = TYPE == 3;
-  var IS_EVERY = TYPE == 4;
-  var IS_FIND_INDEX = TYPE == 6;
-  var NO_HOLES = TYPE == 5 || IS_FIND_INDEX;
-  var create = $create || asc;
-  return function ($this, callbackfn, that) {
-    var O = toObject($this);
-    var self = IObject(O);
-    var f = ctx(callbackfn, that, 3);
-    var length = toLength(self.length);
-    var index = 0;
-    var result = IS_MAP ? create($this, length) : IS_FILTER ? create($this, 0) : undefined;
-    var val, res;
-    for (;length > index; index++) if (NO_HOLES || index in self) {
-      val = self[index];
-      res = f(val, index, O);
-      if (TYPE) {
-        if (IS_MAP) result[index] = res;   // map
-        else if (res) switch (TYPE) {
-          case 3: return true;             // some
-          case 5: return val;              // find
-          case 6: return index;            // findIndex
-          case 2: result.push(val);        // filter
-        } else if (IS_EVERY) return false; // every
-      }
-    }
-    return IS_FIND_INDEX ? -1 : IS_SOME || IS_EVERY ? IS_EVERY : result;
-  };
-};
-
+eval("// 0 -> Array#forEach\n// 1 -> Array#map\n// 2 -> Array#filter\n// 3 -> Array#some\n// 4 -> Array#every\n// 5 -> Array#find\n// 6 -> Array#findIndex\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar IObject = __webpack_require__(/*! ./_iobject */ \"./node_modules/core-js/library/modules/_iobject.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar toLength = __webpack_require__(/*! ./_to-length */ \"./node_modules/core-js/library/modules/_to-length.js\");\nvar asc = __webpack_require__(/*! ./_array-species-create */ \"./node_modules/core-js/library/modules/_array-species-create.js\");\nmodule.exports = function (TYPE, $create) {\n  var IS_MAP = TYPE == 1;\n  var IS_FILTER = TYPE == 2;\n  var IS_SOME = TYPE == 3;\n  var IS_EVERY = TYPE == 4;\n  var IS_FIND_INDEX = TYPE == 6;\n  var NO_HOLES = TYPE == 5 || IS_FIND_INDEX;\n  var create = $create || asc;\n  return function ($this, callbackfn, that) {\n    var O = toObject($this);\n    var self = IObject(O);\n    var f = ctx(callbackfn, that, 3);\n    var length = toLength(self.length);\n    var index = 0;\n    var result = IS_MAP ? create($this, length) : IS_FILTER ? create($this, 0) : undefined;\n    var val, res;\n    for (;length > index; index++) if (NO_HOLES || index in self) {\n      val = self[index];\n      res = f(val, index, O);\n      if (TYPE) {\n        if (IS_MAP) result[index] = res;   // map\n        else if (res) switch (TYPE) {\n          case 3: return true;             // some\n          case 5: return val;              // find\n          case 6: return index;            // findIndex\n          case 2: result.push(val);        // filter\n        } else if (IS_EVERY) return false; // every\n      }\n    }\n    return IS_FIND_INDEX ? -1 : IS_SOME || IS_EVERY ? IS_EVERY : result;\n  };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_array-methods.js?");
 
 /***/ }),
 
@@ -757,23 +484,7 @@ module.exports = function (TYPE, $create) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var isArray = __webpack_require__(/*! ./_is-array */ "./node_modules/core-js/library/modules/_is-array.js");
-var SPECIES = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('species');
-
-module.exports = function (original) {
-  var C;
-  if (isArray(original)) {
-    C = original.constructor;
-    // cross-realm fallback
-    if (typeof C == 'function' && (C === Array || isArray(C.prototype))) C = undefined;
-    if (isObject(C)) {
-      C = C[SPECIES];
-      if (C === null) C = undefined;
-    }
-  } return C === undefined ? Array : C;
-};
-
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar isArray = __webpack_require__(/*! ./_is-array */ \"./node_modules/core-js/library/modules/_is-array.js\");\nvar SPECIES = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('species');\n\nmodule.exports = function (original) {\n  var C;\n  if (isArray(original)) {\n    C = original.constructor;\n    // cross-realm fallback\n    if (typeof C == 'function' && (C === Array || isArray(C.prototype))) C = undefined;\n    if (isObject(C)) {\n      C = C[SPECIES];\n      if (C === null) C = undefined;\n    }\n  } return C === undefined ? Array : C;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_array-species-constructor.js?");
 
 /***/ }),
 
@@ -784,13 +495,7 @@ module.exports = function (original) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 9.4.2.3 ArraySpeciesCreate(originalArray, length)
-var speciesConstructor = __webpack_require__(/*! ./_array-species-constructor */ "./node_modules/core-js/library/modules/_array-species-constructor.js");
-
-module.exports = function (original, length) {
-  return new (speciesConstructor(original))(length);
-};
-
+eval("// 9.4.2.3 ArraySpeciesCreate(originalArray, length)\nvar speciesConstructor = __webpack_require__(/*! ./_array-species-constructor */ \"./node_modules/core-js/library/modules/_array-species-constructor.js\");\n\nmodule.exports = function (original, length) {\n  return new (speciesConstructor(original))(length);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_array-species-create.js?");
 
 /***/ }),
 
@@ -801,30 +506,7 @@ module.exports = function (original, length) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// getting tag from 19.1.3.6 Object.prototype.toString()
-var cof = __webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js");
-var TAG = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('toStringTag');
-// ES3 wrong here
-var ARG = cof(function () { return arguments; }()) == 'Arguments';
-
-// fallback for IE11 Script Access Denied error
-var tryGet = function (it, key) {
-  try {
-    return it[key];
-  } catch (e) { /* empty */ }
-};
-
-module.exports = function (it) {
-  var O, T, B;
-  return it === undefined ? 'Undefined' : it === null ? 'Null'
-    // @@toStringTag case
-    : typeof (T = tryGet(O = Object(it), TAG)) == 'string' ? T
-    // builtinTag case
-    : ARG ? cof(O)
-    // ES3 arguments fallback
-    : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;
-};
-
+eval("// getting tag from 19.1.3.6 Object.prototype.toString()\nvar cof = __webpack_require__(/*! ./_cof */ \"./node_modules/core-js/library/modules/_cof.js\");\nvar TAG = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('toStringTag');\n// ES3 wrong here\nvar ARG = cof(function () { return arguments; }()) == 'Arguments';\n\n// fallback for IE11 Script Access Denied error\nvar tryGet = function (it, key) {\n  try {\n    return it[key];\n  } catch (e) { /* empty */ }\n};\n\nmodule.exports = function (it) {\n  var O, T, B;\n  return it === undefined ? 'Undefined' : it === null ? 'Null'\n    // @@toStringTag case\n    : typeof (T = tryGet(O = Object(it), TAG)) == 'string' ? T\n    // builtinTag case\n    : ARG ? cof(O)\n    // ES3 arguments fallback\n    : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_classof.js?");
 
 /***/ }),
 
@@ -835,12 +517,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var toString = {}.toString;
-
-module.exports = function (it) {
-  return toString.call(it).slice(8, -1);
-};
-
+eval("var toString = {}.toString;\n\nmodule.exports = function (it) {\n  return toString.call(it).slice(8, -1);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_cof.js?");
 
 /***/ }),
 
@@ -852,151 +529,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
-var create = __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js");
-var redefineAll = __webpack_require__(/*! ./_redefine-all */ "./node_modules/core-js/library/modules/_redefine-all.js");
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var anInstance = __webpack_require__(/*! ./_an-instance */ "./node_modules/core-js/library/modules/_an-instance.js");
-var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
-var $iterDefine = __webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/modules/_iter-define.js");
-var step = __webpack_require__(/*! ./_iter-step */ "./node_modules/core-js/library/modules/_iter-step.js");
-var setSpecies = __webpack_require__(/*! ./_set-species */ "./node_modules/core-js/library/modules/_set-species.js");
-var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
-var fastKey = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js").fastKey;
-var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
-var SIZE = DESCRIPTORS ? '_s' : 'size';
-
-var getEntry = function (that, key) {
-  // fast case
-  var index = fastKey(key);
-  var entry;
-  if (index !== 'F') return that._i[index];
-  // frozen object case
-  for (entry = that._f; entry; entry = entry.n) {
-    if (entry.k == key) return entry;
-  }
-};
-
-module.exports = {
-  getConstructor: function (wrapper, NAME, IS_MAP, ADDER) {
-    var C = wrapper(function (that, iterable) {
-      anInstance(that, C, NAME, '_i');
-      that._t = NAME;         // collection type
-      that._i = create(null); // index
-      that._f = undefined;    // first entry
-      that._l = undefined;    // last entry
-      that[SIZE] = 0;         // size
-      if (iterable != undefined) forOf(iterable, IS_MAP, that[ADDER], that);
-    });
-    redefineAll(C.prototype, {
-      // 23.1.3.1 Map.prototype.clear()
-      // 23.2.3.2 Set.prototype.clear()
-      clear: function clear() {
-        for (var that = validate(this, NAME), data = that._i, entry = that._f; entry; entry = entry.n) {
-          entry.r = true;
-          if (entry.p) entry.p = entry.p.n = undefined;
-          delete data[entry.i];
-        }
-        that._f = that._l = undefined;
-        that[SIZE] = 0;
-      },
-      // 23.1.3.3 Map.prototype.delete(key)
-      // 23.2.3.4 Set.prototype.delete(value)
-      'delete': function (key) {
-        var that = validate(this, NAME);
-        var entry = getEntry(that, key);
-        if (entry) {
-          var next = entry.n;
-          var prev = entry.p;
-          delete that._i[entry.i];
-          entry.r = true;
-          if (prev) prev.n = next;
-          if (next) next.p = prev;
-          if (that._f == entry) that._f = next;
-          if (that._l == entry) that._l = prev;
-          that[SIZE]--;
-        } return !!entry;
-      },
-      // 23.2.3.6 Set.prototype.forEach(callbackfn, thisArg = undefined)
-      // 23.1.3.5 Map.prototype.forEach(callbackfn, thisArg = undefined)
-      forEach: function forEach(callbackfn /* , that = undefined */) {
-        validate(this, NAME);
-        var f = ctx(callbackfn, arguments.length > 1 ? arguments[1] : undefined, 3);
-        var entry;
-        while (entry = entry ? entry.n : this._f) {
-          f(entry.v, entry.k, this);
-          // revert to the last existing entry
-          while (entry && entry.r) entry = entry.p;
-        }
-      },
-      // 23.1.3.7 Map.prototype.has(key)
-      // 23.2.3.7 Set.prototype.has(value)
-      has: function has(key) {
-        return !!getEntry(validate(this, NAME), key);
-      }
-    });
-    if (DESCRIPTORS) dP(C.prototype, 'size', {
-      get: function () {
-        return validate(this, NAME)[SIZE];
-      }
-    });
-    return C;
-  },
-  def: function (that, key, value) {
-    var entry = getEntry(that, key);
-    var prev, index;
-    // change existing entry
-    if (entry) {
-      entry.v = value;
-    // create new entry
-    } else {
-      that._l = entry = {
-        i: index = fastKey(key, true), // <- index
-        k: key,                        // <- key
-        v: value,                      // <- value
-        p: prev = that._l,             // <- previous entry
-        n: undefined,                  // <- next entry
-        r: false                       // <- removed
-      };
-      if (!that._f) that._f = entry;
-      if (prev) prev.n = entry;
-      that[SIZE]++;
-      // add to index
-      if (index !== 'F') that._i[index] = entry;
-    } return that;
-  },
-  getEntry: getEntry,
-  setStrong: function (C, NAME, IS_MAP) {
-    // add .keys, .values, .entries, [@@iterator]
-    // 23.1.3.4, 23.1.3.8, 23.1.3.11, 23.1.3.12, 23.2.3.5, 23.2.3.8, 23.2.3.10, 23.2.3.11
-    $iterDefine(C, NAME, function (iterated, kind) {
-      this._t = validate(iterated, NAME); // target
-      this._k = kind;                     // kind
-      this._l = undefined;                // previous
-    }, function () {
-      var that = this;
-      var kind = that._k;
-      var entry = that._l;
-      // revert to the last existing entry
-      while (entry && entry.r) entry = entry.p;
-      // get next entry
-      if (!that._t || !(that._l = entry = entry ? entry.n : that._t._f)) {
-        // or finish the iteration
-        that._t = undefined;
-        return step(1);
-      }
-      // return step by kind
-      if (kind == 'keys') return step(0, entry.k);
-      if (kind == 'values') return step(0, entry.v);
-      return step(0, [entry.k, entry.v]);
-    }, IS_MAP ? 'entries' : 'values', !IS_MAP, true);
-
-    // add [@@species], 23.1.2.2, 23.2.2.2
-    setSpecies(NAME);
-  }
-};
-
+eval("\nvar dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar create = __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\");\nvar redefineAll = __webpack_require__(/*! ./_redefine-all */ \"./node_modules/core-js/library/modules/_redefine-all.js\");\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar anInstance = __webpack_require__(/*! ./_an-instance */ \"./node_modules/core-js/library/modules/_an-instance.js\");\nvar forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\nvar $iterDefine = __webpack_require__(/*! ./_iter-define */ \"./node_modules/core-js/library/modules/_iter-define.js\");\nvar step = __webpack_require__(/*! ./_iter-step */ \"./node_modules/core-js/library/modules/_iter-step.js\");\nvar setSpecies = __webpack_require__(/*! ./_set-species */ \"./node_modules/core-js/library/modules/_set-species.js\");\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\nvar fastKey = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\").fastKey;\nvar validate = __webpack_require__(/*! ./_validate-collection */ \"./node_modules/core-js/library/modules/_validate-collection.js\");\nvar SIZE = DESCRIPTORS ? '_s' : 'size';\n\nvar getEntry = function (that, key) {\n  // fast case\n  var index = fastKey(key);\n  var entry;\n  if (index !== 'F') return that._i[index];\n  // frozen object case\n  for (entry = that._f; entry; entry = entry.n) {\n    if (entry.k == key) return entry;\n  }\n};\n\nmodule.exports = {\n  getConstructor: function (wrapper, NAME, IS_MAP, ADDER) {\n    var C = wrapper(function (that, iterable) {\n      anInstance(that, C, NAME, '_i');\n      that._t = NAME;         // collection type\n      that._i = create(null); // index\n      that._f = undefined;    // first entry\n      that._l = undefined;    // last entry\n      that[SIZE] = 0;         // size\n      if (iterable != undefined) forOf(iterable, IS_MAP, that[ADDER], that);\n    });\n    redefineAll(C.prototype, {\n      // 23.1.3.1 Map.prototype.clear()\n      // 23.2.3.2 Set.prototype.clear()\n      clear: function clear() {\n        for (var that = validate(this, NAME), data = that._i, entry = that._f; entry; entry = entry.n) {\n          entry.r = true;\n          if (entry.p) entry.p = entry.p.n = undefined;\n          delete data[entry.i];\n        }\n        that._f = that._l = undefined;\n        that[SIZE] = 0;\n      },\n      // 23.1.3.3 Map.prototype.delete(key)\n      // 23.2.3.4 Set.prototype.delete(value)\n      'delete': function (key) {\n        var that = validate(this, NAME);\n        var entry = getEntry(that, key);\n        if (entry) {\n          var next = entry.n;\n          var prev = entry.p;\n          delete that._i[entry.i];\n          entry.r = true;\n          if (prev) prev.n = next;\n          if (next) next.p = prev;\n          if (that._f == entry) that._f = next;\n          if (that._l == entry) that._l = prev;\n          that[SIZE]--;\n        } return !!entry;\n      },\n      // 23.2.3.6 Set.prototype.forEach(callbackfn, thisArg = undefined)\n      // 23.1.3.5 Map.prototype.forEach(callbackfn, thisArg = undefined)\n      forEach: function forEach(callbackfn /* , that = undefined */) {\n        validate(this, NAME);\n        var f = ctx(callbackfn, arguments.length > 1 ? arguments[1] : undefined, 3);\n        var entry;\n        while (entry = entry ? entry.n : this._f) {\n          f(entry.v, entry.k, this);\n          // revert to the last existing entry\n          while (entry && entry.r) entry = entry.p;\n        }\n      },\n      // 23.1.3.7 Map.prototype.has(key)\n      // 23.2.3.7 Set.prototype.has(value)\n      has: function has(key) {\n        return !!getEntry(validate(this, NAME), key);\n      }\n    });\n    if (DESCRIPTORS) dP(C.prototype, 'size', {\n      get: function () {\n        return validate(this, NAME)[SIZE];\n      }\n    });\n    return C;\n  },\n  def: function (that, key, value) {\n    var entry = getEntry(that, key);\n    var prev, index;\n    // change existing entry\n    if (entry) {\n      entry.v = value;\n    // create new entry\n    } else {\n      that._l = entry = {\n        i: index = fastKey(key, true), // <- index\n        k: key,                        // <- key\n        v: value,                      // <- value\n        p: prev = that._l,             // <- previous entry\n        n: undefined,                  // <- next entry\n        r: false                       // <- removed\n      };\n      if (!that._f) that._f = entry;\n      if (prev) prev.n = entry;\n      that[SIZE]++;\n      // add to index\n      if (index !== 'F') that._i[index] = entry;\n    } return that;\n  },\n  getEntry: getEntry,\n  setStrong: function (C, NAME, IS_MAP) {\n    // add .keys, .values, .entries, [@@iterator]\n    // 23.1.3.4, 23.1.3.8, 23.1.3.11, 23.1.3.12, 23.2.3.5, 23.2.3.8, 23.2.3.10, 23.2.3.11\n    $iterDefine(C, NAME, function (iterated, kind) {\n      this._t = validate(iterated, NAME); // target\n      this._k = kind;                     // kind\n      this._l = undefined;                // previous\n    }, function () {\n      var that = this;\n      var kind = that._k;\n      var entry = that._l;\n      // revert to the last existing entry\n      while (entry && entry.r) entry = entry.p;\n      // get next entry\n      if (!that._t || !(that._l = entry = entry ? entry.n : that._t._f)) {\n        // or finish the iteration\n        that._t = undefined;\n        return step(1);\n      }\n      // return step by kind\n      if (kind == 'keys') return step(0, entry.k);\n      if (kind == 'values') return step(0, entry.v);\n      return step(0, [entry.k, entry.v]);\n    }, IS_MAP ? 'entries' : 'values', !IS_MAP, true);\n\n    // add [@@species], 23.1.2.2, 23.2.2.2\n    setSpecies(NAME);\n  }\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_collection-strong.js?");
 
 /***/ }),
 
@@ -1007,16 +540,7 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// https://github.com/DavidBruant/Map-Set.prototype.toJSON
-var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
-var from = __webpack_require__(/*! ./_array-from-iterable */ "./node_modules/core-js/library/modules/_array-from-iterable.js");
-module.exports = function (NAME) {
-  return function toJSON() {
-    if (classof(this) != NAME) throw TypeError(NAME + "#toJSON isn't generic");
-    return from(this);
-  };
-};
-
+eval("// https://github.com/DavidBruant/Map-Set.prototype.toJSON\nvar classof = __webpack_require__(/*! ./_classof */ \"./node_modules/core-js/library/modules/_classof.js\");\nvar from = __webpack_require__(/*! ./_array-from-iterable */ \"./node_modules/core-js/library/modules/_array-from-iterable.js\");\nmodule.exports = function (NAME) {\n  return function toJSON() {\n    if (classof(this) != NAME) throw TypeError(NAME + \"#toJSON isn't generic\");\n    return from(this);\n  };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_collection-to-json.js?");
 
 /***/ }),
 
@@ -1028,66 +552,7 @@ module.exports = function (NAME) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-var meta = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js");
-var fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
-var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-var redefineAll = __webpack_require__(/*! ./_redefine-all */ "./node_modules/core-js/library/modules/_redefine-all.js");
-var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
-var anInstance = __webpack_require__(/*! ./_an-instance */ "./node_modules/core-js/library/modules/_an-instance.js");
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
-var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
-var each = __webpack_require__(/*! ./_array-methods */ "./node_modules/core-js/library/modules/_array-methods.js")(0);
-var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
-
-module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
-  var Base = global[NAME];
-  var C = Base;
-  var ADDER = IS_MAP ? 'set' : 'add';
-  var proto = C && C.prototype;
-  var O = {};
-  if (!DESCRIPTORS || typeof C != 'function' || !(IS_WEAK || proto.forEach && !fails(function () {
-    new C().entries().next();
-  }))) {
-    // create collection constructor
-    C = common.getConstructor(wrapper, NAME, IS_MAP, ADDER);
-    redefineAll(C.prototype, methods);
-    meta.NEED = true;
-  } else {
-    C = wrapper(function (target, iterable) {
-      anInstance(target, C, NAME, '_c');
-      target._c = new Base();
-      if (iterable != undefined) forOf(iterable, IS_MAP, target[ADDER], target);
-    });
-    each('add,clear,delete,forEach,get,has,set,keys,values,entries,toJSON'.split(','), function (KEY) {
-      var IS_ADDER = KEY == 'add' || KEY == 'set';
-      if (KEY in proto && !(IS_WEAK && KEY == 'clear')) hide(C.prototype, KEY, function (a, b) {
-        anInstance(this, C, KEY);
-        if (!IS_ADDER && IS_WEAK && !isObject(a)) return KEY == 'get' ? undefined : false;
-        var result = this._c[KEY](a === 0 ? 0 : a, b);
-        return IS_ADDER ? this : result;
-      });
-    });
-    IS_WEAK || dP(C.prototype, 'size', {
-      get: function () {
-        return this._c.size;
-      }
-    });
-  }
-
-  setToStringTag(C, NAME);
-
-  O[NAME] = C;
-  $export($export.G + $export.W + $export.F, O);
-
-  if (!IS_WEAK) common.setStrong(C, NAME, IS_MAP);
-
-  return C;
-};
-
+eval("\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar meta = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\");\nvar fails = __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar redefineAll = __webpack_require__(/*! ./_redefine-all */ \"./node_modules/core-js/library/modules/_redefine-all.js\");\nvar forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\nvar anInstance = __webpack_require__(/*! ./_an-instance */ \"./node_modules/core-js/library/modules/_an-instance.js\");\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar each = __webpack_require__(/*! ./_array-methods */ \"./node_modules/core-js/library/modules/_array-methods.js\")(0);\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\n\nmodule.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {\n  var Base = global[NAME];\n  var C = Base;\n  var ADDER = IS_MAP ? 'set' : 'add';\n  var proto = C && C.prototype;\n  var O = {};\n  if (!DESCRIPTORS || typeof C != 'function' || !(IS_WEAK || proto.forEach && !fails(function () {\n    new C().entries().next();\n  }))) {\n    // create collection constructor\n    C = common.getConstructor(wrapper, NAME, IS_MAP, ADDER);\n    redefineAll(C.prototype, methods);\n    meta.NEED = true;\n  } else {\n    C = wrapper(function (target, iterable) {\n      anInstance(target, C, NAME, '_c');\n      target._c = new Base();\n      if (iterable != undefined) forOf(iterable, IS_MAP, target[ADDER], target);\n    });\n    each('add,clear,delete,forEach,get,has,set,keys,values,entries,toJSON'.split(','), function (KEY) {\n      var IS_ADDER = KEY == 'add' || KEY == 'set';\n      if (KEY in proto && !(IS_WEAK && KEY == 'clear')) hide(C.prototype, KEY, function (a, b) {\n        anInstance(this, C, KEY);\n        if (!IS_ADDER && IS_WEAK && !isObject(a)) return KEY == 'get' ? undefined : false;\n        var result = this._c[KEY](a === 0 ? 0 : a, b);\n        return IS_ADDER ? this : result;\n      });\n    });\n    IS_WEAK || dP(C.prototype, 'size', {\n      get: function () {\n        return this._c.size;\n      }\n    });\n  }\n\n  setToStringTag(C, NAME);\n\n  O[NAME] = C;\n  $export($export.G + $export.W + $export.F, O);\n\n  if (!IS_WEAK) common.setStrong(C, NAME, IS_MAP);\n\n  return C;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_collection.js?");
 
 /***/ }),
 
@@ -1098,9 +563,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.5.7' };
-if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
+eval("var core = module.exports = { version: '2.5.7' };\nif (typeof __e == 'number') __e = core; // eslint-disable-line no-undef\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_core.js?");
 
 /***/ }),
 
@@ -1111,27 +574,7 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// optional / simple context binding
-var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
-module.exports = function (fn, that, length) {
-  aFunction(fn);
-  if (that === undefined) return fn;
-  switch (length) {
-    case 1: return function (a) {
-      return fn.call(that, a);
-    };
-    case 2: return function (a, b) {
-      return fn.call(that, a, b);
-    };
-    case 3: return function (a, b, c) {
-      return fn.call(that, a, b, c);
-    };
-  }
-  return function (/* ...args */) {
-    return fn.apply(that, arguments);
-  };
-};
-
+eval("// optional / simple context binding\nvar aFunction = __webpack_require__(/*! ./_a-function */ \"./node_modules/core-js/library/modules/_a-function.js\");\nmodule.exports = function (fn, that, length) {\n  aFunction(fn);\n  if (that === undefined) return fn;\n  switch (length) {\n    case 1: return function (a) {\n      return fn.call(that, a);\n    };\n    case 2: return function (a, b) {\n      return fn.call(that, a, b);\n    };\n    case 3: return function (a, b, c) {\n      return fn.call(that, a, b, c);\n    };\n  }\n  return function (/* ...args */) {\n    return fn.apply(that, arguments);\n  };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_ctx.js?");
 
 /***/ }),
 
@@ -1142,12 +585,7 @@ module.exports = function (fn, that, length) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// 7.2.1 RequireObjectCoercible(argument)
-module.exports = function (it) {
-  if (it == undefined) throw TypeError("Can't call method on  " + it);
-  return it;
-};
-
+eval("// 7.2.1 RequireObjectCoercible(argument)\nmodule.exports = function (it) {\n  if (it == undefined) throw TypeError(\"Can't call method on  \" + it);\n  return it;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_defined.js?");
 
 /***/ }),
 
@@ -1158,11 +596,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
-  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
-});
-
+eval("// Thank's IE8 for his funny defineProperty\nmodule.exports = !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;\n});\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_descriptors.js?");
 
 /***/ }),
 
@@ -1173,14 +607,7 @@ module.exports = !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/li
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var document = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").document;
-// typeof document.createElement is 'object' in old IE
-var is = isObject(document) && isObject(document.createElement);
-module.exports = function (it) {
-  return is ? document.createElement(it) : {};
-};
-
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar document = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").document;\n// typeof document.createElement is 'object' in old IE\nvar is = isObject(document) && isObject(document.createElement);\nmodule.exports = function (it) {\n  return is ? document.createElement(it) : {};\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_dom-create.js?");
 
 /***/ }),
 
@@ -1191,11 +618,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// IE 8- don't enum bug keys
-module.exports = (
-  'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
-).split(',');
-
+eval("// IE 8- don't enum bug keys\nmodule.exports = (\n  'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'\n).split(',');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_enum-bug-keys.js?");
 
 /***/ }),
 
@@ -1206,22 +629,7 @@ module.exports = (
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
-var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
-var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
-module.exports = function (it) {
-  var result = getKeys(it);
-  var getSymbols = gOPS.f;
-  if (getSymbols) {
-    var symbols = getSymbols(it);
-    var isEnum = pIE.f;
-    var i = 0;
-    var key;
-    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);
-  } return result;
-};
-
+eval("// all enumerable object keys, includes symbols\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar gOPS = __webpack_require__(/*! ./_object-gops */ \"./node_modules/core-js/library/modules/_object-gops.js\");\nvar pIE = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\");\nmodule.exports = function (it) {\n  var result = getKeys(it);\n  var getSymbols = gOPS.f;\n  if (getSymbols) {\n    var symbols = getSymbols(it);\n    var isEnum = pIE.f;\n    var i = 0;\n    var key;\n    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);\n  } return result;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_enum-keys.js?");
 
 /***/ }),
 
@@ -1232,69 +640,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var PROTOTYPE = 'prototype';
-
-var $export = function (type, name, source) {
-  var IS_FORCED = type & $export.F;
-  var IS_GLOBAL = type & $export.G;
-  var IS_STATIC = type & $export.S;
-  var IS_PROTO = type & $export.P;
-  var IS_BIND = type & $export.B;
-  var IS_WRAP = type & $export.W;
-  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});
-  var expProto = exports[PROTOTYPE];
-  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];
-  var key, own, out;
-  if (IS_GLOBAL) source = name;
-  for (key in source) {
-    // contains in native
-    own = !IS_FORCED && target && target[key] !== undefined;
-    if (own && has(exports, key)) continue;
-    // export native or passed
-    out = own ? target[key] : source[key];
-    // prevent global pollution for namespaces
-    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
-    // bind timers to global for call from export context
-    : IS_BIND && own ? ctx(out, global)
-    // wrap global constructors for prevent change them in library
-    : IS_WRAP && target[key] == out ? (function (C) {
-      var F = function (a, b, c) {
-        if (this instanceof C) {
-          switch (arguments.length) {
-            case 0: return new C();
-            case 1: return new C(a);
-            case 2: return new C(a, b);
-          } return new C(a, b, c);
-        } return C.apply(this, arguments);
-      };
-      F[PROTOTYPE] = C[PROTOTYPE];
-      return F;
-    // make static versions for prototype methods
-    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
-    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
-    if (IS_PROTO) {
-      (exports.virtual || (exports.virtual = {}))[key] = out;
-      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
-      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);
-    }
-  }
-};
-// type bitmap
-$export.F = 1;   // forced
-$export.G = 2;   // global
-$export.S = 4;   // static
-$export.P = 8;   // proto
-$export.B = 16;  // bind
-$export.W = 32;  // wrap
-$export.U = 64;  // safe
-$export.R = 128; // real proto method for `library`
-module.exports = $export;
-
+eval("var global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar PROTOTYPE = 'prototype';\n\nvar $export = function (type, name, source) {\n  var IS_FORCED = type & $export.F;\n  var IS_GLOBAL = type & $export.G;\n  var IS_STATIC = type & $export.S;\n  var IS_PROTO = type & $export.P;\n  var IS_BIND = type & $export.B;\n  var IS_WRAP = type & $export.W;\n  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});\n  var expProto = exports[PROTOTYPE];\n  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];\n  var key, own, out;\n  if (IS_GLOBAL) source = name;\n  for (key in source) {\n    // contains in native\n    own = !IS_FORCED && target && target[key] !== undefined;\n    if (own && has(exports, key)) continue;\n    // export native or passed\n    out = own ? target[key] : source[key];\n    // prevent global pollution for namespaces\n    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]\n    // bind timers to global for call from export context\n    : IS_BIND && own ? ctx(out, global)\n    // wrap global constructors for prevent change them in library\n    : IS_WRAP && target[key] == out ? (function (C) {\n      var F = function (a, b, c) {\n        if (this instanceof C) {\n          switch (arguments.length) {\n            case 0: return new C();\n            case 1: return new C(a);\n            case 2: return new C(a, b);\n          } return new C(a, b, c);\n        } return C.apply(this, arguments);\n      };\n      F[PROTOTYPE] = C[PROTOTYPE];\n      return F;\n    // make static versions for prototype methods\n    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;\n    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%\n    if (IS_PROTO) {\n      (exports.virtual || (exports.virtual = {}))[key] = out;\n      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%\n      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);\n    }\n  }\n};\n// type bitmap\n$export.F = 1;   // forced\n$export.G = 2;   // global\n$export.S = 4;   // static\n$export.P = 8;   // proto\n$export.B = 16;  // bind\n$export.W = 32;  // wrap\n$export.U = 64;  // safe\n$export.R = 128; // real proto method for `library`\nmodule.exports = $export;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_export.js?");
 
 /***/ }),
 
@@ -1305,14 +651,7 @@ module.exports = $export;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (exec) {
-  try {
-    return !!exec();
-  } catch (e) {
-    return true;
-  }
-};
-
+eval("module.exports = function (exec) {\n  try {\n    return !!exec();\n  } catch (e) {\n    return true;\n  }\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_fails.js?");
 
 /***/ }),
 
@@ -1323,32 +662,7 @@ module.exports = function (exec) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
-var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
-var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js");
-var BREAK = {};
-var RETURN = {};
-var exports = module.exports = function (iterable, entries, fn, that, ITERATOR) {
-  var iterFn = ITERATOR ? function () { return iterable; } : getIterFn(iterable);
-  var f = ctx(fn, that, entries ? 2 : 1);
-  var index = 0;
-  var length, step, iterator, result;
-  if (typeof iterFn != 'function') throw TypeError(iterable + ' is not iterable!');
-  // fast case for arrays with default iterator
-  if (isArrayIter(iterFn)) for (length = toLength(iterable.length); length > index; index++) {
-    result = entries ? f(anObject(step = iterable[index])[0], step[1]) : f(iterable[index]);
-    if (result === BREAK || result === RETURN) return result;
-  } else for (iterator = iterFn.call(iterable); !(step = iterator.next()).done;) {
-    result = call(iterator, f, step.value, entries);
-    if (result === BREAK || result === RETURN) return result;
-  }
-};
-exports.BREAK = BREAK;
-exports.RETURN = RETURN;
-
+eval("var ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar call = __webpack_require__(/*! ./_iter-call */ \"./node_modules/core-js/library/modules/_iter-call.js\");\nvar isArrayIter = __webpack_require__(/*! ./_is-array-iter */ \"./node_modules/core-js/library/modules/_is-array-iter.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar toLength = __webpack_require__(/*! ./_to-length */ \"./node_modules/core-js/library/modules/_to-length.js\");\nvar getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ \"./node_modules/core-js/library/modules/core.get-iterator-method.js\");\nvar BREAK = {};\nvar RETURN = {};\nvar exports = module.exports = function (iterable, entries, fn, that, ITERATOR) {\n  var iterFn = ITERATOR ? function () { return iterable; } : getIterFn(iterable);\n  var f = ctx(fn, that, entries ? 2 : 1);\n  var index = 0;\n  var length, step, iterator, result;\n  if (typeof iterFn != 'function') throw TypeError(iterable + ' is not iterable!');\n  // fast case for arrays with default iterator\n  if (isArrayIter(iterFn)) for (length = toLength(iterable.length); length > index; index++) {\n    result = entries ? f(anObject(step = iterable[index])[0], step[1]) : f(iterable[index]);\n    if (result === BREAK || result === RETURN) return result;\n  } else for (iterator = iterFn.call(iterable); !(step = iterator.next()).done;) {\n    result = call(iterator, f, step.value, entries);\n    if (result === BREAK || result === RETURN) return result;\n  }\n};\nexports.BREAK = BREAK;\nexports.RETURN = RETURN;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_for-of.js?");
 
 /***/ }),
 
@@ -1359,13 +673,7 @@ exports.RETURN = RETURN;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-var global = module.exports = typeof window != 'undefined' && window.Math == Math
-  ? window : typeof self != 'undefined' && self.Math == Math ? self
-  // eslint-disable-next-line no-new-func
-  : Function('return this')();
-if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
-
+eval("// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028\nvar global = module.exports = typeof window != 'undefined' && window.Math == Math\n  ? window : typeof self != 'undefined' && self.Math == Math ? self\n  // eslint-disable-next-line no-new-func\n  : Function('return this')();\nif (typeof __g == 'number') __g = global; // eslint-disable-line no-undef\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_global.js?");
 
 /***/ }),
 
@@ -1376,11 +684,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var hasOwnProperty = {}.hasOwnProperty;
-module.exports = function (it, key) {
-  return hasOwnProperty.call(it, key);
-};
-
+eval("var hasOwnProperty = {}.hasOwnProperty;\nmodule.exports = function (it, key) {\n  return hasOwnProperty.call(it, key);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_has.js?");
 
 /***/ }),
 
@@ -1391,15 +695,7 @@ module.exports = function (it, key) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
-module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? function (object, key, value) {
-  return dP.f(object, key, createDesc(1, value));
-} : function (object, key, value) {
-  object[key] = value;
-  return object;
-};
-
+eval("var dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nmodule.exports = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? function (object, key, value) {\n  return dP.f(object, key, createDesc(1, value));\n} : function (object, key, value) {\n  object[key] = value;\n  return object;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_hide.js?");
 
 /***/ }),
 
@@ -1410,9 +706,7 @@ module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var document = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").document;
-module.exports = document && document.documentElement;
-
+eval("var document = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").document;\nmodule.exports = document && document.documentElement;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_html.js?");
 
 /***/ }),
 
@@ -1423,10 +717,7 @@ module.exports = document && document.documentElement;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") && !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
-  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ "./node_modules/core-js/library/modules/_dom-create.js")('div'), 'a', { get: function () { return 7; } }).a != 7;
-});
-
+eval("module.exports = !__webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") && !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return Object.defineProperty(__webpack_require__(/*! ./_dom-create */ \"./node_modules/core-js/library/modules/_dom-create.js\")('div'), 'a', { get: function () { return 7; } }).a != 7;\n});\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_ie8-dom-define.js?");
 
 /***/ }),
 
@@ -1437,13 +728,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "./node_modules/core
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// fallback for non-array-like ES3 and non-enumerable old V8 strings
-var cof = __webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js");
-// eslint-disable-next-line no-prototype-builtins
-module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
-  return cof(it) == 'String' ? it.split('') : Object(it);
-};
-
+eval("// fallback for non-array-like ES3 and non-enumerable old V8 strings\nvar cof = __webpack_require__(/*! ./_cof */ \"./node_modules/core-js/library/modules/_cof.js\");\n// eslint-disable-next-line no-prototype-builtins\nmodule.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {\n  return cof(it) == 'String' ? it.split('') : Object(it);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_iobject.js?");
 
 /***/ }),
 
@@ -1454,15 +739,7 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// check on default Array iterator
-var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
-var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
-var ArrayProto = Array.prototype;
-
-module.exports = function (it) {
-  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
-};
-
+eval("// check on default Array iterator\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar ITERATOR = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator');\nvar ArrayProto = Array.prototype;\n\nmodule.exports = function (it) {\n  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_is-array-iter.js?");
 
 /***/ }),
 
@@ -1473,12 +750,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 7.2.2 IsArray(argument)
-var cof = __webpack_require__(/*! ./_cof */ "./node_modules/core-js/library/modules/_cof.js");
-module.exports = Array.isArray || function isArray(arg) {
-  return cof(arg) == 'Array';
-};
-
+eval("// 7.2.2 IsArray(argument)\nvar cof = __webpack_require__(/*! ./_cof */ \"./node_modules/core-js/library/modules/_cof.js\");\nmodule.exports = Array.isArray || function isArray(arg) {\n  return cof(arg) == 'Array';\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_is-array.js?");
 
 /***/ }),
 
@@ -1489,10 +761,7 @@ module.exports = Array.isArray || function isArray(arg) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (it) {
-  return typeof it === 'object' ? it !== null : typeof it === 'function';
-};
-
+eval("module.exports = function (it) {\n  return typeof it === 'object' ? it !== null : typeof it === 'function';\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_is-object.js?");
 
 /***/ }),
 
@@ -1503,19 +772,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// call something on iterator step with safe closing on error
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-module.exports = function (iterator, fn, value, entries) {
-  try {
-    return entries ? fn(anObject(value)[0], value[1]) : fn(value);
-  // 7.4.6 IteratorClose(iterator, completion)
-  } catch (e) {
-    var ret = iterator['return'];
-    if (ret !== undefined) anObject(ret.call(iterator));
-    throw e;
-  }
-};
-
+eval("// call something on iterator step with safe closing on error\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nmodule.exports = function (iterator, fn, value, entries) {\n  try {\n    return entries ? fn(anObject(value)[0], value[1]) : fn(value);\n  // 7.4.6 IteratorClose(iterator, completion)\n  } catch (e) {\n    var ret = iterator['return'];\n    if (ret !== undefined) anObject(ret.call(iterator));\n    throw e;\n  }\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_iter-call.js?");
 
 /***/ }),
 
@@ -1527,20 +784,7 @@ module.exports = function (iterator, fn, value, entries) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var create = __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js");
-var descriptor = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
-var IteratorPrototype = {};
-
-// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js")(IteratorPrototype, __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator'), function () { return this; });
-
-module.exports = function (Constructor, NAME, next) {
-  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
-  setToStringTag(Constructor, NAME + ' Iterator');
-};
-
+eval("\nvar create = __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\");\nvar descriptor = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar IteratorPrototype = {};\n\n// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()\n__webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\")(IteratorPrototype, __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator'), function () { return this; });\n\nmodule.exports = function (Constructor, NAME, next) {\n  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });\n  setToStringTag(Constructor, NAME + ' Iterator');\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_iter-create.js?");
 
 /***/ }),
 
@@ -1552,76 +796,7 @@ module.exports = function (Constructor, NAME, next) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var LIBRARY = __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js");
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-var redefine = __webpack_require__(/*! ./_redefine */ "./node_modules/core-js/library/modules/_redefine.js");
-var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
-var $iterCreate = __webpack_require__(/*! ./_iter-create */ "./node_modules/core-js/library/modules/_iter-create.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
-var getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/core-js/library/modules/_object-gpo.js");
-var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
-var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
-var FF_ITERATOR = '@@iterator';
-var KEYS = 'keys';
-var VALUES = 'values';
-
-var returnThis = function () { return this; };
-
-module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {
-  $iterCreate(Constructor, NAME, next);
-  var getMethod = function (kind) {
-    if (!BUGGY && kind in proto) return proto[kind];
-    switch (kind) {
-      case KEYS: return function keys() { return new Constructor(this, kind); };
-      case VALUES: return function values() { return new Constructor(this, kind); };
-    } return function entries() { return new Constructor(this, kind); };
-  };
-  var TAG = NAME + ' Iterator';
-  var DEF_VALUES = DEFAULT == VALUES;
-  var VALUES_BUG = false;
-  var proto = Base.prototype;
-  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];
-  var $default = $native || getMethod(DEFAULT);
-  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
-  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;
-  var methods, key, IteratorPrototype;
-  // Fix native
-  if ($anyNative) {
-    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));
-    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {
-      // Set @@toStringTag to native iterators
-      setToStringTag(IteratorPrototype, TAG, true);
-      // fix for some old engines
-      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);
-    }
-  }
-  // fix Array#{values, @@iterator}.name in V8 / FF
-  if (DEF_VALUES && $native && $native.name !== VALUES) {
-    VALUES_BUG = true;
-    $default = function values() { return $native.call(this); };
-  }
-  // Define iterator
-  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {
-    hide(proto, ITERATOR, $default);
-  }
-  // Plug for library
-  Iterators[NAME] = $default;
-  Iterators[TAG] = returnThis;
-  if (DEFAULT) {
-    methods = {
-      values: DEF_VALUES ? $default : getMethod(VALUES),
-      keys: IS_SET ? $default : getMethod(KEYS),
-      entries: $entries
-    };
-    if (FORCED) for (key in methods) {
-      if (!(key in proto)) redefine(proto, key, methods[key]);
-    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);
-  }
-  return methods;
-};
-
+eval("\nvar LIBRARY = __webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\");\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar redefine = __webpack_require__(/*! ./_redefine */ \"./node_modules/core-js/library/modules/_redefine.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar $iterCreate = __webpack_require__(/*! ./_iter-create */ \"./node_modules/core-js/library/modules/_iter-create.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ \"./node_modules/core-js/library/modules/_object-gpo.js\");\nvar ITERATOR = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator');\nvar BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`\nvar FF_ITERATOR = '@@iterator';\nvar KEYS = 'keys';\nvar VALUES = 'values';\n\nvar returnThis = function () { return this; };\n\nmodule.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCED) {\n  $iterCreate(Constructor, NAME, next);\n  var getMethod = function (kind) {\n    if (!BUGGY && kind in proto) return proto[kind];\n    switch (kind) {\n      case KEYS: return function keys() { return new Constructor(this, kind); };\n      case VALUES: return function values() { return new Constructor(this, kind); };\n    } return function entries() { return new Constructor(this, kind); };\n  };\n  var TAG = NAME + ' Iterator';\n  var DEF_VALUES = DEFAULT == VALUES;\n  var VALUES_BUG = false;\n  var proto = Base.prototype;\n  var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];\n  var $default = $native || getMethod(DEFAULT);\n  var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;\n  var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;\n  var methods, key, IteratorPrototype;\n  // Fix native\n  if ($anyNative) {\n    IteratorPrototype = getPrototypeOf($anyNative.call(new Base()));\n    if (IteratorPrototype !== Object.prototype && IteratorPrototype.next) {\n      // Set @@toStringTag to native iterators\n      setToStringTag(IteratorPrototype, TAG, true);\n      // fix for some old engines\n      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);\n    }\n  }\n  // fix Array#{values, @@iterator}.name in V8 / FF\n  if (DEF_VALUES && $native && $native.name !== VALUES) {\n    VALUES_BUG = true;\n    $default = function values() { return $native.call(this); };\n  }\n  // Define iterator\n  if ((!LIBRARY || FORCED) && (BUGGY || VALUES_BUG || !proto[ITERATOR])) {\n    hide(proto, ITERATOR, $default);\n  }\n  // Plug for library\n  Iterators[NAME] = $default;\n  Iterators[TAG] = returnThis;\n  if (DEFAULT) {\n    methods = {\n      values: DEF_VALUES ? $default : getMethod(VALUES),\n      keys: IS_SET ? $default : getMethod(KEYS),\n      entries: $entries\n    };\n    if (FORCED) for (key in methods) {\n      if (!(key in proto)) redefine(proto, key, methods[key]);\n    } else $export($export.P + $export.F * (BUGGY || VALUES_BUG), NAME, methods);\n  }\n  return methods;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_iter-define.js?");
 
 /***/ }),
 
@@ -1632,10 +807,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (done, value) {
-  return { value: value, done: !!done };
-};
-
+eval("module.exports = function (done, value) {\n  return { value: value, done: !!done };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_iter-step.js?");
 
 /***/ }),
 
@@ -1646,8 +818,7 @@ module.exports = function (done, value) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {};
-
+eval("module.exports = {};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_iterators.js?");
 
 /***/ }),
 
@@ -1658,8 +829,7 @@ module.exports = {};
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = true;
-
+eval("module.exports = true;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_library.js?");
 
 /***/ }),
 
@@ -1670,60 +840,7 @@ module.exports = true;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var META = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js")('meta');
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var setDesc = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
-var id = 0;
-var isExtensible = Object.isExtensible || function () {
-  return true;
-};
-var FREEZE = !__webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
-  return isExtensible(Object.preventExtensions({}));
-});
-var setMeta = function (it) {
-  setDesc(it, META, { value: {
-    i: 'O' + ++id, // object ID
-    w: {}          // weak collections IDs
-  } });
-};
-var fastKey = function (it, create) {
-  // return primitive with prefix
-  if (!isObject(it)) return typeof it == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;
-  if (!has(it, META)) {
-    // can't set metadata to uncaught frozen object
-    if (!isExtensible(it)) return 'F';
-    // not necessary to add metadata
-    if (!create) return 'E';
-    // add missing metadata
-    setMeta(it);
-  // return object ID
-  } return it[META].i;
-};
-var getWeak = function (it, create) {
-  if (!has(it, META)) {
-    // can't set metadata to uncaught frozen object
-    if (!isExtensible(it)) return true;
-    // not necessary to add metadata
-    if (!create) return false;
-    // add missing metadata
-    setMeta(it);
-  // return hash weak collections IDs
-  } return it[META].w;
-};
-// add metadata on freeze-family methods calling
-var onFreeze = function (it) {
-  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);
-  return it;
-};
-var meta = module.exports = {
-  KEY: META,
-  NEED: false,
-  fastKey: fastKey,
-  getWeak: getWeak,
-  onFreeze: onFreeze
-};
-
+eval("var META = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\")('meta');\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar setDesc = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar id = 0;\nvar isExtensible = Object.isExtensible || function () {\n  return true;\n};\nvar FREEZE = !__webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  return isExtensible(Object.preventExtensions({}));\n});\nvar setMeta = function (it) {\n  setDesc(it, META, { value: {\n    i: 'O' + ++id, // object ID\n    w: {}          // weak collections IDs\n  } });\n};\nvar fastKey = function (it, create) {\n  // return primitive with prefix\n  if (!isObject(it)) return typeof it == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;\n  if (!has(it, META)) {\n    // can't set metadata to uncaught frozen object\n    if (!isExtensible(it)) return 'F';\n    // not necessary to add metadata\n    if (!create) return 'E';\n    // add missing metadata\n    setMeta(it);\n  // return object ID\n  } return it[META].i;\n};\nvar getWeak = function (it, create) {\n  if (!has(it, META)) {\n    // can't set metadata to uncaught frozen object\n    if (!isExtensible(it)) return true;\n    // not necessary to add metadata\n    if (!create) return false;\n    // add missing metadata\n    setMeta(it);\n  // return hash weak collections IDs\n  } return it[META].w;\n};\n// add metadata on freeze-family methods calling\nvar onFreeze = function (it) {\n  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);\n  return it;\n};\nvar meta = module.exports = {\n  KEY: META,\n  NEED: false,\n  fastKey: fastKey,\n  getWeak: getWeak,\n  onFreeze: onFreeze\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_meta.js?");
 
 /***/ }),
 
@@ -1735,41 +852,7 @@ var meta = module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-// 19.1.2.1 Object.assign(target, source, ...)
-var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
-var gOPS = __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js");
-var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
-var $assign = Object.assign;
-
-// should work with symbols and should have deterministic property order (V8 bug)
-module.exports = !$assign || __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js")(function () {
-  var A = {};
-  var B = {};
-  // eslint-disable-next-line no-undef
-  var S = Symbol();
-  var K = 'abcdefghijklmnopqrst';
-  A[S] = 7;
-  K.split('').forEach(function (k) { B[k] = k; });
-  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;
-}) ? function assign(target, source) { // eslint-disable-line no-unused-vars
-  var T = toObject(target);
-  var aLen = arguments.length;
-  var index = 1;
-  var getSymbols = gOPS.f;
-  var isEnum = pIE.f;
-  while (aLen > index) {
-    var S = IObject(arguments[index++]);
-    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);
-    var length = keys.length;
-    var j = 0;
-    var key;
-    while (length > j) if (isEnum.call(S, key = keys[j++])) T[key] = S[key];
-  } return T;
-} : $assign;
-
+eval("\n// 19.1.2.1 Object.assign(target, source, ...)\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar gOPS = __webpack_require__(/*! ./_object-gops */ \"./node_modules/core-js/library/modules/_object-gops.js\");\nvar pIE = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar IObject = __webpack_require__(/*! ./_iobject */ \"./node_modules/core-js/library/modules/_iobject.js\");\nvar $assign = Object.assign;\n\n// should work with symbols and should have deterministic property order (V8 bug)\nmodule.exports = !$assign || __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\")(function () {\n  var A = {};\n  var B = {};\n  // eslint-disable-next-line no-undef\n  var S = Symbol();\n  var K = 'abcdefghijklmnopqrst';\n  A[S] = 7;\n  K.split('').forEach(function (k) { B[k] = k; });\n  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;\n}) ? function assign(target, source) { // eslint-disable-line no-unused-vars\n  var T = toObject(target);\n  var aLen = arguments.length;\n  var index = 1;\n  var getSymbols = gOPS.f;\n  var isEnum = pIE.f;\n  while (aLen > index) {\n    var S = IObject(arguments[index++]);\n    var keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S);\n    var length = keys.length;\n    var j = 0;\n    var key;\n    while (length > j) if (isEnum.call(S, key = keys[j++])) T[key] = S[key];\n  } return T;\n} : $assign;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-assign.js?");
 
 /***/ }),
 
@@ -1780,48 +863,7 @@ module.exports = !$assign || __webpack_require__(/*! ./_fails */ "./node_modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var dPs = __webpack_require__(/*! ./_object-dps */ "./node_modules/core-js/library/modules/_object-dps.js");
-var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "./node_modules/core-js/library/modules/_enum-bug-keys.js");
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "./node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
-var Empty = function () { /* empty */ };
-var PROTOTYPE = 'prototype';
-
-// Create object with fake `null` prototype: use iframe Object with cleared prototype
-var createDict = function () {
-  // Thrash, waste and sodomy: IE GC bug
-  var iframe = __webpack_require__(/*! ./_dom-create */ "./node_modules/core-js/library/modules/_dom-create.js")('iframe');
-  var i = enumBugKeys.length;
-  var lt = '<';
-  var gt = '>';
-  var iframeDocument;
-  iframe.style.display = 'none';
-  __webpack_require__(/*! ./_html */ "./node_modules/core-js/library/modules/_html.js").appendChild(iframe);
-  iframe.src = 'javascript:'; // eslint-disable-line no-script-url
-  // createDict = iframe.contentWindow.Object;
-  // html.removeChild(iframe);
-  iframeDocument = iframe.contentWindow.document;
-  iframeDocument.open();
-  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);
-  iframeDocument.close();
-  createDict = iframeDocument.F;
-  while (i--) delete createDict[PROTOTYPE][enumBugKeys[i]];
-  return createDict();
-};
-
-module.exports = Object.create || function create(O, Properties) {
-  var result;
-  if (O !== null) {
-    Empty[PROTOTYPE] = anObject(O);
-    result = new Empty();
-    Empty[PROTOTYPE] = null;
-    // add "__proto__" for Object.getPrototypeOf polyfill
-    result[IE_PROTO] = O;
-  } else result = createDict();
-  return Properties === undefined ? result : dPs(result, Properties);
-};
-
+eval("// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar dPs = __webpack_require__(/*! ./_object-dps */ \"./node_modules/core-js/library/modules/_object-dps.js\");\nvar enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ \"./node_modules/core-js/library/modules/_enum-bug-keys.js\");\nvar IE_PROTO = __webpack_require__(/*! ./_shared-key */ \"./node_modules/core-js/library/modules/_shared-key.js\")('IE_PROTO');\nvar Empty = function () { /* empty */ };\nvar PROTOTYPE = 'prototype';\n\n// Create object with fake `null` prototype: use iframe Object with cleared prototype\nvar createDict = function () {\n  // Thrash, waste and sodomy: IE GC bug\n  var iframe = __webpack_require__(/*! ./_dom-create */ \"./node_modules/core-js/library/modules/_dom-create.js\")('iframe');\n  var i = enumBugKeys.length;\n  var lt = '<';\n  var gt = '>';\n  var iframeDocument;\n  iframe.style.display = 'none';\n  __webpack_require__(/*! ./_html */ \"./node_modules/core-js/library/modules/_html.js\").appendChild(iframe);\n  iframe.src = 'javascript:'; // eslint-disable-line no-script-url\n  // createDict = iframe.contentWindow.Object;\n  // html.removeChild(iframe);\n  iframeDocument = iframe.contentWindow.document;\n  iframeDocument.open();\n  iframeDocument.write(lt + 'script' + gt + 'document.F=Object' + lt + '/script' + gt);\n  iframeDocument.close();\n  createDict = iframeDocument.F;\n  while (i--) delete createDict[PROTOTYPE][enumBugKeys[i]];\n  return createDict();\n};\n\nmodule.exports = Object.create || function create(O, Properties) {\n  var result;\n  if (O !== null) {\n    Empty[PROTOTYPE] = anObject(O);\n    result = new Empty();\n    Empty[PROTOTYPE] = null;\n    // add \"__proto__\" for Object.getPrototypeOf polyfill\n    result[IE_PROTO] = O;\n  } else result = createDict();\n  return Properties === undefined ? result : dPs(result, Properties);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-create.js?");
 
 /***/ }),
 
@@ -1832,23 +874,7 @@ module.exports = Object.create || function create(O, Properties) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ "./node_modules/core-js/library/modules/_ie8-dom-define.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "./node_modules/core-js/library/modules/_to-primitive.js");
-var dP = Object.defineProperty;
-
-exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? Object.defineProperty : function defineProperty(O, P, Attributes) {
-  anObject(O);
-  P = toPrimitive(P, true);
-  anObject(Attributes);
-  if (IE8_DOM_DEFINE) try {
-    return dP(O, P, Attributes);
-  } catch (e) { /* empty */ }
-  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');
-  if ('value' in Attributes) O[P] = Attributes.value;
-  return O;
-};
-
+eval("var anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ \"./node_modules/core-js/library/modules/_ie8-dom-define.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar dP = Object.defineProperty;\n\nexports.f = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? Object.defineProperty : function defineProperty(O, P, Attributes) {\n  anObject(O);\n  P = toPrimitive(P, true);\n  anObject(Attributes);\n  if (IE8_DOM_DEFINE) try {\n    return dP(O, P, Attributes);\n  } catch (e) { /* empty */ }\n  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');\n  if ('value' in Attributes) O[P] = Attributes.value;\n  return O;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-dp.js?");
 
 /***/ }),
 
@@ -1859,20 +885,7 @@ exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/li
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
-
-module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? Object.defineProperties : function defineProperties(O, Properties) {
-  anObject(O);
-  var keys = getKeys(Properties);
-  var length = keys.length;
-  var i = 0;
-  var P;
-  while (length > i) dP.f(O, P = keys[i++], Properties[P]);
-  return O;
-};
-
+eval("var dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar getKeys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\n\nmodule.exports = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? Object.defineProperties : function defineProperties(O, Properties) {\n  anObject(O);\n  var keys = getKeys(Properties);\n  var length = keys.length;\n  var i = 0;\n  var P;\n  while (length > i) dP.f(O, P = keys[i++], Properties[P]);\n  return O;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-dps.js?");
 
 /***/ }),
 
@@ -1883,23 +896,7 @@ module.exports = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var pIE = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "./node_modules/core-js/library/modules/_to-primitive.js");
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ "./node_modules/core-js/library/modules/_ie8-dom-define.js");
-var gOPD = Object.getOwnPropertyDescriptor;
-
-exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js") ? gOPD : function getOwnPropertyDescriptor(O, P) {
-  O = toIObject(O);
-  P = toPrimitive(P, true);
-  if (IE8_DOM_DEFINE) try {
-    return gOPD(O, P);
-  } catch (e) { /* empty */ }
-  if (has(O, P)) return createDesc(!pIE.f.call(O, P), O[P]);
-};
-
+eval("var pIE = __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar IE8_DOM_DEFINE = __webpack_require__(/*! ./_ie8-dom-define */ \"./node_modules/core-js/library/modules/_ie8-dom-define.js\");\nvar gOPD = Object.getOwnPropertyDescriptor;\n\nexports.f = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\") ? gOPD : function getOwnPropertyDescriptor(O, P) {\n  O = toIObject(O);\n  P = toPrimitive(P, true);\n  if (IE8_DOM_DEFINE) try {\n    return gOPD(O, P);\n  } catch (e) { /* empty */ }\n  if (has(O, P)) return createDesc(!pIE.f.call(O, P), O[P]);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-gopd.js?");
 
 /***/ }),
 
@@ -1910,26 +907,7 @@ exports.f = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/li
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
-var gOPN = __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js").f;
-var toString = {}.toString;
-
-var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
-  ? Object.getOwnPropertyNames(window) : [];
-
-var getWindowNames = function (it) {
-  try {
-    return gOPN(it);
-  } catch (e) {
-    return windowNames.slice();
-  }
-};
-
-module.exports.f = function getOwnPropertyNames(it) {
-  return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));
-};
-
+eval("// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar gOPN = __webpack_require__(/*! ./_object-gopn */ \"./node_modules/core-js/library/modules/_object-gopn.js\").f;\nvar toString = {}.toString;\n\nvar windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames\n  ? Object.getOwnPropertyNames(window) : [];\n\nvar getWindowNames = function (it) {\n  try {\n    return gOPN(it);\n  } catch (e) {\n    return windowNames.slice();\n  }\n};\n\nmodule.exports.f = function getOwnPropertyNames(it) {\n  return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-gopn-ext.js?");
 
 /***/ }),
 
@@ -1940,14 +918,7 @@ module.exports.f = function getOwnPropertyNames(it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ "./node_modules/core-js/library/modules/_object-keys-internal.js");
-var hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ "./node_modules/core-js/library/modules/_enum-bug-keys.js").concat('length', 'prototype');
-
-exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
-  return $keys(O, hiddenKeys);
-};
-
+eval("// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)\nvar $keys = __webpack_require__(/*! ./_object-keys-internal */ \"./node_modules/core-js/library/modules/_object-keys-internal.js\");\nvar hiddenKeys = __webpack_require__(/*! ./_enum-bug-keys */ \"./node_modules/core-js/library/modules/_enum-bug-keys.js\").concat('length', 'prototype');\n\nexports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {\n  return $keys(O, hiddenKeys);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-gopn.js?");
 
 /***/ }),
 
@@ -1958,8 +929,7 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-exports.f = Object.getOwnPropertySymbols;
-
+eval("exports.f = Object.getOwnPropertySymbols;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-gops.js?");
 
 /***/ }),
 
@@ -1970,20 +940,7 @@ exports.f = Object.getOwnPropertySymbols;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "./node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
-var ObjectProto = Object.prototype;
-
-module.exports = Object.getPrototypeOf || function (O) {
-  O = toObject(O);
-  if (has(O, IE_PROTO)) return O[IE_PROTO];
-  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
-    return O.constructor.prototype;
-  } return O instanceof Object ? ObjectProto : null;
-};
-
+eval("// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar IE_PROTO = __webpack_require__(/*! ./_shared-key */ \"./node_modules/core-js/library/modules/_shared-key.js\")('IE_PROTO');\nvar ObjectProto = Object.prototype;\n\nmodule.exports = Object.getPrototypeOf || function (O) {\n  O = toObject(O);\n  if (has(O, IE_PROTO)) return O[IE_PROTO];\n  if (typeof O.constructor == 'function' && O instanceof O.constructor) {\n    return O.constructor.prototype;\n  } return O instanceof Object ? ObjectProto : null;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-gpo.js?");
 
 /***/ }),
 
@@ -1994,24 +951,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
-var arrayIndexOf = __webpack_require__(/*! ./_array-includes */ "./node_modules/core-js/library/modules/_array-includes.js")(false);
-var IE_PROTO = __webpack_require__(/*! ./_shared-key */ "./node_modules/core-js/library/modules/_shared-key.js")('IE_PROTO');
-
-module.exports = function (object, names) {
-  var O = toIObject(object);
-  var i = 0;
-  var result = [];
-  var key;
-  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);
-  // Don't enum bug & hidden keys
-  while (names.length > i) if (has(O, key = names[i++])) {
-    ~arrayIndexOf(result, key) || result.push(key);
-  }
-  return result;
-};
-
+eval("var has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar arrayIndexOf = __webpack_require__(/*! ./_array-includes */ \"./node_modules/core-js/library/modules/_array-includes.js\")(false);\nvar IE_PROTO = __webpack_require__(/*! ./_shared-key */ \"./node_modules/core-js/library/modules/_shared-key.js\")('IE_PROTO');\n\nmodule.exports = function (object, names) {\n  var O = toIObject(object);\n  var i = 0;\n  var result = [];\n  var key;\n  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);\n  // Don't enum bug & hidden keys\n  while (names.length > i) if (has(O, key = names[i++])) {\n    ~arrayIndexOf(result, key) || result.push(key);\n  }\n  return result;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-keys-internal.js?");
 
 /***/ }),
 
@@ -2022,14 +962,7 @@ module.exports = function (object, names) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(/*! ./_object-keys-internal */ "./node_modules/core-js/library/modules/_object-keys-internal.js");
-var enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ "./node_modules/core-js/library/modules/_enum-bug-keys.js");
-
-module.exports = Object.keys || function keys(O) {
-  return $keys(O, enumBugKeys);
-};
-
+eval("// 19.1.2.14 / 15.2.3.14 Object.keys(O)\nvar $keys = __webpack_require__(/*! ./_object-keys-internal */ \"./node_modules/core-js/library/modules/_object-keys-internal.js\");\nvar enumBugKeys = __webpack_require__(/*! ./_enum-bug-keys */ \"./node_modules/core-js/library/modules/_enum-bug-keys.js\");\n\nmodule.exports = Object.keys || function keys(O) {\n  return $keys(O, enumBugKeys);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-keys.js?");
 
 /***/ }),
 
@@ -2040,8 +973,7 @@ module.exports = Object.keys || function keys(O) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-exports.f = {}.propertyIsEnumerable;
-
+eval("exports.f = {}.propertyIsEnumerable;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-pie.js?");
 
 /***/ }),
 
@@ -2052,17 +984,7 @@ exports.f = {}.propertyIsEnumerable;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// most Object methods by ES6 should accept primitives
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
-var fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
-module.exports = function (KEY, exec) {
-  var fn = (core.Object || {})[KEY] || Object[KEY];
-  var exp = {};
-  exp[KEY] = exec(fn);
-  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);
-};
-
+eval("// most Object methods by ES6 should accept primitives\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar fails = __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\");\nmodule.exports = function (KEY, exec) {\n  var fn = (core.Object || {})[KEY] || Object[KEY];\n  var exp = {};\n  exp[KEY] = exec(fn);\n  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_object-sap.js?");
 
 /***/ }),
 
@@ -2073,15 +995,7 @@ module.exports = function (KEY, exec) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = function (bitmap, value) {
-  return {
-    enumerable: !(bitmap & 1),
-    configurable: !(bitmap & 2),
-    writable: !(bitmap & 4),
-    value: value
-  };
-};
-
+eval("module.exports = function (bitmap, value) {\n  return {\n    enumerable: !(bitmap & 1),\n    configurable: !(bitmap & 2),\n    writable: !(bitmap & 4),\n    value: value\n  };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_property-desc.js?");
 
 /***/ }),
 
@@ -2092,14 +1006,7 @@ module.exports = function (bitmap, value) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-module.exports = function (target, src, safe) {
-  for (var key in src) {
-    if (safe && target[key]) target[key] = src[key];
-    else hide(target, key, src[key]);
-  } return target;
-};
-
+eval("var hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nmodule.exports = function (target, src, safe) {\n  for (var key in src) {\n    if (safe && target[key]) target[key] = src[key];\n    else hide(target, key, src[key]);\n  } return target;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_redefine-all.js?");
 
 /***/ }),
 
@@ -2110,8 +1017,7 @@ module.exports = function (target, src, safe) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-
+eval("module.exports = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_redefine.js?");
 
 /***/ }),
 
@@ -2123,35 +1029,7 @@ module.exports = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/libr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-// https://tc39.github.io/proposal-setmap-offrom/
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-var aFunction = __webpack_require__(/*! ./_a-function */ "./node_modules/core-js/library/modules/_a-function.js");
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var forOf = __webpack_require__(/*! ./_for-of */ "./node_modules/core-js/library/modules/_for-of.js");
-
-module.exports = function (COLLECTION) {
-  $export($export.S, COLLECTION, { from: function from(source /* , mapFn, thisArg */) {
-    var mapFn = arguments[1];
-    var mapping, A, n, cb;
-    aFunction(this);
-    mapping = mapFn !== undefined;
-    if (mapping) aFunction(mapFn);
-    if (source == undefined) return new this();
-    A = [];
-    if (mapping) {
-      n = 0;
-      cb = ctx(mapFn, arguments[2], 2);
-      forOf(source, false, function (nextItem) {
-        A.push(cb(nextItem, n++));
-      });
-    } else {
-      forOf(source, false, A.push, A);
-    }
-    return new this(A);
-  } });
-};
-
+eval("\n// https://tc39.github.io/proposal-setmap-offrom/\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar aFunction = __webpack_require__(/*! ./_a-function */ \"./node_modules/core-js/library/modules/_a-function.js\");\nvar ctx = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\");\nvar forOf = __webpack_require__(/*! ./_for-of */ \"./node_modules/core-js/library/modules/_for-of.js\");\n\nmodule.exports = function (COLLECTION) {\n  $export($export.S, COLLECTION, { from: function from(source /* , mapFn, thisArg */) {\n    var mapFn = arguments[1];\n    var mapping, A, n, cb;\n    aFunction(this);\n    mapping = mapFn !== undefined;\n    if (mapping) aFunction(mapFn);\n    if (source == undefined) return new this();\n    A = [];\n    if (mapping) {\n      n = 0;\n      cb = ctx(mapFn, arguments[2], 2);\n      forOf(source, false, function (nextItem) {\n        A.push(cb(nextItem, n++));\n      });\n    } else {\n      forOf(source, false, A.push, A);\n    }\n    return new this(A);\n  } });\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_set-collection-from.js?");
 
 /***/ }),
 
@@ -2163,19 +1041,7 @@ module.exports = function (COLLECTION) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-// https://tc39.github.io/proposal-setmap-offrom/
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-
-module.exports = function (COLLECTION) {
-  $export($export.S, COLLECTION, { of: function of() {
-    var length = arguments.length;
-    var A = new Array(length);
-    while (length--) A[length] = arguments[length];
-    return new this(A);
-  } });
-};
-
+eval("\n// https://tc39.github.io/proposal-setmap-offrom/\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n\nmodule.exports = function (COLLECTION) {\n  $export($export.S, COLLECTION, { of: function of() {\n    var length = arguments.length;\n    var A = new Array(length);\n    while (length--) A[length] = arguments[length];\n    return new this(A);\n  } });\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_set-collection-of.js?");
 
 /***/ }),
 
@@ -2186,32 +1052,7 @@ module.exports = function (COLLECTION) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// Works with __proto__ only. Old v8 can't work with null proto objects.
-/* eslint-disable no-proto */
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var check = function (O, proto) {
-  anObject(O);
-  if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
-};
-module.exports = {
-  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
-    function (test, buggy, set) {
-      try {
-        set = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js")(Function.call, __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js").f(Object.prototype, '__proto__').set, 2);
-        set(test, []);
-        buggy = !(test instanceof Array);
-      } catch (e) { buggy = true; }
-      return function setPrototypeOf(O, proto) {
-        check(O, proto);
-        if (buggy) O.__proto__ = proto;
-        else set(O, proto);
-        return O;
-      };
-    }({}, false) : undefined),
-  check: check
-};
-
+eval("// Works with __proto__ only. Old v8 can't work with null proto objects.\n/* eslint-disable no-proto */\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar check = function (O, proto) {\n  anObject(O);\n  if (!isObject(proto) && proto !== null) throw TypeError(proto + \": can't set as prototype!\");\n};\nmodule.exports = {\n  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line\n    function (test, buggy, set) {\n      try {\n        set = __webpack_require__(/*! ./_ctx */ \"./node_modules/core-js/library/modules/_ctx.js\")(Function.call, __webpack_require__(/*! ./_object-gopd */ \"./node_modules/core-js/library/modules/_object-gopd.js\").f(Object.prototype, '__proto__').set, 2);\n        set(test, []);\n        buggy = !(test instanceof Array);\n      } catch (e) { buggy = true; }\n      return function setPrototypeOf(O, proto) {\n        check(O, proto);\n        if (buggy) O.__proto__ = proto;\n        else set(O, proto);\n        return O;\n      };\n    }({}, false) : undefined),\n  check: check\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_set-proto.js?");
 
 /***/ }),
 
@@ -2223,21 +1064,7 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
-var dP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
-var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
-var SPECIES = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('species');
-
-module.exports = function (KEY) {
-  var C = typeof core[KEY] == 'function' ? core[KEY] : global[KEY];
-  if (DESCRIPTORS && C && !C[SPECIES]) dP.f(C, SPECIES, {
-    configurable: true,
-    get: function () { return this; }
-  });
-};
-
+eval("\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar dP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\nvar SPECIES = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('species');\n\nmodule.exports = function (KEY) {\n  var C = typeof core[KEY] == 'function' ? core[KEY] : global[KEY];\n  if (DESCRIPTORS && C && !C[SPECIES]) dP.f(C, SPECIES, {\n    configurable: true,\n    get: function () { return this; }\n  });\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_set-species.js?");
 
 /***/ }),
 
@@ -2248,14 +1075,7 @@ module.exports = function (KEY) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var def = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var TAG = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('toStringTag');
-
-module.exports = function (it, tag, stat) {
-  if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
-};
-
+eval("var def = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar TAG = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('toStringTag');\n\nmodule.exports = function (it, tag, stat) {\n  if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_set-to-string-tag.js?");
 
 /***/ }),
 
@@ -2266,12 +1086,7 @@ module.exports = function (it, tag, stat) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var shared = __webpack_require__(/*! ./_shared */ "./node_modules/core-js/library/modules/_shared.js")('keys');
-var uid = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js");
-module.exports = function (key) {
-  return shared[key] || (shared[key] = uid(key));
-};
-
+eval("var shared = __webpack_require__(/*! ./_shared */ \"./node_modules/core-js/library/modules/_shared.js\")('keys');\nvar uid = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\");\nmodule.exports = function (key) {\n  return shared[key] || (shared[key] = uid(key));\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_shared-key.js?");
 
 /***/ }),
 
@@ -2282,19 +1097,7 @@ module.exports = function (key) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var SHARED = '__core-js_shared__';
-var store = global[SHARED] || (global[SHARED] = {});
-
-(module.exports = function (key, value) {
-  return store[key] || (store[key] = value !== undefined ? value : {});
-})('versions', []).push({
-  version: core.version,
-  mode: __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js") ? 'pure' : 'global',
-  copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
-});
-
+eval("var core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar SHARED = '__core-js_shared__';\nvar store = global[SHARED] || (global[SHARED] = {});\n\n(module.exports = function (key, value) {\n  return store[key] || (store[key] = value !== undefined ? value : {});\n})('versions', []).push({\n  version: core.version,\n  mode: __webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\") ? 'pure' : 'global',\n  copyright: '© 2018 Denis Pushkarev (zloirock.ru)'\n});\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_shared.js?");
 
 /***/ }),
 
@@ -2305,24 +1108,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ./_to-integer */ "./node_modules/core-js/library/modules/_to-integer.js");
-var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
-// true  -> String#at
-// false -> String#codePointAt
-module.exports = function (TO_STRING) {
-  return function (that, pos) {
-    var s = String(defined(that));
-    var i = toInteger(pos);
-    var l = s.length;
-    var a, b;
-    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;
-    a = s.charCodeAt(i);
-    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff
-      ? TO_STRING ? s.charAt(i) : a
-      : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
-  };
-};
-
+eval("var toInteger = __webpack_require__(/*! ./_to-integer */ \"./node_modules/core-js/library/modules/_to-integer.js\");\nvar defined = __webpack_require__(/*! ./_defined */ \"./node_modules/core-js/library/modules/_defined.js\");\n// true  -> String#at\n// false -> String#codePointAt\nmodule.exports = function (TO_STRING) {\n  return function (that, pos) {\n    var s = String(defined(that));\n    var i = toInteger(pos);\n    var l = s.length;\n    var a, b;\n    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;\n    a = s.charCodeAt(i);\n    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff\n      ? TO_STRING ? s.charAt(i) : a\n      : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;\n  };\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_string-at.js?");
 
 /***/ }),
 
@@ -2333,14 +1119,7 @@ module.exports = function (TO_STRING) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(/*! ./_to-integer */ "./node_modules/core-js/library/modules/_to-integer.js");
-var max = Math.max;
-var min = Math.min;
-module.exports = function (index, length) {
-  index = toInteger(index);
-  return index < 0 ? max(index + length, 0) : min(index, length);
-};
-
+eval("var toInteger = __webpack_require__(/*! ./_to-integer */ \"./node_modules/core-js/library/modules/_to-integer.js\");\nvar max = Math.max;\nvar min = Math.min;\nmodule.exports = function (index, length) {\n  index = toInteger(index);\n  return index < 0 ? max(index + length, 0) : min(index, length);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_to-absolute-index.js?");
 
 /***/ }),
 
@@ -2351,13 +1130,7 @@ module.exports = function (index, length) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-// 7.1.4 ToInteger
-var ceil = Math.ceil;
-var floor = Math.floor;
-module.exports = function (it) {
-  return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);
-};
-
+eval("// 7.1.4 ToInteger\nvar ceil = Math.ceil;\nvar floor = Math.floor;\nmodule.exports = function (it) {\n  return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_to-integer.js?");
 
 /***/ }),
 
@@ -2368,13 +1141,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(/*! ./_iobject */ "./node_modules/core-js/library/modules/_iobject.js");
-var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
-module.exports = function (it) {
-  return IObject(defined(it));
-};
-
+eval("// to indexed object, toObject with fallback for non-array-like ES3 strings\nvar IObject = __webpack_require__(/*! ./_iobject */ \"./node_modules/core-js/library/modules/_iobject.js\");\nvar defined = __webpack_require__(/*! ./_defined */ \"./node_modules/core-js/library/modules/_defined.js\");\nmodule.exports = function (it) {\n  return IObject(defined(it));\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_to-iobject.js?");
 
 /***/ }),
 
@@ -2385,13 +1152,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 7.1.15 ToLength
-var toInteger = __webpack_require__(/*! ./_to-integer */ "./node_modules/core-js/library/modules/_to-integer.js");
-var min = Math.min;
-module.exports = function (it) {
-  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
-};
-
+eval("// 7.1.15 ToLength\nvar toInteger = __webpack_require__(/*! ./_to-integer */ \"./node_modules/core-js/library/modules/_to-integer.js\");\nvar min = Math.min;\nmodule.exports = function (it) {\n  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_to-length.js?");
 
 /***/ }),
 
@@ -2402,12 +1163,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 7.1.13 ToObject(argument)
-var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
-module.exports = function (it) {
-  return Object(defined(it));
-};
-
+eval("// 7.1.13 ToObject(argument)\nvar defined = __webpack_require__(/*! ./_defined */ \"./node_modules/core-js/library/modules/_defined.js\");\nmodule.exports = function (it) {\n  return Object(defined(it));\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_to-object.js?");
 
 /***/ }),
 
@@ -2418,19 +1174,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 7.1.1 ToPrimitive(input [, PreferredType])
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-// instead of the ES6 spec version, we didn't implement @@toPrimitive case
-// and the second argument - flag - preferred type is a string
-module.exports = function (it, S) {
-  if (!isObject(it)) return it;
-  var fn, val;
-  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;
-  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-  throw TypeError("Can't convert object to primitive value");
-};
-
+eval("// 7.1.1 ToPrimitive(input [, PreferredType])\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\n// instead of the ES6 spec version, we didn't implement @@toPrimitive case\n// and the second argument - flag - preferred type is a string\nmodule.exports = function (it, S) {\n  if (!isObject(it)) return it;\n  var fn, val;\n  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;\n  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;\n  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;\n  throw TypeError(\"Can't convert object to primitive value\");\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_to-primitive.js?");
 
 /***/ }),
 
@@ -2441,12 +1185,7 @@ module.exports = function (it, S) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var id = 0;
-var px = Math.random();
-module.exports = function (key) {
-  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));
-};
-
+eval("var id = 0;\nvar px = Math.random();\nmodule.exports = function (key) {\n  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_uid.js?");
 
 /***/ }),
 
@@ -2457,12 +1196,7 @@ module.exports = function (key) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-module.exports = function (it, TYPE) {
-  if (!isObject(it) || it._t !== TYPE) throw TypeError('Incompatible receiver, ' + TYPE + ' required!');
-  return it;
-};
-
+eval("var isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nmodule.exports = function (it, TYPE) {\n  if (!isObject(it) || it._t !== TYPE) throw TypeError('Incompatible receiver, ' + TYPE + ' required!');\n  return it;\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_validate-collection.js?");
 
 /***/ }),
 
@@ -2473,16 +1207,7 @@ module.exports = function (it, TYPE) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var core = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js");
-var LIBRARY = __webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js");
-var wksExt = __webpack_require__(/*! ./_wks-ext */ "./node_modules/core-js/library/modules/_wks-ext.js");
-var defineProperty = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f;
-module.exports = function (name) {
-  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
-  if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
-};
-
+eval("var global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar core = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\");\nvar LIBRARY = __webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\");\nvar wksExt = __webpack_require__(/*! ./_wks-ext */ \"./node_modules/core-js/library/modules/_wks-ext.js\");\nvar defineProperty = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f;\nmodule.exports = function (name) {\n  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});\n  if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_wks-define.js?");
 
 /***/ }),
 
@@ -2493,8 +1218,7 @@ module.exports = function (name) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports.f = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js");
-
+eval("exports.f = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\");\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_wks-ext.js?");
 
 /***/ }),
 
@@ -2505,18 +1229,7 @@ exports.f = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/mo
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var store = __webpack_require__(/*! ./_shared */ "./node_modules/core-js/library/modules/_shared.js")('wks');
-var uid = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js");
-var Symbol = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").Symbol;
-var USE_SYMBOL = typeof Symbol == 'function';
-
-var $exports = module.exports = function (name) {
-  return store[name] || (store[name] =
-    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));
-};
-
-$exports.store = store;
-
+eval("var store = __webpack_require__(/*! ./_shared */ \"./node_modules/core-js/library/modules/_shared.js\")('wks');\nvar uid = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\");\nvar Symbol = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\").Symbol;\nvar USE_SYMBOL = typeof Symbol == 'function';\n\nvar $exports = module.exports = function (name) {\n  return store[name] || (store[name] =\n    USE_SYMBOL && Symbol[name] || (USE_SYMBOL ? Symbol : uid)('Symbol.' + name));\n};\n\n$exports.store = store;\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/_wks.js?");
 
 /***/ }),
 
@@ -2527,15 +1240,7 @@ $exports.store = store;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
-var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
-var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
-module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js").getIteratorMethod = function (it) {
-  if (it != undefined) return it[ITERATOR]
-    || it['@@iterator']
-    || Iterators[classof(it)];
-};
-
+eval("var classof = __webpack_require__(/*! ./_classof */ \"./node_modules/core-js/library/modules/_classof.js\");\nvar ITERATOR = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('iterator');\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nmodule.exports = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\").getIteratorMethod = function (it) {\n  if (it != undefined) return it[ITERATOR]\n    || it['@@iterator']\n    || Iterators[classof(it)];\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/core.get-iterator-method.js?");
 
 /***/ }),
 
@@ -2546,14 +1251,7 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var get = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js");
-module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js").getIterator = function (it) {
-  var iterFn = get(it);
-  if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
-  return anObject(iterFn.call(it));
-};
-
+eval("var anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar get = __webpack_require__(/*! ./core.get-iterator-method */ \"./node_modules/core-js/library/modules/core.get-iterator-method.js\");\nmodule.exports = __webpack_require__(/*! ./_core */ \"./node_modules/core-js/library/modules/_core.js\").getIterator = function (it) {\n  var iterFn = get(it);\n  if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');\n  return anObject(iterFn.call(it));\n};\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/core.get-iterator.js?");
 
 /***/ }),
 
@@ -2565,41 +1263,7 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ "./node_modules/core-js/library/modules/_add-to-unscopables.js");
-var step = __webpack_require__(/*! ./_iter-step */ "./node_modules/core-js/library/modules/_iter-step.js");
-var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
-
-// 22.1.3.4 Array.prototype.entries()
-// 22.1.3.13 Array.prototype.keys()
-// 22.1.3.29 Array.prototype.values()
-// 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/modules/_iter-define.js")(Array, 'Array', function (iterated, kind) {
-  this._t = toIObject(iterated); // target
-  this._i = 0;                   // next index
-  this._k = kind;                // kind
-// 22.1.5.2.1 %ArrayIteratorPrototype%.next()
-}, function () {
-  var O = this._t;
-  var kind = this._k;
-  var index = this._i++;
-  if (!O || index >= O.length) {
-    this._t = undefined;
-    return step(1);
-  }
-  if (kind == 'keys') return step(0, index);
-  if (kind == 'values') return step(0, O[index]);
-  return step(0, [index, O[index]]);
-}, 'values');
-
-// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
-Iterators.Arguments = Iterators.Array;
-
-addToUnscopables('keys');
-addToUnscopables('values');
-addToUnscopables('entries');
-
+eval("\nvar addToUnscopables = __webpack_require__(/*! ./_add-to-unscopables */ \"./node_modules/core-js/library/modules/_add-to-unscopables.js\");\nvar step = __webpack_require__(/*! ./_iter-step */ \"./node_modules/core-js/library/modules/_iter-step.js\");\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\n\n// 22.1.3.4 Array.prototype.entries()\n// 22.1.3.13 Array.prototype.keys()\n// 22.1.3.29 Array.prototype.values()\n// 22.1.3.30 Array.prototype[@@iterator]()\nmodule.exports = __webpack_require__(/*! ./_iter-define */ \"./node_modules/core-js/library/modules/_iter-define.js\")(Array, 'Array', function (iterated, kind) {\n  this._t = toIObject(iterated); // target\n  this._i = 0;                   // next index\n  this._k = kind;                // kind\n// 22.1.5.2.1 %ArrayIteratorPrototype%.next()\n}, function () {\n  var O = this._t;\n  var kind = this._k;\n  var index = this._i++;\n  if (!O || index >= O.length) {\n    this._t = undefined;\n    return step(1);\n  }\n  if (kind == 'keys') return step(0, index);\n  if (kind == 'values') return step(0, O[index]);\n  return step(0, [index, O[index]]);\n}, 'values');\n\n// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)\nIterators.Arguments = Iterators.Array;\n\naddToUnscopables('keys');\naddToUnscopables('values');\naddToUnscopables('entries');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.array.iterator.js?");
 
 /***/ }),
 
@@ -2611,26 +1275,7 @@ addToUnscopables('entries');
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var strong = __webpack_require__(/*! ./_collection-strong */ "./node_modules/core-js/library/modules/_collection-strong.js");
-var validate = __webpack_require__(/*! ./_validate-collection */ "./node_modules/core-js/library/modules/_validate-collection.js");
-var MAP = 'Map';
-
-// 23.1 Map Objects
-module.exports = __webpack_require__(/*! ./_collection */ "./node_modules/core-js/library/modules/_collection.js")(MAP, function (get) {
-  return function Map() { return get(this, arguments.length > 0 ? arguments[0] : undefined); };
-}, {
-  // 23.1.3.6 Map.prototype.get(key)
-  get: function get(key) {
-    var entry = strong.getEntry(validate(this, MAP), key);
-    return entry && entry.v;
-  },
-  // 23.1.3.9 Map.prototype.set(key, value)
-  set: function set(key, value) {
-    return strong.def(validate(this, MAP), key === 0 ? 0 : key, value);
-  }
-}, strong, true);
-
+eval("\nvar strong = __webpack_require__(/*! ./_collection-strong */ \"./node_modules/core-js/library/modules/_collection-strong.js\");\nvar validate = __webpack_require__(/*! ./_validate-collection */ \"./node_modules/core-js/library/modules/_validate-collection.js\");\nvar MAP = 'Map';\n\n// 23.1 Map Objects\nmodule.exports = __webpack_require__(/*! ./_collection */ \"./node_modules/core-js/library/modules/_collection.js\")(MAP, function (get) {\n  return function Map() { return get(this, arguments.length > 0 ? arguments[0] : undefined); };\n}, {\n  // 23.1.3.6 Map.prototype.get(key)\n  get: function get(key) {\n    var entry = strong.getEntry(validate(this, MAP), key);\n    return entry && entry.v;\n  },\n  // 23.1.3.9 Map.prototype.set(key, value)\n  set: function set(key, value) {\n    return strong.def(validate(this, MAP), key === 0 ? 0 : key, value);\n  }\n}, strong, true);\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.map.js?");
 
 /***/ }),
 
@@ -2641,11 +1286,7 @@ module.exports = __webpack_require__(/*! ./_collection */ "./node_modules/core-j
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.3.1 Object.assign(target, source)
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-
-$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ "./node_modules/core-js/library/modules/_object-assign.js") });
-
+eval("// 19.1.3.1 Object.assign(target, source)\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n\n$export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_object-assign */ \"./node_modules/core-js/library/modules/_object-assign.js\") });\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.assign.js?");
 
 /***/ }),
 
@@ -2656,10 +1297,7 @@ $export($export.S + $export.F, 'Object', { assign: __webpack_require__(/*! ./_ob
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js") });
-
+eval("var $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])\n$export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\") });\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.create.js?");
 
 /***/ }),
 
@@ -2670,10 +1308,7 @@ $export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js").f });
-
+eval("var $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)\n$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\").f });\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.define-property.js?");
 
 /***/ }),
 
@@ -2684,16 +1319,7 @@ $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "./no
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.9 Object.getPrototypeOf(O)
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ "./node_modules/core-js/library/modules/_object-gpo.js");
-
-__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('getPrototypeOf', function () {
-  return function getPrototypeOf(it) {
-    return $getPrototypeOf(toObject(it));
-  };
-});
-
+eval("// 19.1.2.9 Object.getPrototypeOf(O)\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar $getPrototypeOf = __webpack_require__(/*! ./_object-gpo */ \"./node_modules/core-js/library/modules/_object-gpo.js\");\n\n__webpack_require__(/*! ./_object-sap */ \"./node_modules/core-js/library/modules/_object-sap.js\")('getPrototypeOf', function () {\n  return function getPrototypeOf(it) {\n    return $getPrototypeOf(toObject(it));\n  };\n});\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.get-prototype-of.js?");
 
 /***/ }),
 
@@ -2704,16 +1330,7 @@ __webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.2.14 Object.keys(O)
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
-
-__webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules/_object-sap.js")('keys', function () {
-  return function keys(it) {
-    return $keys(toObject(it));
-  };
-});
-
+eval("// 19.1.2.14 Object.keys(O)\nvar toObject = __webpack_require__(/*! ./_to-object */ \"./node_modules/core-js/library/modules/_to-object.js\");\nvar $keys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\n\n__webpack_require__(/*! ./_object-sap */ \"./node_modules/core-js/library/modules/_object-sap.js\")('keys', function () {\n  return function keys(it) {\n    return $keys(toObject(it));\n  };\n});\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.keys.js?");
 
 /***/ }),
 
@@ -2724,10 +1341,7 @@ __webpack_require__(/*! ./_object-sap */ "./node_modules/core-js/library/modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ "./node_modules/core-js/library/modules/_set-proto.js").set });
-
+eval("// 19.1.3.19 Object.setPrototypeOf(O, proto)\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-proto */ \"./node_modules/core-js/library/modules/_set-proto.js\").set });\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.set-prototype-of.js?");
 
 /***/ }),
 
@@ -2738,7 +1352,7 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-pr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-
+eval("\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.object.to-string.js?");
 
 /***/ }),
 
@@ -2750,24 +1364,7 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(/*! ./_set-pr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-var $at = __webpack_require__(/*! ./_string-at */ "./node_modules/core-js/library/modules/_string-at.js")(true);
-
-// 21.1.3.27 String.prototype[@@iterator]()
-__webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/modules/_iter-define.js")(String, 'String', function (iterated) {
-  this._t = String(iterated); // target
-  this._i = 0;                // next index
-// 21.1.5.2.1 %StringIteratorPrototype%.next()
-}, function () {
-  var O = this._t;
-  var index = this._i;
-  var point;
-  if (index >= O.length) return { value: undefined, done: true };
-  point = $at(O, index);
-  this._i += point.length;
-  return { value: point, done: false };
-});
-
+eval("\nvar $at = __webpack_require__(/*! ./_string-at */ \"./node_modules/core-js/library/modules/_string-at.js\")(true);\n\n// 21.1.3.27 String.prototype[@@iterator]()\n__webpack_require__(/*! ./_iter-define */ \"./node_modules/core-js/library/modules/_iter-define.js\")(String, 'String', function (iterated) {\n  this._t = String(iterated); // target\n  this._i = 0;                // next index\n// 21.1.5.2.1 %StringIteratorPrototype%.next()\n}, function () {\n  var O = this._t;\n  var index = this._i;\n  var point;\n  if (index >= O.length) return { value: undefined, done: true };\n  point = $at(O, index);\n  this._i += point.length;\n  return { value: point, done: false };\n});\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.string.iterator.js?");
 
 /***/ }),
 
@@ -2779,241 +1376,7 @@ __webpack_require__(/*! ./_iter-define */ "./node_modules/core-js/library/module
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-// ECMAScript 6 symbols shim
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var has = __webpack_require__(/*! ./_has */ "./node_modules/core-js/library/modules/_has.js");
-var DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ "./node_modules/core-js/library/modules/_descriptors.js");
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-var redefine = __webpack_require__(/*! ./_redefine */ "./node_modules/core-js/library/modules/_redefine.js");
-var META = __webpack_require__(/*! ./_meta */ "./node_modules/core-js/library/modules/_meta.js").KEY;
-var $fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
-var shared = __webpack_require__(/*! ./_shared */ "./node_modules/core-js/library/modules/_shared.js");
-var setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ "./node_modules/core-js/library/modules/_set-to-string-tag.js");
-var uid = __webpack_require__(/*! ./_uid */ "./node_modules/core-js/library/modules/_uid.js");
-var wks = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js");
-var wksExt = __webpack_require__(/*! ./_wks-ext */ "./node_modules/core-js/library/modules/_wks-ext.js");
-var wksDefine = __webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules/_wks-define.js");
-var enumKeys = __webpack_require__(/*! ./_enum-keys */ "./node_modules/core-js/library/modules/_enum-keys.js");
-var isArray = __webpack_require__(/*! ./_is-array */ "./node_modules/core-js/library/modules/_is-array.js");
-var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js");
-var isObject = __webpack_require__(/*! ./_is-object */ "./node_modules/core-js/library/modules/_is-object.js");
-var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
-var toPrimitive = __webpack_require__(/*! ./_to-primitive */ "./node_modules/core-js/library/modules/_to-primitive.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
-var _create = __webpack_require__(/*! ./_object-create */ "./node_modules/core-js/library/modules/_object-create.js");
-var gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ "./node_modules/core-js/library/modules/_object-gopn-ext.js");
-var $GOPD = __webpack_require__(/*! ./_object-gopd */ "./node_modules/core-js/library/modules/_object-gopd.js");
-var $DP = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
-var $keys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
-var gOPD = $GOPD.f;
-var dP = $DP.f;
-var gOPN = gOPNExt.f;
-var $Symbol = global.Symbol;
-var $JSON = global.JSON;
-var _stringify = $JSON && $JSON.stringify;
-var PROTOTYPE = 'prototype';
-var HIDDEN = wks('_hidden');
-var TO_PRIMITIVE = wks('toPrimitive');
-var isEnum = {}.propertyIsEnumerable;
-var SymbolRegistry = shared('symbol-registry');
-var AllSymbols = shared('symbols');
-var OPSymbols = shared('op-symbols');
-var ObjectProto = Object[PROTOTYPE];
-var USE_NATIVE = typeof $Symbol == 'function';
-var QObject = global.QObject;
-// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
-var setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
-
-// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
-var setSymbolDesc = DESCRIPTORS && $fails(function () {
-  return _create(dP({}, 'a', {
-    get: function () { return dP(this, 'a', { value: 7 }).a; }
-  })).a != 7;
-}) ? function (it, key, D) {
-  var protoDesc = gOPD(ObjectProto, key);
-  if (protoDesc) delete ObjectProto[key];
-  dP(it, key, D);
-  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);
-} : dP;
-
-var wrap = function (tag) {
-  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);
-  sym._k = tag;
-  return sym;
-};
-
-var isSymbol = USE_NATIVE && typeof $Symbol.iterator == 'symbol' ? function (it) {
-  return typeof it == 'symbol';
-} : function (it) {
-  return it instanceof $Symbol;
-};
-
-var $defineProperty = function defineProperty(it, key, D) {
-  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);
-  anObject(it);
-  key = toPrimitive(key, true);
-  anObject(D);
-  if (has(AllSymbols, key)) {
-    if (!D.enumerable) {
-      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));
-      it[HIDDEN][key] = true;
-    } else {
-      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;
-      D = _create(D, { enumerable: createDesc(0, false) });
-    } return setSymbolDesc(it, key, D);
-  } return dP(it, key, D);
-};
-var $defineProperties = function defineProperties(it, P) {
-  anObject(it);
-  var keys = enumKeys(P = toIObject(P));
-  var i = 0;
-  var l = keys.length;
-  var key;
-  while (l > i) $defineProperty(it, key = keys[i++], P[key]);
-  return it;
-};
-var $create = function create(it, P) {
-  return P === undefined ? _create(it) : $defineProperties(_create(it), P);
-};
-var $propertyIsEnumerable = function propertyIsEnumerable(key) {
-  var E = isEnum.call(this, key = toPrimitive(key, true));
-  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;
-  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;
-};
-var $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {
-  it = toIObject(it);
-  key = toPrimitive(key, true);
-  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;
-  var D = gOPD(it, key);
-  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;
-  return D;
-};
-var $getOwnPropertyNames = function getOwnPropertyNames(it) {
-  var names = gOPN(toIObject(it));
-  var result = [];
-  var i = 0;
-  var key;
-  while (names.length > i) {
-    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);
-  } return result;
-};
-var $getOwnPropertySymbols = function getOwnPropertySymbols(it) {
-  var IS_OP = it === ObjectProto;
-  var names = gOPN(IS_OP ? OPSymbols : toIObject(it));
-  var result = [];
-  var i = 0;
-  var key;
-  while (names.length > i) {
-    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);
-  } return result;
-};
-
-// 19.4.1.1 Symbol([description])
-if (!USE_NATIVE) {
-  $Symbol = function Symbol() {
-    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');
-    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);
-    var $set = function (value) {
-      if (this === ObjectProto) $set.call(OPSymbols, value);
-      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;
-      setSymbolDesc(this, tag, createDesc(1, value));
-    };
-    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });
-    return wrap(tag);
-  };
-  redefine($Symbol[PROTOTYPE], 'toString', function toString() {
-    return this._k;
-  });
-
-  $GOPD.f = $getOwnPropertyDescriptor;
-  $DP.f = $defineProperty;
-  __webpack_require__(/*! ./_object-gopn */ "./node_modules/core-js/library/modules/_object-gopn.js").f = gOPNExt.f = $getOwnPropertyNames;
-  __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js").f = $propertyIsEnumerable;
-  __webpack_require__(/*! ./_object-gops */ "./node_modules/core-js/library/modules/_object-gops.js").f = $getOwnPropertySymbols;
-
-  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ "./node_modules/core-js/library/modules/_library.js")) {
-    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
-  }
-
-  wksExt.f = function (name) {
-    return wrap(wks(name));
-  };
-}
-
-$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });
-
-for (var es6Symbols = (
-  // 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14
-  'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'
-).split(','), j = 0; es6Symbols.length > j;)wks(es6Symbols[j++]);
-
-for (var wellKnownSymbols = $keys(wks.store), k = 0; wellKnownSymbols.length > k;) wksDefine(wellKnownSymbols[k++]);
-
-$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {
-  // 19.4.2.1 Symbol.for(key)
-  'for': function (key) {
-    return has(SymbolRegistry, key += '')
-      ? SymbolRegistry[key]
-      : SymbolRegistry[key] = $Symbol(key);
-  },
-  // 19.4.2.5 Symbol.keyFor(sym)
-  keyFor: function keyFor(sym) {
-    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');
-    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;
-  },
-  useSetter: function () { setter = true; },
-  useSimple: function () { setter = false; }
-});
-
-$export($export.S + $export.F * !USE_NATIVE, 'Object', {
-  // 19.1.2.2 Object.create(O [, Properties])
-  create: $create,
-  // 19.1.2.4 Object.defineProperty(O, P, Attributes)
-  defineProperty: $defineProperty,
-  // 19.1.2.3 Object.defineProperties(O, Properties)
-  defineProperties: $defineProperties,
-  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
-  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,
-  // 19.1.2.7 Object.getOwnPropertyNames(O)
-  getOwnPropertyNames: $getOwnPropertyNames,
-  // 19.1.2.8 Object.getOwnPropertySymbols(O)
-  getOwnPropertySymbols: $getOwnPropertySymbols
-});
-
-// 24.3.2 JSON.stringify(value [, replacer [, space]])
-$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
-  var S = $Symbol();
-  // MS Edge converts symbol values to JSON as {}
-  // WebKit converts symbol values to JSON as null
-  // V8 throws on boxed symbols
-  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';
-})), 'JSON', {
-  stringify: function stringify(it) {
-    var args = [it];
-    var i = 1;
-    var replacer, $replacer;
-    while (arguments.length > i) args.push(arguments[i++]);
-    $replacer = replacer = args[1];
-    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
-    if (!isArray(replacer)) replacer = function (key, value) {
-      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);
-      if (!isSymbol(value)) return value;
-    };
-    args[1] = replacer;
-    return _stringify.apply($JSON, args);
-  }
-});
-
-// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js")($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
-// 19.4.3.5 Symbol.prototype[@@toStringTag]
-setToStringTag($Symbol, 'Symbol');
-// 20.2.1.9 Math[@@toStringTag]
-setToStringTag(Math, 'Math', true);
-// 24.3.3 JSON[@@toStringTag]
-setToStringTag(global.JSON, 'JSON', true);
-
+eval("\n// ECMAScript 6 symbols shim\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar has = __webpack_require__(/*! ./_has */ \"./node_modules/core-js/library/modules/_has.js\");\nvar DESCRIPTORS = __webpack_require__(/*! ./_descriptors */ \"./node_modules/core-js/library/modules/_descriptors.js\");\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\nvar redefine = __webpack_require__(/*! ./_redefine */ \"./node_modules/core-js/library/modules/_redefine.js\");\nvar META = __webpack_require__(/*! ./_meta */ \"./node_modules/core-js/library/modules/_meta.js\").KEY;\nvar $fails = __webpack_require__(/*! ./_fails */ \"./node_modules/core-js/library/modules/_fails.js\");\nvar shared = __webpack_require__(/*! ./_shared */ \"./node_modules/core-js/library/modules/_shared.js\");\nvar setToStringTag = __webpack_require__(/*! ./_set-to-string-tag */ \"./node_modules/core-js/library/modules/_set-to-string-tag.js\");\nvar uid = __webpack_require__(/*! ./_uid */ \"./node_modules/core-js/library/modules/_uid.js\");\nvar wks = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\");\nvar wksExt = __webpack_require__(/*! ./_wks-ext */ \"./node_modules/core-js/library/modules/_wks-ext.js\");\nvar wksDefine = __webpack_require__(/*! ./_wks-define */ \"./node_modules/core-js/library/modules/_wks-define.js\");\nvar enumKeys = __webpack_require__(/*! ./_enum-keys */ \"./node_modules/core-js/library/modules/_enum-keys.js\");\nvar isArray = __webpack_require__(/*! ./_is-array */ \"./node_modules/core-js/library/modules/_is-array.js\");\nvar anObject = __webpack_require__(/*! ./_an-object */ \"./node_modules/core-js/library/modules/_an-object.js\");\nvar isObject = __webpack_require__(/*! ./_is-object */ \"./node_modules/core-js/library/modules/_is-object.js\");\nvar toIObject = __webpack_require__(/*! ./_to-iobject */ \"./node_modules/core-js/library/modules/_to-iobject.js\");\nvar toPrimitive = __webpack_require__(/*! ./_to-primitive */ \"./node_modules/core-js/library/modules/_to-primitive.js\");\nvar createDesc = __webpack_require__(/*! ./_property-desc */ \"./node_modules/core-js/library/modules/_property-desc.js\");\nvar _create = __webpack_require__(/*! ./_object-create */ \"./node_modules/core-js/library/modules/_object-create.js\");\nvar gOPNExt = __webpack_require__(/*! ./_object-gopn-ext */ \"./node_modules/core-js/library/modules/_object-gopn-ext.js\");\nvar $GOPD = __webpack_require__(/*! ./_object-gopd */ \"./node_modules/core-js/library/modules/_object-gopd.js\");\nvar $DP = __webpack_require__(/*! ./_object-dp */ \"./node_modules/core-js/library/modules/_object-dp.js\");\nvar $keys = __webpack_require__(/*! ./_object-keys */ \"./node_modules/core-js/library/modules/_object-keys.js\");\nvar gOPD = $GOPD.f;\nvar dP = $DP.f;\nvar gOPN = gOPNExt.f;\nvar $Symbol = global.Symbol;\nvar $JSON = global.JSON;\nvar _stringify = $JSON && $JSON.stringify;\nvar PROTOTYPE = 'prototype';\nvar HIDDEN = wks('_hidden');\nvar TO_PRIMITIVE = wks('toPrimitive');\nvar isEnum = {}.propertyIsEnumerable;\nvar SymbolRegistry = shared('symbol-registry');\nvar AllSymbols = shared('symbols');\nvar OPSymbols = shared('op-symbols');\nvar ObjectProto = Object[PROTOTYPE];\nvar USE_NATIVE = typeof $Symbol == 'function';\nvar QObject = global.QObject;\n// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173\nvar setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;\n\n// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687\nvar setSymbolDesc = DESCRIPTORS && $fails(function () {\n  return _create(dP({}, 'a', {\n    get: function () { return dP(this, 'a', { value: 7 }).a; }\n  })).a != 7;\n}) ? function (it, key, D) {\n  var protoDesc = gOPD(ObjectProto, key);\n  if (protoDesc) delete ObjectProto[key];\n  dP(it, key, D);\n  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);\n} : dP;\n\nvar wrap = function (tag) {\n  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);\n  sym._k = tag;\n  return sym;\n};\n\nvar isSymbol = USE_NATIVE && typeof $Symbol.iterator == 'symbol' ? function (it) {\n  return typeof it == 'symbol';\n} : function (it) {\n  return it instanceof $Symbol;\n};\n\nvar $defineProperty = function defineProperty(it, key, D) {\n  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);\n  anObject(it);\n  key = toPrimitive(key, true);\n  anObject(D);\n  if (has(AllSymbols, key)) {\n    if (!D.enumerable) {\n      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));\n      it[HIDDEN][key] = true;\n    } else {\n      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;\n      D = _create(D, { enumerable: createDesc(0, false) });\n    } return setSymbolDesc(it, key, D);\n  } return dP(it, key, D);\n};\nvar $defineProperties = function defineProperties(it, P) {\n  anObject(it);\n  var keys = enumKeys(P = toIObject(P));\n  var i = 0;\n  var l = keys.length;\n  var key;\n  while (l > i) $defineProperty(it, key = keys[i++], P[key]);\n  return it;\n};\nvar $create = function create(it, P) {\n  return P === undefined ? _create(it) : $defineProperties(_create(it), P);\n};\nvar $propertyIsEnumerable = function propertyIsEnumerable(key) {\n  var E = isEnum.call(this, key = toPrimitive(key, true));\n  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;\n  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;\n};\nvar $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {\n  it = toIObject(it);\n  key = toPrimitive(key, true);\n  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;\n  var D = gOPD(it, key);\n  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;\n  return D;\n};\nvar $getOwnPropertyNames = function getOwnPropertyNames(it) {\n  var names = gOPN(toIObject(it));\n  var result = [];\n  var i = 0;\n  var key;\n  while (names.length > i) {\n    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);\n  } return result;\n};\nvar $getOwnPropertySymbols = function getOwnPropertySymbols(it) {\n  var IS_OP = it === ObjectProto;\n  var names = gOPN(IS_OP ? OPSymbols : toIObject(it));\n  var result = [];\n  var i = 0;\n  var key;\n  while (names.length > i) {\n    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);\n  } return result;\n};\n\n// 19.4.1.1 Symbol([description])\nif (!USE_NATIVE) {\n  $Symbol = function Symbol() {\n    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');\n    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);\n    var $set = function (value) {\n      if (this === ObjectProto) $set.call(OPSymbols, value);\n      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;\n      setSymbolDesc(this, tag, createDesc(1, value));\n    };\n    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });\n    return wrap(tag);\n  };\n  redefine($Symbol[PROTOTYPE], 'toString', function toString() {\n    return this._k;\n  });\n\n  $GOPD.f = $getOwnPropertyDescriptor;\n  $DP.f = $defineProperty;\n  __webpack_require__(/*! ./_object-gopn */ \"./node_modules/core-js/library/modules/_object-gopn.js\").f = gOPNExt.f = $getOwnPropertyNames;\n  __webpack_require__(/*! ./_object-pie */ \"./node_modules/core-js/library/modules/_object-pie.js\").f = $propertyIsEnumerable;\n  __webpack_require__(/*! ./_object-gops */ \"./node_modules/core-js/library/modules/_object-gops.js\").f = $getOwnPropertySymbols;\n\n  if (DESCRIPTORS && !__webpack_require__(/*! ./_library */ \"./node_modules/core-js/library/modules/_library.js\")) {\n    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);\n  }\n\n  wksExt.f = function (name) {\n    return wrap(wks(name));\n  };\n}\n\n$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });\n\nfor (var es6Symbols = (\n  // 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14\n  'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'\n).split(','), j = 0; es6Symbols.length > j;)wks(es6Symbols[j++]);\n\nfor (var wellKnownSymbols = $keys(wks.store), k = 0; wellKnownSymbols.length > k;) wksDefine(wellKnownSymbols[k++]);\n\n$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {\n  // 19.4.2.1 Symbol.for(key)\n  'for': function (key) {\n    return has(SymbolRegistry, key += '')\n      ? SymbolRegistry[key]\n      : SymbolRegistry[key] = $Symbol(key);\n  },\n  // 19.4.2.5 Symbol.keyFor(sym)\n  keyFor: function keyFor(sym) {\n    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol!');\n    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;\n  },\n  useSetter: function () { setter = true; },\n  useSimple: function () { setter = false; }\n});\n\n$export($export.S + $export.F * !USE_NATIVE, 'Object', {\n  // 19.1.2.2 Object.create(O [, Properties])\n  create: $create,\n  // 19.1.2.4 Object.defineProperty(O, P, Attributes)\n  defineProperty: $defineProperty,\n  // 19.1.2.3 Object.defineProperties(O, Properties)\n  defineProperties: $defineProperties,\n  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)\n  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,\n  // 19.1.2.7 Object.getOwnPropertyNames(O)\n  getOwnPropertyNames: $getOwnPropertyNames,\n  // 19.1.2.8 Object.getOwnPropertySymbols(O)\n  getOwnPropertySymbols: $getOwnPropertySymbols\n});\n\n// 24.3.2 JSON.stringify(value [, replacer [, space]])\n$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {\n  var S = $Symbol();\n  // MS Edge converts symbol values to JSON as {}\n  // WebKit converts symbol values to JSON as null\n  // V8 throws on boxed symbols\n  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';\n})), 'JSON', {\n  stringify: function stringify(it) {\n    var args = [it];\n    var i = 1;\n    var replacer, $replacer;\n    while (arguments.length > i) args.push(arguments[i++]);\n    $replacer = replacer = args[1];\n    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined\n    if (!isArray(replacer)) replacer = function (key, value) {\n      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);\n      if (!isSymbol(value)) return value;\n    };\n    args[1] = replacer;\n    return _stringify.apply($JSON, args);\n  }\n});\n\n// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)\n$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\")($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);\n// 19.4.3.5 Symbol.prototype[@@toStringTag]\nsetToStringTag($Symbol, 'Symbol');\n// 20.2.1.9 Math[@@toStringTag]\nsetToStringTag(Math, 'Math', true);\n// 24.3.3 JSON[@@toStringTag]\nsetToStringTag(global.JSON, 'JSON', true);\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es6.symbol.js?");
 
 /***/ }),
 
@@ -3024,9 +1387,7 @@ setToStringTag(global.JSON, 'JSON', true);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-map.from
-__webpack_require__(/*! ./_set-collection-from */ "./node_modules/core-js/library/modules/_set-collection-from.js")('Map');
-
+eval("// https://tc39.github.io/proposal-setmap-offrom/#sec-map.from\n__webpack_require__(/*! ./_set-collection-from */ \"./node_modules/core-js/library/modules/_set-collection-from.js\")('Map');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es7.map.from.js?");
 
 /***/ }),
 
@@ -3037,9 +1398,7 @@ __webpack_require__(/*! ./_set-collection-from */ "./node_modules/core-js/librar
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// https://tc39.github.io/proposal-setmap-offrom/#sec-map.of
-__webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/modules/_set-collection-of.js")('Map');
-
+eval("// https://tc39.github.io/proposal-setmap-offrom/#sec-map.of\n__webpack_require__(/*! ./_set-collection-of */ \"./node_modules/core-js/library/modules/_set-collection-of.js\")('Map');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es7.map.of.js?");
 
 /***/ }),
 
@@ -3050,11 +1409,7 @@ __webpack_require__(/*! ./_set-collection-of */ "./node_modules/core-js/library/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-// https://github.com/DavidBruant/Map-Set.prototype.toJSON
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-
-$export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ "./node_modules/core-js/library/modules/_collection-to-json.js")('Map') });
-
+eval("// https://github.com/DavidBruant/Map-Set.prototype.toJSON\nvar $export = __webpack_require__(/*! ./_export */ \"./node_modules/core-js/library/modules/_export.js\");\n\n$export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_collection-to-json */ \"./node_modules/core-js/library/modules/_collection-to-json.js\")('Map') });\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es7.map.to-json.js?");
 
 /***/ }),
 
@@ -3065,8 +1420,7 @@ $export($export.P + $export.R, 'Map', { toJSON: __webpack_require__(/*! ./_colle
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules/_wks-define.js")('asyncIterator');
-
+eval("__webpack_require__(/*! ./_wks-define */ \"./node_modules/core-js/library/modules/_wks-define.js\")('asyncIterator');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es7.symbol.async-iterator.js?");
 
 /***/ }),
 
@@ -3077,8 +1431,7 @@ __webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules/_wks-define.js")('observable');
-
+eval("__webpack_require__(/*! ./_wks-define */ \"./node_modules/core-js/library/modules/_wks-define.js\")('observable');\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/es7.symbol.observable.js?");
 
 /***/ }),
 
@@ -3089,26 +1442,7 @@ __webpack_require__(/*! ./_wks-define */ "./node_modules/core-js/library/modules
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./es6.array.iterator */ "./node_modules/core-js/library/modules/es6.array.iterator.js");
-var global = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js");
-var hide = __webpack_require__(/*! ./_hide */ "./node_modules/core-js/library/modules/_hide.js");
-var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
-var TO_STRING_TAG = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('toStringTag');
-
-var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
-  'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +
-  'MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,' +
-  'SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,' +
-  'TextTrackList,TouchList').split(',');
-
-for (var i = 0; i < DOMIterables.length; i++) {
-  var NAME = DOMIterables[i];
-  var Collection = global[NAME];
-  var proto = Collection && Collection.prototype;
-  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
-  Iterators[NAME] = Iterators.Array;
-}
-
+eval("__webpack_require__(/*! ./es6.array.iterator */ \"./node_modules/core-js/library/modules/es6.array.iterator.js\");\nvar global = __webpack_require__(/*! ./_global */ \"./node_modules/core-js/library/modules/_global.js\");\nvar hide = __webpack_require__(/*! ./_hide */ \"./node_modules/core-js/library/modules/_hide.js\");\nvar Iterators = __webpack_require__(/*! ./_iterators */ \"./node_modules/core-js/library/modules/_iterators.js\");\nvar TO_STRING_TAG = __webpack_require__(/*! ./_wks */ \"./node_modules/core-js/library/modules/_wks.js\")('toStringTag');\n\nvar DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +\n  'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +\n  'MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,' +\n  'SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,' +\n  'TextTrackList,TouchList').split(',');\n\nfor (var i = 0; i < DOMIterables.length; i++) {\n  var NAME = DOMIterables[i];\n  var Collection = global[NAME];\n  var proto = Collection && Collection.prototype;\n  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);\n  Iterators[NAME] = Iterators.Array;\n}\n\n\n//# sourceURL=webpack:///./node_modules/core-js/library/modules/web.dom.iterable.js?");
 
 /***/ }),
 
@@ -3119,19 +1453,7 @@ for (var i = 0; i < DOMIterables.length; i++) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {
-    if (true) {
-        // AMD
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! ./lib/animate */ "./node_modules/scroller/lib/animate.js"), __webpack_require__(/*! ./lib/Scroller */ "./node_modules/scroller/lib/Scroller.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-    } else {}
-}(this, function (exports, animate, Scroller) {
-    exports.animate = animate;
-    exports.Scroller = Scroller;
-}));
-
+eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (root, factory) {\n    if (true) {\n        // AMD\n        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports, __webpack_require__(/*! ./lib/animate */ \"./node_modules/scroller/lib/animate.js\"), __webpack_require__(/*! ./lib/Scroller */ \"./node_modules/scroller/lib/Scroller.js\")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?\n\t\t\t\t(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n    } else {}\n}(this, function (exports, animate, Scroller) {\n    exports.animate = animate;\n    exports.Scroller = Scroller;\n}));\n\n\n//# sourceURL=webpack:///./node_modules/scroller/index.js?");
 
 /***/ }),
 
@@ -3142,1156 +1464,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
- * Scroller
- * http://github.com/zynga/scroller
- *
- * Copyright 2011, Zynga Inc.
- * Licensed under the MIT License.
- * https://raw.github.com/zynga/scroller/master/MIT-LICENSE.txt
- *
- * Based on the work of: Unify Project (unify-project.org)
- * http://unify-project.org
- * Copyright 2011, Deutsche Telekom AG
- * License: MIT + Apache (V2)
- */
-
-(function (root, factory) {
-    if (true) {
-        // AMD
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! ./animate */ "./node_modules/scroller/lib/animate.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-    } else {}
-}(this, function (animate) {
-    var NOOP = function () {};
-
-    /**
-     * A pure logic 'component' for 'virtual' scrolling/zooming.
-     */
-    var Scroller = function (callback, options) {
-        this.__callback = callback;
-
-        this.options = {
-            /** Enable scrolling on x-axis */
-            scrollingX: true,
-
-            /** Enable scrolling on y-axis */
-            scrollingY: true,
-
-            /** Enable animations for deceleration, snap back, zooming and scrolling */
-            animating: true,
-
-            /** duration for animations triggered by scrollTo/zoomTo */
-            animationDuration: 250,
-
-            /** Enable bouncing (content can be slowly moved outside and jumps back after releasing) */
-            bouncing: true,
-
-            /** Enable locking to the main axis if user moves only slightly on one of them at start */
-            locking: true,
-
-            /** Enable pagination mode (switching between full page content panes) */
-            paging: false,
-
-            /** Enable snapping of content to a configured pixel grid */
-            snapping: false,
-
-            /** Enable zooming of content via API, fingers and mouse wheel */
-            zooming: false,
-
-            /** Minimum zoom level */
-            minZoom: 0.5,
-
-            /** Maximum zoom level */
-            maxZoom: 3,
-
-            /** Multiply or decrease scrolling speed **/
-            speedMultiplier: 1,
-
-            /** Callback that is fired on the later of touch end or deceleration end,
-                provided that another scrolling action has not begun. Used to know
-                when to fade out a scrollbar. */
-            scrollingComplete: NOOP,
-
-            /** This configures the amount of change applied to deceleration when reaching boundaries  **/
-            penetrationDeceleration : 0.03,
-
-            /** This configures the amount of change applied to acceleration when reaching boundaries  **/
-            penetrationAcceleration : 0.08
-        };
-
-        for (var key in options) {
-            this.options[key] = options[key];
-        }
-    };
-
-
-    // Easing Equations (c) 2003 Robert Penner, all rights reserved.
-    // Open source under the BSD License.
-
-    /**
-     * @param pos {Number} position between 0 (start of effect) and 1 (end of effect)
-     **/
-    var easeOutCubic = function (pos) {
-        return (Math.pow((pos - 1), 3) + 1);
-    };
-
-    /**
-     * @param pos {Number} position between 0 (start of effect) and 1 (end of effect)
-     **/
-    var easeInOutCubic = function (pos) {
-        if ((pos /= 0.5) < 1) {
-            return 0.5 * Math.pow(pos, 3);
-        }
-
-        return 0.5 * (Math.pow((pos - 2), 3) + 2);
-    };
-
-
-    Scroller.prototype = {
-
-        /*
-          ---------------------------------------------------------------------------
-          INTERNAL FIELDS :: STATUS
-          ---------------------------------------------------------------------------
-        */
-
-        /** {Boolean} Whether only a single finger is used in touch handling */
-        __isSingleTouch: false,
-
-        /** {Boolean} Whether a touch event sequence is in progress */
-        __isTracking: false,
-
-        /** {Boolean} Whether a deceleration animation went to completion. */
-        __didDecelerationComplete: false,
-
-        /**
-         * {Boolean} Whether a gesture zoom/rotate event is in progress. Activates when
-         * a gesturestart event happens. This has higher priority than dragging.
-         */
-        __isGesturing: false,
-
-        /**
-         * {Boolean} Whether the user has moved by such a distance that we have enabled
-         * dragging mode. Hint: It's only enabled after some pixels of movement to
-         * not interrupt with clicks etc.
-         */
-        __isDragging: false,
-
-        /**
-         * {Boolean} Not touching and dragging anymore, and smoothly animating the
-         * touch sequence using deceleration.
-         */
-        __isDecelerating: false,
-
-        /**
-         * {Boolean} Smoothly animating the currently configured change
-         */
-        __isAnimating: false,
-
-
-
-        /*
-          ---------------------------------------------------------------------------
-          INTERNAL FIELDS :: DIMENSIONS
-          ---------------------------------------------------------------------------
-        */
-
-        /** {Integer} Viewport left boundary */
-        __clientLeft: 0,
-
-        /** {Integer} Viewport right boundary */
-        __clientTop: 0,
-
-        /** {Integer} Viewport width */
-        __clientWidth: 0,
-
-        /** {Integer} Viewport height */
-        __clientHeight: 0,
-
-        /** {Integer} Full content's width */
-        __contentWidth: 0,
-
-        /** {Integer} Full content's height */
-        __contentHeight: 0,
-
-        /** {Integer} Snapping width for content */
-        __snapWidth: 100,
-
-        /** {Integer} Snapping height for content */
-        __snapHeight: 100,
-
-        /** {Number} Zoom level */
-        __zoomLevel: 1,
-
-        /** {Number} Scroll position on x-axis */
-        __scrollLeft: 0,
-
-        /** {Number} Scroll position on y-axis */
-        __scrollTop: 0,
-
-        /** {Integer} Maximum allowed scroll position on x-axis */
-        __maxScrollLeft: 0,
-
-        /** {Integer} Maximum allowed scroll position on y-axis */
-        __maxScrollTop: 0,
-
-        /* {Number} Scheduled left position (final position when animating) */
-        __scheduledLeft: 0,
-
-        /* {Number} Scheduled top position (final position when animating) */
-        __scheduledTop: 0,
-
-        /* {Number} Scheduled zoom level (final scale when animating) */
-        __scheduledZoom: 0,
-
-
-
-        /*
-          ---------------------------------------------------------------------------
-          INTERNAL FIELDS :: LAST POSITIONS
-          ---------------------------------------------------------------------------
-        */
-
-        /** {Number} Left position of finger at start */
-        __lastTouchLeft: null,
-
-        /** {Number} Top position of finger at start */
-        __lastTouchTop: null,
-
-        /** {Date} Timestamp of last move of finger. Used to limit tracking range for deceleration speed. */
-        __lastTouchMove: null,
-
-        /** {Array} List of positions, uses three indexes for each state: left, top, timestamp */
-        __positions: null,
-
-
-
-        /*
-          ---------------------------------------------------------------------------
-          INTERNAL FIELDS :: DECELERATION SUPPORT
-          ---------------------------------------------------------------------------
-        */
-
-        /** {Integer} Minimum left scroll position during deceleration */
-        __minDecelerationScrollLeft: null,
-
-        /** {Integer} Minimum top scroll position during deceleration */
-        __minDecelerationScrollTop: null,
-
-        /** {Integer} Maximum left scroll position during deceleration */
-        __maxDecelerationScrollLeft: null,
-
-        /** {Integer} Maximum top scroll position during deceleration */
-        __maxDecelerationScrollTop: null,
-
-        /** {Number} Current factor to modify horizontal scroll position with on every step */
-        __decelerationVelocityX: null,
-
-        /** {Number} Current factor to modify vertical scroll position with on every step */
-        __decelerationVelocityY: null,
-
-
-
-        /*
-          ---------------------------------------------------------------------------
-          PUBLIC API
-          ---------------------------------------------------------------------------
-        */
-
-        /**
-         * Configures the dimensions of the client (outer) and content (inner) elements.
-         * Requires the available space for the outer element and the outer size of the inner element.
-         * All values which are falsy (null or zero etc.) are ignored and the old value is kept.
-         *
-         * @param clientWidth {Integer ? null} Inner width of outer element
-         * @param clientHeight {Integer ? null} Inner height of outer element
-         * @param contentWidth {Integer ? null} Outer width of inner element
-         * @param contentHeight {Integer ? null} Outer height of inner element
-         */
-        setDimensions : function (clientWidth, clientHeight, contentWidth, contentHeight) {
-            // Only update values which are defined
-            if (clientWidth !== null) {
-                this.__clientWidth = clientWidth;
-            }
-
-            if (clientHeight !== null) {
-                this.__clientHeight = clientHeight;
-            }
-
-            if (contentWidth !== null) {
-                this.__contentWidth = contentWidth;
-            }
-
-            if (contentHeight !== null) {
-                this.__contentHeight = contentHeight;
-            }
-
-            // Refresh maximums
-            this.__computeScrollMax();
-
-            // Refresh scroll position
-            this.scrollTo(this.__scrollLeft, this.__scrollTop, true);
-        },
-
-
-        /**
-         * Sets the client coordinates in relation to the document.
-         *
-         * @param left {Integer ? 0} Left position of outer element
-         * @param top {Integer ? 0} Top position of outer element
-         */
-        setPosition : function (left, top) {
-            this.__clientLeft = left || 0;
-            this.__clientTop = top || 0;
-        },
-
-
-        /**
-         * Configures the snapping (when snapping is active)
-         *
-         * @param width {Integer} Snapping width
-         * @param height {Integer} Snapping height
-         */
-        setSnapSize : function (width, height) {
-            this.__snapWidth = width;
-            this.__snapHeight = height;
-        },
-
-
-        /**
-         * Returns the scroll position and zooming values
-         *
-         * @return {Map} `left` and `top` scroll position and `zoom` level
-         */
-        getValues : function () {
-            return {
-                left: this.__scrollLeft,
-                top: this.__scrollTop,
-                right: this.__scrollLeft + this.__clientWidth/this.__zoomLevel,
-                bottom: this.__scrollTop + this.__clientHeight/this.__zoomLevel,
-                zoom: this.__zoomLevel
-            };
-        },
-
-
-        /**
-         * Get point in in content space from scroll coordinates.
-         */
-        getPoint : function (scrollLeft, scrollTop) {
-            var values = this.getValues();
-
-            return {
-                left : scrollLeft / values.zoom,
-                top : scrollTop / values.zoom
-            };
-        },
-
-
-        /**
-         * Returns the maximum scroll values
-         *
-         * @return {Map} `left` and `top` maximum scroll values
-         */
-        getScrollMax : function () {
-            return {
-                left: this.__maxScrollLeft,
-                top: this.__maxScrollTop
-            };
-        },
-
-
-        /**
-         * Zooms to the given level. Supports optional animation. Zooms
-         * the center when no coordinates are given.
-         *
-         * @param level {Number} Level to zoom to
-         * @param isAnimated {Boolean ? false} Whether to use animation
-         * @param fixedLeft {Number ? undefined} Stationary point's left coordinate (vector in client space)
-         * @param fixedTop {Number ? undefined} Stationary point's top coordinate (vector in client space)
-         * @param callback {Function ? null} A callback that gets fired when the zoom is complete.
-         */
-        zoomTo : function (level, isAnimated, fixedLeft, fixedTop, callback) {
-            if (!this.options.zooming) {
-                throw new Error("Zooming is not enabled!");
-            }
-
-            // Add callback if exists
-            if(callback) {
-                this.__zoomComplete = callback;
-            }
-
-            // Stop deceleration
-            if (this.__isDecelerating) {
-                animate.stop(this.__isDecelerating);
-                this.__isDecelerating = false;
-            }
-
-            var oldLevel = this.__zoomLevel;
-
-            // Normalize fixed point to center of viewport if not defined
-            if (fixedLeft === undefined) {
-                fixedLeft = this.__clientWidth / 2;
-            }
-
-            if (fixedTop === undefined) {
-                fixedTop = this.__clientHeight / 2;
-            }
-
-            // Limit level according to configuration
-            level = Math.max(Math.min(level, this.options.maxZoom), this.options.minZoom);
-
-            // Recompute maximum values while temporary tweaking maximum scroll ranges
-            this.__computeScrollMax(level);
-
-            // Recompute left and top scroll positions based on new zoom level.
-            // Choosing the new viewport so that the origin's position remains
-            // fixed, we have central dilation about the origin.
-            // * Fixed point, $F$, remains stationary in content space and in the
-            // viewport.
-            // * Initial scroll position, $S_i$, in content space.
-            // * Final scroll position, $S_f$, in content space.
-            // * Initial scaling factor, $k_i$.
-            // * Final scaling factor, $k_f$.
-            //
-            // * $S_i \mapsto S_f$.
-            // * $(S_i - F) k_i = (S_f - F) k_f$.
-            // * $(S_i - F) k_i/k_f = (S_f - F)$.
-            // * $S_f = F + (S_i - F) k_i/k_f$.
-            //
-            // Fixed point location, $\vector{f} = (F - S_i) k_i$.
-            // * $F = S_i + \vector{f}/k_i$.
-            // * $S_f = S_i + \vector{f}/k_i + (S_i - S_i - \vector{f}/k_i) k_i/k_f$.
-            // * $S_f = S_i + \vector{f}/k_i - \vector{f}/k_f$.
-            // * $S_f k_f = S_i k_f + (k_f/k_i - 1)\vector{f}$.
-            // * $S_f k_f = (k_f/k_i)(S_i k_i) + (k_f/k_i - 1) \vector{f}$.
-            var k = level / oldLevel;
-            var left = k*(this.__scrollLeft + fixedLeft) - fixedLeft;
-            var top = k*(this.__scrollTop + fixedTop) - fixedTop;
-
-            // Limit x-axis
-            if (left > this.__maxScrollLeft) {
-                left = this.__maxScrollLeft;
-            } else if (left < 0) {
-                left = 0;
-            }
-
-            // Limit y-axis
-            if (top > this.__maxScrollTop) {
-                top = this.__maxScrollTop;
-            } else if (top < 0) {
-                top = 0;
-            }
-
-            // Push values out
-            this.__publish(left, top, level, isAnimated);
-        },
-
-
-        /**
-         * Zooms the content by the given factor.
-         *
-         * @param factor {Number} Zoom by given factor
-         * @param isAnimated {Boolean ? false} Whether to use animation
-         * @param originLeft {Number ? 0} Zoom in at given left coordinate
-         * @param originTop {Number ? 0} Zoom in at given top coordinate
-         * @param callback {Function ? null} A callback that gets fired when the zoom is complete.
-         */
-        zoomBy : function (factor, isAnimated, originLeft, originTop, callback) {
-            this.zoomTo(this.__zoomLevel * factor, isAnimated, originLeft, originTop, callback);
-        },
-
-
-        /**
-         * Scrolls to the given position. Respect limitations and snapping automatically.
-         *
-         * @param left {Number?null} Horizontal scroll position, keeps current if value is <code>null</code>
-         * @param top {Number?null} Vertical scroll position, keeps current if value is <code>null</code>
-         * @param isAnimated {Boolean?false} Whether the scrolling should happen using an animation
-         * @param zoom {Number} [1.0] Zoom level to go to
-         */
-        scrollTo : function (left, top, isAnimated, zoom) {
-
-            // Stop deceleration
-            if (this.__isDecelerating) {
-                animate.stop(this.__isDecelerating);
-                this.__isDecelerating = false;
-            }
-
-            // Correct coordinates based on new zoom level
-            if (zoom !== undefined && zoom !== this.__zoomLevel) {
-                if (!this.options.zooming) {
-                    throw new Error("Zooming is not enabled!");
-                }
-
-                left *= zoom;
-                top *= zoom;
-
-                // Recompute maximum values while temporary tweaking maximum scroll ranges
-                this.__computeScrollMax(zoom);
-            } else {
-                // Keep zoom when not defined
-                zoom = this.__zoomLevel;
-            }
-
-            if (!this.options.scrollingX) {
-                left = this.__scrollLeft;
-            } else {
-                if (this.options.paging) {
-                    left = Math.round(left / this.__clientWidth) * this.__clientWidth;
-                } else if (this.options.snapping) {
-                    left = Math.round(left / this.__snapWidth) * this.__snapWidth;
-                }
-            }
-
-            if (!this.options.scrollingY) {
-                top = this.__scrollTop;
-            } else {
-                if (this.options.paging) {
-                    top = Math.round(top / this.__clientHeight) * this.__clientHeight;
-                } else if (this.options.snapping) {
-                    top = Math.round(top / this.__snapHeight) * this.__snapHeight;
-                }
-            }
-            // Limit for allowed ranges
-            left = Math.max(Math.min(this.__maxScrollLeft, left), 0);
-            top = Math.max(Math.min(this.__maxScrollTop, top), 0);
-
-            // Don't animate when no change detected, still call publish to make sure
-            // that rendered position is really in-sync with internal data
-            if (left === this.__scrollLeft && top === this.__scrollTop) {
-                isAnimated = false;
-            }
-
-            // Publish new values
-            this.__publish(left, top, zoom, isAnimated);
-        },
-
-
-        /**
-         * Scroll by the given offset
-         *
-         * @param left {Number ? 0} Scroll x-axis by given offset
-         * @param top {Number ? 0} Scroll x-axis by given offset
-         * @param isAnimated {Boolean ? false} Whether to animate the given change
-         */
-        scrollBy : function (left, top, isAnimated) {
-            var startLeft = this.__isAnimating ? this.__scheduledLeft : this.__scrollLeft;
-            var startTop = this.__isAnimating ? this.__scheduledTop : this.__scrollTop;
-
-            this.scrollTo(startLeft + (left || 0), startTop + (top || 0), isAnimated);
-        },
-
-
-        /*
-          ---------------------------------------------------------------------------
-          EVENT CALLBACKS
-          ---------------------------------------------------------------------------
-        */
-
-        /**
-         * Mouse wheel handler for zooming support
-         */
-        doMouseZoom : function (wheelDelta, timeStamp, pageX, pageY) {
-            var change = wheelDelta > 0 ? 0.97 : 1.03;
-
-            return this.zoomTo(this.__zoomLevel * change, false, pageX - this.__clientLeft, pageY - this.__clientTop);
-        },
-
-
-        /**
-         * Touch start handler for scrolling support
-         */
-        doTouchStart : function (touches, timeStamp) {
-            // Array-like check is enough here
-            if (touches.length === undefined) {
-                throw new Error("Invalid touch list: " + touches);
-            }
-
-            if (timeStamp instanceof Date) {
-                timeStamp = timeStamp.valueOf();
-            }
-            if (typeof timeStamp !== "number") {
-                throw new Error("Invalid timestamp value: " + timeStamp);
-            }
-
-            // Reset interruptedAnimation flag
-            this.__interruptedAnimation = true;
-
-            // Stop deceleration
-            if (this.__isDecelerating) {
-                animate.stop(this.__isDecelerating);
-                this.__isDecelerating = false;
-                this.__interruptedAnimation = true;
-            }
-
-            // Stop animation
-            if (this.__isAnimating) {
-                animate.stop(this.__isAnimating);
-                this.__isAnimating = false;
-                this.__interruptedAnimation = true;
-            }
-
-            // Use center point when dealing with two fingers
-            var currentTouchLeft, currentTouchTop;
-            var isSingleTouch = touches.length === 1;
-            if (isSingleTouch) {
-                currentTouchLeft = touches[0].pageX;
-                currentTouchTop = touches[0].pageY;
-            } else {
-                currentTouchLeft = Math.abs(touches[0].pageX + touches[1].pageX) / 2;
-                currentTouchTop = Math.abs(touches[0].pageY + touches[1].pageY) / 2;
-            }
-
-            // Store initial positions
-            this.__initialTouchLeft = currentTouchLeft;
-            this.__initialTouchTop = currentTouchTop;
-
-            // Store current zoom level
-            this.__zoomLevelStart = this.__zoomLevel;
-
-            // Store initial touch positions
-            this.__lastTouchLeft = currentTouchLeft;
-            this.__lastTouchTop = currentTouchTop;
-
-            // Store initial move time stamp
-            this.__lastTouchMove = timeStamp;
-
-            // Reset initial scale
-            this.__lastScale = 1;
-
-            // Reset locking flags
-            this.__enableScrollX = !isSingleTouch && this.options.scrollingX;
-            this.__enableScrollY = !isSingleTouch && this.options.scrollingY;
-
-            // Reset tracking flag
-            this.__isTracking = true;
-
-            // Reset deceleration complete flag
-            this.__didDecelerationComplete = false;
-
-            // Dragging starts directly with two fingers, otherwise lazy with an offset
-            this.__isDragging = !isSingleTouch;
-
-            // Some features are disabled in multi touch scenarios
-            this.__isSingleTouch = isSingleTouch;
-
-            // Clearing data structure
-            this.__positions = [];
-        },
-
-
-        /**
-         * Touch move handler for scrolling support
-         * @param {Number} [1.0] scale - ....
-         */
-        doTouchMove : function (touches, timeStamp, scale) {
-            // Array-like check is enough here
-            if (touches.length === undefined) {
-                throw new Error("Invalid touch list: " + touches);
-            }
-
-            if (timeStamp instanceof Date) {
-                timeStamp = timeStamp.valueOf();
-            }
-            if (typeof timeStamp !== "number") {
-                throw new Error("Invalid timestamp value: " + timeStamp);
-            }
-
-            // Ignore event when tracking is not enabled (event might be outside of element)
-            if (!this.__isTracking) {
-                return;
-            }
-
-            var currentTouchLeft, currentTouchTop;
-
-            // Compute move based around of center of fingers
-            if (touches.length === 2) {
-                currentTouchLeft = Math.abs(touches[0].pageX + touches[1].pageX) / 2;
-                currentTouchTop = Math.abs(touches[0].pageY + touches[1].pageY) / 2;
-            } else {
-                currentTouchLeft = touches[0].pageX;
-                currentTouchTop = touches[0].pageY;
-            }
-
-            var positions = this.__positions;
-
-            // Are we already is dragging mode?
-            if (this.__isDragging) {
-                // Compute move distance
-                var moveX = currentTouchLeft - this.__lastTouchLeft;
-                var moveY = currentTouchTop - this.__lastTouchTop;
-
-                // Read previous scroll position and zooming
-                var scrollLeft = this.__scrollLeft;
-                var scrollTop = this.__scrollTop;
-                var level = this.__zoomLevel;
-
-                // Work with scaling
-                if (scale !== undefined && this.options.zooming) {
-                    var oldLevel = level;
-
-                    // Recompute level based on previous scale and new scale
-                    level = level / this.__lastScale * scale;
-
-                    // Limit level according to configuration
-                    level = Math.max(Math.min(level, this.options.maxZoom), this.options.minZoom);
-
-                    // Only do further compution when change happened
-                    if (oldLevel !== level) {
-                        // Compute relative event position to container
-                        var currentTouchLeftRel = currentTouchLeft - this.__clientLeft;
-                        var currentTouchTopRel = currentTouchTop - this.__clientTop;
-
-                        // Recompute left and top coordinates based on new zoom level
-                        scrollLeft = ((currentTouchLeftRel + scrollLeft) * level / oldLevel) - currentTouchLeftRel;
-                        scrollTop = ((currentTouchTopRel + scrollTop) * level / oldLevel) - currentTouchTopRel;
-
-                        // Recompute max scroll values
-                        this.__computeScrollMax(level);
-                    }
-                }
-
-                if (this.__enableScrollX) {
-                    scrollLeft -= moveX * this.options.speedMultiplier;
-                    var maxScrollLeft = this.__maxScrollLeft;
-
-                    if (scrollLeft > maxScrollLeft || scrollLeft < 0) {
-                        // Slow down on the edges
-                        if (this.options.bouncing) {
-                            scrollLeft += (moveX / 2  * this.options.speedMultiplier);
-                        } else if (scrollLeft > maxScrollLeft) {
-                            scrollLeft = maxScrollLeft;
-                        } else {
-                            scrollLeft = 0;
-                        }
-                    }
-                }
-
-                // Compute new vertical scroll position
-                if (this.__enableScrollY) {
-                    scrollTop -= moveY * this.options.speedMultiplier;
-                    var maxScrollTop = this.__maxScrollTop;
-
-                    if (scrollTop > maxScrollTop || scrollTop < 0) {
-                        // Slow down on the edges
-                        if (this.options.bouncing) {
-                            scrollTop += (moveY / 2 * this.options.speedMultiplier);
-                        } else if (scrollTop > maxScrollTop) {
-                            scrollTop = maxScrollTop;
-                        } else {
-                            scrollTop = 0;
-                        }
-                    }
-                }
-
-                // Keep list from growing infinitely (holding min 10, max 20 measure points)
-                if (positions.length > 60) {
-                    positions.splice(0, 30);
-                }
-
-                // Track scroll movement for decleration
-                positions.push(scrollLeft, scrollTop, timeStamp);
-
-                // Sync scroll position
-                this.__publish(scrollLeft, scrollTop, level);
-
-                // Otherwise figure out whether we are switching into dragging mode now.
-            } else {
-                var minimumTrackingForScroll = this.options.locking ? 3 : 0;
-                var minimumTrackingForDrag = 5;
-
-                var distanceX = Math.abs(currentTouchLeft - this.__initialTouchLeft);
-                var distanceY = Math.abs(currentTouchTop - this.__initialTouchTop);
-
-                this.__enableScrollX = this.options.scrollingX && distanceX >= minimumTrackingForScroll;
-                this.__enableScrollY = this.options.scrollingY && distanceY >= minimumTrackingForScroll;
-
-                positions.push(this.__scrollLeft, this.__scrollTop, timeStamp);
-
-                this.__isDragging = (this.__enableScrollX || this.__enableScrollY) && (distanceX >= minimumTrackingForDrag || distanceY >= minimumTrackingForDrag);
-                if (this.__isDragging) {
-                    this.__interruptedAnimation = false;
-                }
-            }
-
-            // Update last touch positions and time stamp for next event
-            this.__lastTouchLeft = currentTouchLeft;
-            this.__lastTouchTop = currentTouchTop;
-            this.__lastTouchMove = timeStamp;
-            this.__lastScale = scale;
-        },
-
-
-        /**
-         * Touch end handler for scrolling support
-         */
-        doTouchEnd : function (timeStamp) {
-            if (timeStamp instanceof Date) {
-                timeStamp = timeStamp.valueOf();
-            }
-            if (typeof timeStamp !== "number") {
-                throw new Error("Invalid timestamp value: " + timeStamp);
-            }
-
-            // Ignore event when tracking is not enabled (no touchstart event on element)
-            // This is required as this listener ('touchmove') sits on the document and not on the element itself.
-            if (!this.__isTracking) {
-                return;
-            }
-
-            // Not touching anymore (when two finger hit the screen there are two touch end events)
-            this.__isTracking = false;
-
-            // Be sure to reset the dragging flag now. Here we also detect whether
-            // the finger has moved fast enough to switch into a deceleration animation.
-            if (this.__isDragging) {
-                // Reset dragging flag
-                this.__isDragging = false;
-
-                // Start deceleration
-                // Verify that the last move detected was in some relevant time frame
-                if (this.__isSingleTouch && this.options.animating && (timeStamp - this.__lastTouchMove) <= 100) {
-                    // Then figure out what the scroll position was about 100ms ago
-                    var positions = this.__positions;
-                    var endPos = positions.length - 1;
-                    var startPos = endPos;
-
-                    // Move pointer to position measured 100ms ago
-                    for (var i = endPos; i > 0 && positions[i] > (this.__lastTouchMove - 100); i -= 3) {
-                        startPos = i;
-                    }
-
-                    // If start and stop position is identical in a 100ms timeframe,
-                    // we cannot compute any useful deceleration.
-                    if (startPos !== endPos) {
-                        // Compute relative movement between these two points
-                        var timeOffset = positions[endPos] - positions[startPos];
-                        var movedLeft = this.__scrollLeft - positions[startPos - 2];
-                        var movedTop = this.__scrollTop - positions[startPos - 1];
-
-                        // Based on 50ms compute the movement to apply for each render step
-                        this.__decelerationVelocityX = movedLeft / timeOffset * (1000 / 60);
-                        this.__decelerationVelocityY = movedTop / timeOffset * (1000 / 60);
-
-                        // How much velocity is required to start the deceleration
-                        var minVelocityToStartDeceleration = this.options.paging || this.options.snapping ? 4 : 1;
-
-                        // Verify that we have enough velocity to start deceleration
-                        if (Math.abs(this.__decelerationVelocityX) > minVelocityToStartDeceleration || Math.abs(this.__decelerationVelocityY) > minVelocityToStartDeceleration) {
-                            this.__startDeceleration(timeStamp);
-                        }
-                    } else {
-                        this.options.scrollingComplete();
-                    }
-                } else if ((timeStamp - this.__lastTouchMove) > 100) {
-                    this.options.scrollingComplete();
-                }
-            }
-
-            // If this was a slower move it is per default non decelerated, but this
-            // still means that we want snap back to the bounds which is done here.
-            // This is placed outside the condition above to improve edge case stability
-            // e.g. touchend fired without enabled dragging. This should normally do not
-            // have modified the scroll positions or even showed the scrollbars though.
-            if (!this.__isDecelerating) {
-                if (this.__interruptedAnimation || this.__isDragging) {
-                    this.options.scrollingComplete();
-                }
-                this.scrollTo(this.__scrollLeft, this.__scrollTop, true, this.__zoomLevel);
-            }
-
-            // Fully cleanup list
-            this.__positions.length = 0;
-        },
-
-
-
-        /*
-          ---------------------------------------------------------------------------
-          PRIVATE API
-          ---------------------------------------------------------------------------
-        */
-
-        /**
-         * Applies the scroll position to the content element
-         *
-         * @param left {Number} Left scroll position
-         * @param top {Number} Top scroll position
-         * @param isAnimated {Boolean?false} Whether animation should be used to move to the new coordinates
-         */
-        __publish : function (left, top, zoom, isAnimated) {
-            // Remember whether we had an animation, then we try to continue
-            // based on the current "drive" of the animation.
-            var wasAnimating = this.__isAnimating;
-            if (wasAnimating) {
-                animate.stop(wasAnimating);
-                this.__isAnimating = false;
-            }
-
-            if (isAnimated && this.options.animating) {
-                // Keep scheduled positions for scrollBy/zoomBy functionality.
-                this.__scheduledLeft = left;
-                this.__scheduledTop = top;
-                this.__scheduledZoom = zoom;
-
-                var oldLeft = this.__scrollLeft;
-                var oldTop = this.__scrollTop;
-                var oldZoom = this.__zoomLevel;
-
-                var diffLeft = left - oldLeft;
-                var diffTop = top - oldTop;
-                var diffZoom = zoom - oldZoom;
-
-                var step = function (percent, now, render) {
-                    if (render) {
-                        this.__scrollLeft = oldLeft + (diffLeft * percent);
-                        this.__scrollTop = oldTop + (diffTop * percent);
-                        this.__zoomLevel = oldZoom + (diffZoom * percent);
-
-                        // Push values out
-                        if (this.__callback) {
-                            this.__callback(this.__scrollLeft, this.__scrollTop, this.__zoomLevel);
-                        }
-                    }
-                }.bind(this);
-
-                var verify = function (id) {
-                    return this.__isAnimating === id;
-                }.bind(this);
-
-                var completed = function (renderedFramesPerSecond, animationId, wasFinished) {
-                    if (animationId === this.__isAnimating) {
-                        this.__isAnimating = false;
-                    }
-                    if (this.__didDecelerationComplete || wasFinished) {
-                        this.options.scrollingComplete();
-                    }
-
-                    if (this.options.zooming) {
-                        this.__computeScrollMax();
-                        if (this.__zoomComplete) {
-                            this.__zoomComplete();
-                            this.__zoomComplete = null;
-                        }
-                    }
-                }.bind(this);
-
-                // When continuing based on previous animation we choose an ease-out animation instead of ease-in-out
-                this.__isAnimating = animate.start(step, verify, completed, this.options.animationDuration, wasAnimating ? easeOutCubic : easeInOutCubic);
-
-            } else {
-                this.__scheduledLeft = this.__scrollLeft = left;
-                this.__scheduledTop = this.__scrollTop = top;
-                this.__scheduledZoom = this.__zoomLevel = zoom;
-
-                // Push values out
-                if (this.__callback) {
-                    this.__callback(left, top, zoom);
-                }
-
-                // Fix max scroll ranges
-                if (this.options.zooming) {
-                    this.__computeScrollMax();
-                    if (this.__zoomComplete) {
-                        this.__zoomComplete();
-                        this.__zoomComplete = null;
-                    }
-                }
-            }
-        },
-
-
-        /**
-         * Recomputes scroll minimum values based on client dimensions and content dimensions.
-         */
-        __computeScrollMax : function (zoomLevel) {
-            if (zoomLevel === undefined) {
-                zoomLevel = this.__zoomLevel;
-            }
-
-            this.__maxScrollLeft = Math.max(this.__contentWidth*zoomLevel - this.__clientWidth, 0);
-            this.__maxScrollTop = Math.max(this.__contentHeight*zoomLevel - this.__clientHeight, 0);
-        },
-
-
-
-        /*
-          ---------------------------------------------------------------------------
-          ANIMATION (DECELERATION) SUPPORT
-          ---------------------------------------------------------------------------
-        */
-
-        /**
-         * Called when a touch sequence end and the speed of the finger was high enough
-         * to switch into deceleration mode.
-         */
-        __startDeceleration : function (timeStamp) {
-            if (this.options.paging) {
-                var scrollLeft = Math.max(Math.min(this.__scrollLeft, this.__maxScrollLeft), 0);
-                var scrollTop = Math.max(Math.min(this.__scrollTop, this.__maxScrollTop), 0);
-                var clientWidth = this.__clientWidth;
-                var clientHeight = this.__clientHeight;
-
-                // We limit deceleration not to the min/max values of the allowed range, but to the size of the visible client area.
-                // Each page should have exactly the size of the client area.
-                this.__minDecelerationScrollLeft = Math.floor(scrollLeft / clientWidth) * clientWidth;
-                this.__minDecelerationScrollTop = Math.floor(scrollTop / clientHeight) * clientHeight;
-                this.__maxDecelerationScrollLeft = Math.ceil(scrollLeft / clientWidth) * clientWidth;
-                this.__maxDecelerationScrollTop = Math.ceil(scrollTop / clientHeight) * clientHeight;
-            } else {
-                this.__minDecelerationScrollLeft = 0;
-                this.__minDecelerationScrollTop = 0;
-                this.__maxDecelerationScrollLeft = this.__maxScrollLeft;
-                this.__maxDecelerationScrollTop = this.__maxScrollTop;
-            }
-
-            // Wrap class method
-            var step = function (percent, now, render) {
-                this.__stepThroughDeceleration(render);
-            }.bind(this);
-
-            // How much velocity is required to keep the deceleration running
-            var minVelocityToKeepDecelerating = this.options.snapping ? 4 : 0.1;
-
-            // Detect whether it's still worth to continue animating steps
-            // If we are already slow enough to not being user perceivable anymore, we stop the whole process here.
-            var verify = function () {
-                var shouldContinue = Math.abs(this.__decelerationVelocityX) >= minVelocityToKeepDecelerating || Math.abs(this.__decelerationVelocityY) >= minVelocityToKeepDecelerating;
-                if (!shouldContinue) {
-                    this.__didDecelerationComplete = true;
-                }
-                return shouldContinue;
-            }.bind(this);
-
-            var completed = function (renderedFramesPerSecond, animationId, wasFinished) {
-                this.__isDecelerating = false;
-                if (this.__didDecelerationComplete) {
-                    this.options.scrollingComplete();
-                }
-
-                // Animate to grid when snapping is active, otherwise just fix out-of-boundary positions
-                this.scrollTo(this.__scrollLeft, this.__scrollTop, this.options.snapping);
-            }.bind(this);
-
-            // Start animation and switch on flag
-            this.__isDecelerating = animate.start(step, verify, completed);
-        },
-
-
-        /**
-         * Called on every step of the animation
-         *
-         * @param inMemory {Boolean?false} Whether to not render the current step, but keep it in memory only. Used internally only!
-         */
-        __stepThroughDeceleration : function (render) {
-
-            //
-            // COMPUTE NEXT SCROLL POSITION
-            //
-
-            // Add deceleration to scroll position
-            var scrollLeft = this.__scrollLeft + this.__decelerationVelocityX;
-            var scrollTop = this.__scrollTop + this.__decelerationVelocityY;
-
-
-            //
-            // HARD LIMIT SCROLL POSITION FOR NON BOUNCING MODE
-            //
-
-            if (!this.options.bouncing) {
-                var scrollLeftFixed = Math.max(Math.min(this.__maxDecelerationScrollLeft, scrollLeft), this.__minDecelerationScrollLeft);
-                if (scrollLeftFixed !== scrollLeft) {
-                    scrollLeft = scrollLeftFixed;
-                    this.__decelerationVelocityX = 0;
-                }
-
-                var scrollTopFixed = Math.max(Math.min(this.__maxDecelerationScrollTop, scrollTop), this.__minDecelerationScrollTop);
-                if (scrollTopFixed !== scrollTop) {
-                    scrollTop = scrollTopFixed;
-                    this.__decelerationVelocityY = 0;
-                }
-            }
-
-
-            //
-            // UPDATE SCROLL POSITION
-            //
-
-            if (render) {
-                this.__publish(scrollLeft, scrollTop, this.__zoomLevel);
-            } else {
-                this.__scrollLeft = scrollLeft;
-                this.__scrollTop = scrollTop;
-            }
-
-
-            //
-            // SLOW DOWN
-            //
-
-            // Slow down velocity on every iteration
-            if (!this.options.paging) {
-                // This is the factor applied to every iteration of the animation
-                // to slow down the process. This should emulate natural behavior where
-                // objects slow down when the initiator of the movement is removed
-                var frictionFactor = 0.95;
-
-                this.__decelerationVelocityX *= frictionFactor;
-                this.__decelerationVelocityY *= frictionFactor;
-            }
-
-
-            //
-            // BOUNCING SUPPORT
-            //
-
-            if (this.options.bouncing) {
-                var scrollOutsideX = 0;
-                var scrollOutsideY = 0;
-
-                // This configures the amount of change applied to deceleration/acceleration when reaching boundaries
-                var penetrationDeceleration = this.options.penetrationDeceleration;
-                var penetrationAcceleration = this.options.penetrationAcceleration;
-
-                // Check limits
-                if (scrollLeft < this.__minDecelerationScrollLeft) {
-                    scrollOutsideX = this.__minDecelerationScrollLeft - scrollLeft;
-                } else if (scrollLeft > this.__maxDecelerationScrollLeft) {
-                    scrollOutsideX = this.__maxDecelerationScrollLeft - scrollLeft;
-                }
-
-                if (scrollTop < this.__minDecelerationScrollTop) {
-                    scrollOutsideY = this.__minDecelerationScrollTop - scrollTop;
-                } else if (scrollTop > this.__maxDecelerationScrollTop) {
-                    scrollOutsideY = this.__maxDecelerationScrollTop - scrollTop;
-                }
-
-                // Slow down until slow enough, then flip back to snap position
-                if (scrollOutsideX !== 0) {
-                    if (scrollOutsideX * this.__decelerationVelocityX <= 0) {
-                        this.__decelerationVelocityX += scrollOutsideX * penetrationDeceleration;
-                    } else {
-                        this.__decelerationVelocityX = scrollOutsideX * penetrationAcceleration;
-                    }
-                }
-
-                if (scrollOutsideY !== 0) {
-                    if (scrollOutsideY * this.__decelerationVelocityY <= 0) {
-                        this.__decelerationVelocityY += scrollOutsideY * penetrationDeceleration;
-                    } else {
-                        this.__decelerationVelocityY = scrollOutsideY * penetrationAcceleration;
-                    }
-                }
-            }
-        }
-    };
-
-    return Scroller;
-}));
-
+eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*\n * Scroller\n * http://github.com/zynga/scroller\n *\n * Copyright 2011, Zynga Inc.\n * Licensed under the MIT License.\n * https://raw.github.com/zynga/scroller/master/MIT-LICENSE.txt\n *\n * Based on the work of: Unify Project (unify-project.org)\n * http://unify-project.org\n * Copyright 2011, Deutsche Telekom AG\n * License: MIT + Apache (V2)\n */\n\n(function (root, factory) {\n    if (true) {\n        // AMD\n        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! ./animate */ \"./node_modules/scroller/lib/animate.js\")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?\n\t\t\t\t(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n    } else {}\n}(this, function (animate) {\n    var NOOP = function () {};\n\n    /**\n     * A pure logic 'component' for 'virtual' scrolling/zooming.\n     */\n    var Scroller = function (callback, options) {\n        this.__callback = callback;\n\n        this.options = {\n            /** Enable scrolling on x-axis */\n            scrollingX: true,\n\n            /** Enable scrolling on y-axis */\n            scrollingY: true,\n\n            /** Enable animations for deceleration, snap back, zooming and scrolling */\n            animating: true,\n\n            /** duration for animations triggered by scrollTo/zoomTo */\n            animationDuration: 250,\n\n            /** Enable bouncing (content can be slowly moved outside and jumps back after releasing) */\n            bouncing: true,\n\n            /** Enable locking to the main axis if user moves only slightly on one of them at start */\n            locking: true,\n\n            /** Enable pagination mode (switching between full page content panes) */\n            paging: false,\n\n            /** Enable snapping of content to a configured pixel grid */\n            snapping: false,\n\n            /** Enable zooming of content via API, fingers and mouse wheel */\n            zooming: false,\n\n            /** Minimum zoom level */\n            minZoom: 0.5,\n\n            /** Maximum zoom level */\n            maxZoom: 3,\n\n            /** Multiply or decrease scrolling speed **/\n            speedMultiplier: 1,\n\n            /** Callback that is fired on the later of touch end or deceleration end,\n                provided that another scrolling action has not begun. Used to know\n                when to fade out a scrollbar. */\n            scrollingComplete: NOOP,\n\n            /** This configures the amount of change applied to deceleration when reaching boundaries  **/\n            penetrationDeceleration : 0.03,\n\n            /** This configures the amount of change applied to acceleration when reaching boundaries  **/\n            penetrationAcceleration : 0.08\n        };\n\n        for (var key in options) {\n            this.options[key] = options[key];\n        }\n    };\n\n\n    // Easing Equations (c) 2003 Robert Penner, all rights reserved.\n    // Open source under the BSD License.\n\n    /**\n     * @param pos {Number} position between 0 (start of effect) and 1 (end of effect)\n     **/\n    var easeOutCubic = function (pos) {\n        return (Math.pow((pos - 1), 3) + 1);\n    };\n\n    /**\n     * @param pos {Number} position between 0 (start of effect) and 1 (end of effect)\n     **/\n    var easeInOutCubic = function (pos) {\n        if ((pos /= 0.5) < 1) {\n            return 0.5 * Math.pow(pos, 3);\n        }\n\n        return 0.5 * (Math.pow((pos - 2), 3) + 2);\n    };\n\n\n    Scroller.prototype = {\n\n        /*\n          ---------------------------------------------------------------------------\n          INTERNAL FIELDS :: STATUS\n          ---------------------------------------------------------------------------\n        */\n\n        /** {Boolean} Whether only a single finger is used in touch handling */\n        __isSingleTouch: false,\n\n        /** {Boolean} Whether a touch event sequence is in progress */\n        __isTracking: false,\n\n        /** {Boolean} Whether a deceleration animation went to completion. */\n        __didDecelerationComplete: false,\n\n        /**\n         * {Boolean} Whether a gesture zoom/rotate event is in progress. Activates when\n         * a gesturestart event happens. This has higher priority than dragging.\n         */\n        __isGesturing: false,\n\n        /**\n         * {Boolean} Whether the user has moved by such a distance that we have enabled\n         * dragging mode. Hint: It's only enabled after some pixels of movement to\n         * not interrupt with clicks etc.\n         */\n        __isDragging: false,\n\n        /**\n         * {Boolean} Not touching and dragging anymore, and smoothly animating the\n         * touch sequence using deceleration.\n         */\n        __isDecelerating: false,\n\n        /**\n         * {Boolean} Smoothly animating the currently configured change\n         */\n        __isAnimating: false,\n\n\n\n        /*\n          ---------------------------------------------------------------------------\n          INTERNAL FIELDS :: DIMENSIONS\n          ---------------------------------------------------------------------------\n        */\n\n        /** {Integer} Viewport left boundary */\n        __clientLeft: 0,\n\n        /** {Integer} Viewport right boundary */\n        __clientTop: 0,\n\n        /** {Integer} Viewport width */\n        __clientWidth: 0,\n\n        /** {Integer} Viewport height */\n        __clientHeight: 0,\n\n        /** {Integer} Full content's width */\n        __contentWidth: 0,\n\n        /** {Integer} Full content's height */\n        __contentHeight: 0,\n\n        /** {Integer} Snapping width for content */\n        __snapWidth: 100,\n\n        /** {Integer} Snapping height for content */\n        __snapHeight: 100,\n\n        /** {Number} Zoom level */\n        __zoomLevel: 1,\n\n        /** {Number} Scroll position on x-axis */\n        __scrollLeft: 0,\n\n        /** {Number} Scroll position on y-axis */\n        __scrollTop: 0,\n\n        /** {Integer} Maximum allowed scroll position on x-axis */\n        __maxScrollLeft: 0,\n\n        /** {Integer} Maximum allowed scroll position on y-axis */\n        __maxScrollTop: 0,\n\n        /* {Number} Scheduled left position (final position when animating) */\n        __scheduledLeft: 0,\n\n        /* {Number} Scheduled top position (final position when animating) */\n        __scheduledTop: 0,\n\n        /* {Number} Scheduled zoom level (final scale when animating) */\n        __scheduledZoom: 0,\n\n\n\n        /*\n          ---------------------------------------------------------------------------\n          INTERNAL FIELDS :: LAST POSITIONS\n          ---------------------------------------------------------------------------\n        */\n\n        /** {Number} Left position of finger at start */\n        __lastTouchLeft: null,\n\n        /** {Number} Top position of finger at start */\n        __lastTouchTop: null,\n\n        /** {Date} Timestamp of last move of finger. Used to limit tracking range for deceleration speed. */\n        __lastTouchMove: null,\n\n        /** {Array} List of positions, uses three indexes for each state: left, top, timestamp */\n        __positions: null,\n\n\n\n        /*\n          ---------------------------------------------------------------------------\n          INTERNAL FIELDS :: DECELERATION SUPPORT\n          ---------------------------------------------------------------------------\n        */\n\n        /** {Integer} Minimum left scroll position during deceleration */\n        __minDecelerationScrollLeft: null,\n\n        /** {Integer} Minimum top scroll position during deceleration */\n        __minDecelerationScrollTop: null,\n\n        /** {Integer} Maximum left scroll position during deceleration */\n        __maxDecelerationScrollLeft: null,\n\n        /** {Integer} Maximum top scroll position during deceleration */\n        __maxDecelerationScrollTop: null,\n\n        /** {Number} Current factor to modify horizontal scroll position with on every step */\n        __decelerationVelocityX: null,\n\n        /** {Number} Current factor to modify vertical scroll position with on every step */\n        __decelerationVelocityY: null,\n\n\n\n        /*\n          ---------------------------------------------------------------------------\n          PUBLIC API\n          ---------------------------------------------------------------------------\n        */\n\n        /**\n         * Configures the dimensions of the client (outer) and content (inner) elements.\n         * Requires the available space for the outer element and the outer size of the inner element.\n         * All values which are falsy (null or zero etc.) are ignored and the old value is kept.\n         *\n         * @param clientWidth {Integer ? null} Inner width of outer element\n         * @param clientHeight {Integer ? null} Inner height of outer element\n         * @param contentWidth {Integer ? null} Outer width of inner element\n         * @param contentHeight {Integer ? null} Outer height of inner element\n         */\n        setDimensions : function (clientWidth, clientHeight, contentWidth, contentHeight) {\n            // Only update values which are defined\n            if (clientWidth !== null) {\n                this.__clientWidth = clientWidth;\n            }\n\n            if (clientHeight !== null) {\n                this.__clientHeight = clientHeight;\n            }\n\n            if (contentWidth !== null) {\n                this.__contentWidth = contentWidth;\n            }\n\n            if (contentHeight !== null) {\n                this.__contentHeight = contentHeight;\n            }\n\n            // Refresh maximums\n            this.__computeScrollMax();\n\n            // Refresh scroll position\n            this.scrollTo(this.__scrollLeft, this.__scrollTop, true);\n        },\n\n\n        /**\n         * Sets the client coordinates in relation to the document.\n         *\n         * @param left {Integer ? 0} Left position of outer element\n         * @param top {Integer ? 0} Top position of outer element\n         */\n        setPosition : function (left, top) {\n            this.__clientLeft = left || 0;\n            this.__clientTop = top || 0;\n        },\n\n\n        /**\n         * Configures the snapping (when snapping is active)\n         *\n         * @param width {Integer} Snapping width\n         * @param height {Integer} Snapping height\n         */\n        setSnapSize : function (width, height) {\n            this.__snapWidth = width;\n            this.__snapHeight = height;\n        },\n\n\n        /**\n         * Returns the scroll position and zooming values\n         *\n         * @return {Map} `left` and `top` scroll position and `zoom` level\n         */\n        getValues : function () {\n            return {\n                left: this.__scrollLeft,\n                top: this.__scrollTop,\n                right: this.__scrollLeft + this.__clientWidth/this.__zoomLevel,\n                bottom: this.__scrollTop + this.__clientHeight/this.__zoomLevel,\n                zoom: this.__zoomLevel\n            };\n        },\n\n\n        /**\n         * Get point in in content space from scroll coordinates.\n         */\n        getPoint : function (scrollLeft, scrollTop) {\n            var values = this.getValues();\n\n            return {\n                left : scrollLeft / values.zoom,\n                top : scrollTop / values.zoom\n            };\n        },\n\n\n        /**\n         * Returns the maximum scroll values\n         *\n         * @return {Map} `left` and `top` maximum scroll values\n         */\n        getScrollMax : function () {\n            return {\n                left: this.__maxScrollLeft,\n                top: this.__maxScrollTop\n            };\n        },\n\n\n        /**\n         * Zooms to the given level. Supports optional animation. Zooms\n         * the center when no coordinates are given.\n         *\n         * @param level {Number} Level to zoom to\n         * @param isAnimated {Boolean ? false} Whether to use animation\n         * @param fixedLeft {Number ? undefined} Stationary point's left coordinate (vector in client space)\n         * @param fixedTop {Number ? undefined} Stationary point's top coordinate (vector in client space)\n         * @param callback {Function ? null} A callback that gets fired when the zoom is complete.\n         */\n        zoomTo : function (level, isAnimated, fixedLeft, fixedTop, callback) {\n            if (!this.options.zooming) {\n                throw new Error(\"Zooming is not enabled!\");\n            }\n\n            // Add callback if exists\n            if(callback) {\n                this.__zoomComplete = callback;\n            }\n\n            // Stop deceleration\n            if (this.__isDecelerating) {\n                animate.stop(this.__isDecelerating);\n                this.__isDecelerating = false;\n            }\n\n            var oldLevel = this.__zoomLevel;\n\n            // Normalize fixed point to center of viewport if not defined\n            if (fixedLeft === undefined) {\n                fixedLeft = this.__clientWidth / 2;\n            }\n\n            if (fixedTop === undefined) {\n                fixedTop = this.__clientHeight / 2;\n            }\n\n            // Limit level according to configuration\n            level = Math.max(Math.min(level, this.options.maxZoom), this.options.minZoom);\n\n            // Recompute maximum values while temporary tweaking maximum scroll ranges\n            this.__computeScrollMax(level);\n\n            // Recompute left and top scroll positions based on new zoom level.\n            // Choosing the new viewport so that the origin's position remains\n            // fixed, we have central dilation about the origin.\n            // * Fixed point, $F$, remains stationary in content space and in the\n            // viewport.\n            // * Initial scroll position, $S_i$, in content space.\n            // * Final scroll position, $S_f$, in content space.\n            // * Initial scaling factor, $k_i$.\n            // * Final scaling factor, $k_f$.\n            //\n            // * $S_i \\mapsto S_f$.\n            // * $(S_i - F) k_i = (S_f - F) k_f$.\n            // * $(S_i - F) k_i/k_f = (S_f - F)$.\n            // * $S_f = F + (S_i - F) k_i/k_f$.\n            //\n            // Fixed point location, $\\vector{f} = (F - S_i) k_i$.\n            // * $F = S_i + \\vector{f}/k_i$.\n            // * $S_f = S_i + \\vector{f}/k_i + (S_i - S_i - \\vector{f}/k_i) k_i/k_f$.\n            // * $S_f = S_i + \\vector{f}/k_i - \\vector{f}/k_f$.\n            // * $S_f k_f = S_i k_f + (k_f/k_i - 1)\\vector{f}$.\n            // * $S_f k_f = (k_f/k_i)(S_i k_i) + (k_f/k_i - 1) \\vector{f}$.\n            var k = level / oldLevel;\n            var left = k*(this.__scrollLeft + fixedLeft) - fixedLeft;\n            var top = k*(this.__scrollTop + fixedTop) - fixedTop;\n\n            // Limit x-axis\n            if (left > this.__maxScrollLeft) {\n                left = this.__maxScrollLeft;\n            } else if (left < 0) {\n                left = 0;\n            }\n\n            // Limit y-axis\n            if (top > this.__maxScrollTop) {\n                top = this.__maxScrollTop;\n            } else if (top < 0) {\n                top = 0;\n            }\n\n            // Push values out\n            this.__publish(left, top, level, isAnimated);\n        },\n\n\n        /**\n         * Zooms the content by the given factor.\n         *\n         * @param factor {Number} Zoom by given factor\n         * @param isAnimated {Boolean ? false} Whether to use animation\n         * @param originLeft {Number ? 0} Zoom in at given left coordinate\n         * @param originTop {Number ? 0} Zoom in at given top coordinate\n         * @param callback {Function ? null} A callback that gets fired when the zoom is complete.\n         */\n        zoomBy : function (factor, isAnimated, originLeft, originTop, callback) {\n            this.zoomTo(this.__zoomLevel * factor, isAnimated, originLeft, originTop, callback);\n        },\n\n\n        /**\n         * Scrolls to the given position. Respect limitations and snapping automatically.\n         *\n         * @param left {Number?null} Horizontal scroll position, keeps current if value is <code>null</code>\n         * @param top {Number?null} Vertical scroll position, keeps current if value is <code>null</code>\n         * @param isAnimated {Boolean?false} Whether the scrolling should happen using an animation\n         * @param zoom {Number} [1.0] Zoom level to go to\n         */\n        scrollTo : function (left, top, isAnimated, zoom) {\n\n            // Stop deceleration\n            if (this.__isDecelerating) {\n                animate.stop(this.__isDecelerating);\n                this.__isDecelerating = false;\n            }\n\n            // Correct coordinates based on new zoom level\n            if (zoom !== undefined && zoom !== this.__zoomLevel) {\n                if (!this.options.zooming) {\n                    throw new Error(\"Zooming is not enabled!\");\n                }\n\n                left *= zoom;\n                top *= zoom;\n\n                // Recompute maximum values while temporary tweaking maximum scroll ranges\n                this.__computeScrollMax(zoom);\n            } else {\n                // Keep zoom when not defined\n                zoom = this.__zoomLevel;\n            }\n\n            if (!this.options.scrollingX) {\n                left = this.__scrollLeft;\n            } else {\n                if (this.options.paging) {\n                    left = Math.round(left / this.__clientWidth) * this.__clientWidth;\n                } else if (this.options.snapping) {\n                    left = Math.round(left / this.__snapWidth) * this.__snapWidth;\n                }\n            }\n\n            if (!this.options.scrollingY) {\n                top = this.__scrollTop;\n            } else {\n                if (this.options.paging) {\n                    top = Math.round(top / this.__clientHeight) * this.__clientHeight;\n                } else if (this.options.snapping) {\n                    top = Math.round(top / this.__snapHeight) * this.__snapHeight;\n                }\n            }\n            // Limit for allowed ranges\n            left = Math.max(Math.min(this.__maxScrollLeft, left), 0);\n            top = Math.max(Math.min(this.__maxScrollTop, top), 0);\n\n            // Don't animate when no change detected, still call publish to make sure\n            // that rendered position is really in-sync with internal data\n            if (left === this.__scrollLeft && top === this.__scrollTop) {\n                isAnimated = false;\n            }\n\n            // Publish new values\n            this.__publish(left, top, zoom, isAnimated);\n        },\n\n\n        /**\n         * Scroll by the given offset\n         *\n         * @param left {Number ? 0} Scroll x-axis by given offset\n         * @param top {Number ? 0} Scroll x-axis by given offset\n         * @param isAnimated {Boolean ? false} Whether to animate the given change\n         */\n        scrollBy : function (left, top, isAnimated) {\n            var startLeft = this.__isAnimating ? this.__scheduledLeft : this.__scrollLeft;\n            var startTop = this.__isAnimating ? this.__scheduledTop : this.__scrollTop;\n\n            this.scrollTo(startLeft + (left || 0), startTop + (top || 0), isAnimated);\n        },\n\n\n        /*\n          ---------------------------------------------------------------------------\n          EVENT CALLBACKS\n          ---------------------------------------------------------------------------\n        */\n\n        /**\n         * Mouse wheel handler for zooming support\n         */\n        doMouseZoom : function (wheelDelta, timeStamp, pageX, pageY) {\n            var change = wheelDelta > 0 ? 0.97 : 1.03;\n\n            return this.zoomTo(this.__zoomLevel * change, false, pageX - this.__clientLeft, pageY - this.__clientTop);\n        },\n\n\n        /**\n         * Touch start handler for scrolling support\n         */\n        doTouchStart : function (touches, timeStamp) {\n            // Array-like check is enough here\n            if (touches.length === undefined) {\n                throw new Error(\"Invalid touch list: \" + touches);\n            }\n\n            if (timeStamp instanceof Date) {\n                timeStamp = timeStamp.valueOf();\n            }\n            if (typeof timeStamp !== \"number\") {\n                throw new Error(\"Invalid timestamp value: \" + timeStamp);\n            }\n\n            // Reset interruptedAnimation flag\n            this.__interruptedAnimation = true;\n\n            // Stop deceleration\n            if (this.__isDecelerating) {\n                animate.stop(this.__isDecelerating);\n                this.__isDecelerating = false;\n                this.__interruptedAnimation = true;\n            }\n\n            // Stop animation\n            if (this.__isAnimating) {\n                animate.stop(this.__isAnimating);\n                this.__isAnimating = false;\n                this.__interruptedAnimation = true;\n            }\n\n            // Use center point when dealing with two fingers\n            var currentTouchLeft, currentTouchTop;\n            var isSingleTouch = touches.length === 1;\n            if (isSingleTouch) {\n                currentTouchLeft = touches[0].pageX;\n                currentTouchTop = touches[0].pageY;\n            } else {\n                currentTouchLeft = Math.abs(touches[0].pageX + touches[1].pageX) / 2;\n                currentTouchTop = Math.abs(touches[0].pageY + touches[1].pageY) / 2;\n            }\n\n            // Store initial positions\n            this.__initialTouchLeft = currentTouchLeft;\n            this.__initialTouchTop = currentTouchTop;\n\n            // Store current zoom level\n            this.__zoomLevelStart = this.__zoomLevel;\n\n            // Store initial touch positions\n            this.__lastTouchLeft = currentTouchLeft;\n            this.__lastTouchTop = currentTouchTop;\n\n            // Store initial move time stamp\n            this.__lastTouchMove = timeStamp;\n\n            // Reset initial scale\n            this.__lastScale = 1;\n\n            // Reset locking flags\n            this.__enableScrollX = !isSingleTouch && this.options.scrollingX;\n            this.__enableScrollY = !isSingleTouch && this.options.scrollingY;\n\n            // Reset tracking flag\n            this.__isTracking = true;\n\n            // Reset deceleration complete flag\n            this.__didDecelerationComplete = false;\n\n            // Dragging starts directly with two fingers, otherwise lazy with an offset\n            this.__isDragging = !isSingleTouch;\n\n            // Some features are disabled in multi touch scenarios\n            this.__isSingleTouch = isSingleTouch;\n\n            // Clearing data structure\n            this.__positions = [];\n        },\n\n\n        /**\n         * Touch move handler for scrolling support\n         * @param {Number} [1.0] scale - ....\n         */\n        doTouchMove : function (touches, timeStamp, scale) {\n            // Array-like check is enough here\n            if (touches.length === undefined) {\n                throw new Error(\"Invalid touch list: \" + touches);\n            }\n\n            if (timeStamp instanceof Date) {\n                timeStamp = timeStamp.valueOf();\n            }\n            if (typeof timeStamp !== \"number\") {\n                throw new Error(\"Invalid timestamp value: \" + timeStamp);\n            }\n\n            // Ignore event when tracking is not enabled (event might be outside of element)\n            if (!this.__isTracking) {\n                return;\n            }\n\n            var currentTouchLeft, currentTouchTop;\n\n            // Compute move based around of center of fingers\n            if (touches.length === 2) {\n                currentTouchLeft = Math.abs(touches[0].pageX + touches[1].pageX) / 2;\n                currentTouchTop = Math.abs(touches[0].pageY + touches[1].pageY) / 2;\n            } else {\n                currentTouchLeft = touches[0].pageX;\n                currentTouchTop = touches[0].pageY;\n            }\n\n            var positions = this.__positions;\n\n            // Are we already is dragging mode?\n            if (this.__isDragging) {\n                // Compute move distance\n                var moveX = currentTouchLeft - this.__lastTouchLeft;\n                var moveY = currentTouchTop - this.__lastTouchTop;\n\n                // Read previous scroll position and zooming\n                var scrollLeft = this.__scrollLeft;\n                var scrollTop = this.__scrollTop;\n                var level = this.__zoomLevel;\n\n                // Work with scaling\n                if (scale !== undefined && this.options.zooming) {\n                    var oldLevel = level;\n\n                    // Recompute level based on previous scale and new scale\n                    level = level / this.__lastScale * scale;\n\n                    // Limit level according to configuration\n                    level = Math.max(Math.min(level, this.options.maxZoom), this.options.minZoom);\n\n                    // Only do further compution when change happened\n                    if (oldLevel !== level) {\n                        // Compute relative event position to container\n                        var currentTouchLeftRel = currentTouchLeft - this.__clientLeft;\n                        var currentTouchTopRel = currentTouchTop - this.__clientTop;\n\n                        // Recompute left and top coordinates based on new zoom level\n                        scrollLeft = ((currentTouchLeftRel + scrollLeft) * level / oldLevel) - currentTouchLeftRel;\n                        scrollTop = ((currentTouchTopRel + scrollTop) * level / oldLevel) - currentTouchTopRel;\n\n                        // Recompute max scroll values\n                        this.__computeScrollMax(level);\n                    }\n                }\n\n                if (this.__enableScrollX) {\n                    scrollLeft -= moveX * this.options.speedMultiplier;\n                    var maxScrollLeft = this.__maxScrollLeft;\n\n                    if (scrollLeft > maxScrollLeft || scrollLeft < 0) {\n                        // Slow down on the edges\n                        if (this.options.bouncing) {\n                            scrollLeft += (moveX / 2  * this.options.speedMultiplier);\n                        } else if (scrollLeft > maxScrollLeft) {\n                            scrollLeft = maxScrollLeft;\n                        } else {\n                            scrollLeft = 0;\n                        }\n                    }\n                }\n\n                // Compute new vertical scroll position\n                if (this.__enableScrollY) {\n                    scrollTop -= moveY * this.options.speedMultiplier;\n                    var maxScrollTop = this.__maxScrollTop;\n\n                    if (scrollTop > maxScrollTop || scrollTop < 0) {\n                        // Slow down on the edges\n                        if (this.options.bouncing) {\n                            scrollTop += (moveY / 2 * this.options.speedMultiplier);\n                        } else if (scrollTop > maxScrollTop) {\n                            scrollTop = maxScrollTop;\n                        } else {\n                            scrollTop = 0;\n                        }\n                    }\n                }\n\n                // Keep list from growing infinitely (holding min 10, max 20 measure points)\n                if (positions.length > 60) {\n                    positions.splice(0, 30);\n                }\n\n                // Track scroll movement for decleration\n                positions.push(scrollLeft, scrollTop, timeStamp);\n\n                // Sync scroll position\n                this.__publish(scrollLeft, scrollTop, level);\n\n                // Otherwise figure out whether we are switching into dragging mode now.\n            } else {\n                var minimumTrackingForScroll = this.options.locking ? 3 : 0;\n                var minimumTrackingForDrag = 5;\n\n                var distanceX = Math.abs(currentTouchLeft - this.__initialTouchLeft);\n                var distanceY = Math.abs(currentTouchTop - this.__initialTouchTop);\n\n                this.__enableScrollX = this.options.scrollingX && distanceX >= minimumTrackingForScroll;\n                this.__enableScrollY = this.options.scrollingY && distanceY >= minimumTrackingForScroll;\n\n                positions.push(this.__scrollLeft, this.__scrollTop, timeStamp);\n\n                this.__isDragging = (this.__enableScrollX || this.__enableScrollY) && (distanceX >= minimumTrackingForDrag || distanceY >= minimumTrackingForDrag);\n                if (this.__isDragging) {\n                    this.__interruptedAnimation = false;\n                }\n            }\n\n            // Update last touch positions and time stamp for next event\n            this.__lastTouchLeft = currentTouchLeft;\n            this.__lastTouchTop = currentTouchTop;\n            this.__lastTouchMove = timeStamp;\n            this.__lastScale = scale;\n        },\n\n\n        /**\n         * Touch end handler for scrolling support\n         */\n        doTouchEnd : function (timeStamp) {\n            if (timeStamp instanceof Date) {\n                timeStamp = timeStamp.valueOf();\n            }\n            if (typeof timeStamp !== \"number\") {\n                throw new Error(\"Invalid timestamp value: \" + timeStamp);\n            }\n\n            // Ignore event when tracking is not enabled (no touchstart event on element)\n            // This is required as this listener ('touchmove') sits on the document and not on the element itself.\n            if (!this.__isTracking) {\n                return;\n            }\n\n            // Not touching anymore (when two finger hit the screen there are two touch end events)\n            this.__isTracking = false;\n\n            // Be sure to reset the dragging flag now. Here we also detect whether\n            // the finger has moved fast enough to switch into a deceleration animation.\n            if (this.__isDragging) {\n                // Reset dragging flag\n                this.__isDragging = false;\n\n                // Start deceleration\n                // Verify that the last move detected was in some relevant time frame\n                if (this.__isSingleTouch && this.options.animating && (timeStamp - this.__lastTouchMove) <= 100) {\n                    // Then figure out what the scroll position was about 100ms ago\n                    var positions = this.__positions;\n                    var endPos = positions.length - 1;\n                    var startPos = endPos;\n\n                    // Move pointer to position measured 100ms ago\n                    for (var i = endPos; i > 0 && positions[i] > (this.__lastTouchMove - 100); i -= 3) {\n                        startPos = i;\n                    }\n\n                    // If start and stop position is identical in a 100ms timeframe,\n                    // we cannot compute any useful deceleration.\n                    if (startPos !== endPos) {\n                        // Compute relative movement between these two points\n                        var timeOffset = positions[endPos] - positions[startPos];\n                        var movedLeft = this.__scrollLeft - positions[startPos - 2];\n                        var movedTop = this.__scrollTop - positions[startPos - 1];\n\n                        // Based on 50ms compute the movement to apply for each render step\n                        this.__decelerationVelocityX = movedLeft / timeOffset * (1000 / 60);\n                        this.__decelerationVelocityY = movedTop / timeOffset * (1000 / 60);\n\n                        // How much velocity is required to start the deceleration\n                        var minVelocityToStartDeceleration = this.options.paging || this.options.snapping ? 4 : 1;\n\n                        // Verify that we have enough velocity to start deceleration\n                        if (Math.abs(this.__decelerationVelocityX) > minVelocityToStartDeceleration || Math.abs(this.__decelerationVelocityY) > minVelocityToStartDeceleration) {\n                            this.__startDeceleration(timeStamp);\n                        }\n                    } else {\n                        this.options.scrollingComplete();\n                    }\n                } else if ((timeStamp - this.__lastTouchMove) > 100) {\n                    this.options.scrollingComplete();\n                }\n            }\n\n            // If this was a slower move it is per default non decelerated, but this\n            // still means that we want snap back to the bounds which is done here.\n            // This is placed outside the condition above to improve edge case stability\n            // e.g. touchend fired without enabled dragging. This should normally do not\n            // have modified the scroll positions or even showed the scrollbars though.\n            if (!this.__isDecelerating) {\n                if (this.__interruptedAnimation || this.__isDragging) {\n                    this.options.scrollingComplete();\n                }\n                this.scrollTo(this.__scrollLeft, this.__scrollTop, true, this.__zoomLevel);\n            }\n\n            // Fully cleanup list\n            this.__positions.length = 0;\n        },\n\n\n\n        /*\n          ---------------------------------------------------------------------------\n          PRIVATE API\n          ---------------------------------------------------------------------------\n        */\n\n        /**\n         * Applies the scroll position to the content element\n         *\n         * @param left {Number} Left scroll position\n         * @param top {Number} Top scroll position\n         * @param isAnimated {Boolean?false} Whether animation should be used to move to the new coordinates\n         */\n        __publish : function (left, top, zoom, isAnimated) {\n            // Remember whether we had an animation, then we try to continue\n            // based on the current \"drive\" of the animation.\n            var wasAnimating = this.__isAnimating;\n            if (wasAnimating) {\n                animate.stop(wasAnimating);\n                this.__isAnimating = false;\n            }\n\n            if (isAnimated && this.options.animating) {\n                // Keep scheduled positions for scrollBy/zoomBy functionality.\n                this.__scheduledLeft = left;\n                this.__scheduledTop = top;\n                this.__scheduledZoom = zoom;\n\n                var oldLeft = this.__scrollLeft;\n                var oldTop = this.__scrollTop;\n                var oldZoom = this.__zoomLevel;\n\n                var diffLeft = left - oldLeft;\n                var diffTop = top - oldTop;\n                var diffZoom = zoom - oldZoom;\n\n                var step = function (percent, now, render) {\n                    if (render) {\n                        this.__scrollLeft = oldLeft + (diffLeft * percent);\n                        this.__scrollTop = oldTop + (diffTop * percent);\n                        this.__zoomLevel = oldZoom + (diffZoom * percent);\n\n                        // Push values out\n                        if (this.__callback) {\n                            this.__callback(this.__scrollLeft, this.__scrollTop, this.__zoomLevel);\n                        }\n                    }\n                }.bind(this);\n\n                var verify = function (id) {\n                    return this.__isAnimating === id;\n                }.bind(this);\n\n                var completed = function (renderedFramesPerSecond, animationId, wasFinished) {\n                    if (animationId === this.__isAnimating) {\n                        this.__isAnimating = false;\n                    }\n                    if (this.__didDecelerationComplete || wasFinished) {\n                        this.options.scrollingComplete();\n                    }\n\n                    if (this.options.zooming) {\n                        this.__computeScrollMax();\n                        if (this.__zoomComplete) {\n                            this.__zoomComplete();\n                            this.__zoomComplete = null;\n                        }\n                    }\n                }.bind(this);\n\n                // When continuing based on previous animation we choose an ease-out animation instead of ease-in-out\n                this.__isAnimating = animate.start(step, verify, completed, this.options.animationDuration, wasAnimating ? easeOutCubic : easeInOutCubic);\n\n            } else {\n                this.__scheduledLeft = this.__scrollLeft = left;\n                this.__scheduledTop = this.__scrollTop = top;\n                this.__scheduledZoom = this.__zoomLevel = zoom;\n\n                // Push values out\n                if (this.__callback) {\n                    this.__callback(left, top, zoom);\n                }\n\n                // Fix max scroll ranges\n                if (this.options.zooming) {\n                    this.__computeScrollMax();\n                    if (this.__zoomComplete) {\n                        this.__zoomComplete();\n                        this.__zoomComplete = null;\n                    }\n                }\n            }\n        },\n\n\n        /**\n         * Recomputes scroll minimum values based on client dimensions and content dimensions.\n         */\n        __computeScrollMax : function (zoomLevel) {\n            if (zoomLevel === undefined) {\n                zoomLevel = this.__zoomLevel;\n            }\n\n            this.__maxScrollLeft = Math.max(this.__contentWidth*zoomLevel - this.__clientWidth, 0);\n            this.__maxScrollTop = Math.max(this.__contentHeight*zoomLevel - this.__clientHeight, 0);\n        },\n\n\n\n        /*\n          ---------------------------------------------------------------------------\n          ANIMATION (DECELERATION) SUPPORT\n          ---------------------------------------------------------------------------\n        */\n\n        /**\n         * Called when a touch sequence end and the speed of the finger was high enough\n         * to switch into deceleration mode.\n         */\n        __startDeceleration : function (timeStamp) {\n            if (this.options.paging) {\n                var scrollLeft = Math.max(Math.min(this.__scrollLeft, this.__maxScrollLeft), 0);\n                var scrollTop = Math.max(Math.min(this.__scrollTop, this.__maxScrollTop), 0);\n                var clientWidth = this.__clientWidth;\n                var clientHeight = this.__clientHeight;\n\n                // We limit deceleration not to the min/max values of the allowed range, but to the size of the visible client area.\n                // Each page should have exactly the size of the client area.\n                this.__minDecelerationScrollLeft = Math.floor(scrollLeft / clientWidth) * clientWidth;\n                this.__minDecelerationScrollTop = Math.floor(scrollTop / clientHeight) * clientHeight;\n                this.__maxDecelerationScrollLeft = Math.ceil(scrollLeft / clientWidth) * clientWidth;\n                this.__maxDecelerationScrollTop = Math.ceil(scrollTop / clientHeight) * clientHeight;\n            } else {\n                this.__minDecelerationScrollLeft = 0;\n                this.__minDecelerationScrollTop = 0;\n                this.__maxDecelerationScrollLeft = this.__maxScrollLeft;\n                this.__maxDecelerationScrollTop = this.__maxScrollTop;\n            }\n\n            // Wrap class method\n            var step = function (percent, now, render) {\n                this.__stepThroughDeceleration(render);\n            }.bind(this);\n\n            // How much velocity is required to keep the deceleration running\n            var minVelocityToKeepDecelerating = this.options.snapping ? 4 : 0.1;\n\n            // Detect whether it's still worth to continue animating steps\n            // If we are already slow enough to not being user perceivable anymore, we stop the whole process here.\n            var verify = function () {\n                var shouldContinue = Math.abs(this.__decelerationVelocityX) >= minVelocityToKeepDecelerating || Math.abs(this.__decelerationVelocityY) >= minVelocityToKeepDecelerating;\n                if (!shouldContinue) {\n                    this.__didDecelerationComplete = true;\n                }\n                return shouldContinue;\n            }.bind(this);\n\n            var completed = function (renderedFramesPerSecond, animationId, wasFinished) {\n                this.__isDecelerating = false;\n                if (this.__didDecelerationComplete) {\n                    this.options.scrollingComplete();\n                }\n\n                // Animate to grid when snapping is active, otherwise just fix out-of-boundary positions\n                this.scrollTo(this.__scrollLeft, this.__scrollTop, this.options.snapping);\n            }.bind(this);\n\n            // Start animation and switch on flag\n            this.__isDecelerating = animate.start(step, verify, completed);\n        },\n\n\n        /**\n         * Called on every step of the animation\n         *\n         * @param inMemory {Boolean?false} Whether to not render the current step, but keep it in memory only. Used internally only!\n         */\n        __stepThroughDeceleration : function (render) {\n\n            //\n            // COMPUTE NEXT SCROLL POSITION\n            //\n\n            // Add deceleration to scroll position\n            var scrollLeft = this.__scrollLeft + this.__decelerationVelocityX;\n            var scrollTop = this.__scrollTop + this.__decelerationVelocityY;\n\n\n            //\n            // HARD LIMIT SCROLL POSITION FOR NON BOUNCING MODE\n            //\n\n            if (!this.options.bouncing) {\n                var scrollLeftFixed = Math.max(Math.min(this.__maxDecelerationScrollLeft, scrollLeft), this.__minDecelerationScrollLeft);\n                if (scrollLeftFixed !== scrollLeft) {\n                    scrollLeft = scrollLeftFixed;\n                    this.__decelerationVelocityX = 0;\n                }\n\n                var scrollTopFixed = Math.max(Math.min(this.__maxDecelerationScrollTop, scrollTop), this.__minDecelerationScrollTop);\n                if (scrollTopFixed !== scrollTop) {\n                    scrollTop = scrollTopFixed;\n                    this.__decelerationVelocityY = 0;\n                }\n            }\n\n\n            //\n            // UPDATE SCROLL POSITION\n            //\n\n            if (render) {\n                this.__publish(scrollLeft, scrollTop, this.__zoomLevel);\n            } else {\n                this.__scrollLeft = scrollLeft;\n                this.__scrollTop = scrollTop;\n            }\n\n\n            //\n            // SLOW DOWN\n            //\n\n            // Slow down velocity on every iteration\n            if (!this.options.paging) {\n                // This is the factor applied to every iteration of the animation\n                // to slow down the process. This should emulate natural behavior where\n                // objects slow down when the initiator of the movement is removed\n                var frictionFactor = 0.95;\n\n                this.__decelerationVelocityX *= frictionFactor;\n                this.__decelerationVelocityY *= frictionFactor;\n            }\n\n\n            //\n            // BOUNCING SUPPORT\n            //\n\n            if (this.options.bouncing) {\n                var scrollOutsideX = 0;\n                var scrollOutsideY = 0;\n\n                // This configures the amount of change applied to deceleration/acceleration when reaching boundaries\n                var penetrationDeceleration = this.options.penetrationDeceleration;\n                var penetrationAcceleration = this.options.penetrationAcceleration;\n\n                // Check limits\n                if (scrollLeft < this.__minDecelerationScrollLeft) {\n                    scrollOutsideX = this.__minDecelerationScrollLeft - scrollLeft;\n                } else if (scrollLeft > this.__maxDecelerationScrollLeft) {\n                    scrollOutsideX = this.__maxDecelerationScrollLeft - scrollLeft;\n                }\n\n                if (scrollTop < this.__minDecelerationScrollTop) {\n                    scrollOutsideY = this.__minDecelerationScrollTop - scrollTop;\n                } else if (scrollTop > this.__maxDecelerationScrollTop) {\n                    scrollOutsideY = this.__maxDecelerationScrollTop - scrollTop;\n                }\n\n                // Slow down until slow enough, then flip back to snap position\n                if (scrollOutsideX !== 0) {\n                    if (scrollOutsideX * this.__decelerationVelocityX <= 0) {\n                        this.__decelerationVelocityX += scrollOutsideX * penetrationDeceleration;\n                    } else {\n                        this.__decelerationVelocityX = scrollOutsideX * penetrationAcceleration;\n                    }\n                }\n\n                if (scrollOutsideY !== 0) {\n                    if (scrollOutsideY * this.__decelerationVelocityY <= 0) {\n                        this.__decelerationVelocityY += scrollOutsideY * penetrationDeceleration;\n                    } else {\n                        this.__decelerationVelocityY = scrollOutsideY * penetrationAcceleration;\n                    }\n                }\n            }\n        }\n    };\n\n    return Scroller;\n}));\n\n\n//# sourceURL=webpack:///./node_modules/scroller/lib/Scroller.js?");
 
 /***/ }),
 
@@ -4302,235 +1475,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*
- * Scroller
- * http://github.com/zynga/scroller
- *
- * Copyright 2011, Zynga Inc.
- * Licensed under the MIT License.
- * https://raw.github.com/zynga/scroller/master/MIT-LICENSE.txt
- *
- * Based on the work of: Unify Project (unify-project.org)
- * http://unify-project.org
- * Copyright 2011, Deutsche Telekom AG
- * License: MIT + Apache (V2)
- */
-
-/**
- * Generic animation class with support for dropped frames both optional easing and duration.
- *
- * Optional duration is useful when the lifetime is defined by another condition than time
- * e.g. speed of an animating object, etc.
- *
- * Dropped frame logic allows to keep using the same updater logic independent from the actual
- * rendering. This eases a lot of cases where it might be pretty complex to break down a state
- * based on the pure time difference.
- */
-(function (root, factory) {
-    if (true) {
-        // AMD. Register as an anonymous module.
-        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-    } else {}
-}(this, function (exports) {
-    var global = typeof window === 'undefined' ? this : window
-    var time = Date.now || function () {
-        return +new Date();
-    };
-    var desiredFrames = 60;
-    var millisecondsPerSecond = 1000;
-    var running = {};
-    var counter = 1;
-
-    /**
-     * A requestAnimationFrame wrapper / polyfill.
-     *
-     * @param callback {Function} The callback to be invoked before the next repaint.
-     * @param root {HTMLElement} The root element for the repaint
-     */
-    exports.requestAnimationFrame = (function () {
-        // Check for request animation Frame support
-        var requestFrame = global.requestAnimationFrame || global.webkitRequestAnimationFrame || global.mozRequestAnimationFrame || global.oRequestAnimationFrame;
-        var isNative = !!requestFrame;
-
-        if (requestFrame && !/requestAnimationFrame\(\)\s*\{\s*\[native code\]\s*\}/i.test(requestFrame.toString())) {
-            isNative = false;
-        }
-
-        if (isNative) {
-            return function (callback, root) {
-                requestFrame(callback, root);
-            };
-        }
-
-        var TARGET_FPS = 60;
-        var requests = {};
-        var requestCount = 0;
-        var rafHandle = 1;
-        var intervalHandle = null;
-        var lastActive = +new Date();
-
-        return function (callback, root) {
-            var callbackHandle = rafHandle++;
-
-            // Store callback
-            requests[callbackHandle] = callback;
-            requestCount++;
-
-            // Create timeout at first request
-            if (intervalHandle === null) {
-
-                intervalHandle = setInterval(function () {
-
-                    var time = +new Date();
-                    var currentRequests = requests;
-
-                    // Reset data structure before executing callbacks
-                    requests = {};
-                    requestCount = 0;
-
-                    for(var key in currentRequests) {
-                        if (currentRequests.hasOwnProperty(key)) {
-                            currentRequests[key](time);
-                            lastActive = time;
-                        }
-                    }
-
-                    // Disable the timeout when nothing happens for a certain
-                    // period of time
-                    if (time - lastActive > 2500) {
-                        clearInterval(intervalHandle);
-                        intervalHandle = null;
-                    }
-
-                }, 1000 / TARGET_FPS);
-            }
-
-            return callbackHandle;
-        };
-
-    })();
-
-    /**
-     * Stops the given animation.
-     *
-     * @param id {Integer} Unique animation ID
-     * @return {Boolean} Whether the animation was stopped (aka, was running before)
-     */
-    exports.stop = function (id) {
-        var cleared = (running[id] !== null);
-        if (cleared) {
-            running[id] = null;
-        }
-
-        return cleared;
-    };
-
-
-    /**
-     * Whether the given animation is still running.
-     *
-     * @param id {Integer} Unique animation ID
-     * @return {Boolean} Whether the animation is still running
-     */
-    exports.isRunning = function (id) {
-        return running[id] !== null;
-    };
-
-
-    /**
-     * Start the animation.
-     *
-     * @param stepCallback {Function} Pointer to function which is executed on every step.
-     *   Signature of the method should be `function(percent, now, virtual) { return continueWithAnimation; }`
-     * @param verifyCallback {Function} Executed before every animation step.
-     *   Signature of the method should be `function() { return continueWithAnimation; }`
-     * @param completedCallback {Function}
-     *   Signature of the method should be `function(droppedFrames, finishedAnimation, optional wasFinished) {}`
-     * @param duration {Integer} Milliseconds to run the animation
-     * @param easingMethod {Function} Pointer to easing function
-     *   Signature of the method should be `function(percent) { return modifiedValue; }`
-     * @param root {Element} Render root. Used for internal usage of requestAnimationFrame.
-     * @return {Integer} Identifier of animation. Can be used to stop it any time.
-     */
-    exports.start = function (stepCallback, verifyCallback, completedCallback, duration, easingMethod, root) {
-        var start = time();
-        var lastFrame = start;
-        var percent = 0;
-        var dropCounter = 0;
-        var id = counter++;
-
-        // Compacting running db automatically every few new animations
-        if (id % 20 === 0) {
-            var newRunning = {};
-            for (var usedId in running) {
-                newRunning[usedId] = true;
-            }
-            running = newRunning;
-        }
-
-        // This is the internal step method which is called every few milliseconds
-        var step = function (virtual) {
-
-            // Normalize virtual value
-            var render = virtual !== true;
-
-            // Get current time
-            var now = time();
-
-            // Verification is executed before next animation step
-            if (!running[id] || (verifyCallback && !verifyCallback(id))) {
-
-                running[id] = null;
-                completedCallback(desiredFrames - (dropCounter / ((now - start) / millisecondsPerSecond)), id, false);
-                return;
-
-            }
-
-            // For the current rendering to apply let's update omitted steps in memory.
-            // This is important to bring internal state variables up-to-date with progress in time.
-            if (render) {
-
-                var droppedFrames = Math.round((now - lastFrame) / (millisecondsPerSecond / desiredFrames)) - 1;
-                for (var j = 0; j < Math.min(droppedFrames, 4); j++) {
-                    step(true);
-                    dropCounter++;
-                }
-
-            }
-
-            // Compute percent value
-            if (duration) {
-                percent = (now - start) / duration;
-                if (percent > 1) {
-                    percent = 1;
-                }
-            }
-
-            // Execute step callback, then...
-            var value = easingMethod ? easingMethod(percent) : percent;
-            if ((stepCallback(value, now, render) === false || percent === 1) && render) {
-                running[id] = null;
-                completedCallback(desiredFrames - (dropCounter / ((now - start) / millisecondsPerSecond)), id, percent === 1 || duration === undefined);
-            } else if (render) {
-                lastFrame = now;
-                exports.requestAnimationFrame(step, root);
-            }
-        };
-
-        // Mark as running
-        running[id] = true;
-
-        // Init first step
-        exports.requestAnimationFrame(step, root);
-
-        // Return unique animation ID
-        return id;
-    };
-}));
-
+eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*\n * Scroller\n * http://github.com/zynga/scroller\n *\n * Copyright 2011, Zynga Inc.\n * Licensed under the MIT License.\n * https://raw.github.com/zynga/scroller/master/MIT-LICENSE.txt\n *\n * Based on the work of: Unify Project (unify-project.org)\n * http://unify-project.org\n * Copyright 2011, Deutsche Telekom AG\n * License: MIT + Apache (V2)\n */\n\n/**\n * Generic animation class with support for dropped frames both optional easing and duration.\n *\n * Optional duration is useful when the lifetime is defined by another condition than time\n * e.g. speed of an animating object, etc.\n *\n * Dropped frame logic allows to keep using the same updater logic independent from the actual\n * rendering. This eases a lot of cases where it might be pretty complex to break down a state\n * based on the pure time difference.\n */\n(function (root, factory) {\n    if (true) {\n        // AMD. Register as an anonymous module.\n        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?\n\t\t\t\t(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n    } else {}\n}(this, function (exports) {\n    var global = typeof window === 'undefined' ? this : window\n    var time = Date.now || function () {\n        return +new Date();\n    };\n    var desiredFrames = 60;\n    var millisecondsPerSecond = 1000;\n    var running = {};\n    var counter = 1;\n\n    /**\n     * A requestAnimationFrame wrapper / polyfill.\n     *\n     * @param callback {Function} The callback to be invoked before the next repaint.\n     * @param root {HTMLElement} The root element for the repaint\n     */\n    exports.requestAnimationFrame = (function () {\n        // Check for request animation Frame support\n        var requestFrame = global.requestAnimationFrame || global.webkitRequestAnimationFrame || global.mozRequestAnimationFrame || global.oRequestAnimationFrame;\n        var isNative = !!requestFrame;\n\n        if (requestFrame && !/requestAnimationFrame\\(\\)\\s*\\{\\s*\\[native code\\]\\s*\\}/i.test(requestFrame.toString())) {\n            isNative = false;\n        }\n\n        if (isNative) {\n            return function (callback, root) {\n                requestFrame(callback, root);\n            };\n        }\n\n        var TARGET_FPS = 60;\n        var requests = {};\n        var requestCount = 0;\n        var rafHandle = 1;\n        var intervalHandle = null;\n        var lastActive = +new Date();\n\n        return function (callback, root) {\n            var callbackHandle = rafHandle++;\n\n            // Store callback\n            requests[callbackHandle] = callback;\n            requestCount++;\n\n            // Create timeout at first request\n            if (intervalHandle === null) {\n\n                intervalHandle = setInterval(function () {\n\n                    var time = +new Date();\n                    var currentRequests = requests;\n\n                    // Reset data structure before executing callbacks\n                    requests = {};\n                    requestCount = 0;\n\n                    for(var key in currentRequests) {\n                        if (currentRequests.hasOwnProperty(key)) {\n                            currentRequests[key](time);\n                            lastActive = time;\n                        }\n                    }\n\n                    // Disable the timeout when nothing happens for a certain\n                    // period of time\n                    if (time - lastActive > 2500) {\n                        clearInterval(intervalHandle);\n                        intervalHandle = null;\n                    }\n\n                }, 1000 / TARGET_FPS);\n            }\n\n            return callbackHandle;\n        };\n\n    })();\n\n    /**\n     * Stops the given animation.\n     *\n     * @param id {Integer} Unique animation ID\n     * @return {Boolean} Whether the animation was stopped (aka, was running before)\n     */\n    exports.stop = function (id) {\n        var cleared = (running[id] !== null);\n        if (cleared) {\n            running[id] = null;\n        }\n\n        return cleared;\n    };\n\n\n    /**\n     * Whether the given animation is still running.\n     *\n     * @param id {Integer} Unique animation ID\n     * @return {Boolean} Whether the animation is still running\n     */\n    exports.isRunning = function (id) {\n        return running[id] !== null;\n    };\n\n\n    /**\n     * Start the animation.\n     *\n     * @param stepCallback {Function} Pointer to function which is executed on every step.\n     *   Signature of the method should be `function(percent, now, virtual) { return continueWithAnimation; }`\n     * @param verifyCallback {Function} Executed before every animation step.\n     *   Signature of the method should be `function() { return continueWithAnimation; }`\n     * @param completedCallback {Function}\n     *   Signature of the method should be `function(droppedFrames, finishedAnimation, optional wasFinished) {}`\n     * @param duration {Integer} Milliseconds to run the animation\n     * @param easingMethod {Function} Pointer to easing function\n     *   Signature of the method should be `function(percent) { return modifiedValue; }`\n     * @param root {Element} Render root. Used for internal usage of requestAnimationFrame.\n     * @return {Integer} Identifier of animation. Can be used to stop it any time.\n     */\n    exports.start = function (stepCallback, verifyCallback, completedCallback, duration, easingMethod, root) {\n        var start = time();\n        var lastFrame = start;\n        var percent = 0;\n        var dropCounter = 0;\n        var id = counter++;\n\n        // Compacting running db automatically every few new animations\n        if (id % 20 === 0) {\n            var newRunning = {};\n            for (var usedId in running) {\n                newRunning[usedId] = true;\n            }\n            running = newRunning;\n        }\n\n        // This is the internal step method which is called every few milliseconds\n        var step = function (virtual) {\n\n            // Normalize virtual value\n            var render = virtual !== true;\n\n            // Get current time\n            var now = time();\n\n            // Verification is executed before next animation step\n            if (!running[id] || (verifyCallback && !verifyCallback(id))) {\n\n                running[id] = null;\n                completedCallback(desiredFrames - (dropCounter / ((now - start) / millisecondsPerSecond)), id, false);\n                return;\n\n            }\n\n            // For the current rendering to apply let's update omitted steps in memory.\n            // This is important to bring internal state variables up-to-date with progress in time.\n            if (render) {\n\n                var droppedFrames = Math.round((now - lastFrame) / (millisecondsPerSecond / desiredFrames)) - 1;\n                for (var j = 0; j < Math.min(droppedFrames, 4); j++) {\n                    step(true);\n                    dropCounter++;\n                }\n\n            }\n\n            // Compute percent value\n            if (duration) {\n                percent = (now - start) / duration;\n                if (percent > 1) {\n                    percent = 1;\n                }\n            }\n\n            // Execute step callback, then...\n            var value = easingMethod ? easingMethod(percent) : percent;\n            if ((stepCallback(value, now, render) === false || percent === 1) && render) {\n                running[id] = null;\n                completedCallback(desiredFrames - (dropCounter / ((now - start) / millisecondsPerSecond)), id, percent === 1 || duration === undefined);\n            } else if (render) {\n                lastFrame = now;\n                exports.requestAnimationFrame(step, root);\n            }\n        };\n\n        // Mark as running\n        running[id] = true;\n\n        // Init first step\n        exports.requestAnimationFrame(step, root);\n\n        // Return unique animation ID\n        return id;\n    };\n}));\n\n\n//# sourceURL=webpack:///./node_modules/scroller/lib/animate.js?");
 
 /***/ }),
 
@@ -4542,69 +1487,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Event = undefined;
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _utils = __webpack_require__(/*! ./utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Event = exports.Event = function () {
-  function Event(ctx) {
-    (0, _classCallCheck3.default)(this, Event);
-
-    this.ctx = ctx || null;
-    this.stack = [];
-    this.eventHandler = this.eventHandler || this.emit.bind(this);
-  }
-
-  (0, _createClass3.default)(Event, [{
-    key: 'init',
-    value: function init(canvas) {
-      if (_utils.constants.IN_BROWSER) {
-        canvas.removeEventListener('click', this.eventHandler);
-        canvas.removeEventListener('mousedown', this.eventHandler);
-        canvas.removeEventListener('mouseup', this.eventHandler);
-        canvas.addEventListener('click', this.eventHandler);
-        canvas.addEventListener('mousedown', this.eventHandler);
-        canvas.addEventListener('mouseup', this.eventHandler);
-      }
-    }
-  }, {
-    key: 'addEvent',
-    value: function addEvent(shape, fns) {
-      this.stack.push({
-        shape: shape,
-        handler: fns
-      });
-    }
-  }, {
-    key: 'emit',
-    value: function emit(point) {
-      this.stack.forEach(function (item) {
-        if (item.handler[point.type] && item.shape.isInPath(point)) {
-          item.handler[point.type](point, item);
-        }
-      });
-    }
-  }]);
-  return Event;
-}(); /**
-      * @author muwoo
-      * Date: 2018/7/11
-      */
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Event = undefined;\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _utils = __webpack_require__(/*! ./utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Event = exports.Event = function () {\n  function Event(ctx) {\n    (0, _classCallCheck3.default)(this, Event);\n\n    this.ctx = ctx || null;\n    this.stack = [];\n    this.eventHandler = this.eventHandler || this.emit.bind(this);\n  }\n\n  (0, _createClass3.default)(Event, [{\n    key: 'init',\n    value: function init(canvas) {\n      if (_utils.constants.IN_BROWSER) {\n        canvas.removeEventListener('click', this.eventHandler);\n        canvas.removeEventListener('mousedown', this.eventHandler);\n        canvas.removeEventListener('mouseup', this.eventHandler);\n        canvas.addEventListener('click', this.eventHandler);\n        canvas.addEventListener('mousedown', this.eventHandler);\n        canvas.addEventListener('mouseup', this.eventHandler);\n      }\n    }\n  }, {\n    key: 'addEvent',\n    value: function addEvent(shape, fns) {\n      this.stack.push({\n        shape: shape,\n        handler: fns\n      });\n    }\n  }, {\n    key: 'emit',\n    value: function emit(point) {\n      this.stack.forEach(function (item) {\n        if (item.handler[point.type] && item.shape.isInPath(point)) {\n          item.handler[point.type](point, item);\n        }\n      });\n    }\n  }]);\n  return Event;\n}(); /**\n      * @author muwoo\n      * Date: 2018/7/11\n      */\n\n//# sourceURL=webpack:///./src/core/event.js?");
 
 /***/ }),
 
@@ -4616,298 +1499,7 @@ var Event = exports.Event = function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Render = undefined;
-
-var _defineProperty = __webpack_require__(/*! babel-runtime/core-js/object/define-property */ "./node_modules/babel-runtime/core-js/object/define-property.js");
-
-var _defineProperty2 = _interopRequireDefault(_defineProperty);
-
-var _extends2 = __webpack_require__(/*! babel-runtime/helpers/extends */ "./node_modules/babel-runtime/helpers/extends.js");
-
-var _extends3 = _interopRequireDefault(_extends2);
-
-var _keys = __webpack_require__(/*! babel-runtime/core-js/object/keys */ "./node_modules/babel-runtime/core-js/object/keys.js");
-
-var _keys2 = _interopRequireDefault(_keys);
-
-var _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator */ "./node_modules/babel-runtime/core-js/get-iterator.js");
-
-var _getIterator3 = _interopRequireDefault(_getIterator2);
-
-var _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ "./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _event = __webpack_require__(/*! ./event */ "./src/core/event.js");
-
-var _shape = __webpack_require__(/*! ./shape */ "./src/core/shape/index.js");
-
-var _utils = __webpack_require__(/*! ./utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Render = exports.Render = function (_Canvas) {
-  (0, _inherits3.default)(Render, _Canvas);
-
-  /**
-   * constructor
-   * @param renderInstance: mainCanvas instance
-   * @param vnode: virtual dom
-   * @param width: render width
-   * @param height: render height
-   */
-  function Render(renderInstance, vnode, width, height) {
-    (0, _classCallCheck3.default)(this, Render);
-
-    /**
-     * render canvas container
-     * @type {null}
-     */
-    var _this = (0, _possibleConstructorReturn3.default)(this, (Render.__proto__ || (0, _getPrototypeOf2.default)(Render)).call(this, width, height));
-
-    _this.renderInstance = renderInstance;
-    _this.stack = [vnode];
-    _this.event = new _event.Event(_this._ctx);
-    _this.event.init(renderInstance._canvas);
-    _this.scrollContainer = null;
-    _this.isRendering = false;
-    _utils.canvasItemPool.clear();
-    _this.id = 0;
-
-    /**
-     * in weixin
-     * Instead of using off-screen canvas, draw directly on canvas context
-     *
-     */
-    !_utils.constants.IN_BROWSER && (_this._ctx = renderInstance._ctx);
-    return _this;
-  }
-
-  (0, _createClass3.default)(Render, [{
-    key: 'clearCanvas',
-    value: function clearCanvas() {
-      this._ctx.clearRect(0, 0, this.width, this.height);
-    }
-  }, {
-    key: 'vnode2canvas',
-    value: function vnode2canvas() {
-      this.traverse(this.stack);
-      !_utils.constants.IN_BROWSER && this._ctx.draw(true);
-      return this._canvas;
-    }
-  }, {
-    key: 'rePaint',
-    value: function rePaint(top) {
-      var _this2 = this;
-
-      if (this.isRendering) {
-        return;
-      }
-      this.isRendering = true;
-      // adapter Mini Program
-      doAnimationFrame(function () {
-        _this2.clearCanvas();
-        var _iteratorNormalCompletion = true;
-        var _didIteratorError = false;
-        var _iteratorError = undefined;
-
-        try {
-          for (var _iterator = (0, _getIterator3.default)(_utils.canvasItemPool), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-            var cacheItem = _step.value;
-
-            cacheItem.draw(_this2._ctx, top, _this2);
-          }
-        } catch (err) {
-          _didIteratorError = true;
-          _iteratorError = err;
-        } finally {
-          try {
-            if (!_iteratorNormalCompletion && _iterator.return) {
-              _iterator.return();
-            }
-          } finally {
-            if (_didIteratorError) {
-              throw _iteratorError;
-            }
-          }
-        }
-
-        _utils.constants.IN_BROWSER ? _this2.renderInstance.add(_this2._canvas) : _this2._ctx.draw();
-        _this2.isRendering = false;
-      });
-    }
-
-    /**
-     * if style import with css file
-     * @param vnode
-     * @returns {{}}
-     */
-
-  }, {
-    key: 'getImportStyle',
-    value: function getImportStyle(vnode) {
-      var style = {};
-      var vStyle = window.vStyle || {};
-      (0, _keys2.default)(vStyle).forEach(function (key) {
-        if (vnode.data && vnode.data.class) {
-          if ('.' + vnode.data.class === key) {
-            style = vStyle[key];
-          }
-        }
-        if (vnode.tag) {
-          if (vnode.tag === key) {
-            style = vStyle[key];
-          }
-        }
-      });
-      return style;
-    }
-
-    /**
-     * Proxy
-     * @param target: virtual dom
-     * @param key: render type
-     * @returns {*}
-     */
-
-  }, {
-    key: 'renderProxy',
-    value: function renderProxy(target, key) {
-      var _this3 = this;
-
-      target.data = target.data || {};
-      var importStyle = _utils.constants.IN_BROWSER ? this.getImportStyle(target) : {};
-      var drawStyle = (0, _extends3.default)({}, importStyle, target.data.style) || (0, _extends3.default)({}, importStyle);
-      var canvasItem = null;
-      return {
-        scrollView: function scrollView() {
-          canvasItem = new _shape.ScrollView(drawStyle);
-          canvasItem.draw(_this3);
-          /**
-           * export scrollInstance for setting touch event automatic
-           */
-          _this3.scrollContainer = canvasItem;
-          return canvasItem;
-        },
-        scrollItem: function scrollItem(ctx) {
-          canvasItem = new _shape.ScrollItem(drawStyle, target, _this3);
-          canvasItem.draw(ctx, 0);
-          return canvasItem;
-        },
-        view: function view(ctx) {
-          canvasItem = new _shape.View(drawStyle);
-          canvasItem.draw(ctx, 0);
-          return canvasItem;
-        },
-        text: function text(ctx) {
-          canvasItem = new _shape.Text(drawStyle, target.children[0].text);
-          canvasItem.draw(ctx, 0);
-          return canvasItem;
-        },
-        image: function image(ctx) {
-          var src = void 0;
-          (src = target.data.props) && (src = src.src || '');
-          canvasItem = new _shape.Img(drawStyle, src);
-          canvasItem.draw(ctx, 0, _this3);
-          return canvasItem;
-        }
-      }[key];
-    }
-
-    /**
-     * traverse dom by BFS
-     * @param stack
-     * @param ctx
-     */
-
-  }, {
-    key: 'traverse',
-    value: function traverse(stack, ctx) {
-      while (stack.length) {
-        var vnode = stack.shift();
-        this.renderItem(vnode, ctx || this._ctx, !ctx);
-        /**
-         * check need traverse or not
-         */
-        if (!vnode.children || vnode.tag === 'text' || vnode.tag === 'scrollItem') {
-          continue;
-        }
-
-        vnode.children.forEach(function (node) {
-          stack.push(node);
-        });
-      }
-    }
-
-    /**
-     * render canvas item
-     * @param item: canvas item
-     * @param ctx: canvas context
-     * @param collect: need collect to canvasItemPool
-     */
-
-  }, {
-    key: 'renderItem',
-    value: function renderItem(item, ctx, collect) {
-      var canvasItem = new ProxyPolyfill(item, { get: this.renderProxy.bind(this) })[item.tag](ctx);
-      this.event.addEvent(canvasItem, item.data.on || {});
-      if (item.tag !== 'scrollView' && collect) {
-        this.id++;
-        _utils.canvasItemPool.add(this.id, canvasItem);
-      }
-    }
-  }]);
-  return Render;
-}(_utils.Canvas); /**
-                   * @author muwoo
-                   * Date: 2018/7/2
-                   */
-
-
-var ProxyPolyfill = function ProxyPolyfill(target, handler) {
-  var proxy = {};
-  (0, _defineProperty2.default)(proxy, target.tag, {
-    get: function get() {
-      return handler.get(target, target.tag);
-    }
-  });
-  return proxy;
-};
-
-var lastFrameTime = 0;
-var doAnimationFrame = function doAnimationFrame(callback) {
-  if (_utils.constants.IN_BROWSER) {
-    return requestAnimationFrame(callback);
-  }
-  var currTime = new Date().getTime();
-  var timeToCall = Math.max(0, 16 - (currTime - lastFrameTime));
-  var id = setTimeout(function () {
-    callback(currTime + timeToCall);
-  }, timeToCall);
-  lastFrameTime = currTime + timeToCall;
-  return id;
-};
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Render = undefined;\n\nvar _defineProperty = __webpack_require__(/*! babel-runtime/core-js/object/define-property */ \"./node_modules/babel-runtime/core-js/object/define-property.js\");\n\nvar _defineProperty2 = _interopRequireDefault(_defineProperty);\n\nvar _extends2 = __webpack_require__(/*! babel-runtime/helpers/extends */ \"./node_modules/babel-runtime/helpers/extends.js\");\n\nvar _extends3 = _interopRequireDefault(_extends2);\n\nvar _keys = __webpack_require__(/*! babel-runtime/core-js/object/keys */ \"./node_modules/babel-runtime/core-js/object/keys.js\");\n\nvar _keys2 = _interopRequireDefault(_keys);\n\nvar _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator */ \"./node_modules/babel-runtime/core-js/get-iterator.js\");\n\nvar _getIterator3 = _interopRequireDefault(_getIterator2);\n\nvar _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ \"./node_modules/babel-runtime/core-js/object/get-prototype-of.js\");\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ \"./node_modules/babel-runtime/helpers/possibleConstructorReturn.js\");\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ \"./node_modules/babel-runtime/helpers/inherits.js\");\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _event = __webpack_require__(/*! ./event */ \"./src/core/event.js\");\n\nvar _shape = __webpack_require__(/*! ./shape */ \"./src/core/shape/index.js\");\n\nvar _utils = __webpack_require__(/*! ./utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Render = exports.Render = function (_Canvas) {\n  (0, _inherits3.default)(Render, _Canvas);\n\n  /**\n   * constructor\n   * @param renderInstance: mainCanvas instance\n   * @param vnode: virtual dom\n   * @param width: render width\n   * @param height: render height\n   */\n  function Render(renderInstance, vnode, width, height) {\n    (0, _classCallCheck3.default)(this, Render);\n\n    /**\n     * render canvas container\n     * @type {null}\n     */\n    var _this = (0, _possibleConstructorReturn3.default)(this, (Render.__proto__ || (0, _getPrototypeOf2.default)(Render)).call(this, width, height));\n\n    _this.renderInstance = renderInstance;\n    _this.stack = [vnode];\n    _this.event = new _event.Event(_this._ctx);\n    _this.event.init(renderInstance._canvas);\n    _this.scrollContainer = null;\n    _this.isRendering = false;\n    _utils.canvasItemPool.clear();\n    _this.id = 0;\n\n    /**\n     * in weixin\n     * Instead of using off-screen canvas, draw directly on canvas context\n     *\n     */\n    !_utils.constants.IN_BROWSER && (_this._ctx = renderInstance._ctx);\n    return _this;\n  }\n\n  (0, _createClass3.default)(Render, [{\n    key: 'clearCanvas',\n    value: function clearCanvas() {\n      this._ctx.clearRect(0, 0, this.width, this.height);\n    }\n  }, {\n    key: 'vnode2canvas',\n    value: function vnode2canvas() {\n      this.traverse(this.stack);\n      !_utils.constants.IN_BROWSER && this._ctx.draw(true);\n      return this._canvas;\n    }\n  }, {\n    key: 'rePaint',\n    value: function rePaint(top) {\n      var _this2 = this;\n\n      if (this.isRendering) {\n        return;\n      }\n      this.isRendering = true;\n      // adapter Mini Program\n      doAnimationFrame(function () {\n        _this2.clearCanvas();\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n          for (var _iterator = (0, _getIterator3.default)(_utils.canvasItemPool), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n            var cacheItem = _step.value;\n\n            cacheItem.draw(_this2._ctx, top, _this2);\n          }\n        } catch (err) {\n          _didIteratorError = true;\n          _iteratorError = err;\n        } finally {\n          try {\n            if (!_iteratorNormalCompletion && _iterator.return) {\n              _iterator.return();\n            }\n          } finally {\n            if (_didIteratorError) {\n              throw _iteratorError;\n            }\n          }\n        }\n\n        _utils.constants.IN_BROWSER ? _this2.renderInstance.add(_this2._canvas) : _this2._ctx.draw();\n        _this2.isRendering = false;\n      });\n    }\n\n    /**\n     * if style import with css file\n     * @param vnode\n     * @returns {{}}\n     */\n\n  }, {\n    key: 'getImportStyle',\n    value: function getImportStyle(vnode) {\n      var style = {};\n      var vStyle = window.vStyle || {};\n      (0, _keys2.default)(vStyle).forEach(function (key) {\n        if (vnode.data && vnode.data.class) {\n          if ('.' + vnode.data.class === key) {\n            style = vStyle[key];\n          }\n        }\n        if (vnode.tag) {\n          if (vnode.tag === key) {\n            style = vStyle[key];\n          }\n        }\n      });\n      return style;\n    }\n\n    /**\n     * Proxy\n     * @param target: virtual dom\n     * @param key: render type\n     * @returns {*}\n     */\n\n  }, {\n    key: 'renderProxy',\n    value: function renderProxy(target, key) {\n      var _this3 = this;\n\n      target.data = target.data || {};\n      var importStyle = _utils.constants.IN_BROWSER ? this.getImportStyle(target) : {};\n      var drawStyle = (0, _extends3.default)({}, importStyle, target.data.style) || (0, _extends3.default)({}, importStyle);\n      var canvasItem = null;\n      return {\n        scrollView: function scrollView() {\n          canvasItem = new _shape.ScrollView(drawStyle);\n          canvasItem.draw(_this3);\n          /**\n           * export scrollInstance for setting touch event automatic\n           */\n          _this3.scrollContainer = canvasItem;\n          return canvasItem;\n        },\n        scrollItem: function scrollItem(ctx) {\n          canvasItem = new _shape.ScrollItem(drawStyle, target, _this3);\n          canvasItem.draw(ctx, 0);\n          return canvasItem;\n        },\n        view: function view(ctx) {\n          canvasItem = new _shape.View(drawStyle);\n          canvasItem.draw(ctx, 0);\n          return canvasItem;\n        },\n        text: function text(ctx) {\n          canvasItem = new _shape.Text(drawStyle, target.children[0].text);\n          canvasItem.draw(ctx, 0);\n          return canvasItem;\n        },\n        image: function image(ctx) {\n          var src = void 0;\n          (src = target.data.props) && (src = src.src || '');\n          canvasItem = new _shape.Img(drawStyle, src);\n          canvasItem.draw(ctx, 0, _this3);\n          return canvasItem;\n        }\n      }[key];\n    }\n\n    /**\n     * traverse dom by BFS\n     * @param stack\n     * @param ctx\n     */\n\n  }, {\n    key: 'traverse',\n    value: function traverse(stack, ctx) {\n      while (stack.length) {\n        var vnode = stack.shift();\n        this.renderItem(vnode, ctx || this._ctx, !ctx);\n        /**\n         * check need traverse or not\n         */\n        if (!vnode.children || vnode.tag === 'text' || vnode.tag === 'scrollItem') {\n          continue;\n        }\n\n        vnode.children.forEach(function (node) {\n          stack.push(node);\n        });\n      }\n    }\n\n    /**\n     * render canvas item\n     * @param item: canvas item\n     * @param ctx: canvas context\n     * @param collect: need collect to canvasItemPool\n     */\n\n  }, {\n    key: 'renderItem',\n    value: function renderItem(item, ctx, collect) {\n      var canvasItem = new ProxyPolyfill(item, { get: this.renderProxy.bind(this) })[item.tag](ctx);\n      this.event.addEvent(canvasItem, item.data.on || {});\n      if (item.tag !== 'scrollView' && collect) {\n        this.id++;\n        _utils.canvasItemPool.add(this.id, canvasItem);\n      }\n    }\n  }]);\n  return Render;\n}(_utils.Canvas); /**\n                   * @author muwoo\n                   * Date: 2018/7/2\n                   */\n\n\nvar ProxyPolyfill = function ProxyPolyfill(target, handler) {\n  var proxy = {};\n  (0, _defineProperty2.default)(proxy, target.tag, {\n    get: function get() {\n      return handler.get(target, target.tag);\n    }\n  });\n  return proxy;\n};\n\nvar lastFrameTime = 0;\nvar doAnimationFrame = function doAnimationFrame(callback) {\n  if (_utils.constants.IN_BROWSER) {\n    return requestAnimationFrame(callback);\n  }\n  var currTime = new Date().getTime();\n  var timeToCall = Math.max(0, 16 - (currTime - lastFrameTime));\n  var id = setTimeout(function () {\n    callback(currTime + timeToCall);\n  }, timeToCall);\n  lastFrameTime = currTime + timeToCall;\n  return id;\n};\n\n//# sourceURL=webpack:///./src/core/index.js?");
 
 /***/ }),
 
@@ -4919,153 +1511,7 @@ var doAnimationFrame = function doAnimationFrame(callback) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * adapter for browser of weixin Mini Program
- */
-var RenderAdapter = function () {
-  function RenderAdapter() {
-    (0, _classCallCheck3.default)(this, RenderAdapter);
-
-    this.platform = _utils.constants.IN_BROWSER ? 'browser' : 'wx';
-  }
-
-  (0, _createClass3.default)(RenderAdapter, [{
-    key: 'renderText',
-    value: function renderText(instance, ctx, scrollTop) {
-      var renderFn = {
-        browser: function browser() {
-          ctx.fillStyle = instance.fillStyle;
-          ctx.textBaseline = instance.textBaseline;
-          ctx.font = instance.font;
-          ctx.textAlign = instance.textAlign;
-          var distText = instance.filterText(ctx, instance.text);
-          instance.width = instance.width || ctx.measureText(distText).width;
-          var drawY = instance.startY - scrollTop;
-          var drawX = instance.startX;
-          if (instance.drawStyle.textAlign === 'right') {
-            drawX += instance.width;
-          }
-          if (instance.drawStyle.textAlign === 'center') {
-            drawX += instance.width / 2;
-          }
-          ctx.fillText(distText, drawX, drawY);
-        },
-        wx: function wx() {
-          ctx.setFillStyle(instance.fillStyle);
-          ctx.setTextBaseline(instance.textBaseline);
-          ctx.font = instance.font;
-          var distText = instance.filterText(ctx, instance.text);
-          instance.width = instance.width || ctx.measureText(distText).width;
-          var drawY = instance.startY - scrollTop;
-          var drawX = instance.startX;
-          if (instance.drawStyle.textAlign === 'right') {
-            drawX += instance.width;
-          }
-          if (instance.drawStyle.textAlign === 'center') {
-            drawX += instance.width / 2;
-          }
-          ctx.fillText(distText, drawX, drawY);
-        }
-      };
-      renderFn[this.platform]();
-    }
-  }, {
-    key: 'renderImage',
-    value: function renderImage(instance, ctx, scrollTop, mainInstance) {
-      var renderFn = {
-        browser: function browser() {
-          // check cache
-          if (instance.render || (instance.img = _utils.imgCachePool.get(this.src))) {
-            return instance.drawImg(ctx, scrollTop);
-          }
-
-          // load Img
-          instance.img = new Image();
-          instance.img.onload = function () {
-            if (instance.isVisible(_utils.constants.scrollerTop)) {
-              return;
-            }
-            instance.render = true;
-            /**
-             * checkout img if has be loaded
-             */
-            if (!!_utils.imgCachePool.get(instance.src)) {
-              return mainInstance.rePaint(_utils.constants.scrollerTop);
-            }
-            instance.drawImg(ctx, scrollTop);
-          };
-          instance.img.crossOrigin = true;
-          instance.img.src = instance.src;
-          _utils.imgCachePool.add(instance.src, instance.img);
-        },
-        wx: function (_wx) {
-          function wx() {
-            return _wx.apply(this, arguments);
-          }
-
-          wx.toString = function () {
-            return _wx.toString();
-          };
-
-          return wx;
-        }(function () {
-          wx.getImageInfo({
-            src: instance.src,
-            success: function success(res) {
-              ctx.drawImage(res.path, instance.startX, instance.startY - scrollTop, instance.width, instance.height);
-              ctx.draw(true);
-            }
-          });
-        })
-      };
-      renderFn[this.platform]();
-    }
-  }, {
-    key: 'renderView',
-    value: function renderView(instance, ctx, scrollTop) {
-      var renderFn = {
-        browser: function browser() {
-          ctx.fillStyle = instance.fillStyle;
-          ctx.strokeStyle = instance.strokeStyle;
-          ctx.lineWidth = instance.lineWidth;
-          instance.drawStyle.fill ? ctx.fillRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height) : ctx.strokeRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height);
-        },
-        wx: function wx() {
-          ctx.setFillStyle(instance.fillStyle);
-          ctx.setStrokeStyle(instance.strokeStyle);
-          ctx.setLineWidth(instance.lineWidth);
-          instance.drawStyle.fill ? ctx.fillRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height) : ctx.strokeRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height);
-        }
-      };
-      renderFn[this.platform]();
-    }
-  }]);
-  return RenderAdapter;
-}(); /**
-      * @author muwoo
-      * Date: 2018/8/7
-      */
-
-
-exports.default = new RenderAdapter();
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _utils = __webpack_require__(/*! ../utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * adapter for browser of weixin Mini Program\n */\nvar RenderAdapter = function () {\n  function RenderAdapter() {\n    (0, _classCallCheck3.default)(this, RenderAdapter);\n\n    this.platform = _utils.constants.IN_BROWSER ? 'browser' : 'wx';\n  }\n\n  (0, _createClass3.default)(RenderAdapter, [{\n    key: 'renderText',\n    value: function renderText(instance, ctx, scrollTop) {\n      var renderFn = {\n        browser: function browser() {\n          ctx.fillStyle = instance.fillStyle;\n          ctx.textBaseline = instance.textBaseline;\n          ctx.font = instance.font;\n          ctx.textAlign = instance.textAlign;\n          var distText = instance.filterText(ctx, instance.text);\n          instance.width = instance.width || ctx.measureText(distText).width;\n          var drawY = instance.startY - scrollTop;\n          var drawX = instance.startX;\n          if (instance.drawStyle.textAlign === 'right') {\n            drawX += instance.width;\n          }\n          if (instance.drawStyle.textAlign === 'center') {\n            drawX += instance.width / 2;\n          }\n          ctx.fillText(distText, drawX, drawY);\n        },\n        wx: function wx() {\n          ctx.setFillStyle(instance.fillStyle);\n          ctx.setTextBaseline(instance.textBaseline);\n          ctx.font = instance.font;\n          var distText = instance.filterText(ctx, instance.text);\n          instance.width = instance.width || ctx.measureText(distText).width;\n          var drawY = instance.startY - scrollTop;\n          var drawX = instance.startX;\n          if (instance.drawStyle.textAlign === 'right') {\n            drawX += instance.width;\n          }\n          if (instance.drawStyle.textAlign === 'center') {\n            drawX += instance.width / 2;\n          }\n          ctx.fillText(distText, drawX, drawY);\n        }\n      };\n      renderFn[this.platform]();\n    }\n  }, {\n    key: 'renderImage',\n    value: function renderImage(instance, ctx, scrollTop, mainInstance) {\n      var renderFn = {\n        browser: function browser() {\n          // check cache\n          if (instance.render || (instance.img = _utils.imgCachePool.get(this.src))) {\n            return instance.drawImg(ctx, scrollTop);\n          }\n\n          // load Img\n          instance.img = new Image();\n          instance.img.onload = function () {\n            if (instance.isVisible(_utils.constants.scrollerTop)) {\n              return;\n            }\n            instance.render = true;\n            /**\n             * checkout img if has be loaded\n             */\n            if (!!_utils.imgCachePool.get(instance.src)) {\n              return mainInstance.rePaint(_utils.constants.scrollerTop);\n            }\n            instance.drawImg(ctx, scrollTop);\n          };\n          instance.img.crossOrigin = true;\n          instance.img.src = instance.src;\n          _utils.imgCachePool.add(instance.src, instance.img);\n        },\n        wx: function (_wx) {\n          function wx() {\n            return _wx.apply(this, arguments);\n          }\n\n          wx.toString = function () {\n            return _wx.toString();\n          };\n\n          return wx;\n        }(function () {\n          wx.getImageInfo({\n            src: instance.src,\n            success: function success(res) {\n              ctx.save();\n              instance.radius && instance.arcByRadius(ctx, scrollTop);\n              ctx.drawImage(res.path, instance.startX, instance.startY - scrollTop, instance.width, instance.height);\n              ctx.draw(true);\n              ctx.restore();\n            }\n          });\n        })\n      };\n      renderFn[this.platform]();\n    }\n  }, {\n    key: 'renderView',\n    value: function renderView(instance, ctx, scrollTop) {\n      var renderFn = {\n        browser: function browser() {\n          ctx.fillStyle = instance.fillStyle;\n          ctx.strokeStyle = instance.strokeStyle;\n          ctx.lineWidth = instance.lineWidth;\n        },\n        wx: function wx() {\n          ctx.setFillStyle(instance.fillStyle);\n          ctx.setStrokeStyle(instance.strokeStyle);\n          ctx.setLineWidth(instance.lineWidth);\n        }\n      };\n      renderFn[this.platform]();\n    }\n  }]);\n  return RenderAdapter;\n}(); /**\n      * @author muwoo\n      * Date: 2018/8/7\n      */\n\n\nexports.default = new RenderAdapter();\n\n//# sourceURL=webpack:///./src/core/renderAdapter/index.js?");
 
 /***/ }),
 
@@ -5077,75 +1523,7 @@ exports.default = new RenderAdapter();
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Img = undefined;
-
-var _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ "./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _super = __webpack_require__(/*! ./super */ "./src/core/shape/super.js");
-
-var _renderAdapter = __webpack_require__(/*! ../renderAdapter */ "./src/core/renderAdapter/index.js");
-
-var _renderAdapter2 = _interopRequireDefault(_renderAdapter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * @author muwoo
- * Date: 2018/7/12
- */
-var Img = exports.Img = function (_Super) {
-  (0, _inherits3.default)(Img, _Super);
-
-  function Img(drawStyle, src) {
-    (0, _classCallCheck3.default)(this, Img);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (Img.__proto__ || (0, _getPrototypeOf2.default)(Img)).call(this, drawStyle));
-
-    _this.src = src;
-    _this.img = null;
-    return _this;
-  }
-
-  (0, _createClass3.default)(Img, [{
-    key: 'drawImg',
-    value: function drawImg(ctx, scrollTop) {
-      ctx.drawImage(this.img, this.startX, this.startY - scrollTop, this.width, this.height);
-    }
-  }, {
-    key: 'draw',
-    value: function draw(ctx, scrollTop, mainInstance) {
-      // check visible
-      if (this.isVisible(scrollTop)) {
-        return;
-      }
-      _renderAdapter2.default.renderImage(this, ctx, scrollTop, mainInstance);
-    }
-  }]);
-  return Img;
-}(_super.Super);
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Img = undefined;\n\nvar _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ \"./node_modules/babel-runtime/core-js/object/get-prototype-of.js\");\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ \"./node_modules/babel-runtime/helpers/possibleConstructorReturn.js\");\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ \"./node_modules/babel-runtime/helpers/inherits.js\");\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _super = __webpack_require__(/*! ./super */ \"./src/core/shape/super.js\");\n\nvar _renderAdapter = __webpack_require__(/*! ../renderAdapter */ \"./src/core/renderAdapter/index.js\");\n\nvar _renderAdapter2 = _interopRequireDefault(_renderAdapter);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * @author muwoo\n * Date: 2018/7/12\n */\nvar Img = exports.Img = function (_Super) {\n  (0, _inherits3.default)(Img, _Super);\n\n  function Img(drawStyle, src) {\n    (0, _classCallCheck3.default)(this, Img);\n\n    var _this = (0, _possibleConstructorReturn3.default)(this, (Img.__proto__ || (0, _getPrototypeOf2.default)(Img)).call(this, drawStyle));\n\n    _this.src = src;\n    _this.img = null;\n    return _this;\n  }\n\n  (0, _createClass3.default)(Img, [{\n    key: 'drawImg',\n    value: function drawImg(ctx, scrollTop) {\n      ctx.save();\n      this.radius && this.arcByRadius(ctx, scrollTop);\n      ctx.drawImage(this.img, this.startX, this.startY - scrollTop, this.width, this.height);\n      ctx.restore();\n    }\n  }, {\n    key: 'draw',\n    value: function draw(ctx, scrollTop, mainInstance) {\n      // check visible\n      if (this.isVisible(scrollTop)) {\n        return;\n      }\n      _renderAdapter2.default.renderImage(this, ctx, scrollTop, mainInstance);\n    }\n  }]);\n  return Img;\n}(_super.Super);\n\n//# sourceURL=webpack:///./src/core/shape/image.js?");
 
 /***/ }),
 
@@ -5157,31 +1535,7 @@ var Img = exports.Img = function (_Super) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.View = exports.ScrollView = exports.ScrollItem = exports.Text = exports.Img = undefined;
-
-var _image = __webpack_require__(/*! ./image */ "./src/core/shape/image.js");
-
-var _text = __webpack_require__(/*! ./text */ "./src/core/shape/text.js");
-
-var _scrollItem = __webpack_require__(/*! ./scrollItem */ "./src/core/shape/scrollItem.js");
-
-var _scrollView = __webpack_require__(/*! ./scrollView */ "./src/core/shape/scrollView.js");
-
-var _view = __webpack_require__(/*! ./view */ "./src/core/shape/view.js");
-
-exports.Img = _image.Img;
-exports.Text = _text.Text;
-exports.ScrollItem = _scrollItem.ScrollItem;
-exports.ScrollView = _scrollView.ScrollView;
-exports.View = _view.View; /**
-                            * @author muwoo
-                            * Date: 2018/7/15
-                            */
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.View = exports.ScrollView = exports.ScrollItem = exports.Text = exports.Img = undefined;\n\nvar _image = __webpack_require__(/*! ./image */ \"./src/core/shape/image.js\");\n\nvar _text = __webpack_require__(/*! ./text */ \"./src/core/shape/text.js\");\n\nvar _scrollItem = __webpack_require__(/*! ./scrollItem */ \"./src/core/shape/scrollItem.js\");\n\nvar _scrollView = __webpack_require__(/*! ./scrollView */ \"./src/core/shape/scrollView.js\");\n\nvar _view = __webpack_require__(/*! ./view */ \"./src/core/shape/view.js\");\n\nexports.Img = _image.Img;\nexports.Text = _text.Text;\nexports.ScrollItem = _scrollItem.ScrollItem;\nexports.ScrollView = _scrollView.ScrollView;\nexports.View = _view.View; /**\n                            * @author muwoo\n                            * Date: 2018/7/15\n                            */\n\n//# sourceURL=webpack:///./src/core/shape/index.js?");
 
 /***/ }),
 
@@ -5193,121 +1547,7 @@ exports.View = _view.View; /**
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.ScrollItem = undefined;
-
-var _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator */ "./node_modules/babel-runtime/core-js/get-iterator.js");
-
-var _getIterator3 = _interopRequireDefault(_getIterator2);
-
-var _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ "./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _super = __webpack_require__(/*! ./super */ "./src/core/shape/super.js");
-
-var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * @author muwoo
- * Date: 2018/7/14
- * desc: cache canvas group, to improve performance
- * render one group replace render every item one by one
- * but use this have to create a canvas dom every time.
- * So it needs later optimization
- */
-var ScrollItem = exports.ScrollItem = function (_Super) {
-  (0, _inherits3.default)(ScrollItem, _Super);
-
-  function ScrollItem(drawStyle, vnode, mainRender) {
-    (0, _classCallCheck3.default)(this, ScrollItem);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (ScrollItem.__proto__ || (0, _getPrototypeOf2.default)(ScrollItem)).call(this, drawStyle));
-
-    _this.stack = vnode.children;
-    _this.cacheCanvas = new _utils.Canvas(_this.width, _this.height);
-    _this.mainRender = mainRender;
-    _this.children = [];
-    return _this;
-  }
-
-  (0, _createClass3.default)(ScrollItem, [{
-    key: 'init',
-    value: function init() {
-      if (this.children.length) {
-        var _iteratorNormalCompletion = true;
-        var _didIteratorError = false;
-        var _iteratorError = undefined;
-
-        try {
-          for (var _iterator = (0, _getIterator3.default)(this.children), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-            var child = _step.value;
-
-            child.draw(this.cacheCanvas._ctx, 0);
-          }
-        } catch (err) {
-          _didIteratorError = true;
-          _iteratorError = err;
-        } finally {
-          try {
-            if (!_iteratorNormalCompletion && _iterator.return) {
-              _iterator.return();
-            }
-          } finally {
-            if (_didIteratorError) {
-              throw _iteratorError;
-            }
-          }
-        }
-      } else {
-        this.mainRender.traverse({
-          stack: this.stack,
-          ctx: this.cacheCanvas._ctx,
-          scrollItem: this
-        });
-      }
-    }
-  }, {
-    key: 'draw',
-    value: function draw(ctx, scrollTop) {
-      if (this.isVisible(scrollTop)) {
-        return;
-      }
-      !this.render && this.init();
-      ctx.drawImage(this.cacheCanvas._canvas, this.startX, this.startY - scrollTop, this.width, this.height);
-      this.render = true;
-    }
-  }, {
-    key: 'rePaint',
-    value: function rePaint() {
-      this.render = false;
-      // this.cacheCanvas._ctx.clearRect(0, 0, this.width, this.height)
-    }
-  }]);
-  return ScrollItem;
-}(_super.Super);
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.ScrollItem = undefined;\n\nvar _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator */ \"./node_modules/babel-runtime/core-js/get-iterator.js\");\n\nvar _getIterator3 = _interopRequireDefault(_getIterator2);\n\nvar _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ \"./node_modules/babel-runtime/core-js/object/get-prototype-of.js\");\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ \"./node_modules/babel-runtime/helpers/possibleConstructorReturn.js\");\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ \"./node_modules/babel-runtime/helpers/inherits.js\");\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _super = __webpack_require__(/*! ./super */ \"./src/core/shape/super.js\");\n\nvar _utils = __webpack_require__(/*! ../utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * @author muwoo\n * Date: 2018/7/14\n * desc: cache canvas group, to improve performance\n * render one group replace render every item one by one\n * but use this have to create a canvas dom every time.\n * So it needs later optimization\n */\nvar ScrollItem = exports.ScrollItem = function (_Super) {\n  (0, _inherits3.default)(ScrollItem, _Super);\n\n  function ScrollItem(drawStyle, vnode, mainRender) {\n    (0, _classCallCheck3.default)(this, ScrollItem);\n\n    var _this = (0, _possibleConstructorReturn3.default)(this, (ScrollItem.__proto__ || (0, _getPrototypeOf2.default)(ScrollItem)).call(this, drawStyle));\n\n    _this.stack = vnode.children;\n    _this.cacheCanvas = new _utils.Canvas(_this.width, _this.height);\n    _this.mainRender = mainRender;\n    _this.children = [];\n    return _this;\n  }\n\n  (0, _createClass3.default)(ScrollItem, [{\n    key: 'init',\n    value: function init() {\n      if (this.children.length) {\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n          for (var _iterator = (0, _getIterator3.default)(this.children), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n            var child = _step.value;\n\n            child.draw(this.cacheCanvas._ctx, 0);\n          }\n        } catch (err) {\n          _didIteratorError = true;\n          _iteratorError = err;\n        } finally {\n          try {\n            if (!_iteratorNormalCompletion && _iterator.return) {\n              _iterator.return();\n            }\n          } finally {\n            if (_didIteratorError) {\n              throw _iteratorError;\n            }\n          }\n        }\n      } else {\n        this.mainRender.traverse({\n          stack: this.stack,\n          ctx: this.cacheCanvas._ctx,\n          scrollItem: this\n        });\n      }\n    }\n  }, {\n    key: 'draw',\n    value: function draw(ctx, scrollTop) {\n      if (this.isVisible(scrollTop)) {\n        return;\n      }\n      !this.render && this.init();\n      ctx.drawImage(this.cacheCanvas._canvas, this.startX, this.startY - scrollTop, this.width, this.height);\n      this.render = true;\n    }\n  }, {\n    key: 'rePaint',\n    value: function rePaint() {\n      this.render = false;\n      // this.cacheCanvas._ctx.clearRect(0, 0, this.width, this.height)\n    }\n  }]);\n  return ScrollItem;\n}(_super.Super);\n\n//# sourceURL=webpack:///./src/core/shape/scrollItem.js?");
 
 /***/ }),
 
@@ -5319,150 +1559,7 @@ var ScrollItem = exports.ScrollItem = function (_Super) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.ScrollView = undefined;
-
-var _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ "./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _super = __webpack_require__(/*! ./super */ "./src/core/shape/super.js");
-
-var _scroller = __webpack_require__(/*! scroller */ "./node_modules/scroller/index.js");
-
-var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ScrollView = exports.ScrollView = function (_Super) {
-  (0, _inherits3.default)(ScrollView, _Super);
-
-  function ScrollView(drawStyle) {
-    (0, _classCallCheck3.default)(this, ScrollView);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (ScrollView.__proto__ || (0, _getPrototypeOf2.default)(ScrollView)).call(this, drawStyle));
-
-    _this.scroller = null;
-    /**
-     * Avoid duplication of creation using the same off screen canvas
-     * @type {null}
-     */
-    _this.mainInstance = null;
-    _this.startHandler = _this.startHandler || _this.handleTouchStart.bind(_this);
-    _this.moveHandler = _this.moveHandler || _this.handleTouchMove.bind(_this);
-    _this.endHandler = _this.endHandler || _this.handleTouchEnd.bind(_this);
-    return _this;
-  }
-
-  (0, _createClass3.default)(ScrollView, [{
-    key: 'draw',
-    value: function draw(mainRender) {
-      this.mainInstance = mainRender;
-      this.createScroller();
-      this.updateScrollingDimensions();
-      this.render = true;
-      /**
-       * in weixin Mini Program
-       * Manual binding events need to be manually
-       */
-      _utils.constants.IN_BROWSER && this.removeListener();
-      _utils.constants.IN_BROWSER && this.bindListener();
-    }
-  }, {
-    key: 'bindListener',
-    value: function bindListener() {
-      window.addEventListener('touchstart', this.startHandler, { passive: false });
-      window.addEventListener('touchmove', this.moveHandler, { passive: false });
-      window.addEventListener('touchend', this.endHandler, { passive: false });
-    }
-  }, {
-    key: 'removeListener',
-    value: function removeListener() {
-      window.removeEventListener('touchstart', this.startHandler);
-      window.removeEventListener('touchmove', this.moveHandler);
-      window.removeEventListener('touchend', this.endHandler);
-    }
-  }, {
-    key: 'handleTouchStart',
-    value: function handleTouchStart(e) {
-      var touches = _utils.constants.IN_BROWSER ? e.touches : [{
-        pageX: e.x,
-        pageY: e.y
-      }];
-      if (this.scroller) {
-        this.scroller.doTouchStart(touches, e.timeStamp);
-      }
-    }
-  }, {
-    key: 'handleTouchMove',
-    value: function handleTouchMove(e) {
-      if (_utils.constants.IN_BROWSER && e.touches[0] && e.touches[0].target && e.touches[0].target.tagName.match(/input|textarea|select/i)) {
-        return;
-      }
-      var touches = _utils.constants.IN_BROWSER ? e.touches : [{
-        pageX: e.x,
-        pageY: e.y
-      }];
-      if (this.scroller) {
-        e.preventDefault();
-        this.scroller.doTouchMove(touches, e.timeStamp, e.scale);
-      }
-    }
-  }, {
-    key: 'handleTouchEnd',
-    value: function handleTouchEnd(e) {
-      if (this.scroller) {
-        this.scroller.doTouchEnd(e.timeStamp);
-      }
-    }
-  }, {
-    key: 'createScroller',
-    value: function createScroller() {
-      var options = {
-        scrollingX: this.drawStyle.scrollingX === undefined ? false : this.drawStyle.scrollingX,
-        scrollingY: this.drawStyle.scrollingY === undefined ? true : this.drawStyle.scrollingY
-      };
-      this.scroller = new _scroller.Scroller(this.handleScroll.bind(this), options);
-    }
-  }, {
-    key: 'handleScroll',
-    value: function handleScroll(left, top) {
-      /**
-       * When rendering, it needs to scroll to the previous position.
-       */
-      _utils.constants.top = _utils.constants.scrollTop + top;
-      _utils.constants.scrollerTop = top;
-      this.mainInstance.rePaint(top);
-    }
-  }, {
-    key: 'updateScrollingDimensions',
-    value: function updateScrollingDimensions() {
-      this.scroller.setDimensions(this.width / _utils.constants.rate, this.height / _utils.constants.rate, this.width / _utils.constants.rate, this.drawStyle.scrollHeight * _utils.constants.rate);
-      this.scroller.scrollTo(0, _utils.constants.scrollTop);
-    }
-  }]);
-  return ScrollView;
-}(_super.Super);
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.ScrollView = undefined;\n\nvar _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ \"./node_modules/babel-runtime/core-js/object/get-prototype-of.js\");\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ \"./node_modules/babel-runtime/helpers/possibleConstructorReturn.js\");\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ \"./node_modules/babel-runtime/helpers/inherits.js\");\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _super = __webpack_require__(/*! ./super */ \"./src/core/shape/super.js\");\n\nvar _scroller = __webpack_require__(/*! scroller */ \"./node_modules/scroller/index.js\");\n\nvar _utils = __webpack_require__(/*! ../utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar ScrollView = exports.ScrollView = function (_Super) {\n  (0, _inherits3.default)(ScrollView, _Super);\n\n  function ScrollView(drawStyle) {\n    (0, _classCallCheck3.default)(this, ScrollView);\n\n    var _this = (0, _possibleConstructorReturn3.default)(this, (ScrollView.__proto__ || (0, _getPrototypeOf2.default)(ScrollView)).call(this, drawStyle));\n\n    _this.scroller = null;\n    /**\n     * Avoid duplication of creation using the same off screen canvas\n     * @type {null}\n     */\n    _this.mainInstance = null;\n    _this.startHandler = _this.startHandler || _this.handleTouchStart.bind(_this);\n    _this.moveHandler = _this.moveHandler || _this.handleTouchMove.bind(_this);\n    _this.endHandler = _this.endHandler || _this.handleTouchEnd.bind(_this);\n    return _this;\n  }\n\n  (0, _createClass3.default)(ScrollView, [{\n    key: 'draw',\n    value: function draw(mainRender) {\n      this.mainInstance = mainRender;\n      this.createScroller();\n      this.updateScrollingDimensions();\n      this.render = true;\n      /**\n       * in weixin Mini Program\n       * Manual binding events need to be manually\n       */\n      _utils.constants.IN_BROWSER && this.removeListener();\n      _utils.constants.IN_BROWSER && this.bindListener();\n    }\n  }, {\n    key: 'bindListener',\n    value: function bindListener() {\n      window.addEventListener('touchstart', this.startHandler, { passive: false });\n      window.addEventListener('touchmove', this.moveHandler, { passive: false });\n      window.addEventListener('touchend', this.endHandler, { passive: false });\n    }\n  }, {\n    key: 'removeListener',\n    value: function removeListener() {\n      window.removeEventListener('touchstart', this.startHandler);\n      window.removeEventListener('touchmove', this.moveHandler);\n      window.removeEventListener('touchend', this.endHandler);\n    }\n  }, {\n    key: 'handleTouchStart',\n    value: function handleTouchStart(e) {\n      var touches = _utils.constants.IN_BROWSER ? e.touches : [{\n        pageX: e.x,\n        pageY: e.y\n      }];\n      if (this.scroller) {\n        this.scroller.doTouchStart(touches, e.timeStamp);\n      }\n    }\n  }, {\n    key: 'handleTouchMove',\n    value: function handleTouchMove(e) {\n      if (_utils.constants.IN_BROWSER && e.touches[0] && e.touches[0].target && e.touches[0].target.tagName.match(/input|textarea|select/i)) {\n        return;\n      }\n      var touches = _utils.constants.IN_BROWSER ? e.touches : [{\n        pageX: e.x,\n        pageY: e.y\n      }];\n      if (this.scroller) {\n        e.preventDefault();\n        this.scroller.doTouchMove(touches, e.timeStamp, e.scale);\n      }\n    }\n  }, {\n    key: 'handleTouchEnd',\n    value: function handleTouchEnd(e) {\n      if (this.scroller) {\n        this.scroller.doTouchEnd(e.timeStamp);\n      }\n    }\n  }, {\n    key: 'createScroller',\n    value: function createScroller() {\n      var options = {\n        scrollingX: this.drawStyle.scrollingX === undefined ? false : this.drawStyle.scrollingX,\n        scrollingY: this.drawStyle.scrollingY === undefined ? true : this.drawStyle.scrollingY\n      };\n      this.scroller = new _scroller.Scroller(this.handleScroll.bind(this), options);\n    }\n  }, {\n    key: 'handleScroll',\n    value: function handleScroll(left, top) {\n      /**\n       * When rendering, it needs to scroll to the previous position.\n       */\n      _utils.constants.top = _utils.constants.scrollTop + top;\n      _utils.constants.scrollerTop = top;\n      this.mainInstance.rePaint(top);\n    }\n  }, {\n    key: 'updateScrollingDimensions',\n    value: function updateScrollingDimensions() {\n      this.scroller.setDimensions(this.width / _utils.constants.rate, this.height / _utils.constants.rate, this.width / _utils.constants.rate, this.drawStyle.scrollHeight * _utils.constants.rate);\n      this.scroller.scrollTo(0, _utils.constants.scrollTop);\n    }\n  }]);\n  return ScrollView;\n}(_super.Super);\n\n//# sourceURL=webpack:///./src/core/shape/scrollView.js?");
 
 /***/ }),
 
@@ -5474,85 +1571,7 @@ var ScrollView = exports.ScrollView = function (_Super) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Super = undefined;
-
-var _assign = __webpack_require__(/*! babel-runtime/core-js/object/assign */ "./node_modules/babel-runtime/core-js/object/assign.js");
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var defaultStyle = {
-  left: 0,
-  top: 0,
-  right: 0,
-  bottom: 0,
-  width: 0,
-  height: 0
-}; /**
-    * @author muwoo
-    * Date: 2018/7/11
-    */
-
-var Super = exports.Super = function () {
-  function Super(drawStyle) {
-    (0, _classCallCheck3.default)(this, Super);
-
-    this.render = false;
-    this.drawStyle = (0, _assign2.default)({}, defaultStyle, drawStyle);
-    this.startX = this.drawStyle.left * _utils.constants.rate;
-    this.startY = this.drawStyle.top * _utils.constants.rate;
-    this.width = this.drawStyle.width * _utils.constants.rate;
-    this.height = this.drawStyle.height * _utils.constants.rate;
-    this.fillStyle = this.drawStyle.fill || '#fff';
-  }
-
-  /**
-   * if in weixin Mini Program
-   * offsetX = point.target.x - point.target.offsetLeft
-   * offsetY = point.target.y - point.target.offsetTop
-   * @param point
-   * @returns {boolean}
-   */
-
-
-  (0, _createClass3.default)(Super, [{
-    key: 'isInPath',
-    value: function isInPath(point) {
-      var x = _utils.constants.IN_BROWSER ? point.offsetX : point.target.x - point.target.offsetLeft;
-      var y = _utils.constants.IN_BROWSER ? point.offsetY : point.target.y - point.target.offsetTop;
-      if (this.render && x >= this.startX && x <= this.width + this.startX && y >= this.startY && y <= this.height + this.startY) {
-        return true;
-      }
-      return false;
-    }
-  }, {
-    key: 'isVisible',
-    value: function isVisible(scrollTop) {
-      if (_utils.constants.IN_BROWSER) {
-        return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > window.innerHeight;
-      }
-      var mobile = wx.getSystemInfoSync();
-      return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > mobile.innerHeight;
-    }
-  }]);
-  return Super;
-}();
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Super = undefined;\n\nvar _assign = __webpack_require__(/*! babel-runtime/core-js/object/assign */ \"./node_modules/babel-runtime/core-js/object/assign.js\");\n\nvar _assign2 = _interopRequireDefault(_assign);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _utils = __webpack_require__(/*! ../utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar defaultStyle = {\n  left: 0,\n  top: 0,\n  right: 0,\n  bottom: 0,\n  width: 0,\n  height: 0\n}; /**\n    * @author muwoo\n    * Date: 2018/7/11\n    */\n\nvar Super = exports.Super = function () {\n  function Super(drawStyle) {\n    (0, _classCallCheck3.default)(this, Super);\n\n    this.render = false;\n    this.drawStyle = (0, _assign2.default)({}, defaultStyle, drawStyle);\n    this.startX = this.drawStyle.left * _utils.constants.rate;\n    this.startY = this.drawStyle.top * _utils.constants.rate;\n    this.width = this.drawStyle.width * _utils.constants.rate;\n    this.height = this.drawStyle.height * _utils.constants.rate;\n    this.fillStyle = this.drawStyle.fill || '#fff';\n    this.radius = this.drawStyle.radius * _utils.constants.rate || 0;\n  }\n\n  /**\n   * if in weixin Mini Program\n   * offsetX = point.target.x - point.target.offsetLeft\n   * offsetY = point.target.y - point.target.offsetTop\n   * @param point\n   * @returns {boolean}\n   */\n\n\n  (0, _createClass3.default)(Super, [{\n    key: 'isInPath',\n    value: function isInPath(point) {\n      var x = _utils.constants.IN_BROWSER ? point.offsetX : point.target.x - point.target.offsetLeft;\n      var y = _utils.constants.IN_BROWSER ? point.offsetY : point.target.y - point.target.offsetTop;\n      if (this.render && x >= this.startX && x <= this.width + this.startX && y >= this.startY && y <= this.height + this.startY) {\n        return true;\n      }\n      return false;\n    }\n  }, {\n    key: 'isVisible',\n    value: function isVisible(scrollTop) {\n      if (_utils.constants.IN_BROWSER) {\n        return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > window.innerHeight;\n      }\n      var mobile = wx.getSystemInfoSync();\n      return this.startY - scrollTop + this.height <= 0 || this.startY - scrollTop > mobile.innerHeight;\n    }\n  }, {\n    key: 'arcByRadius',\n    value: function arcByRadius(ctx, scrollTop) {\n      var min = Math.min(this.width / 2, this.height / 2);\n      var x = this.startX;\n      var y = this.startY - scrollTop;\n      var w = this.width;\n      var h = this.height;\n      var r = this.radius > min ? min : this.radius;\n      ctx.beginPath();\n      ctx.moveTo(x + r, y);\n      ctx.arcTo(x + w, y, x + w, y + h, r);\n      ctx.arcTo(x + w, y + h, x, y + h, r);\n      ctx.arcTo(x, y + h, x, y, r);\n      ctx.arcTo(x, y, x + w, y, r);\n      ctx.closePath();\n      ctx.clip();\n    }\n  }]);\n  return Super;\n}();\n\n//# sourceURL=webpack:///./src/core/shape/super.js?");
 
 /***/ }),
 
@@ -5564,125 +1583,7 @@ var Super = exports.Super = function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Text = undefined;
-
-var _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator */ "./node_modules/babel-runtime/core-js/get-iterator.js");
-
-var _getIterator3 = _interopRequireDefault(_getIterator2);
-
-var _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ "./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _super = __webpack_require__(/*! ./super */ "./src/core/shape/super.js");
-
-var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
-
-var _renderAdapter = __webpack_require__(/*! ../renderAdapter */ "./src/core/renderAdapter/index.js");
-
-var _renderAdapter2 = _interopRequireDefault(_renderAdapter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Text = exports.Text = function (_Super) {
-  (0, _inherits3.default)(Text, _Super);
-
-  function Text(drawStyle, text) {
-    (0, _classCallCheck3.default)(this, Text);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (Text.__proto__ || (0, _getPrototypeOf2.default)(Text)).call(this, drawStyle));
-
-    _this.text = text;
-    _this.fontSize = parseInt((_this.drawStyle['font-size'] || _this.drawStyle['fontSize'] || 12) * _utils.constants.rate);
-    _this.height = _this.fontSize;
-    _this.textBaseline = 'top';
-    _this.font = _this.fontSize + 'px ' + _utils.constants.DEFAULT_FONT_FAMILY;
-    _this.textAlign = _this.drawStyle.textAlign || 'left';
-    return _this;
-  }
-
-  (0, _createClass3.default)(Text, [{
-    key: 'draw',
-    value: function draw(ctx, scrollTop) {
-      if (this.isVisible(scrollTop)) {
-        return;
-      }
-      _renderAdapter2.default.renderText(this, ctx, scrollTop);
-      this.render = true;
-    }
-
-    /**
-     * clip text
-     * @param ctx
-     * @param text
-     * @returns {*}
-     */
-
-  }, {
-    key: 'filterText',
-    value: function filterText(ctx, text) {
-      if (this.drawStyle.ellipse && this.drawStyle.width) {
-        var filterText = '';
-        var _iteratorNormalCompletion = true;
-        var _didIteratorError = false;
-        var _iteratorError = undefined;
-
-        try {
-          for (var _iterator = (0, _getIterator3.default)(text.split('')), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-            var char = _step.value;
-
-            if (ctx.measureText(filterText + '...').width / _utils.constants.rate >= this.drawStyle.width) {
-              filterText += '...';
-              break;
-            }
-            filterText += char;
-          }
-        } catch (err) {
-          _didIteratorError = true;
-          _iteratorError = err;
-        } finally {
-          try {
-            if (!_iteratorNormalCompletion && _iterator.return) {
-              _iterator.return();
-            }
-          } finally {
-            if (_didIteratorError) {
-              throw _iteratorError;
-            }
-          }
-        }
-
-        return filterText;
-      }
-      return text;
-    }
-  }]);
-  return Text;
-}(_super.Super); /**
-                  * @author muwoo
-                  * Date: 2018/7/12
-                  */
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Text = undefined;\n\nvar _getIterator2 = __webpack_require__(/*! babel-runtime/core-js/get-iterator */ \"./node_modules/babel-runtime/core-js/get-iterator.js\");\n\nvar _getIterator3 = _interopRequireDefault(_getIterator2);\n\nvar _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ \"./node_modules/babel-runtime/core-js/object/get-prototype-of.js\");\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ \"./node_modules/babel-runtime/helpers/possibleConstructorReturn.js\");\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ \"./node_modules/babel-runtime/helpers/inherits.js\");\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _super = __webpack_require__(/*! ./super */ \"./src/core/shape/super.js\");\n\nvar _utils = __webpack_require__(/*! ../utils */ \"./src/core/utils/index.js\");\n\nvar _renderAdapter = __webpack_require__(/*! ../renderAdapter */ \"./src/core/renderAdapter/index.js\");\n\nvar _renderAdapter2 = _interopRequireDefault(_renderAdapter);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Text = exports.Text = function (_Super) {\n  (0, _inherits3.default)(Text, _Super);\n\n  function Text(drawStyle, text) {\n    (0, _classCallCheck3.default)(this, Text);\n\n    var _this = (0, _possibleConstructorReturn3.default)(this, (Text.__proto__ || (0, _getPrototypeOf2.default)(Text)).call(this, drawStyle));\n\n    _this.text = text;\n    _this.fontSize = parseInt((_this.drawStyle['font-size'] || _this.drawStyle['fontSize'] || 12) * _utils.constants.rate);\n    _this.height = _this.fontSize;\n    _this.textBaseline = 'top';\n    _this.font = _this.fontSize + 'px ' + _utils.constants.DEFAULT_FONT_FAMILY;\n    _this.textAlign = _this.drawStyle.textAlign || 'left';\n    return _this;\n  }\n\n  (0, _createClass3.default)(Text, [{\n    key: 'draw',\n    value: function draw(ctx, scrollTop) {\n      if (this.isVisible(scrollTop)) {\n        return;\n      }\n      _renderAdapter2.default.renderText(this, ctx, scrollTop);\n      this.render = true;\n    }\n\n    /**\n     * clip text\n     * @param ctx\n     * @param text\n     * @returns {*}\n     */\n\n  }, {\n    key: 'filterText',\n    value: function filterText(ctx, text) {\n      if (this.drawStyle.ellipse && this.drawStyle.width) {\n        var filterText = '';\n        var _iteratorNormalCompletion = true;\n        var _didIteratorError = false;\n        var _iteratorError = undefined;\n\n        try {\n          for (var _iterator = (0, _getIterator3.default)(text.split('')), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n            var char = _step.value;\n\n            if (ctx.measureText(filterText + '...').width / _utils.constants.rate >= this.drawStyle.width) {\n              filterText += '...';\n              break;\n            }\n            filterText += char;\n          }\n        } catch (err) {\n          _didIteratorError = true;\n          _iteratorError = err;\n        } finally {\n          try {\n            if (!_iteratorNormalCompletion && _iterator.return) {\n              _iterator.return();\n            }\n          } finally {\n            if (_didIteratorError) {\n              throw _iteratorError;\n            }\n          }\n        }\n\n        return filterText;\n      }\n      return text;\n    }\n  }]);\n  return Text;\n}(_super.Super); /**\n                  * @author muwoo\n                  * Date: 2018/7/12\n                  */\n\n//# sourceURL=webpack:///./src/core/shape/text.js?");
 
 /***/ }),
 
@@ -5694,70 +1595,7 @@ var Text = exports.Text = function (_Super) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.View = undefined;
-
-var _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ "./node_modules/babel-runtime/core-js/object/get-prototype-of.js");
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ "./node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ "./node_modules/babel-runtime/helpers/inherits.js");
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
-var _super = __webpack_require__(/*! ./super */ "./src/core/shape/super.js");
-
-var _renderAdapter = __webpack_require__(/*! ../renderAdapter */ "./src/core/renderAdapter/index.js");
-
-var _renderAdapter2 = _interopRequireDefault(_renderAdapter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * @author muwoo
- * Date: 2018/7/11
- */
-var View = exports.View = function (_Super) {
-  (0, _inherits3.default)(View, _Super);
-
-  function View(drawStyle) {
-    (0, _classCallCheck3.default)(this, View);
-
-    var _this = (0, _possibleConstructorReturn3.default)(this, (View.__proto__ || (0, _getPrototypeOf2.default)(View)).call(this, drawStyle));
-
-    _this.strokeStyle = _this.drawStyle.borderColor || '#000';
-    _this.lineWidth = _this.drawStyle.borderWidth || 1;
-    return _this;
-  }
-
-  (0, _createClass3.default)(View, [{
-    key: 'draw',
-    value: function draw(ctx, scrollTop) {
-      if (this.isVisible(scrollTop)) {
-        return;
-      }
-      _renderAdapter2.default.renderView(this, ctx, scrollTop);
-      this.render = true;
-    }
-  }]);
-  return View;
-}(_super.Super);
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.View = undefined;\n\nvar _getPrototypeOf = __webpack_require__(/*! babel-runtime/core-js/object/get-prototype-of */ \"./node_modules/babel-runtime/core-js/object/get-prototype-of.js\");\n\nvar _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _possibleConstructorReturn2 = __webpack_require__(/*! babel-runtime/helpers/possibleConstructorReturn */ \"./node_modules/babel-runtime/helpers/possibleConstructorReturn.js\");\n\nvar _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);\n\nvar _inherits2 = __webpack_require__(/*! babel-runtime/helpers/inherits */ \"./node_modules/babel-runtime/helpers/inherits.js\");\n\nvar _inherits3 = _interopRequireDefault(_inherits2);\n\nvar _super = __webpack_require__(/*! ./super */ \"./src/core/shape/super.js\");\n\nvar _renderAdapter = __webpack_require__(/*! ../renderAdapter */ \"./src/core/renderAdapter/index.js\");\n\nvar _renderAdapter2 = _interopRequireDefault(_renderAdapter);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * @author muwoo\n * Date: 2018/7/11\n */\nvar View = exports.View = function (_Super) {\n  (0, _inherits3.default)(View, _Super);\n\n  function View(drawStyle) {\n    (0, _classCallCheck3.default)(this, View);\n\n    var _this = (0, _possibleConstructorReturn3.default)(this, (View.__proto__ || (0, _getPrototypeOf2.default)(View)).call(this, drawStyle));\n\n    _this.strokeStyle = _this.drawStyle.borderColor || '#000';\n    _this.lineWidth = _this.drawStyle.borderWidth || 1;\n    return _this;\n  }\n\n  (0, _createClass3.default)(View, [{\n    key: 'draw',\n    value: function draw(ctx, scrollTop) {\n      if (this.isVisible(scrollTop)) {\n        return;\n      }\n      ctx.save();\n      this.radius && this.arcByRadius(ctx, scrollTop);\n      _renderAdapter2.default.renderView(this, ctx, scrollTop);\n      this.drawStyle.fill ? ctx.fillRect(this.startX, this.startY - scrollTop, this.width, this.height) : ctx.strokeRect(this.startX, this.startY - scrollTop, this.width, this.height);\n      ctx.restore();\n      this.render = true;\n    }\n  }]);\n  return View;\n}(_super.Super);\n\n//# sourceURL=webpack:///./src/core/shape/view.js?");
 
 /***/ }),
 
@@ -5769,57 +1607,7 @@ var View = exports.View = function (_Super) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.scrollItemPool = exports.imgCachePool = exports.canvasItemPool = undefined;
-
-var _defineProperty2 = __webpack_require__(/*! babel-runtime/helpers/defineProperty */ "./node_modules/babel-runtime/helpers/defineProperty.js");
-
-var _defineProperty3 = _interopRequireDefault(_defineProperty2);
-
-var _iterator = __webpack_require__(/*! babel-runtime/core-js/symbol/iterator */ "./node_modules/babel-runtime/core-js/symbol/iterator.js");
-
-var _iterator2 = _interopRequireDefault(_iterator);
-
-var _map = __webpack_require__(/*! babel-runtime/core-js/map */ "./node_modules/babel-runtime/core-js/map.js");
-
-var _map2 = _interopRequireDefault(_map);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * @author muwoo
- * Date: 2018/7/15
- */
-var pool = function pool() {
-  var _ref;
-
-  var pool = new _map2.default();
-  var length = 0;
-  return _ref = {
-    pool: pool,
-    add: function add(key, value) {
-      this.pool.set(key, value);
-      this.length++;
-    },
-    get: function get(key) {
-      return this.pool.get(key);
-    },
-    clear: function clear() {
-      this.pool = new _map2.default();
-      this.length = 0;
-    }
-  }, (0, _defineProperty3.default)(_ref, _iterator2.default, function () {
-    return this.pool.values();
-  }), (0, _defineProperty3.default)(_ref, "length", length), _ref;
-};
-
-var canvasItemPool = exports.canvasItemPool = pool();
-var imgCachePool = exports.imgCachePool = pool();
-var scrollItemPool = exports.scrollItemPool = pool();
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.scrollItemPool = exports.imgCachePool = exports.canvasItemPool = undefined;\n\nvar _defineProperty2 = __webpack_require__(/*! babel-runtime/helpers/defineProperty */ \"./node_modules/babel-runtime/helpers/defineProperty.js\");\n\nvar _defineProperty3 = _interopRequireDefault(_defineProperty2);\n\nvar _iterator = __webpack_require__(/*! babel-runtime/core-js/symbol/iterator */ \"./node_modules/babel-runtime/core-js/symbol/iterator.js\");\n\nvar _iterator2 = _interopRequireDefault(_iterator);\n\nvar _map = __webpack_require__(/*! babel-runtime/core-js/map */ \"./node_modules/babel-runtime/core-js/map.js\");\n\nvar _map2 = _interopRequireDefault(_map);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * @author muwoo\n * Date: 2018/7/15\n */\nvar pool = function pool() {\n  var _ref;\n\n  var pool = new _map2.default();\n  var length = 0;\n  return _ref = {\n    pool: pool,\n    add: function add(key, value) {\n      this.pool.set(key, value);\n      this.length++;\n    },\n    get: function get(key) {\n      return this.pool.get(key);\n    },\n    clear: function clear() {\n      this.pool = new _map2.default();\n      this.length = 0;\n    }\n  }, (0, _defineProperty3.default)(_ref, _iterator2.default, function () {\n    return this.pool.values();\n  }), (0, _defineProperty3.default)(_ref, \"length\", length), _ref;\n};\n\nvar canvasItemPool = exports.canvasItemPool = pool();\nvar imgCachePool = exports.imgCachePool = pool();\nvar scrollItemPool = exports.scrollItemPool = pool();\n\n//# sourceURL=webpack:///./src/core/utils/cachePool.js?");
 
 /***/ }),
 
@@ -5831,38 +1619,7 @@ var scrollItemPool = exports.scrollItemPool = pool();
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-/**
- * default font family
- * @type {string}
- */
-var DEFAULT_FONT_FAMILY = exports.DEFAULT_FONT_FAMILY = 'Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif';
-
-/**
- * scroll top, when view update will be reset.
- * @type {number}
- */
-var top = exports.top = 0;
-
-/**
- * scroll top, when view update will not be reset
- * @type {number}
- */
-var scrollTop = exports.scrollTop = 0;
-
-var scrollerTop = exports.scrollerTop = 0;
-
-var rate = exports.rate = 1;
-
-/**
- * Detection of the current environment
- * @type {Window}
- */
-var IN_BROWSER = exports.IN_BROWSER = window;
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n/**\n * default font family\n * @type {string}\n */\nvar DEFAULT_FONT_FAMILY = exports.DEFAULT_FONT_FAMILY = 'Helvetica Neue,Helvetica,Arial,PingFangSC-Regular,Microsoft YaHei,SimSun,sans-serif';\n\n/**\n * scroll top, when view update will be reset.\n * @type {number}\n */\nvar top = exports.top = 0;\n\n/**\n * scroll top, when view update will not be reset\n * @type {number}\n */\nvar scrollTop = exports.scrollTop = 0;\n\nvar scrollerTop = exports.scrollerTop = 0;\n\nvar rate = exports.rate = 1;\n\n/**\n * Detection of the current environment\n * @type {Window}\n */\nvar IN_BROWSER = exports.IN_BROWSER = window;\n\n//# sourceURL=webpack:///./src/core/utils/constans.js?");
 
 /***/ }),
 
@@ -5874,69 +1631,7 @@ var IN_BROWSER = exports.IN_BROWSER = window;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Canvas = undefined;
-
-var _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ "./node_modules/babel-runtime/helpers/classCallCheck.js");
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ "./node_modules/babel-runtime/helpers/createClass.js");
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _utils = __webpack_require__(/*! ../utils */ "./src/core/utils/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Canvas = exports.Canvas = function () {
-  function Canvas(width, height, id) {
-    (0, _classCallCheck3.default)(this, Canvas);
-
-    /**
-     * in weixin Mini Program
-     * direct creation of canvas context
-     */
-    if (!_utils.constants.IN_BROWSER) {
-      this.width = width;
-      this.height = height;
-      this._canvas = null;
-      this._ctx = id ? wx.createCanvasContext(id) : null;
-      return;
-    }
-
-    if (!this._canvas) {
-      this._canvas = document.createElement('canvas');
-    }
-
-    this.width = width;
-    this.height = height;
-    this.scale = window.devicePixelRatio;
-
-    this._canvas.width = this.width * this.scale;
-    this._canvas.height = this.height * this.scale;
-    this._canvas.style.width = this.width + 'px';
-    this._canvas.style.height = this.height + 'px';
-    this._canvas.getContext('2d').scale(this.scale, this.scale);
-    this._ctx = this._canvas.getContext('2d');
-  }
-
-  (0, _createClass3.default)(Canvas, [{
-    key: 'add',
-    value: function add(offScreenCanvas) {
-      this._ctx.clearRect(0, 0, this.width, this.height);
-      this._ctx.drawImage(offScreenCanvas, 0, 0, this.width, this.height);
-    }
-  }]);
-  return Canvas;
-}(); /**
-      * @author muwoo
-      * Date: 2018/7/15
-      */
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Canvas = undefined;\n\nvar _classCallCheck2 = __webpack_require__(/*! babel-runtime/helpers/classCallCheck */ \"./node_modules/babel-runtime/helpers/classCallCheck.js\");\n\nvar _classCallCheck3 = _interopRequireDefault(_classCallCheck2);\n\nvar _createClass2 = __webpack_require__(/*! babel-runtime/helpers/createClass */ \"./node_modules/babel-runtime/helpers/createClass.js\");\n\nvar _createClass3 = _interopRequireDefault(_createClass2);\n\nvar _utils = __webpack_require__(/*! ../utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Canvas = exports.Canvas = function () {\n  function Canvas(width, height, id) {\n    (0, _classCallCheck3.default)(this, Canvas);\n\n    /**\n     * in weixin Mini Program\n     * direct creation of canvas context\n     */\n    if (!_utils.constants.IN_BROWSER) {\n      this.width = width;\n      this.height = height;\n      this._canvas = null;\n      this._ctx = id ? wx.createCanvasContext(id) : null;\n      return;\n    }\n\n    if (!this._canvas) {\n      this._canvas = document.createElement('canvas');\n    }\n\n    this.width = width;\n    this.height = height;\n    this.scale = window.devicePixelRatio;\n\n    this._canvas.width = this.width * this.scale;\n    this._canvas.height = this.height * this.scale;\n    this._canvas.style.width = this.width + 'px';\n    this._canvas.style.height = this.height + 'px';\n    this._canvas.getContext('2d').scale(this.scale, this.scale);\n    this._ctx = this._canvas.getContext('2d');\n  }\n\n  (0, _createClass3.default)(Canvas, [{\n    key: 'add',\n    value: function add(offScreenCanvas) {\n      this._ctx.clearRect(0, 0, this.width, this.height);\n      this._ctx.drawImage(offScreenCanvas, 0, 0, this.width, this.height);\n    }\n  }]);\n  return Canvas;\n}(); /**\n      * @author muwoo\n      * Date: 2018/7/15\n      */\n\n//# sourceURL=webpack:///./src/core/utils/createCanvas.js?");
 
 /***/ }),
 
@@ -5948,31 +1643,7 @@ var Canvas = exports.Canvas = function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Canvas = exports.scrollItemPool = exports.canvasItemPool = exports.imgCachePool = exports.constants = undefined;
-
-var _constans = __webpack_require__(/*! ./constans */ "./src/core/utils/constans.js");
-
-var constants = _interopRequireWildcard(_constans);
-
-var _cachePool = __webpack_require__(/*! ./cachePool */ "./src/core/utils/cachePool.js");
-
-var _createCanvas = __webpack_require__(/*! ./createCanvas */ "./src/core/utils/createCanvas.js");
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-exports.constants = constants;
-exports.imgCachePool = _cachePool.imgCachePool;
-exports.canvasItemPool = _cachePool.canvasItemPool;
-exports.scrollItemPool = _cachePool.scrollItemPool;
-exports.Canvas = _createCanvas.Canvas; /**
-                                        * @author muwoo
-                                        * Date: 2018/7/13
-                                        */
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Canvas = exports.scrollItemPool = exports.canvasItemPool = exports.imgCachePool = exports.constants = undefined;\n\nvar _constans = __webpack_require__(/*! ./constans */ \"./src/core/utils/constans.js\");\n\nvar constants = _interopRequireWildcard(_constans);\n\nvar _cachePool = __webpack_require__(/*! ./cachePool */ \"./src/core/utils/cachePool.js\");\n\nvar _createCanvas = __webpack_require__(/*! ./createCanvas */ \"./src/core/utils/createCanvas.js\");\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }\n\nexports.constants = constants;\nexports.imgCachePool = _cachePool.imgCachePool;\nexports.canvasItemPool = _cachePool.canvasItemPool;\nexports.scrollItemPool = _cachePool.scrollItemPool;\nexports.Canvas = _createCanvas.Canvas; /**\n                                        * @author muwoo\n                                        * Date: 2018/7/13\n                                        */\n\n//# sourceURL=webpack:///./src/core/utils/index.js?");
 
 /***/ }),
 
@@ -5984,134 +1655,9 @@ exports.Canvas = _createCanvas.Canvas; /**
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _assign = __webpack_require__(/*! babel-runtime/core-js/object/assign */ "./node_modules/babel-runtime/core-js/object/assign.js");
-
-var _assign2 = _interopRequireDefault(_assign);
-
-var _index = __webpack_require__(/*! ./core/index */ "./src/core/index.js");
-
-var _utils = __webpack_require__(/*! ./core/utils */ "./src/core/utils/index.js");
-
-var _renderAdapter = __webpack_require__(/*! ./core/renderAdapter */ "./src/core/renderAdapter/index.js");
-
-var _renderAdapter2 = _interopRequireDefault(_renderAdapter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var RenderCanvas = function RenderCanvas() {};
-
-/**
- * mainCanvas in dom
- */
-/**
- * @author muwoo
- * Date: 2018/7/2
- */
-var renderInstance = null;
-var render = null;
-
-RenderCanvas.install = function (Vue) {
-  Vue.mixin({
-    data: function data() {
-      return {
-        options: {
-          /**
-           * canvas width
-           */
-          width: 0,
-          /**
-           * canvas height
-           */
-          height: 0
-        }
-      };
-    },
-
-    /**
-     * for weixin Mini Program
-     */
-    onLoad: function onLoad() {
-      if (this.$options.renderCanvas) {
-        var mobile = wx.getSystemInfoSync();
-        _utils.constants.rate = mobile.windowWidth / 375;
-        console.log(2222);
-      }
-    },
-    mounted: function mounted() {
-      if (this.$options.renderCanvas) {
-        this.options = (0, _assign2.default)({}, this.options, this.getOptions());
-        _utils.constants.IN_BROWSER && (_utils.constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1);
-        renderInstance = new _utils.Canvas(this.options.width, this.options.height, this.options.canvasId);
-        this.$watch(this.updateCanvas, this.noop);
-        _utils.constants.IN_BROWSER && document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas);
-      }
-    },
-
-    /**
-     * for weixin Mini Program, teardown watchers
-     */
-    onUnload: function onUnload() {
-      if (this._watcher) {
-        this._watcher.teardown();
-      }
-      for (var i = this._watchers.length - 1; i >= 0; i--) {
-        this._watchers[i].teardown();
-      }
-    },
-
-    methods: {
-      getRenderInstance: function getRenderInstance() {
-        return renderInstance;
-      },
-      getRender: function getRender() {
-        return render;
-      },
-      updateCanvas: function updateCanvas() {
-        /**
-         * to record before re-render scrollTop
-         * @type {number}
-         */
-        _utils.constants.scrollTop += _utils.constants.top;
-        /**
-         * get render vnode
-         */
-        var vnode = this.$options.renderCanvas.call(this._renderProxy, this.$createElement);
-
-        /**
-         * get off screen render canvas
-         * @type {Render}
-         */
-        console.log(111);
-        console.log(renderInstance);
-        render = new _index.Render(renderInstance, vnode, this.options.width, this.options.height);
-        var offScreenCanvas = render.vnode2canvas();
-
-        /**
-         * render off screen canvas to mainCanvas
-         */
-        _utils.constants.IN_BROWSER && renderInstance.add(offScreenCanvas);
-        return vnode;
-      },
-      getOptions: function getOptions() {
-        return typeof this.$options.canvasOptions === 'function' ? this.$options.canvasOptions() : this.$options.canvasOptions || {};
-      },
-      noop: function noop() {}
-    }
-  });
-};
-
-_utils.constants.IN_BROWSER && (window.RenderCanvas = RenderCanvas);
-
-exports.default = RenderCanvas;
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _assign = __webpack_require__(/*! babel-runtime/core-js/object/assign */ \"./node_modules/babel-runtime/core-js/object/assign.js\");\n\nvar _assign2 = _interopRequireDefault(_assign);\n\nvar _index = __webpack_require__(/*! ./core/index */ \"./src/core/index.js\");\n\nvar _utils = __webpack_require__(/*! ./core/utils */ \"./src/core/utils/index.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * @author muwoo\n * Date: 2018/7/2\n */\nvar RenderCanvas = function RenderCanvas() {};\n\n/**\n * mainCanvas in dom\n */\nvar renderInstance = null;\nvar render = null;\n\nRenderCanvas.install = function (Vue) {\n  Vue.mixin({\n    data: function data() {\n      return {\n        options: {\n          /**\n           * canvas width\n           */\n          width: 0,\n          /**\n           * canvas height\n           */\n          height: 0\n        }\n      };\n    },\n\n    /**\n     * for weixin Mini Program\n     */\n    onLoad: function onLoad() {\n      if (this.$options.renderCanvas) {\n        var mobile = wx.getSystemInfoSync();\n        _utils.constants.rate = mobile.windowWidth / 375;\n      }\n    },\n    mounted: function mounted() {\n      if (this.$options.renderCanvas) {\n        this.options = (0, _assign2.default)({}, this.options, this.getOptions());\n        _utils.constants.IN_BROWSER && (_utils.constants.rate = this.options.remUnit ? window.innerWidth / (this.options.remUnit * 10) : 1);\n        renderInstance = new _utils.Canvas(this.options.width, this.options.height, this.options.canvasId);\n        this.$watch(this.updateCanvas, this.noop);\n        _utils.constants.IN_BROWSER && document.querySelector(this.options.el || 'body').appendChild(renderInstance._canvas);\n      }\n    },\n\n    /**\n     * for weixin Mini Program, teardown watchers\n     */\n    onUnload: function onUnload() {\n      if (this._watcher) {\n        this._watcher.teardown();\n      }\n      for (var i = this._watchers.length - 1; i >= 0; i--) {\n        this._watchers[i].teardown();\n      }\n    },\n\n    methods: {\n      getRenderInstance: function getRenderInstance() {\n        return renderInstance;\n      },\n      getRender: function getRender() {\n        return render;\n      },\n      updateCanvas: function updateCanvas() {\n        /**\n         * to record before re-render scrollTop\n         * @type {number}\n         */\n        _utils.constants.scrollTop += _utils.constants.top;\n        /**\n         * get render vnode\n         */\n        var vnode = this.$options.renderCanvas.call(this._renderProxy, this.$createElement);\n\n        /**\n         * get off screen render canvas\n         * @type {Render}\n         */\n        render = new _index.Render(renderInstance, vnode, this.options.width, this.options.height);\n        var offScreenCanvas = render.vnode2canvas();\n\n        /**\n         * render off screen canvas to mainCanvas\n         */\n        _utils.constants.IN_BROWSER && renderInstance.add(offScreenCanvas);\n        return vnode;\n      },\n      getOptions: function getOptions() {\n        return typeof this.$options.canvasOptions === 'function' ? this.$options.canvasOptions() : this.$options.canvasOptions || {};\n      },\n      noop: function noop() {}\n    }\n  });\n};\n\n_utils.constants.IN_BROWSER && (window.RenderCanvas = RenderCanvas);\n\nexports.default = RenderCanvas;\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
 /******/ });
 });
-//# sourceMappingURL=main.js.map
