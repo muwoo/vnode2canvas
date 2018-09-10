@@ -15,22 +15,22 @@ new Vue({
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://pic.u51.com/sfs-gateway/api/v1/download/5f7dac8228354008ae6f69f67c1c0fa410d6'
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://pic.u51.com/sfs-gateway/api/v1/download/5f7dac8228354008ae6f69f67c1c0fa410d6'
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       },
       {
         title: '标题这是一个标题呢？还是什么',
         desc: '描述',
-        img: 'https://pic.u51.com/sfs-gateway/api/v1/download/5f7dac8228354008ae6f69f67c1c0fa410d6'
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       },
       {
         title: '标题',
         desc: '描述',
-        img: 'https://pic.u51.com/sfs-gateway/api/v1/download/5f7dac8228354008ae6f69f67c1c0fa410d6'
+        img: 'https://avatars3.githubusercontent.com/u/21073039?s=460&v=4'
       }
     ]
   },
@@ -47,7 +47,8 @@ new Vue({
           width: 100,
           height: 100,
           fill: '#000',
-          fontSize: 18
+          fontSize: 18,
+          radius: 20
         },
         title: {
           left: 120,

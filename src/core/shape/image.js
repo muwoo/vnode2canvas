@@ -28,6 +28,9 @@ export class Img extends Super {
     if (this.isVisible(scrollTop)) {
       return
     }
+    this.radius && ctx.save()
+    this.radius && this.arcByRadius(ctx, scrollTop)
     renderAdapter.renderImage(this, ctx, scrollTop, mainInstance)
+    this.radius && ctx.restore()
   }
 }
