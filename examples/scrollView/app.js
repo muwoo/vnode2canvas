@@ -122,7 +122,8 @@ new Vue({
   canvasOptions () {
     return {
       width: window.innerWidth,
-      height: window.innerHeight
+      height: window.innerHeight,
+      remUnit: 37.5
     }
   },
   renderCanvas(h) {
@@ -145,7 +146,8 @@ new Vue({
             fill: i % 2 ? 'green' : 'blue',
             width: 375,
             height: 110,
-            top: 110 * i
+            top: 110 * i,
+            radius: 20
           }
         },
         [

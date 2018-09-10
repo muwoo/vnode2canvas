@@ -109,17 +109,11 @@ class RenderAdapter {
         ctx.fillStyle = instance.fillStyle
         ctx.strokeStyle = instance.strokeStyle
         ctx.lineWidth = instance.lineWidth
-        instance.drawStyle.fill ?
-          ctx.fillRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height) :
-          ctx.strokeRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height)
       },
       wx () {
         ctx.setFillStyle(instance.fillStyle)
         ctx.setStrokeStyle(instance.strokeStyle)
         ctx.setLineWidth(instance.lineWidth)
-        instance.drawStyle.fill ?
-          ctx.fillRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height) :
-          ctx.strokeRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height)
       }
     }
     renderFn[this.platform]()

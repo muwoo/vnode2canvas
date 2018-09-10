@@ -71,7 +71,8 @@ export default {
           width: 100,
           height: 100,
           fill: '#000',
-          fontSize: 18
+          fontSize: 18,
+          radius: 100
         },
         title: {
           left: 120,
