@@ -89,6 +89,8 @@ class RenderAdapter {
         wx.getImageInfo({
           src: instance.src,
           success: function (res) {
+            ctx.save()
+            instance.radius && instance.arcByRadius(ctx, scrollTop)
             ctx.drawImage(
               res.path,
               instance.startX,
@@ -96,6 +98,7 @@ class RenderAdapter {
               instance.width,
               instance.height)
             ctx.draw(true)
+            ctx.restore()
           }
         })
       }
@@ -109,17 +112,11 @@ class RenderAdapter {
         ctx.fillStyle = instance.fillStyle
         ctx.strokeStyle = instance.strokeStyle
         ctx.lineWidth = instance.lineWidth
-        instance.drawStyle.fill ?
-          ctx.fillRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height) :
-          ctx.strokeRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height)
       },
       wx () {
         ctx.setFillStyle(instance.fillStyle)
         ctx.setStrokeStyle(instance.strokeStyle)
         ctx.setLineWidth(instance.lineWidth)
-        instance.drawStyle.fill ?
-          ctx.fillRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height) :
-          ctx.strokeRect(instance.startX, instance.startY - scrollTop, instance.width, instance.height)
       }
     }
     renderFn[this.platform]()

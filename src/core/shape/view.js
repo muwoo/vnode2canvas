@@ -16,7 +16,13 @@ export class View extends Super {
     if (this.isVisible(scrollTop)) {
       return
     }
+    ctx.save()
+    this.radius && this.arcByRadius(ctx, scrollTop)
     renderAdapter.renderView(this, ctx, scrollTop)
+    this.drawStyle.fill ?
+      ctx.fillRect(this.startX, this.startY - scrollTop, this.width, this.height) :
+      ctx.strokeRect(this.startX, this.startY - scrollTop, this.width, this.height)
+    ctx.restore()
     this.render = true
   }
 }
