@@ -89,8 +89,6 @@ class RenderAdapter {
         wx.getImageInfo({
           src: instance.src,
           success: function (res) {
-            ctx.save()
-            instance.radius && instance.arcByRadius(ctx, scrollTop)
             ctx.drawImage(
               res.path,
               instance.startX,
@@ -98,7 +96,6 @@ class RenderAdapter {
               instance.width,
               instance.height)
             ctx.draw(true)
-            ctx.restore()
           }
         })
       }

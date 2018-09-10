@@ -14,8 +14,6 @@ export class Img extends Super {
   }
 
   drawImg (ctx, scrollTop) {
-    ctx.save()
-    this.radius && this.arcByRadius(ctx, scrollTop)
     ctx.drawImage(
       this.img,
       this.startX,
@@ -23,7 +21,6 @@ export class Img extends Super {
       this.width,
       this.height
     )
-    ctx.restore()
   }
 
   draw(ctx, scrollTop, mainInstance) {
@@ -31,6 +28,9 @@ export class Img extends Super {
     if (this.isVisible(scrollTop)) {
       return
     }
+    this.radius && ctx.save()
+    this.radius && this.arcByRadius(ctx, scrollTop)
     renderAdapter.renderImage(this, ctx, scrollTop, mainInstance)
+    this.radius && ctx.restore()
   }
 }
