@@ -8,11 +8,24 @@
     data () {
       return {
         width: 0,
-        height: 0
+        height: 0,
+        text: 'hello'
       }
     },
-    canvasOptions: {
-      canvasId: 'demo-canvas'
+    canvasOptions: function () {
+      let device = wx.getSystemInfoSync()
+      this.width = device.windowWidth
+      this.height = device.windowHeight
+      return {
+        canvasId: 'demo-canvas',
+        width: this.width,
+        height: this.height
+      }
+    },
+    mounted () {
+      setTimeout(() => {
+          this.text = 'mpvue'
+      }, 1000)
     },
     renderCanvas (h) {
       let device = wx.getSystemInfoSync()
@@ -42,7 +55,7 @@
             width: 150,
             ellipse: true
           }
-        }, 'hello mpvue!')
+        }, this.text)
       ])
     }
   }

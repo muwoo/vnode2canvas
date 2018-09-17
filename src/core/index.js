@@ -35,6 +35,7 @@ export class Render extends Canvas {
      *
      */
     !constants.IN_BROWSER && (this._ctx = renderInstance._ctx)
+    !constants.IN_BROWSER && this.clearCanvas()
   }
 
   clearCanvas() {
