@@ -34,6 +34,11 @@ new Vue({
       }
     ]
   },
+  mounted () {
+    setTimeout(() => {
+      this.dataJSON[0].title = 'hhh'
+    }, 1000)
+  },
   canvasOptions: {
     width: window.innerWidth,
     height: window.innerHeight
